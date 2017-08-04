@@ -48,7 +48,7 @@ txtpen_sitename:
 # (leave blank to disable Facebook Comments, otherwise set it to true)
 facebook_comments:
 facebook_appid:
-facebook_comments_number: 8
+facebook_comments_number: 10
 
 # Social icons
 github_username: seanlion
