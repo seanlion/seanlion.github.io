@@ -19,11 +19,14 @@
   font-weight: 600;
   color: #333;
 }
+.post-header {
+  text-align : center;
+}
 
 .post-footer {
-  @extend .italic;
-
-  margin-top: .75rem;
+  border-top : 1px solid grey;
+  clear: both;
+  margin-top: 2rem;
   text-align: center;
 }
 
@@ -31,12 +34,14 @@
   margin: 2rem 0;
   width: 100px;
   border-radius: 50%;
+  display : inline-block;
 }
 
 .meta,
 .post-meta {
   width: auto;
   font-weight: 300;
+  text-align : center;
   margin: 0;
   padding: .25em 0;
   color: #7a7a7a;
