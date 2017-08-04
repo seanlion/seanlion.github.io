@@ -48,7 +48,7 @@ txtpen_sitename:
 # (leave blank to disable Facebook Comments, otherwise set it to true)
 facebook_comments:
 facebook_appid:
-facebook_comments_number: 10
+facebook_comments_number: 8
 
 # Social icons
 github_username: seanlion
@@ -103,7 +103,7 @@ text:
   index:
     coming_soon: 'Coming soon...'
   contact:
-    email:    'Email Address'
+    # email:    'Email Address'
     content:  'What would you like to say?'
     subject:  'New submission!'
     submit:   'Say Hello'
