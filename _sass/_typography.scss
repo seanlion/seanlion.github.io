@@ -1,5 +1,5 @@
 html {
-  font-size: $base-font-size;
+  font-size: 16px;
 }
 
 abbr {
@@ -9,7 +9,16 @@ abbr {
 
 p {
   color: #333;
-  line-height: 1.5;
+  line-height: 1.8;
+}
+
+em {
+	color: $mid-gray;
+}
+
+.align-center {
+	font-size : 0.9rem;
+	text-align : center
 }
 
 small,

@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      Github blog 운영 (1) - Markdown & Git push
-date:       2015-07-11
-summary:    Fork한 github blog 테마를 로컬로 옮기는 법
+date:       2017-08-04
+summary:    Fork한 jekyll blog 테마를 로컬로 옮기는 법
 categories: github blog
 ---
 
@@ -69,4 +69,4 @@ bundle exec jekyll serve
 local 서버에서 차근차근 블로그를 만들 수 있지만 jekyll 테마 fork를 활용하면 빠른 시간 안에 
 그럴듯한 블로그를 잘 만들 수 있다. 그리고 lcoal 서버에서 약간의 커스터마이징이 들어가면 나만의 멋진 블로그를 만들 수 있다!
 
-다음 시간에는 github 계정이 여러 개일 경우 git push하고 싶을 때 발생했던 문제-예상해결안을 알아보겠다. 
+다음 시간에는 github 계정이 여러 개일 경우 git push 했을 시  발생했던 문제-예상해결안을 알아보겠다. 
