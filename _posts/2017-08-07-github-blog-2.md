@@ -33,7 +33,7 @@ fatal: unable to access 'https://github.com/vicsean/vicsean.github.io/': The req
 그래서 구글에 바로 검색해보았고 이런 글을 발견했다. 
 <br>
 
-<img src ="/images/github_pusherror.png" alt ="alt text" width="750" height=""/>
+<img src ="/images/github_pusherror.PNG" alt ="alt text" width="750" height=""/>
 
 <div class ="align-center"><em>출처 : github help</em></div>
 
