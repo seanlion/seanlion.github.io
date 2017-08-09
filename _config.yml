@@ -82,10 +82,10 @@ share_hackernews: false
 
 text:
   pagination:
-    newer: '>'
-    older: '<'
+    newer: '<'
+    older: '>'
   share_buttons:
-    text:         'Share this post!'
+    text:         '이 포스트를 공유'
     facebook:     'Share on Facebook'
     twitter:      'Share on Twitter'
     googleplus:   'Share on Google+'
@@ -118,7 +118,7 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     4
+paginate:     5
 sass:
   style: compressed
 gems:
