@@ -85,7 +85,7 @@ text:
     newer: '<'
     older: '>'
   share_buttons:
-    text:         '이 포스트를 공유'
+    text:         '포스트 공유'
     facebook:     'Share on Facebook'
     twitter:      'Share on Twitter'
     googleplus:   'Share on Google+'
