@@ -3,7 +3,7 @@ layout:     post
 title:      Github blog 운영 (2) - 다른 계정으로 인한 Git push 오류 
 date:       2017-08-07
 summary:    Git push 오류로 인한 고군분투기
-categories: github blog
+categories: Blog
 ---
 저번 시간에는 Fork한 내 블로그 테마를 로컬에 안착시키는 점을 다루어보았다. 
 
