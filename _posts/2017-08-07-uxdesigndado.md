@@ -3,7 +3,7 @@ layout:     post
 title:      대접과 마련으로 보는 UX디자인 
 date:       2017-08-07
 summary:    다도,고전,UX디자인 
-category: UX
+category: 	UX
 ---
 
 ## 다도와 고전에서 보는 UX 디자인을 읽고
