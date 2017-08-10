@@ -62,7 +62,7 @@ layout: default
 
 {% if site.show_related_posts %}
   {% for category in site.categories %}
-    {% for post in site.categories[category_name] %}
+    
         <li>
           <div class="archive-group">
             {% capture category_name %}{{ category | first }}{% endcapture %}
@@ -73,9 +73,10 @@ layout: default
                 <article class="archive-item">
                   <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
                 </article>
+              {% endfor %}
           </div>
         </li>
-    {% endfor %}  
+              
   {% endfor %}
 {% endif %}
 
