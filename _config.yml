@@ -6,7 +6,6 @@ description: "Simple blog, Tech, UX, Daily, Music"
 baseurl:     
 date_format: "%b %-d, %Y"
 header_pages:
- - about.md
  - categories.html
 
 
