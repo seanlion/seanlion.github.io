@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Github blog 운영 (1) - jekyll 블로그 테마 
-date:       2017-08-09
+date:       2017-08-06
 summary:    Fork한 jekyll blog 테마를 로컬로 옮기는 법
 category: 	Blog
 ---
