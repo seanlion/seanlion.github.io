@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      Github blog 운영 (2) - 다른 계정으로 인한 Git push 오류 
+permalink: /Blog/2
 date:       2017-08-07
 summary:    Git push 오류로 인한 고군분투기
 category: 	Blog
