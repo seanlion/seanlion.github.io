@@ -59,8 +59,38 @@ layout: default
 {% endif %}
 
 <!-- {% if site.show_related_posts %} -->
-     <div class="archive-group"> 
-       {% for category in site.categories %}
+     <div class="post-categories"> 
+       {% for category in site.categories %} 
+        <h2 id="{{ category[0] }}-ref">{{ category[0] }}</h2>
+      <ul>
+         {% for post in category[1] %} 
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
+        {% endfor %}
+      </ul>
+      <p><a href="#{{ category[0] }}-ref">&#8617;</a></p>
+      {% endfor %}
+
+       
+       
+       <!--        {% if post %}
+         {% assign categories = post.categories %}
+       {% else %}
+         {% assign categories = page.categories %}
+       {% endif %}
+        {% for category in categories %}
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+          {% for post in site.categories[category_name] %}
+        <h4><a style= "text-decoration: none !important;" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+          {% endfor %}  
+        {% unless forloop.last %}&nbsp;{% endunless %}
+        {% endfor %} -->
+
+    </div>   
+
+<!-- {% endif %} -->
+
+
+<!-- {% for category in site.categories %}
          {% capture category_name %}{{ category | first }}{% endcapture %}
          {% for post_category in post.categories %}
           {% capture post_category_name %}{{ post_category | first }}{% endcapture %}
@@ -74,10 +104,7 @@ layout: default
         </li>
        {% endfor %}
       {% endfor %}
-    </div>   
-
-<!-- {% endif %} -->
-
+ -->
 
 <!-- {% for post in site.related_posts %}
         <li>
