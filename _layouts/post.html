@@ -62,7 +62,6 @@ layout: default
      <div class="archive-group"> 
        {% for category in site.categories %}
          {% for post_category in page.categories %}
-       <ul>
         <li>
            {% if category == post_category %}
             {% capture category_name %}{{ post_category | first }}{% endcapture %}
@@ -72,7 +71,6 @@ layout: default
                 </article>
             {% endif %}
         </li>
-      </ul>
        {% endfor %}
       {% endfor %}
     </div>   
