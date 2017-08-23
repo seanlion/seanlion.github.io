@@ -7,7 +7,7 @@ baseurl:
 date_format: "%b %-d, %Y"
 header_pages:
  - categories.html
-
+ - page.html
 
 # Google services
 google_verification:
