@@ -61,26 +61,25 @@ layout: default
 <!-- {% if site.show_related_posts %} -->
      <div class="post-categories"> 
        {% for category in site.categories %} 
-         {% capture category_name %}{{ category | first }}{% endcapture %}
-         {% if category[0] == "UX" %} 
+         {% if category[0] == post.categories.UX[0] %} 
           <ul>
            {% for post in category[1] %} 
             <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
            {% endfor %}
           </ul>  
-          {% elsif category[0] == "Blog" %}
+          {% elsif category[0] == post.categories.Blog[0] %}
            <ul>
              {% for post in category[1] %} 
               <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
              {% endfor %}
            </ul>  
-         {% elsif category[0] == "News" %}
+         {% elsif category[0] == post.categories.News[0] %}
            <ul>
              {% for post in category[1] %} 
               <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
              {% endfor %}
            </ul>  
-         {% elsif category[0] == "Speech" %}
+         {% elsif category[0] == post.categories.Speech[0] %}
            <ul>
              {% for post in category[1] %} 
               <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
