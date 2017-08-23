@@ -61,11 +61,12 @@ layout: default
 <!-- {% if site.show_related_posts %} -->
      <div class="archive-group"> 
        {% for category in site.categories %}
+         {% capture category_name %}{{ category | first }}{% endcapture %}
          {% for post_category in page.categories %}
+          {% capture post_category_name %}{{ post_category | first }}{% endcapture %}
         <li>
-           {% if category == post_category %}
-            {% capture category_name %}{{ post_category | first }}{% endcapture %}
-            <div id="#{{ category_name | slugize }}"></div>
+           {% if site.categories[category_name] == page.categories[post_category_name] %}  
+          <div id="#{{ post_category_name | slugize }}"></div>
                 <article class="archive-item">
                   <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
                 </article>
