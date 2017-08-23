@@ -61,15 +61,34 @@ layout: default
 <!-- {% if site.show_related_posts %} -->
      <div class="post-categories"> 
        {% for category in site.categories %} 
-        <h2 id="{{ category[0] }}-ref">{{ category[0] }}</h2>
-      <ul>
-         {% for post in category[1] %} 
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
-        {% endfor %}
-      </ul>
-      <p><a href="#{{ category[0] }}-ref">&#8617;</a></p>
-      {% endfor %}
-
+         {% capture category_name %}{{ category | first }}{% endcapture %}
+         {% if category[0] == "UX" %} 
+          <ul>
+           {% for post in category[1] %} 
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
+           {% endfor %}
+          </ul>  
+          {% elsif category[0] == "Blog" %}
+           <ul>
+             {% for post in category[1] %} 
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
+             {% endfor %}
+           </ul>  
+         {% elsif category[0] == "News" %}
+           <ul>
+             {% for post in category[1] %} 
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
+             {% endfor %}
+           </ul>  
+         {% elsif category[0] == "Speech" %}
+           <ul>
+             {% for post in category[1] %} 
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
+             {% endfor %}
+           </ul>  
+         {% else %}
+         {% endif %}
+       
        
        
        <!--        {% if post %}
