@@ -58,7 +58,7 @@ twitter_username:
 skype_username:
 steam_nickname:
 google_plus_id:
-linkedin_username:
+linkedin_username: SEUNG HUH
 angellist_username:
 medium_id:
 bitcoin_url:
@@ -73,7 +73,7 @@ show_sharing_icons: true
 share_facebook: true
 share_twitter: true
 share_googleplus: false
-share_linkedin: false
+share_linkedin: true
 share_digg: false
 share_tumblr: false
 share_reddit: false
