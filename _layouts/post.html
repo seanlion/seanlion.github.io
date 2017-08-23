@@ -62,10 +62,10 @@ layout: default
      <div class="archive-group"> 
        {% for category in site.categories %}
          {% capture category_name %}{{ category | first }}{% endcapture %}
-         {% for post_category in page.categories %}
+         {% for post_category in post.categories %}
           {% capture post_category_name %}{{ post_category | first }}{% endcapture %}
         <li>
-           {% if site.categories[category_name] == page.categories[post_category_name] %}  
+           {% if site.categories[category_name] == post.categories[post_category_name] %}  
           <div id="#{{ post_category_name | slugize }}"></div>
                 <article class="archive-item">
                   <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
