@@ -7,9 +7,9 @@ layout: default
 {% assign minutes = 1 %}
 {% endif %}
 
-<div class="post-header mb3">
+<div class="post-header mb5">
   <h2>{{ page.title }}</h2>
-  <h4>{{ page.summary }}</h4>
+  <p>{{ page.summary }}</p>
   <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
   {% if page.update_date %}
     <span class="post-meta">{{ site.text.post.updated }}: {{ page.update_date | date: site.date_format }}</span><br>
@@ -23,7 +23,7 @@ layout: default
   </span> -->
 </div>
 
-<article class="post-content">
+<article class="post-content mt3">
 
   {{ content }}
 </article>
