@@ -1,8 +1,8 @@
 
 
 .share-links a.fa {
-		width : 30px;
-  font-size : 30px;
+  width : 15px;
+  font-size : 15px;
   cursor: pointer;
   opacity: 0.8;
   padding: 0.2em;
@@ -21,4 +21,10 @@
 	text-align : center;
  color : #fff;
  background : #00aced;
+}
+
+.share-links a.fa-linkedin {
+	text-align : center;
+ color : #fff;
+ background : #007bb6;
 }

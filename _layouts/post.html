@@ -29,13 +29,11 @@ layout: default
 </article>
 
 {% if site.show_sharing_icons %}
-  {% include share_buttons.html %}
+  {% if site.show_post_footers %}
+    {% include share_buttons.html %}
+    {% include post_footer.html %}
+  {% endif %}
 {% endif %}
-
-{% if site.show_post_footers %}
-  {% include post_footer.html %}
-{% endif %}
-
 <!-- {% if txtpen.txtpen_sitename %}
   <script src="https://txtpen.com/embed.js?site={{txtpen.txtpen_sitename}}" />
 {% endif %} -->
@@ -60,26 +58,70 @@ layout: default
   <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="{{ site.facebook_comments_number }}"></div>
 {% endif %}
 
-{% if site.show_related_posts %}
-  {% for category in site.categories %}
-    
+<!-- {% if site.show_related_posts %} -->
+     <div class="post-categories"> 
+       {% for category in site.categories %} 
+         {% if category[0] == post.categories.UX[0] %} 
+          <ul>
+           {% for post in category[1] %} 
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
+           {% endfor %}
+          </ul>  
+          {% elsif category[0] == post.categories.Blog[0] %}
+           <ul>
+             {% for post in category[1] %} 
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
+             {% endfor %}
+           </ul>  
+         {% elsif category[0] == post.categories.News[0] %}
+           <ul>
+             {% for post in category[1] %} 
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
+             {% endfor %}
+           </ul>  
+         {% elsif category[0] == post.categories.Speech[0] %}
+           <ul>
+             {% for post in category[1] %} 
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li> 
+             {% endfor %}
+           </ul>  
+         {% else %}
+         {% endif %}
+       {% endfor %}
+    </div> 
+       
+       <!--        {% if post %}
+         {% assign categories = post.categories %}
+       {% else %}
+         {% assign categories = page.categories %}
+       {% endif %}
+        {% for category in categories %}
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+          {% for post in site.categories[category_name] %}
+        <h4><a style= "text-decoration: none !important;" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+          {% endfor %}  
+        {% unless forloop.last %}&nbsp;{% endunless %}
+        {% endfor %} -->
+
+
+<!-- {% endif %} -->
+
+
+<!-- {% for category in site.categories %}
+         {% capture category_name %}{{ category | first }}{% endcapture %}
+         {% for post_category in post.categories %}
+          {% capture post_category_name %}{{ post_category | first }}{% endcapture %}
         <li>
-          <div class="archive-group">
-            {% capture category_name %}{{ category | first }}{% endcapture %}
-            <div id="#{{ category_name | slugize }}"></div>
-            <p></p>
-    
-              {% for post in site.categories[category_name] %}
+           {% if site.categories[category_name] == post.categories[post_category_name] %}  
+          <div id="#{{ post_category_name | slugize }}"></div>
                 <article class="archive-item">
                   <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
                 </article>
-              {% endfor %}
-          </div>
+            {% endif %}
         </li>
-              
-  {% endfor %}
-{% endif %}
-
+       {% endfor %}
+      {% endfor %}
+ -->
 
 <!-- {% for post in site.related_posts %}
         <li>
