@@ -53,10 +53,10 @@ category: 	Blog
 
 #### * 동영상 온전히 삽입하는 방법
 
-간단히 말하면 `_includes` 를 활용한 방식인데 우선 _include에 동영상을 삽입할 코드를 넣을 html파일을 하나 만들고
+간단히 말하면 `_includes` 를 활용한 방식인데 우선 _include 폴더에 동영상을 삽입할 코드를 넣을 html파일을 하나 만들고
 
 ```
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
 ```
 
 이 코드를 집어 넣는다. 샘플 코드이기 때문에 width와 height는 본인이 원하는대로 넣어도 된다. 
@@ -65,7 +65,7 @@ category: 	Blog
 {% highlight html %} {% raw %} {% include 파일명.html id="유튜브동영상url" %} {% endraw %} {% endhighlight %}
 
 이 코드를 삽입한다. 
-id는 유튜브 주소(ex. https://www.youtube.com/watch?v=A_zuHvBlvkA)를 보면 ?v= 뒤에 있는 것을 삽입하면 된다.
+id는 유튜브 주소(ex. https://www.youtube.com/watch?v=A_zuHvBlvkA)를 보면 ?v= 뒤에 있는 것을 말한다.
 
 {% include youtubeplayer.html id="QO9K61NkzuA" %}
 
