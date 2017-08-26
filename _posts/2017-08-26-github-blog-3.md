@@ -56,9 +56,8 @@ category: 	Blog
 이 코드를 집어 넣는다. 샘플 코드이기 때문에 width와 height는 본인이 원하는대로 넣어도 된다. 
 
 그리고나서 원하는 포스팅 파일에 
-```
-	{% include 파일명.html id="유튜브동영상url" %}
-```` 
+{% highlight html %} {% raw %} {% include 파일명.html id="유튜브동영상url" %} {% endraw %} {% endhighlight %}
+
 이 코드를 삽입한다. 
 id는 유튜브 주소(ex. https://www.youtube.com/watch?v=A_zuHvBlvkA)를 보면 ?v= 뒤에 있는 것을 삽입하면 된다.
 
