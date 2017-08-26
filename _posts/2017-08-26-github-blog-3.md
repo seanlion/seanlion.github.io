@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Github blog 운영 (3) - 블로그에 유튜브 동영상 삽입하기  
-permalink: /Blog/3
+permalink: /Blog/4
 date:       2017-08-26
 summary:    Github 블로그에 마크다운 문법으로 유튜브 영상 삽입하는 법을 다룹니다.
 category: 	Blog
