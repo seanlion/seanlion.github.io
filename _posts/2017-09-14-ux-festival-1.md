@@ -25,7 +25,7 @@ category: 	UX
 
 <br>
 
-주로 웹 프로그래밍 분야를 공부하며 Ruby on Rails, HTML, CSS, JAVASCRIPT를 공부하며 최종적으로 웹서비스를 만들어보는 활동이다.
+주로 웹 프로그래밍 언어인 Ruby on Rails, HTML, CSS, JAVASCRIPT를 공부하며 최종적으로 웹서비스를 만들어보는 활동이다.
 
 내가 속한 5기는 학교 별로 프로그램이 진행 되는데 보통 기수마다 학교에 관한 서비스를 하나씩 제작하는게 관행이다.
 
