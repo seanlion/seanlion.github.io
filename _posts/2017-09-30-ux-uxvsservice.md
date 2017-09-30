@@ -36,7 +36,7 @@ category: 	UX
 <br>
 
 <p align ="middle">	
- <img src="/images/design_dep.PNG" alt="alt text" width = "70%">
+ <img src="/images/design_dep.PNG" alt="alt text" width = "100%">
 </p>
 
 {: refdef: style="text-align: center;"}
