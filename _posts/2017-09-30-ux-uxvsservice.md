@@ -28,7 +28,7 @@ category: 	UX
 
 내가 말하는 디자인은 설계다. 네이버에서도 디자이너를 설계자라고 일컫는데 내 정의는 네이버의 정의와 거의 일치한다고 생각한다.
 
-###### 참조 : [네이버 디자인은 설계입니다](http://blog.naver.com/PostView.nhn?blogId=nvr_design&logNo=220780618186&categoryNo=0&parentCategoryNo=48&viewDate=&currentPage=1&postListTopCurrentPage=1&from=search)
+참조 : [네이버 디자인은 설계입니다](http://blog.naver.com/PostView.nhn?blogId=nvr_design&logNo=220780618186&categoryNo=0&parentCategoryNo=48&viewDate=&currentPage=1&postListTopCurrentPage=1&from=search)
 
 설계를 사전에 찾아보게 되면 다음과 같은 정의가 나온다.
 
