@@ -14,7 +14,7 @@ category: 	UX
 
 오늘은 구체적으로 기획과정을 공유해보도록 하겠다.(피드백은 환영이다!)
 
-우선 흐름을 따라가기 쉽게 진행 과정을 한번 더 리뷰!
+우선, 흐름을 따라가기 쉽게 진행 과정을 한번 더 리뷰!
 
 * 사이트 정의
 * 리서치
@@ -36,7 +36,7 @@ category: 	UX
 <br>
 
 <p align ="middle">	
- <img src="https://cdn.pixabay.com/photo/2015/11/03/09/03/question-mark-1019993_960_720.jpg" alt="alt text" width = "70%">
+ <img src="/images/question-mark.jpg" alt="alt text" width = "40%">
 </p>
 
 <br>
