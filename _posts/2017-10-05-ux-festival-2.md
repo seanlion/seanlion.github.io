@@ -61,7 +61,7 @@ category: 	UX
 
 Why를 다잡고나니 방향이 조금 보이기 시작했다. How에 대한 고민을 해보기 시작했다.
 
-<p style = "text-align: center;"><h4>어떻게 만들까?</h4></p>
+#### 어떻게 만들까?{: .text-center }
 
 1)	도구
 
