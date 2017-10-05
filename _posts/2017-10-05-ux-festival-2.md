@@ -69,7 +69,7 @@ Why를 다잡고나니 방향이 조금 보이기 시작했다. How에 대한 �
 
 <br>
 
-<p align="center"><h4>어떻게 만들까?</h4></p>
+<p align="middle"><h4>어떻게 만들까?</h4></p>
 
 <br>
 
