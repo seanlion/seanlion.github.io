@@ -15,7 +15,7 @@ category: 	UX
 
 - - -
 
-우선 분석에 쓴 방법론은 Simon Sinek의 Golden circle을 차용했음을 밝힌다.
+분석에는 Simon Sinek의 Golden circle을 사용했다.
 
 Golden circle을 먼저 설명해드리자면 문제를 해결하는 방법,시각으로 Why-How-What으로 접근하는 프로세스이다.
 
