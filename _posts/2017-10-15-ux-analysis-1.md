@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      [글먹] 실무 UX 따라하기-코멘토편
-permalink: /ux/14
+title:      글먹 | 실무 UX 따라하기-코멘토편
+permalink: ux/14
 description: 코멘토의 화면 개선 프로세스를 복습하는 글입니다.
 date:       2017-10-15
 summary:    실무 프로젝트를 분석하고 복습해보는 글입니다.

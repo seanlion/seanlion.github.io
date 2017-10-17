@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      MoviePass, 영화관을 혁신하다.
-permalink: /news/12
+permalink: news/12
 description: 스타트업 무비패스에 대한 이야기입니다.
 date:       2017-09-24
 summary:    -MoviePass라는 스타트업에 대한 이야기입니다.-

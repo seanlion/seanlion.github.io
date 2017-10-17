@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      서비스디자인 vs UX디자인
-permalink: /ux/10
+permalink: ux/10
 description: 서비스디자인(기획)과 UX디자인(기획)을 비교해보는 글입니다.
 date:       2017-09-30
 summary:    서비스디자인(설계)과 UX디자인(설계)를 비교해보는 글입니다.

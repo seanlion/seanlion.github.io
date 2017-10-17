@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      대학 축제 사이트를 만들어보자 (1)
-permalink: /ux/7
+permalink: ux/7
 description: 축제사이트 기획에 대한 기록입니다.
 date:       2017-09-14
 summary:    대학교 축제사이트 기획과정을 글로 공유합니다.
