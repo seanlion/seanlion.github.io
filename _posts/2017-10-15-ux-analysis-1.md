@@ -11,13 +11,14 @@ category: 	UX
 이번 글은 UX를 배우는 입장으로서 실무 디자이너분들의 UX개선일지를 분석해보고 복습해보는 글이다. 앞으로 기회가 되면 복습 글도 시리즈로 올려보겠다!
 
 선택한 서비스 : 코멘토
+
 참고 글 : [코멘토 첫 화면, 무엇이 문제였을까?](https://brunch.co.kr/@comento/38)
 
 - - -
 
-분석에는 Simon Sinek의 Golden circle을 사용했다.
+참고로 분석에는 Simon Sinek의 Golden circle을 사용했다.
 
-Golden circle을 먼저 설명해드리자면 문제를 해결하는 방법,시각으로 Why-How-What으로 접근하는 프로세스이다.
+Golden circle을 먼저 설명해드리자면 문제를 해결하는 방법,다가가는 시각으로서 Why-How-What을 사용해 문제에 접근하는 프로세스이다.
 
 <br>
 
