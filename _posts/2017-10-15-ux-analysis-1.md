@@ -32,7 +32,9 @@ Golden circle을 먼저 설명해드리자면 문제를 해결하는 방법,다�
 
 <br>
 
-Golden Circle의 Why,How,What을 이용하여 코멘토의 사례를 살펴보겠다.
+그림을 보면 아시겠지만 Why를 통해 목적을 살펴보고, How를 통해 과정을 수립하고, What을 통해 결과물을 만들어내는 방법론(?)이다.
+
+그럼 이제 Golden Circle의 Why,How,What을 이용하여 코멘토의 사례를 살펴보겠다.
 
 - - -
 
