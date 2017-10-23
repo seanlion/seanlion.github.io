@@ -1,7 +1,7 @@
 # Site settings
-title:       Seanlion
+title:       허승의 블로그입니다.
 email:       skyhs3507@gmail.com
-author:      Sean
+author:      
 description: "Simple blog, Tech, UX, Daily, Music"
 baseurl:     
 date_format: "%b %-d, %Y"
