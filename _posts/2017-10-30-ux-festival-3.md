@@ -188,11 +188,11 @@ PC웹, 모바일 웹, 반응형, 적응형, 스크롤형, 고정형 레이아웃
 <br>
 
 <p align ="middle">	
- <img src="/images/fest_proto.png" width = "50%">
+ <img src="/images/fest_proto.png" width = "30%">
 </p>
 
 {: refdef: style="text-align: center;"}
-###### _프로토타입 결과물. gif로도 올려보고 싶다._
+###### _프로토타입 결과물의 일부. gif로도 올려보고 싶다._
 {: refdef}
 
 <br>
