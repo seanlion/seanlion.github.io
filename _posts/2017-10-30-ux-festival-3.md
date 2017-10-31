@@ -186,7 +186,7 @@ PC웹, 모바일 웹, 반응형, 적응형, 스크롤형, 고정형 레이아웃
 <br>
 
 <p align ="middle">	
- <img src="/images/fest_proto.png" width = "70%">
+ <img src="/images/fest_proto.png" width = "50%">
 </p>
 
 {: refdef: style="text-align: center;"}
