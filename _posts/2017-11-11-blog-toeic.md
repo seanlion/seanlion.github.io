@@ -13,11 +13,11 @@ category:   Blog
 <br>
 
 <p align ="middle">	
- <img src="/images/toeic_score.png" width = "70%">
+ <img src="/images/toeic_score.png" width = "100%">
 </p>
 
 {: refdef: style="text-align: center;"}
-###### _계층 패턴._
+###### _따끈따근한 점수다._
 {: refdef}
 
 <br>
