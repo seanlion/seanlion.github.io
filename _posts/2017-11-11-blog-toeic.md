@@ -43,7 +43,7 @@ YBM 실전토익 LC 1000 / RC 1000
 </p>
 
 {: refdef: style="text-align: center;"}
-###### _계층 패턴._
+###### _토익 책 묶음._
 {: refdef}
 
 <br>
