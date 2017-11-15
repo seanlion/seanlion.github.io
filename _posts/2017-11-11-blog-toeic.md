@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      토익 2주 독학하고 900점대 후기 올리기
-permalink: Blog/8
+permalink: blog/8
 description: 토익 2주 공부하고 고득점 받은 글입니다.
 date:       2017-11-10
 summary:    토익 공부법에 대한 글입니다.
