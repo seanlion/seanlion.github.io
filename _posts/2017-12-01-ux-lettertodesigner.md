@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      주니어 디자이너에게 보내는 편지 by 래리 태슬러
+title:      주니어 디자이너에게 보내는 편지
 permalink: ux/22
-description: 주니어 디자이너들이 읽으면 좋을 글입니다. UX디자인 업무에 대한 글입니다.
+description: 주니어 디자이너들이 읽으면 좋을 글입니다. 래리 테슬러의 UX디자인 업무에 대한 글입니다.
 date:       2017-12-01
 summary:    인터랙션 디자인에 대한 인사이트가 담겨있는 글입니다.
 category: 	UX
