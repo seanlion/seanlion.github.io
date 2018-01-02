@@ -85,7 +85,7 @@ IA를 제작할 때의 기준은 하나인데 바로 “제공하고 싶은 정�
 <br>
 
 <p align ="middle">	
- <img src="http://assets.uxbooth.com/uploads/2090/12/DesignForMobile_hubandspoke_sm.png" width = "50%">
+ <img src="http://assets.uxbooth.com/uploads/2090/12/DesignForMobile_hubandspoke_sm.png" width = "40%">
 </p>
 
 {: refdef: style="text-align: center;"}
@@ -110,7 +110,7 @@ IA를 제작할 때의 기준은 하나인데 바로 “제공하고 싶은 정�
 <br>
 
 <p align ="middle">	
- <img src="/images/nmusic_main.jpg" width = "50%">
+ <img src="/images/nmusic_main.jpg" width = "40%">
 </p>
 
 {: refdef: style="text-align: center;"}
@@ -132,7 +132,7 @@ IA를 제작할 때의 기준은 하나인데 바로 “제공하고 싶은 정�
 <br>
 
 <p align ="middle">	
- <img src="/images/nmusic_menu.jpg" width = "50%">
+ <img src="/images/nmusic_menu.jpg" width = "40%">
 </p>
 
 {: refdef: style="text-align: center;"}
@@ -152,7 +152,7 @@ IA를 제작할 때의 기준은 하나인데 바로 “제공하고 싶은 정�
 <br>
 
 <p align ="middle">	
- <img src="/images/nmusic_musicns.jpg" width = "50%">
+ <img src="/images/nmusic_musicns.jpg" width = "40%">
 </p>
 
 {: refdef: style="text-align: center;"}
@@ -174,7 +174,7 @@ MY는 말 그대로 나를 위한 영역이다. 내가 구매한 이용권, 구�
 <br>
 
 <p align ="middle">	
- <img src="/images/nmusic_my.jpg" width = "50%">
+ <img src="/images/nmusic_my.jpg" width = "40%">
 </p>
 
 {: refdef: style="text-align: center;"}
