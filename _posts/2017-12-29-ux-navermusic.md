@@ -47,7 +47,7 @@ IA를 제작할 때의 기준은 하나인데 바로 “제공하고 싶은 정�
 <br>
 
 <p align ="middle">	
- <img src="/images/musicapp_ia.png" alt="alt text" width = "100%">
+ <img src="/images/musicapp_ia.png" alt="alt text" width = "70%">
 </p>
 
 {: refdef: style="text-align: center;"}
@@ -55,7 +55,7 @@ IA를 제작할 때의 기준은 하나인데 바로 “제공하고 싶은 정�
 {: refdef}
 
 <p align ="middle">	
- <img src="/images/musicweb_ia.png" alt="alt text" width = "100%">
+ <img src="/images/musicweb_ia.png" alt="alt text" width = "70%">
 </p>
 
 {: refdef: style="text-align: center;"}
@@ -103,14 +103,14 @@ IA를 제작할 때의 기준은 하나인데 바로 “제공하고 싶은 정�
 
 그래서 나도 햄버거 메뉴 안에 있는 카테고리로 서비스의 정보를 분류하였다. 동일한 위계를 가진 정보들은 간격을 두어서 구분하였고 위계 구조를 가진 정보는 선을 그려 위계를 표시하였다.
 
-3.	네이버 뮤직 앱
+### 3. 네이버 뮤직 앱
 
 #### 1) 메인 카테고리
 
 <br>
 
 <p align ="middle">	
- <img src="images/nmusic_main.jpg" width = "70%">
+ <img src="/images/nmusic_main.jpg" width = "70%">
 </p>
 
 {: refdef: style="text-align: center;"}
@@ -132,7 +132,7 @@ IA를 제작할 때의 기준은 하나인데 바로 “제공하고 싶은 정�
 <br>
 
 <p align ="middle">	
- <img src="images/nmusic_menu.jpg" width = "70%">
+ <img src="/images/nmusic_menu.jpg" width = "70%">
 </p>
 
 {: refdef: style="text-align: center;"}
@@ -152,7 +152,7 @@ IA를 제작할 때의 기준은 하나인데 바로 “제공하고 싶은 정�
 <br>
 
 <p align ="middle">	
- <img src="images/nmusic_musicns.jpg" width = "69%">
+ <img src="/images/nmusic_musicns.jpg" width = "69%">
 </p>
 
 {: refdef: style="text-align: center;"}
@@ -174,7 +174,7 @@ MY는 말 그대로 나를 위한 영역이다. 내가 구매한 이용권, 구�
 <br>
 
 <p align ="middle">	
- <img src="images/nmusic_my.jpg" width = "69%">
+ <img src="/images/nmusic_my.jpg" width = "69%">
 </p>
 
 {: refdef: style="text-align: center;"}
@@ -196,7 +196,7 @@ Top100은 HOME 화면에서 2번째로 상단에 위치 할 정도로 중요도�
 <br>
 
 <p align ="middle">	
- <img src="images/navermusictop100.png" width = "100%">
+ <img src="/images/navermusictop100.png" width = "100%">
 </p>
 
 {: refdef: style="text-align: center;"}
@@ -218,7 +218,7 @@ Top100은 HOME 화면에서 2번째로 상단에 위치 할 정도로 중요도�
 <br>
 
 <p align ="middle">	
- <img src="images/navermusicresult.png" width = "100%">
+ <img src="/images/navermusicresult.png" width = "100%">
 </p>
 
 {: refdef: style="text-align: center;"}
@@ -243,7 +243,7 @@ Top100은 HOME 화면에서 2번째로 상단에 위치 할 정도로 중요도�
 <br>
 
 <p align ="middle">	
- <img src="images/navermusicleague.png" width = "100%">
+ <img src="/images/navermusicleague.png" width = "100%">
 </p>
 
 {: refdef: style="text-align: center;"}
