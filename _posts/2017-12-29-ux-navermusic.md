@@ -158,13 +158,13 @@ IA를 제작할 때의 기준은 하나인데 바로 “제공하고 싶은 정�
 
 <br>
 
-<p align ="middle">	
+<div align ="middle">	
  <img src="/images/2017-12-29/nmusic_musicns.jpg" width = "40%" float = "left">
 </p>
 
-<p align ="middle">	
  <img src="/images/2017-12-29/navermusicns2.PNG" width = "40%" float = "left">
-</p>
+
+</div>
 
 {: refdef: style="text-align: center;"}
 ###### _네이버뮤직앱 MUSICNS_
@@ -188,13 +188,12 @@ MY는 말 그대로 나를 위한 영역이다. 내가 구매한 이용권, 구�
 <br>
 
 <p align ="middle">	
- <img src="/images/2017-12-29/nmusic_my.jpg" width = "40%" float= "left">
-</p>
-
-<p align ="middle">	
  <img src="/images/2017-12-29/navermy2.PNG" width = "40%" float = "left">
 </p>
 
+<p align ="middle">	
+ <img src="/images/2017-12-29/nmusic_my.jpg" width = "40%" float= "left">
+</p>
 
 {: refdef: style="text-align: center;"}
 ###### _네이버뮤직앱 MUSICNS_
