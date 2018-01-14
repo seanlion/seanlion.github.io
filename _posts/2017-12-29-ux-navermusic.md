@@ -42,28 +42,8 @@ IA를 제작할 때의 기준은 하나인데 바로 “제공하고 싶은 정�
 - - -
 
 ### 2.네이버뮤직의 IA
+
 자 그럼 이제 네이버뮤직의 IA를 살펴보자. (17.12.01 기준으로 모바일 앱과 모바일 웹 버전을 살펴보았다.)
-
-<br>
-
-<p align ="middle">	
- <img src="/images/musicapp_ia.png" alt="alt text" width = "70%">
-</p>
-
-{: refdef: style="text-align: center;"}
-###### _네이버뮤직 앱의 IA._
-{: refdef}
-
-<p align ="middle">	
- <img src="/images/musicweb_ia.png" alt="alt text" width = "70%">
-</p>
-
-{: refdef: style="text-align: center;"}
-###### _네이버뮤직 웹의 IA._
-{: refdef}
-
-<br>
-
 
 결론부터 정리를 해보자면 이렇다.
 
@@ -80,6 +60,7 @@ IA를 제작할 때의 기준은 하나인데 바로 “제공하고 싶은 정�
 그럼 이제부터 구체적으로 살펴보도록 하겠다. 
 
 1.	패턴
+
 우선 저번 글에서 배운 걸 써먹어보면 네이버 뮤직은 여러가지 패턴을 가지고 있다. 대표적으로 허브 앤 스포크 패턴, 선형 패턴, 탭 패턴 등 다양한 패턴이 쓰였다.
 
 <br>
@@ -103,6 +84,26 @@ IA를 제작할 때의 기준은 하나인데 바로 “제공하고 싶은 정�
 
 그래서 나도 햄버거 메뉴 안에 있는 카테고리로 서비스의 정보를 분류하였다. 동일한 위계를 가진 정보들은 간격을 두어서 구분하였고 위계 구조를 가진 정보는 선을 그려 위계를 표시하였다.
 
+<br>
+
+<p align ="middle">	
+ <img src="/images/2017-12-29/musicapp_ia.png" alt="alt text" width = "70%">
+</p>
+
+{: refdef: style="text-align: center;"}
+###### _네이버뮤직 앱의 IA._
+{: refdef}
+
+<p align ="middle">	
+ <img src="/images/2017-12-29/musicweb_ia.png" alt="alt text" width = "70%">
+</p>
+
+{: refdef: style="text-align: center;"}
+###### _네이버뮤직 웹의 IA._
+{: refdef}
+
+<br>
+
 - - -
 
 ### 3. 네이버 뮤직 앱
@@ -112,7 +113,7 @@ IA를 제작할 때의 기준은 하나인데 바로 “제공하고 싶은 정�
 <br>
 
 <p align ="middle">	
- <img src="/images/nmusic_main.jpg" width = "40%">
+ <img src="/images/2017-12-29/nmusic_main.jpg" width = "40%">
 </p>
 
 {: refdef: style="text-align: center;"}
@@ -129,12 +130,14 @@ IA를 제작할 때의 기준은 하나인데 바로 “제공하고 싶은 정�
 메인 화면인 HOME에는 네이버 뮤직이 제공하고 싶은 정보들의 80%가 담겨있다.(최신 앨범, Top100, MUSICNS, 음악 검색, 장르별 음악, 테마JAMM, 뮤지션리그) 
 홈 화면에서 터치만 한번 하면 해당 정보 영역으로 갈 수 있기 때문에 접근성이 좋다.
 
-햄버거 메뉴를 누르면 HOME에 표기한 정보들의 영역들로 한번에 갈 수 있다. (햄버거 메뉴의 단점은 버튼을 누르기 전까지는 앱이 어떤 정보를 담고 있는지 모른다는 것인데 HOME 화면에서 종적으로 정보를 다 보여주기 때문에 네이버 뮤직의 햄버거 메뉴는 단점을 어느정도 커버한 것이라고 생각한다.)
+햄버거 메뉴를 누르면 HOME에 표기한 정보들의 영역들로 한번에 갈 수 있다. 
+
+햄버거 메뉴의 단점은 버튼을 누르기 전까지는 앱이 어떤 정보를 담고 있는지 모른다는 것인데 HOME 화면에서 종적으로 정보를 다 보여주기 때문에 네이버 뮤직의 햄버거 메뉴는 단점을 어느정도 커버한 것이라고 생각한다.
 
 <br>
 
 <p align ="middle">	
- <img src="/images/nmusic_menu.jpg" width = "40%">
+ <img src="/images/2017-12-29/nmusic_menu.jpg" width = "40%">
 </p>
 
 {: refdef: style="text-align: center;"}
@@ -145,16 +148,22 @@ IA를 제작할 때의 기준은 하나인데 바로 “제공하고 싶은 정�
 
 
 이러한 IA 형태를 “Flat”하다고 한다. IA는 크게 Deep과 Flat이라는 2가지 형태를 가지고 있다. 온라인 쇼핑몰(월마트, 아마존)을 가보면 대 카테고리- 중 카테고리 – 소 카테고리 순으로 정보를 탐색하는 경향이 있는데 이런 구조가 Deep한 IA라고 할 수 있다.
+
 두 가지 형태는 각각 장단점이 존재한다. 단계를 많이 거치지 않기 때문에 Flat이 편리할 수도 있지만 하나의 level에서 너무 많은 카테고리를 보여주면 오히려 Flat한 구조는 사용자가 혼란스러워 할 수도 있다. 따라서 자신의 서비스 상황에 맞는 구조를 취하면 된다.
 
 
 1-2 MUSICNS
+
 다음으로 MUSICNS를 살펴보자. 뮤지션이 추천하는 플레이리스트인 MUSICNS NOW가 있고 유저가 만드는 플레이리스트인 JAMM 리스트들로 구성되어 있다. 여기서 한 가지 의문점이 들었다.
 
 <br>
 
 <p align ="middle">	
- <img src="/images/nmusic_musicns.jpg" width = "40%">
+ <img src="/images/2017-12-29/nmusic_musicns.jpg" width = "40%" float = "left">
+</p>
+
+<p align ="middle">	
+ <img src="/images/2017-12-29/navermusicns2.PNG" width = "40%" float = "left">
 </p>
 
 {: refdef: style="text-align: center;"}
@@ -164,7 +173,9 @@ IA를 제작할 때의 기준은 하나인데 바로 “제공하고 싶은 정�
 <br>
 
 
-현재 JAMM LIST는 5개 정도의 종합 JAMM 항목 / HOT JAMM 리스트 / JAMM을 제공하는 DJ 리스트 항목 / 새로운 NEW JAMM 항목 / MY JAMM 항목으로 구성되어 있다. 헌데 그 밑에 다른 섹션에 바로 인기 DJ들이 나열식으로 나온다. 인기 있는 DJ를 해당 항목에 들어가지 않고도 보여주겠다는 의도 같은데 왜 HOT JAMM, NEW JAMM이 아닌 DJ만 보여주는 것일까? 어떤 위계 구조를 의도하고 설계한 것일까? 라는 궁금증이 든다. 내가 서비스를 설계한 것이 아니기 때문에 이 글에선 의문 정도만 품고 넘어가려 한다.
+현재 JAMM LIST는 5개 정도의 종합 JAMM 항목 / HOT JAMM 리스트 / JAMM을 제공하는 DJ 리스트 항목 / 새로운 NEW JAMM 항목 / MY JAMM 항목으로 구성되어 있다. 헌데 그 밑에 다른 섹션에 바로 인기 DJ들이 나열식으로 나온다. 
+
+인기 있는 DJ를 해당 항목에 들어가지 않고도 보여주겠다는 의도 같은데 왜 HOT JAMM, NEW JAMM이 아닌 DJ만 보여주는 것일까? 어떤 위계 구조를 의도하고 설계한 것일까? 라는 궁금증이 든다. 내가 서비스를 설계한 것이 아니기 때문에 이 글에선 의문 정도만 품고 넘어가려 한다.
 그 외에 테마 JAMM, 믿고 듣는 JAMM, 최근들은 JAMM 등이 있다.
 
 전반적으로 뮤지션들 추천 플레이리스트 + JAMM이라는 유저들이 만드는 플레이리스트 정보에 치중 되어있는 영역이라고 볼 수 있다. 
@@ -177,8 +188,13 @@ MY는 말 그대로 나를 위한 영역이다. 내가 구매한 이용권, 구�
 <br>
 
 <p align ="middle">	
- <img src="/images/nmusic_my.jpg" width = "40%">
+ <img src="/images/2017-12-29/nmusic_my.jpg" width = "40%" float= "left">
 </p>
+
+<p align ="middle">	
+ <img src="/images/2017-12-29/navermy2.PNG" width = "40%" float = "left">
+</p>
+
 
 {: refdef: style="text-align: center;"}
 ###### _네이버뮤직앱 MUSICNS_
@@ -189,6 +205,7 @@ MY는 말 그대로 나를 위한 영역이다. 내가 구매한 이용권, 구�
 이 부분에서 아쉬운 것은 ‘많이 재생한 음악30’ 항목의 위치이다. 거의 맨 끝에 위치해있는데 차라리 ‘최근 재생한 음악’ 영역 위치로 옮겨 번갈아 보면서 볼 수 있게 하면 어땠을까라는 생각이 든다.
 
 #### 2)	서브 카테고리
+
 HOME, MUSICNS, MY 영역을 제외한 나머지 카테고리는 모두 서브 카테고리로 분류했다. (사실 IA에 검색과 검색결과 영역도 추가하고 서브 카테고리로 분류했는데 맞게 한 것인지는 잘 모르겠다.) 서브 카테고리 중 의문점이 드는 카테고리 위주로 살펴보도록 하겠다.
 
 2-1 TOP 100 
@@ -202,7 +219,7 @@ Top100은 HOME 화면에서 2번째로 상단에 위치 할 정도로 중요도�
 <br>
 
 <p align ="middle">	
- <img src="/images/navermusictop100.png" width = "100%">
+ <img src="/images/2017-12-29/navermusictop100.png" width = "100%">
 </p>
 
 {: refdef: style="text-align: center;"}
@@ -224,7 +241,7 @@ Top100은 HOME 화면에서 2번째로 상단에 위치 할 정도로 중요도�
 <br>
 
 <p align ="middle">	
- <img src="/images/navermusicresult.png" width = "100%">
+ <img src="/images/2017-12-29/navermusicresult.png" width = "100%">
 </p>
 
 {: refdef: style="text-align: center;"}
@@ -239,17 +256,11 @@ Top100은 HOME 화면에서 2번째로 상단에 위치 할 정도로 중요도�
 2-3 뮤지션 리그
 
 뮤지션 리그는 네이버 뮤직에만 있는 독특한 콘텐츠이다. 일반인 혹은 가수 지망생들이 자신이 녹음한 음원을 업로드하는 서비스이다. 프로 가수 이외에 아마추어들이 유저들과 소통할 수 있고 인기를 얻을 수 있다는 측면에서 좋은 취지의 서비스이며 신규 스타들을 발견할 가능성도 높다. 
-화면을 보면 ‘곡’영역 / ‘동영상’ 영역 / TOP100 영역으로 나누어 놓았다.
-들어가면 곡 영역이 가장 먼저 보여지는데 아무래도 동영상 보다 곡이 접근하기 쉽기 때문에 그런 것 같다. 
-
-정보들 또한 최신순/ 인기순/ 좋아요순 같은 필터 별로 구성해 사용자가 원하는 기준대로 정보를 탐색하기가 쉽다. 동영상 또한 마찬가지로 구성되어 있다. Top100도 비슷한 기준인 일간/주간/월간으로 구성되어 있다.
-
-허나 여기서 의문점이 드는건 웹 버전과의 차이이다.
 
 <br>
 
 <p align ="middle">	
- <img src="/images/navermusicleague.png" width = "100%">
+ <img src="/images/2017-12-29/navermusicleague.png" width = "100%">
 </p>
 
 {: refdef: style="text-align: center;"}
@@ -258,6 +269,12 @@ Top100은 HOME 화면에서 2번째로 상단에 위치 할 정도로 중요도�
 
 <br>
 
+화면을 보면 ‘곡’영역 / ‘동영상’ 영역 / TOP100 영역으로 나누어 놓았다.
+들어가면 곡 영역이 가장 먼저 보여지는데 아무래도 동영상 보다 곡이 접근하기 쉽기 때문에 그런 것 같다. 
+
+정보들 또한 최신순/ 인기순/ 좋아요순 같은 필터 별로 구성해 사용자가 원하는 기준대로 정보를 탐색하기가 쉽다. 동영상 또한 마찬가지로 구성되어 있다. Top100도 비슷한 기준인 일간/주간/월간으로 구성되어 있다.
+
+허나 여기서 의문점이 드는건 웹 버전과의 차이이다.
 
 웹 버전의 뮤지션 리그는 BEAT리그 / Open리그 / MY좋아요 라는 영역으로 구분되어 있는데 거의 완전히 다른 서비스처럼 보인다. BEAT리그는 아마 1부 리그 인 것 같고 OPEN리그는 2부리그인 것처럼 보인다. 해당 영역의 하위구조는 앱과 동일한다. 
 
@@ -270,6 +287,18 @@ Top100은 HOME 화면에서 2번째로 상단에 위치 할 정도로 중요도�
 
 앞서 보여준 앱의 IA보단 구성요소가 적다. 하지만 앱과 공통 된 섹션은 요소들이 더 다양하거나 디테일하다는 것을 알 수 있다.
 앱과의 가장 큰 차이점은 플레이리스트의 존재 유무이다.
+
+<br>
+
+<p align ="middle">	
+ <img src="/images/2017-12-29/nmusicweb.PNG" width = "40%">
+</p>
+
+{: refdef: style="text-align: center;"}
+###### _네이버뮤직 웹버전의 플레이리스트._
+{: refdef}
+
+<br>
 
 기본/인기/테마 플레이리스트가 있으며 앱의 JAMM과 상당히 유사하다.
 
