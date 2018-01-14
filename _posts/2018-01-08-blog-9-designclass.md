@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      멋쟁이사자처럼: 디자인을 회고하며
+title:      <멋쟁이사자처럼-디자인>을 회고하며
 permalink: blog/9
-description: 멋쟁이 사자처럼: 디자인이라는 UX/UI 디자인 수업을 회고해봅니다.
+description: 멋쟁이 사자처럼-디자인이라는 UX/UI 디자인 수업을 회고해봅니다.
 date:       2018-01-08
-summary:    멋쟁이 사자처럼: 디자인 클래스에 대한 회고록입니다.
+summary:    <멋쟁이 사자처럼-디자인> 클래스에 대한 회고록입니다.
 category:   Blog
 ---
 
