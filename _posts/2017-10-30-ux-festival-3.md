@@ -5,7 +5,7 @@ permalink: ux/17
 description: 대학축제 사이트 기획 과정을 공유합니다.
 date:       2017-10-30
 summary:    대학 축제 사이트 기획 & 개발과정을 공유합니다.
-category: 	UX
+category: 	UX와 디자인
 ---
 
 [대학 축제 사이트를 만들어보자 (1)](https://seanlion.github.io/ux/7)

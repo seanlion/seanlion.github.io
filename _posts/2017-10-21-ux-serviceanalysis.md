@@ -5,7 +5,7 @@ permalink: ux/16
 description: 서비스(비즈니스 모델) 분석,설계 방법에 관한 글입니다.
 date:       2017-10-21
 summary:    아름다운 UX디자인을 위한 서비스 설계에 관한 글입니다.
-category: 	UX
+category: 	UX와 디자인
 ---
 
 

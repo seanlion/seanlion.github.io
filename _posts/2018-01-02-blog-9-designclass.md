@@ -5,7 +5,7 @@ permalink: blog/9
 description: 멋쟁이 사자처럼-디자인이라는 UX/UI 디자인 수업을 회고해봅니다.
 date:       2018-01-02
 summary:    <멋쟁이 사자처럼-디자인> 클래스에 대한 회고록입니다.
-category:   Blog
+category:   일상과 끄적임
 ---
 
 

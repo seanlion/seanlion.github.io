@@ -4,7 +4,7 @@ title:      Github blog 운영 (3) - 블로그에 유튜브 동영상 삽입하�
 permalink: Blog/4
 date:       2017-08-26
 summary:    Github 블로그에 마크다운 문법으로 유튜브 영상 삽입하는 법을 다룹니다.
-category: 	Blog
+category: 	개발과 삽질
 ---
 
 오늘은 github 블로그에서 유튜브 동영상 삽입하는걸 포스팅 해보려 한다.

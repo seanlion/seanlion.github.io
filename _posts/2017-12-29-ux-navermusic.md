@@ -5,7 +5,7 @@ permalink: ux/23
 description: 네이버 뮤직 웹/앱 버전의 IA를 분석한 글입니다.
 date:       2017-12-29
 summary:    네이버 뮤직의 IA를 분석한 글입니다.
-category: 	UX
+category: 	좋은 서비스 만들 연습
 ---
 
 이전에 IA에 관한 글을 하나 적은 적이 있다. 

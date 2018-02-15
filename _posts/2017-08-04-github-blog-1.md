@@ -5,7 +5,7 @@ permalink: blog/1
 date:       2017-08-06
 description: github 깃허브 블로그 테마에 대한 글입니다.
 summary:    Fork한 jekyll blog 테마를 로컬로 옮기는 법
-category: 	Blog
+category: 	개발과 삽질
 ---
 
 - - -

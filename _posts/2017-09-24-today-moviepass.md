@@ -5,7 +5,7 @@ permalink: news/12
 description: 스타트업 무비패스에 대한 이야기입니다.
 date:       2017-09-24
 summary:    -MoviePass라는 스타트업에 대한 이야기입니다.-
-category: 	News
+category: 	테크 요모조모
 ---
 
 최근 미국 영화계의 새로운 바람이 불었다. 

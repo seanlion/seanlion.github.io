@@ -5,7 +5,7 @@ permalink: blog/10
 description: 디자인해커톤-디커톤이라는 해커톤 파티를 회고해봅니다.
 date:       2018-01-03
 summary:    <디자인해커톤 - 디커톤>에 대한 회고입니다.
-category:   Blog
+category:   일상과 끄적임
 ---
 
 며칠 전, ‘멋쟁이 사자처럼-디자인’이라는 클래스에 대해 [리뷰](https://seanlion.github.io/blog/9)를 했다. 

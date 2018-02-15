@@ -5,7 +5,7 @@ permalink: ux/21
 description: IA, 정보 설계에 대해 곱씹어보고 깨우쳐 보는 글입니다.
 date:       2017-11-08
 summary:    Information Architecture, IA에 대한 글입니다.
-category: 	UX
+category: 	좋은 서비스 만들 연습
 ---
 
 지금까지 블로그를 통해 IA에 대해 사례 혹은 이론을 간간히 이야기 해왔다. 하지만 글을 적어오면서 내가 제대로 이것을 알고 있는가에 대한 의구심을 떨쳐버릴 수 없었다.

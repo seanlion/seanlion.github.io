@@ -5,7 +5,7 @@ permalink: ux/24
 description: 왜 UX 디자인은 예술의 영역이 아닌 과학의 영역인가? UX에 대한 좋은 글을 찾아 번역해서 소개하고 있습니다. 소개글은 Joel Marsh의 (UX is a Science. Not an Art)입니다. 번역이 매끄럽지 않을 수 있다는 것 부탁드립니다.
 date:       2018-02-09
 summary:    UX는 과학의 영역에 있다 라는 내용에 대한 글입니다.
-category: 	UX
+category: 	UX와 디자인
 ---
 
 좋은 UX 글이 어딨을까 찾아보다 UX의 관점을 잘 적은, 좋은 글을 읽게 되었다. 블로그에서 다른 사람과 같이 공유하면 좋을 것 같아 번역을 해보았다. 

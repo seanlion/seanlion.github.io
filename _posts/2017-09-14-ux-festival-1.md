@@ -5,7 +5,7 @@ permalink: ux/7
 description: 축제사이트 기획에 대한 기록입니다.
 date:       2017-09-14
 summary:    대학교 축제사이트 기획과정을 글로 공유합니다.
-category: 	UX
+category: 	좋은 서비스 만들 연습
 ---
 
 
