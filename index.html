@@ -11,17 +11,18 @@ title : 블로그
         <div class="post py2">
           
           <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="post-title">{{ post.title }}</h3></a>
-         <p class="post-meta">{{ post.date | date: site.date_format }}</p>
-        </div>
-      {% endfor %}
-    </div>
-      <span class="post-summary">
+           <span class="post-summary">
             {% if post.summary %}
               {{ post.summary }}
             {% else %}
               {{ post.excerpt }}
             {% endif %}
           </span>
+         <p class="post-meta">{{ post.date | date: site.date_format }}</p>
+        </div>
+      {% endfor %}
+    </div>
+     
         </div>
       {% endfor %}
     </div>
