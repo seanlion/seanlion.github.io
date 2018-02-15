@@ -12,7 +12,7 @@ title : 블로그
           
           <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="post-title">{{ post.title }}</h3></a>
            
-         <p class="post-meta">{{ post.date | date: site.date_format }}</p>
+         <span class="post-meta">{{ post.date | date: site.date_format }}</span>
         <p class="post-summary h5">
             {% if post.summary %}
               {{ post.summary }}
