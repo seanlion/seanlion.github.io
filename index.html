@@ -15,7 +15,16 @@ title : 블로그
         </div>
       {% endfor %}
     </div>
-    
+      <span class="post-summary">
+            {% if post.summary %}
+              {{ post.summary }}
+            {% else %}
+              {{ post.excerpt }}
+            {% endif %}x
+          </span>
+        </div>
+      {% endfor %}
+    </div>
     {% include pagination.html %}
   {% else %}
     <h1 class='center'>{{ site.text.index.coming_soon }}</h1>
