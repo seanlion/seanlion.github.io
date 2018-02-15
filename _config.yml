@@ -1,8 +1,8 @@
 # Site settings
-title:       허승의 블로그입니다.
+title:       Sean의 블로그
 email:       skyhs3507@gmail.com
 author:      
-description: "Simple blog, Tech, UX, Daily, Music"
+description: "일상,UX,테크를 다루는 평범한 블로그입니다."
 baseurl:     
 date_format: "%b %-d, %Y"
 header_pages:
