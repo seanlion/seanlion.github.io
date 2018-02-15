@@ -5,7 +5,7 @@ permalink: ux/11
 description: 대학축제 사이트 기획 과정을 공유합니다.
 date:       2017-10-05
 summary:    대학 축제 사이트 기획 & 개발과정을 공유합니다.
-category: 	좋은 서비스 만들 연습
+category: 	서비스와 UX 습작
 ---
 
 저번 글에는 사이트를 만들게 된 계기를 적어보았다. 
