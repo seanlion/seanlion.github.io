@@ -5,7 +5,7 @@ permalink: blog/2
 date:       2017-08-07
 description: github 깃허브 푸시 오류에 대한 글입니다.
 summary:    Git push 오류로 인한 고군분투기
-category: 	Blog
+category: 	개발과 삽질
 ---
 저번 시간에는 Fork한 내 블로그 테마를 로컬에 안착시키는 점을 다루어보았다. 
 
