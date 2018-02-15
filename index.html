@@ -10,6 +10,10 @@ title : 블로그
       {% for post in paginator.posts %}
         <div class="post py2">
           
+          <p class= "post-category h6">
+            {{post.category}} 
+          </p>
+
           <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="post-title">{{ post.title }}</h3></a>
           
           <p class="post-summary h5">
