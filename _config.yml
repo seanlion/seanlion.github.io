@@ -6,6 +6,7 @@ description: "일상,UX,테크를 다루는 평범한 블로그입니다."
 baseurl:     
 date_format: "%b %-d, %Y"
 header_pages:
+ - about.html
  - index.html
  - categories.html
  
