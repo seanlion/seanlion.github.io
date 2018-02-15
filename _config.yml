@@ -115,6 +115,10 @@ text:
   thanks: 'Thanks for contacting us. We will reply as soon as possible.'
   og_locale: 'en_US'
 
+# 글 내 네비게이션
+# Display links for next and previous posts for the specified categories
+post-advance-links: [blog]
+
 # Build settings
 markdown:     kramdown
 redcarpet:
