@@ -52,9 +52,10 @@
 
 /* previous, next page */
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 600px) {
     /* For mobile phones: */
     .PageNavigation {
+
         width: 100%;
         display: block;
         position: relative;
@@ -68,10 +69,18 @@
       height : 150px;
       background-size : cover;
       background-position : 50% 50%;
-      width: 50%;
-      float: left;
+      width: 100%;
       margin: 2rem 0;
   }
+
+.inner_class {
+  color : #fff;
+  background-color: rgba(0,0,0,.3);
+  vertical-align : middle;
+  text-align: center;
+  padding-top : 3px;
+}
+
 
   .inner_head {
   display: block;
