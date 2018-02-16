@@ -51,6 +51,7 @@
 }
 
 /* previous, next page */
+
 .PageNavigation {
   font-size: 14px;
   display: block;
@@ -62,14 +63,14 @@
   display: block;
   width: 50%;
   float: left;
-  margin: 1em 0;
+  margin: 2rem 0;
 }
 
 .PageNavigation .next {
   text-align: right;
 }
 
-
+/* previous, next page end */
 
 .post-category{
   text-align : left;
