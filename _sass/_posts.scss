@@ -52,43 +52,7 @@
 
 /* previous, next page */
 
-@media screen and (max-width: 360px) {
-    .PageNavigation {
 
-        
-        display: block;
-        position: relative;
-        height : 150px;
-        font-size: 13px;
-    }
-
-  .PageNavigation a {
-      display: table;
-     position: relative;
-      height : auto;
-      background-size : cover;
-      background-position : 50% 50%;
-      width: 100%;
-      float:left;
-      margin : 0 0;
-  }
-
-  .inner_class {
-    color : #fff;
-    background-color: rgba(0,0,0,.3);
-    vertical-align : middle;
-    text-align: center;
-    padding-top : 3px;
-  }
-
-
-    .inner_head {
-    display: block;
-    font-size : 10px;
-    font-family: 'Nanum Myeongjo';
-  }
-
-}
 
 .PageNavigation {
   font-size: 16px;
@@ -125,6 +89,44 @@
   display: block;
   font-size : 13px;
   font-family: 'Nanum Myeongjo';
+}
+
+@media screen and (max-width: 768px) {
+    .PageNavigation {
+
+        
+        display: block;
+        position: relative;
+        height : 150px;
+        font-size: 13px;
+    }
+
+  .PageNavigation a {
+      display: table;
+     position: relative;
+      height : auto;
+      background-size : cover;
+      background-position : 50% 50%;
+      width: 100%;
+      float:left;
+      margin : 0 0;
+  }
+
+  .inner_class {
+    color : #fff;
+    background-color: rgba(0,0,0,.3);
+    vertical-align : middle;
+    text-align: center;
+    padding-top : 3px;
+  }
+
+
+    .inner_head {
+    display: block;
+    font-size : 10px;
+    font-family: 'Nanum Myeongjo';
+  }
+
 }
 
 /* previous, next page end */
