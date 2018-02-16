@@ -60,7 +60,11 @@
 }
 
 .PageNavigation a {
-  display: block;
+  display: table;
+  position: relative;
+  height : 200px;
+  background-size : cover;
+  background-position : 50% 50%;
   width: 50%;
   float: left;
   margin: 2rem 0;
@@ -68,6 +72,19 @@
 
 .PageNavigation .next {
   text-align: right;
+}
+
+.inner_class {
+  display: table-cell;
+  color : #fff;
+  background-color: rgba(0,0,0,.3);
+  vertical-align : middle;
+  text-align: center;
+  padding-top : 3px;
+}
+
+.inner_head {
+  display: block;
 }
 
 /* previous, next page end */
