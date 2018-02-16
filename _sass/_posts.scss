@@ -56,11 +56,13 @@
     /* For mobile phones: */
     .col-0 {
         width: 100%;
+        position: relative;
+        height : 200px;
     }
 }
 
 .PageNavigation {
-  font-size: 20px;
+  font-size: 16px;
   display: block;
   width: auto;
   overflow: hidden;
@@ -77,9 +79,9 @@
   margin: 2rem 0;
 }
 
-.PageNavigation .next {
+/* .PageNavigation .next {
   text-align: right;
-}
+} */
 
 .inner_class {
   display: table-cell;
@@ -92,7 +94,7 @@
 
 .inner_head {
   display: block;
-  font-size : 12px;
+  font-size : 13px;
   font-family: 'Nanum Myeongjo';
 }
 
