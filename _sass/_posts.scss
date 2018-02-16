@@ -59,6 +59,18 @@
         position: relative;
         height : 150px;
     }
+
+.PageNavigation a {
+  display: block;
+  position: relative;
+  height : 150px;
+  background-size : cover;
+  background-position : 50% 50%;
+  width: 50%;
+  float: left;
+  margin: 2rem 0;
+}
+
 }
 
 .PageNavigation {
