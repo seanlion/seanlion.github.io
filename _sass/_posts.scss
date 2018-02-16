@@ -53,7 +53,6 @@
 /* previous, next page */
 
 @media screen and (max-width: 768px) {
-    /* For mobile phones: */
     .PageNavigation {
 
         
@@ -66,12 +65,12 @@
   .PageNavigation a {
       display: table;
      position: relative;
-      height : 150px;
+      height : auto;
       background-size : cover;
       background-position : 50% 50%;
       width: 100%;
       float:left;
-      
+      margin : 0 0;
   }
 
   .inner_class {
