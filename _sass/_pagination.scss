@@ -1,9 +1,9 @@
-.sr-only
+.sr-only{
   position: absolute
   top: -9999px
   left: -9999px
-
-.pagination
+}
+.pagination {
   margin: 0
   padding: 33px 0
   text-align: center
@@ -30,15 +30,16 @@
 
   > li + li
     margin-left: 10px
-
+}
 /*
-#page-prev
+#page-prev {
   background: url(/assets/images/icon_pre.png) no-repeat center
   background-size: 6px 11px
-
-#page-next
+}
+#page-next {
   background: url(/assets/images/icon_next.png) no-repeat center
   background-size: 6px 11px
+}
 */
 
 
