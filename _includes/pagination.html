@@ -9,11 +9,11 @@
 
      {% for i in (1..paginator.total_pages) %}
       {% if i == paginator.page %}
-        <li class="page-number active">page/{{ i }}</li>
+        <li class="page-number active">{{ i }}</li>
         {% elsif i == 1 %}
-        <li class="page-number"><a href="{{ site.baseurl }}">page/{{ i }}</a></li>
+        <li class="page-number"><a href="{{ site.baseurl }}">{{ i }}</a></li>
         {% else %}
-        <li class="page-number"><a href="{{ site.baseurl }}{{ site.paginate_path | replace: ':num', p }}">page/{{ i }}</a></li>
+        <li class="page-number"><a href="{{ site.baseurl }}{{ site.paginate_path | replace: ':num', p }}">{{ i }}</a></li>
       {% endif %}
     {% endfor %}
 
