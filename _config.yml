@@ -86,6 +86,8 @@ text:
   pagination:
     newer: '<'
     older: '>'
+    disablednewer: 'X'
+    disabledolder: 'X'
   share_buttons:
     text:         '포스트 공유'
     facebook:     'Share on Facebook'

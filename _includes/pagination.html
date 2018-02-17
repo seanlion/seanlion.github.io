@@ -1,4 +1,33 @@
-{% if paginator.total_pages != 1 %}
+
+<div id="pagination-label" class="pagination-label sr-only" aria-hidden="true">
+  <ul class="pagination" role="navigation" aria-labelledby="pagination-label">
+     {% if paginator.previous_page %}
+        <li id="page-prev"><a href="{{ site.baseurl }}{{ paginator.previous_page_path }}"><span class="sr-only">{{ site.text.pagination.newer }}</span></a></li>
+    {% else %}
+        <li id="page-prev" class="disabled"><span class="sr-only">{{ site.text.pagination.disablednewer }}</span></li>
+    {% endif %}
+
+     {% for i in (1..paginator.total_pages) %}
+      {% if i == paginator.page %}
+        <li class="page-number active">page/{{ i }}</li>
+        {% elsif i == 1 %}
+        <li class="page-number"><a href="{{ site.baseurl }}">page/{{ i }}</a></li>
+        {% else %}
+        <li class="page-number"><a href="{{ site.baseurl }}{{ site.paginate_path | replace: ':num', p }}">page/{{ i }}</a></li>
+      {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+        <li id="page-next"><a href="{{ site.url }}{{ paginator.next_page_path }}"><span class="sr-only">{{ site.text.pagination.older }}</span></a></li>
+    {% else %}
+        <li id="page-next" class="disabled"><span class="sr-only">{{ site.text.pagination.disabledolder }}</span></li>
+    {% endif %}
+  
+  </ul>
+
+</div>
+
+<!-- {% if paginator.total_pages != 1 %}
 <div class="pagination clearfix mb1 mt4">
   <div class="left">
     {% if paginator.previous_page %}
@@ -21,3 +50,4 @@
   <div class="pagination-meta">Page {{ paginator.page }} of {{ paginator.total_pages }}</div>
 </div>
 {% endif %}
+ -->
