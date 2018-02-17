@@ -2,7 +2,7 @@
 <div id="pagination-label" class="pagination-label sr-only" aria-hidden="true">
   <ul class="pagination" role="navigation" aria-labelledby="pagination-label">
      {% if paginator.previous_page %}
-        <li id="page-prev"><a href="{{ site.baseurl }}{{ paginator.previous_page_path }}"><span class="sr-only">{{ site.text.pagination.newer }}</span></a></li>
+        <li id="page-prev"><a href="{{ site.baseurl }}{{ paginator.previous_page_path }}"><span class="sr-only">previous</span></a></li>
     {% else %}
         <li id="page-prev" class="disabled"><span class="sr-only">{{ site.text.pagination.disablednewer }}</span></li>
     {% endif %}
@@ -18,35 +18,11 @@
     {% endfor %}
 
     {% if paginator.next_page %}
-        <li id="page-next"><a href="{{ site.url }}{{ paginator.next_page_path }}"><span class="sr-only">{{ site.text.pagination.older }}</span></a></li>
+        <li id="page-next"><a href="{{ site.url }}{{ paginator.next_page_path }}"><span class="sr-only">next</span></a></li>
     {% else %}
         <li id="page-next" class="disabled"><span class="sr-only">{{ site.text.pagination.disabledolder }}</span></li>
     {% endif %}
   
   </ul>
-</div>
-{% endif %}
-
-{% if paginator.total_pages != 1 %}
-<div class="pagination clearfix mb1 mt4">
-  <div class="left">
-    {% if paginator.previous_page %}
-      {% if paginator.page == 2 %}
-        <a class="pagination-item" href="{{ site.baseurl }}/">{{ site.text.pagination.newer }}</a>
-      {% else %}
-        <a class="pagination-item" href="{{ paginator.previous_page_path }}">{{ site.text.pagination.newer }}</a>
-      {% endif %}
-    {% else %}
-      <span class="pagination-item disabled">{{ site.text.pagination.newer }}</span>
-    {% endif %}
-  </div>
-  <div class="right">
-    {% if paginator.next_page %}
-      <a class="pagination-item" href="{{ paginator.next_page_path }}">{{ site.text.pagination.older }}</a>
-    {% else %}
-      <span class="pagination-item disabled">{{ site.text.pagination.older }}</span>
-    {% endif %}
-  </div>
-  <div class="pagination-meta">Page {{ paginator.page }} of {{ paginator.total_pages }}</div>
 </div>
 {% endif %}
