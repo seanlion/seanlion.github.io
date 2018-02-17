@@ -1,4 +1,4 @@
-
+{% if paginator.total_pages != 1 %}
 <div id="pagination-label" class="pagination-label sr-only" aria-hidden="true">
   <ul class="pagination" role="navigation" aria-labelledby="pagination-label">
      {% if paginator.previous_page %}
@@ -24,8 +24,8 @@
     {% endif %}
   
   </ul>
-
 </div>
+{% endif %}
 
 {% if paginator.total_pages != 1 %}
 <div class="pagination clearfix mb1 mt4">
