@@ -9,6 +9,12 @@
   text-align: center;
 }
 
+.pagination a {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
 .pagination .disabled {
   background: #fafafa;
   border: 1px solid #f3f3f3;
@@ -16,12 +22,6 @@
   opacity: 0.5;
 }
 
-
-.pagination a {
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
 
 .pagination .pagination-meta {
   overflow: hidden;
