@@ -55,9 +55,9 @@ layout: default
 </div>
 
 <!-- 관련 글 -->
-<div class="related_article mb3">
+<div class="related_article mt5 mb5">
           <h4>이런 글들은 어때요</h4>
-          <ul>
+          <ul class="article_list mt2">
             {% for post in site.related_posts limit:5 %}
               <a href="{{ post.url }}">
                   <li>
