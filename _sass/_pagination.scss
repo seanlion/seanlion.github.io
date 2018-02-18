@@ -24,11 +24,11 @@
       height: 100%;
       display:block;
       }
-    &:hover {
+    .pagination li:hover {
       background-color: #e6e6e6;
       border-radius: 4px;
       }
-  > li + li {
+  .pagination li + li {
     margin-left: 10px;
   }
 }
