@@ -2,6 +2,23 @@
 <div class="container clearfix mb1 mt4">
    
     <ul class="pagination" role="navigation">
+
+       <!-- 노출 숫자 개수 제한 -->
+    {% if paginator.total_pages <= 5 %}
+      {% assign first = 1 %}
+      {% assign last = paginator.total_pages %}
+    {% else %}
+      {% assign first = paginator.page | minus: 2 %}
+      {% if first < 1 %}
+        {% assign first = 1 %}
+      {% endif %}
+        {% assign last = first | plus: 4 %}
+        {% if last > paginator.total_pages %}
+          {% assign last = paginator.total_pages %}
+        {% endif %}
+    {% endif %}
+    <!-- 제한 끝-->
+
       <!-- 왼쪽 화살표 -->
       <div class="left">
       {% if paginator.previous_page %}
