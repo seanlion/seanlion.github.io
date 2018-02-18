@@ -3,8 +3,9 @@
    <div class="pagination-meta">
     <ul class="pagination" role="navigation">
       <!-- 왼쪽 화살표 -->
+      <div class="left">
       {% if paginator.previous_page %}
-        <div class="left">
+        
       {% if paginator.page == 2 %}
         
         <li id="page-prev">
@@ -19,12 +20,13 @@
       <li id="page-prev" class="disabled">
       <span class="pagination-item">{{ site.text.pagination.newer }}</span>
       </li>
-      </div>
+
     {% endif %}
+    </div>
       <!-- 오른쪽화살표 -->
-     
+    <div class="right"> 
     {% if paginator.next_page %}
-      <div class="right">
+      
       <li id= "page-next"
       <a class="pagination-item" href="{{ paginator.next_page_path }}">{{ site.text.pagination.older }}</a>
       </li>
@@ -32,9 +34,8 @@
       <li id="page-next" class= "disabled">
       <span class="pagination-item">{{ site.text.pagination.older }}</span>
       </li>
-      </div>
     {% endif %}
-  
+    </div>
 
 
        {% for i in (1..paginator.total_pages) %}
