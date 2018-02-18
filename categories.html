@@ -15,7 +15,7 @@ title: 매거진
     {% for posts in site.categories[category_name] %}
     <p class= "category-head-amount">
         
-      {{posts.size}}개의 글
+      {{posts | size }}
     </p>
     {% endfor %}
     <a name="{{ category_name | slugize }}"></a>
