@@ -85,10 +85,8 @@ share_hackernews: false
 
 text:
   pagination:
-    newer: '<'
-    older: '>'
-    disablednewer: 'X'
-    disabledolder: 'X'
+    newer:
+    older:
   share_buttons:
     text:         '포스트 공유'
     facebook:     'Share on Facebook'
