@@ -12,9 +12,9 @@ title: 매거진
     <div id="{{ category_name | slugize }}"></div>
     
     <h3 class="category-head">{{ category_name }}</h3>
-    {% for forloop in site.categories[category_name] %}
+    {% for posts in site.categories[category_name] %}
     <p class= "category-head-amount">
-      {{forloop.length}}
+      {{ posts.length }}
     </p>
      {% endfor %}    
     {% endfor %}
