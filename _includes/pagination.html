@@ -26,16 +26,16 @@
       {% if paginator.page == 2 %}
         
         <li id="page-prev">
-        <a class="pagination-item" href="{{ site.baseurl }}/"><span class="sr-only">이전 페이지</span></a>
+        <a class="pagination-item" href="{{ site.baseurl }}/"></a>
         </li>
       {% else %}
         <li id="page-prev">
-        <a class="pagination-item" href="{{ paginator.previous_page_path }}">{{ site.text.pagination.newer }}</a>
+        <a class="pagination-item" href="{{ paginator.previous_page_path }}"><span class="sr-only">이전 페이지</span></a>
         </li>
       {% endif %}
     {% else %}
       <li id="page-prev" class="disabled">
-      <span class="pagination-item">{{ site.text.pagination.newer }}</span>
+      <span class="pagination-item"><span class="sr-only">이전 페이지</span></span>
       </li>
 
     {% endif %}
@@ -45,11 +45,11 @@
     {% if paginator.next_page %}
       
       <li id= "page-next"
-      <a class="pagination-item" href="{{ paginator.next_page_path }}">{{ site.text.pagination.older }}</a>
+      <a class="pagination-item" href="{{ paginator.next_page_path }}"><span class="sr-only">다음 페이지</span></a>
       </li>
     {% else %}
       <li id="page-next" class= "disabled">
-      <span class="pagination-item">{{ site.text.pagination.older }}</span>
+      <span class="pagination-item"><span class="sr-only">다음 페이지</span></span>
       </li>
     {% endif %}
     </div>
