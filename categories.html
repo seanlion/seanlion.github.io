@@ -12,12 +12,12 @@ title: 매거진
     <div id="#{{ category_name | slugize }}"></div>
     
     <h3 class="category-head">{{ category_name }}</h3>
+    {% for posts in site.categories[category_name] %}
     <p class= "category-head-amount">
-        {% for posts in site.categories[category_name] %}
-      {{site.posts.size}}
-      {% endfor %}
-      개의 글
+        
+      {{posts.size}}개의 글
     </p>
+    {% endfor %}
     <a name="{{ category_name | slugize }}"></a>
     {% for post in site.categories[category_name] %}
     <article class="archive-item">
