@@ -15,15 +15,19 @@
       {% endif %}
     {% else %}
       <li id="page-prev" class="disabled">
-      <span class="pagination-item disabled">{{ site.text.pagination.newer }}</span>
+      <span class="pagination-item">{{ site.text.pagination.newer }}</span>
       </li>
     {% endif %}
       <!-- 오른쪽화살표 -->
      
     {% if paginator.next_page %}
+      <li id= "page-next"
       <a class="pagination-item" href="{{ paginator.next_page_path }}">{{ site.text.pagination.older }}</a>
+      </li>
     {% else %}
-      <span class="pagination-item disabled">{{ site.text.pagination.older }}</span>
+      <li id="page-next" class= "disabled">
+      <span class="pagination-item">{{ site.text.pagination.older }}</span>
+      </li>
     {% endif %}
   
 
