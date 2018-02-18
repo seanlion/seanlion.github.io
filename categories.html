@@ -13,9 +13,9 @@ title: 매거진
     
     <h3 class="category-head">{{ category_name }}</h3>
    
-   {% for post in site.categories[category_name] %}
+   {% for posts in site.categories[category_name] %}
     <p class= "category-head-amount">
-      {{ post.length }}
+      {{ posts.length }}
     </p>
      {% endfor %}    
    
