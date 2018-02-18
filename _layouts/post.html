@@ -59,6 +59,7 @@ layout: default
 <div class="relatedPosts">
 
  <h4>이런 글들은 어때요</h4>  
+ <hr>
 {% assign maxRelated = 4 %}
 {% assign minCommonTags =  1 %}
 {% assign maxRelatedCounter = 0 %}
@@ -79,11 +80,11 @@ layout: default
     {% endfor %}
 
     {% if sameTagCount >= minCommonTags %}
-      <div>
+      <ul>
       <li class= "article_list">
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a>
       </li>
-      </div>
+      </ul>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
         {% break %}
