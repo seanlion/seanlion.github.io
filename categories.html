@@ -13,8 +13,8 @@ title: 매거진
     
     <h3 class="category-head">{{ category_name }}</h3>
    
-   {% for posts in site.categories[category_name] %}
-      {{ posts.size }}
+   {% for category in site.categories[category_name] %}
+      {{ category.size }}
      {% endfor %}    
    
     <a name="{{ category_name | slugize }}"></a>
