@@ -125,6 +125,25 @@
 
 }
 
+/* 관련 글 */
+
+.related_article p{
+
+  font-size : 1rem;
+  
+}
+
+.related_article a{
+    color: #1e1e1e;
+  text-decoration: none;
+}
+
+.related_article a:hover {
+  color: #00c3bd;
+  text-decoration: none;
+}
+
+
 /* previous, next page end */
 
 .post-category{
