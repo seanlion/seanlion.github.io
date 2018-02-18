@@ -17,8 +17,8 @@ title: 매거진
     <p class= "category-head-amount">
       {{postCount}}
     </p>
-<!--     {% endfor %}
- -->    {% endfor %}
+<!--     {% endfor %} -->    
+    {% endfor %}
     <a name="{{ category_name | slugize }}"></a>
     {% for post in site.categories[category_name] %}
     <article class="archive-item">
