@@ -44,12 +44,12 @@
     <div class="right"> 
     {% if paginator.next_page %}
       
-      <li id= "page-next"
+      <li id= "page-next">
       <a class="pagination-item" href="{{ paginator.next_page_path }}"><span class="sr-only">다음 페이지</span></a>
       </li>
     {% else %}
       <li id="page-next" class= "disabled">
-      <span class="pagination-item"><span class="sr-only">다음 페이지</span></span>
+      <span class="pagination-item sr-only">다음 페이지</span>
       </li>
     {% endif %}
     </div>
