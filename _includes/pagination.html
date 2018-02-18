@@ -55,7 +55,7 @@
     </div>
       <!-- 페이지 번호 -->
       <div class="pagination-meta">
-       {% for i in (1..paginator.total_pages) %}
+       {% for i in (first..last) %}
         {% if i == paginator.page %}
         <li class="page-number active">
         {{ i }}
