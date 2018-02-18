@@ -133,7 +133,8 @@
   
 }
 
-.article_list a{
+.article_list li a{
+    list-style : none;
     color: #1e1e1e;
   text-decoration: none;
 
