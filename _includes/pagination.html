@@ -36,7 +36,7 @@
       </li>
     {% endif %}
     </div>
-
+      <!-- 페이지 번호 -->
       <div class="pagination-meta">
        {% for i in (1..paginator.total_pages) %}
         {% if i == paginator.page %}
@@ -54,6 +54,7 @@
       {% endif %}
     {% endfor %}
     </div>
+    <!-- 번호끝 -->
     </ul>
     
 </div>
