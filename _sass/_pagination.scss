@@ -51,7 +51,7 @@
   opacity: 0.5;
 }
 
-.pagination .pagination-meta .active {
+.pagination지.pagination-meta .active {
       opacity: 1;
 }
 .pagination li + li {
@@ -60,11 +60,11 @@
 
 
 #page-prev {
-  background: url(/assets/images/icon_pre.png) no-repeat center;
+  background: url(/images/arrow-left.png) no-repeat center;
   background-size: 6px 11px;
 }
 #page-next {
-  background: url(/assets/images/icon_next.png) no-repeat center;
+  background: url(/images/arrow-right.png) no-repeat center;
   background-size: 6px 11px;
 }
 
