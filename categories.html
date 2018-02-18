@@ -12,7 +12,7 @@ title: 매거진
     <div id="{{ category_name | slugize }}"></div>
     
     <h3 class="category-head">{{ category_name }}</h3>
-    {% for posts in category}
+    {% for post in category}
     <p class= "category-head-amount">
       {{post.size}}
     </p>
