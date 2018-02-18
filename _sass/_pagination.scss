@@ -34,8 +34,6 @@
 
 
 .pagination .disabled {
-  background: #fafafa;
-  border: 1px solid #f3f3f3;
   cursor: not-allowed;
   opacity: 0.5;
 }
@@ -52,11 +50,12 @@
 }
 
 .pagination .pagination-meta li .active {
-      opacity: 100%;
+      opacity: 1;
 }
 .pagination li + li {
     margin-left: 10px;
 }
+
 /*
 #page-prev {
   background: url(/assets/images/icon_pre.png) no-repeat center;
