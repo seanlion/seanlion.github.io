@@ -19,19 +19,9 @@ title: 매거진
     <span>  {{ site.post.size }} </span>
      {% endfor %}    
     -->
-    <ul class="dropdown-menu">
-    {% for category in site.categories %}
-        <li class="camelize_me">
-            <a href="/tags/{{category | first}}/">
-                {{category | first }}
-                <span class="badge">
-                {{ category | last | size }}
-                </span>
-            </a>
-        </li>
-    {% endfor %} 
-</ul>
-
+   
+                {{ category_name | last | size }}
+  
 
     <a name="{{ category_name | slugize }}"></a>
     {% for post in site.categories[category_name] %}
