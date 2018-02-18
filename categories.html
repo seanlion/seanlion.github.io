@@ -7,7 +7,7 @@ title: 매거진
 
 <div id="archives">
 {% for category in site.categories %}
-  <div class="archive-group">
+ 
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="{{ category_name | slugize }}"></div>
     
@@ -15,9 +15,9 @@ title: 매거진
     <p class="category-head"><strong>{{ category_name }}</strong></p>
     <p class="category-amount">{{ category | last | size }}개의 글</p>
     </div>
-
     <a name="{{ category_name | slugize }}"></a>
     {% for post in site.categories[category_name] %}
+     <div class="archive-group">
     <article class="archive-item">
       <h4><a style= "text-decoration: none !important;" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
     </article>
