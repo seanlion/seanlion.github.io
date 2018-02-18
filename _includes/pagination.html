@@ -4,12 +4,18 @@
   <div class="left">
     {% if paginator.previous_page %}
       {% if paginator.page == 2 %}
+        <li id="page-prev">
         <a class="pagination-item" href="{{ site.baseurl }}/">nn</a>
+        </li>
       {% else %}
+        <li id="page-prev">
         <a class="pagination-item" href="{{ paginator.previous_page_path }}">{{ site.text.pagination.newer }}</a>
+        </li>
       {% endif %}
     {% else %}
+      <li id="page-prev" class="disabled">
       <span class="pagination-item disabled">{{ site.text.pagination.newer }}</span>
+      </li>
     {% endif %}
   </div>
 
