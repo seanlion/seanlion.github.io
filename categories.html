@@ -14,7 +14,8 @@ title: 매거진
     <h3 class="category-head">{{ category_name }}</h3>
    
    {% for category in site.categories[category_name] %}
-      {{ category.size }}
+    
+    <span>  {{ category.size }} </span>
      {% endfor %}    
    
     <a name="{{ category_name | slugize }}"></a>
