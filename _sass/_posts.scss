@@ -139,9 +139,9 @@
 
 }
 
-.article_list a:hover {
+.article_list li a:hover {
   color: #00c3bd;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .article_list li + li {
