@@ -80,8 +80,8 @@ layout: default
     {% endfor %}
 
     {% if sameTagCount >= minCommonTags %}
-      <ul>
-      <li class= "article_list">
+      <ul class= "article_list">
+      <li>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a>
       </li>
       </ul>
