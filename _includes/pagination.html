@@ -1,6 +1,6 @@
 {% if paginator.total_pages != 1 %}
 <div class="container clearfix mb1 mt4">
-   <div class="pagination-meta">
+   
     <ul class="pagination" role="navigation">
       <!-- 왼쪽 화살표 -->
       <div class="left">
@@ -9,7 +9,7 @@
       {% if paginator.page == 2 %}
         
         <li id="page-prev">
-        <a class="pagination-item" href="{{ site.baseurl }}/">nn</a>
+        <a class="pagination-item" href="{{ site.baseurl }}/">{ site.text.pagination.newer }}</a>
         </li>
       {% else %}
         <li id="page-prev">
@@ -37,7 +37,7 @@
     {% endif %}
     </div>
 
-
+      <div class="pagination-meta">
        {% for i in (1..paginator.total_pages) %}
         {% if i == paginator.page %}
         <li class="page-number active">
@@ -53,8 +53,8 @@
         </li>
       {% endif %}
     {% endfor %}
-
-    </ul>
     </div>
+    </ul>
+    
 </div>
 {% endif %}
