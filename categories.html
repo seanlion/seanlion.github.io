@@ -11,10 +11,10 @@ title: 매거진
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="{{ category_name | slugize }}"></div>
     
-    
+    <div class="category-nav">
     <p class="category-head"><strong>{{ category_name }}</strong></p>
     <p class="category-amount">{{ category | last | size }}개의 글</p>
-  
+    </div>
 
     <a name="{{ category_name | slugize }}"></a>
     {% for post in site.categories[category_name] %}

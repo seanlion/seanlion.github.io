@@ -9,8 +9,12 @@
   text-decoration: none;
 }
 
+.category-nav {
+	display: block;
+	width: auto;
+}
 .category-head {
-	display : inline-block;
+	display : table;
 	position: relative;
 	width : 50%;
 	text-align : left;
@@ -21,7 +25,7 @@
 .category-amount {
 	width : 50%;
 	position: relative;
-	display: inline-block;
+	display: table;
 	text-align : right;
-	float:right;
+	float:left;
 }
