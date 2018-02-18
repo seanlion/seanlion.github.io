@@ -133,17 +133,20 @@
   
 }
 
-.related_article a{
+.article_list a{
     color: #1e1e1e;
   text-decoration: none;
 
 }
 
-.related_article a:hover {
+.article_list a:hover {
   color: #00c3bd;
   text-decoration: none;
 }
 
+.article_list li + li {
+  margin-top : 0.5rem;
+}
 
 /* previous, next page end */
 
