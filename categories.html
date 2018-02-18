@@ -15,7 +15,7 @@ title: 매거진
    
    {% for post in site.categories[category_name] %}
     
-    <span>  {{ post.size }} </span>
+    <span>  {{ site.post.size }} </span>
      {% endfor %}    
    
     <a name="{{ category_name | slugize }}"></a>
