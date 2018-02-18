@@ -80,7 +80,9 @@ layout: default
 
     {% if sameTagCount >= minCommonTags %}
       <div>
-      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a></li>
+      <li class= "article_list">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a>
+      </li>
       </div>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
