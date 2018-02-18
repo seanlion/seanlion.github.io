@@ -134,13 +134,22 @@
 .relatedPosts{
 
   font-size : 14px;
+  text-align: center;
+}
+
+.relatedPosts #rel{
+  margin-top : 1rem;
+  margin-bottom : 1rem;
   
 }
 
-.article_list li a{
+.article_list li {
     list-style : none;
+}
+
+.article_list li a{
     color: #1e1e1e;
-  text-decoration: none;
+    text-decoration: none;
 
 }
 

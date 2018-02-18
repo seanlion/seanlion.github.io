@@ -59,7 +59,7 @@ layout: default
 <div class="relatedPosts">
 
  <h4>이런 글들은 어때요</h4>  
- <hr>
+ <hr id="rel">
 {% assign maxRelated = 4 %}
 {% assign minCommonTags =  1 %}
 {% assign maxRelatedCounter = 0 %}
@@ -92,7 +92,7 @@ layout: default
     {% endif %}
 
   {% endfor %}
-
+  <hr id="rel">
 </div>
 
 <!-- 디스커스 -->
