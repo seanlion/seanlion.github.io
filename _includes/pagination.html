@@ -1,5 +1,6 @@
 {% if paginator.total_pages != 1 %}
 <div class="pagination clearfix mb1 mt4">
+
   <div class="left">
     {% if paginator.previous_page %}
       {% if paginator.page == 2 %}
@@ -11,6 +12,8 @@
       <span class="pagination-item disabled">{{ site.text.pagination.newer }}</span>
     {% endif %}
   </div>
+
+
   <div class="right">
     {% if paginator.next_page %}
       <a class="pagination-item" href="{{ paginator.next_page_path }}">{{ site.text.pagination.older }}</a>
@@ -18,6 +21,24 @@
       <span class="pagination-item disabled">{{ site.text.pagination.older }}</span>
     {% endif %}
   </div>
-  <div class="pagination-meta">Page {{ paginator.page }} of {{ paginator.total_pages }}</div>
+
+
+   <div class="pagination-meta">
+       {% for i in (1..paginator.total_pages) %}
+        {% if i == paginator.page %}
+        <li class="page-number active">
+        {{ i }}
+        </li>
+        {% elsif i == 1 %}
+        <li class="page-number">
+          <a href="{{ site.url }}">{{ i }}</a>
+        </li>
+        {% else %}
+        <li class="page-number">
+          <a href="{{ site.url }}{{ site.paginate_path | replace: ':num', i }}">{{ i }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+    </div>
 </div>
 {% endif %}
