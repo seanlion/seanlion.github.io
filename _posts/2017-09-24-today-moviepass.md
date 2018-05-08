@@ -13,7 +13,7 @@ category: 	테크 요모조모
 
 이 영화 같은 이야기는 바로 영화 스타트업 MoviePass(무비패스)에 관한 이야기이다.
 
-오늘은 이 MoviePass에 대해 이야기 해보자.
+오늘은 이 MoviePass에 대해 이야기 해보겠다.
 
 <br>
 
@@ -29,7 +29,7 @@ category: 	테크 요모조모
 
 ## 무비패스란?
 
-2011년, Stacy Spikes와 Hamet Watt가 시작한 MoviePass는 영화 구독 서비스를 하는 스타트업이다.
+2011년, Stacy Spikes와 Hamet Watt가 시작한 MoviePass는 MoviePass라는 영화 구독 서비스를 하는 스타트업이다.
 
 MoviePass의 사용방법은 이러하다.
 
@@ -117,8 +117,40 @@ MoviePass의 사용방법은 이러하다.
 
 저렴한 가격으로 고객을 확보하고 고객의 데이터로 2차 수익을 활성화 시키는 것. 그것이 무비패스가 그리는 큰 그림이지 않을까 싶다.
 
+- - -
+
+## 업데이트 내용(2018.04.30)
+
+이 글을 쓰고 8개월만에 MoviePass에 대한 기사를 보았다.
+
+[MoviePass Got Worse Again](https://lifehacker.com/moviepass-got-worse-again-1825650639)  
+[MoviePass Is Struggling, So Use It While You Can](https://lifehacker.com/moviepass-is-struggling-so-use-it-while-you-can-1825407405)
+
+현재 무비패스의 가격 정책은 오르락 내리락 하고, 구독자들은 특정 영화는 두번 이상 볼 수 없다고 한다.
+또한 최근에 불거진 고객들의 사기 행각으로 인해, 고객들에게 그들이 티켓 구매한 것을 증명시키기 위해 사진을 요구한다고 한다.
+
+사실 무비패스가 이런 정책을 가지게 된 데에는 배경이 있다. 
+무비패스의 모회사 Helios & Matheson는 2017년에 15억 달러(약 1조 5천억 원)의 적자를 보았다. 물론 회사는 살아남기 위한 
+돈이 충분하고 2019년에는 흑자전환을 하겠다고 하지만 상황이 녹록치만은 않아보인다.
+
+이렇기 때문에 무비패스는 흑자전환을 하기 위해 노력 중이다다. 최근 iHeartRadio라는 음악 스트리밍 서비스와 파트너쉽을 맺으면서 정책의 변화를 주었다. 기존의 플랜(1달 당 영화 30개)에서 iHeartRadio와 연동되는 플랜(1달 당 영화 4개)로 정책을 변경했다.
+
+iHeartRadio와 파트너쉽 맺기 이전에 가입한 고객들은 기존 정책이 적용된다고 한다.
+
+<br> 
+
+## 업데이트 내용(2018.05.08)
+
+[MoviePass' $10 Monthly Unlimited Plan Is Back Again](https://lifehacker.com/moviepass-10-monthly-unlimited-plan-is-back-again-1825729802)
+
+무비패스의 오리지널 가격 정책이 돌아온다고 한다. 무비패스 측은 기존의 플랜(1달에 30개)을 8월에 다시 재런칭한다고 한다.
+
+변경되었던 플랜(1달에 4개)는 8달러 짜리 플랜(1달에 3개)로 변경해서 유지한다고 한다.
+
+또한 5월 말쯤에 3D와 IMAX가 가능한 플랜을 내놓는다고 하니 기대해도 좋을 것 같다.
 
 - - -
+
 참고 자료 : [넷플릭스 창업 멤버가 세운 MoviePass의 새로운 가격 전략](http://techneedle.com/archives/31473)
 
 [Here’s How a Netflix Cofounder Plans to Pay for Your $10-a-Month Movie Pass](http://fortune.com/2017/08/15/netflix-cofounder-moviepass/)
