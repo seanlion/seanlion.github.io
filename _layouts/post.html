@@ -35,7 +35,7 @@ layout: default
 <!-- 이전 글, 다음글 -->
 <div class="PageNavigation mt2 mb2">
     {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}" style = "background-image: url(http://research-paper.co.kr/data/media/image/site_4/201709/20170921182341679.png)">
+    <a class="prev" href="{{page.previous.url}}" style = "background-image: url(http://research-paper.co.kr/data/media/image/site_4/201709/20170921182341679.png)" onclick="ga(‘send’, ‘event’, ‘포스트’, ‘클릭’, ‘이전글’)" >
       <div class="inner_class">
         <span class="inner_head">이전글</span>
     {{page.previous.title}}
@@ -44,7 +44,7 @@ layout: default
     {% endif %}
     
     {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}" style = "background-image: url(http://thesweetsetup.com/wp-content/uploads/2015/06/Ulysses-Pro-Writing-Hero-2.jpg)">
+    <a class="next" href="{{page.next.url}}" style = "background-image: url(http://thesweetsetup.com/wp-content/uploads/2015/06/Ulysses-Pro-Writing-Hero-2.jpg)" onclick="ga(‘send’, ‘event’, ‘포스트’, ‘클릭’, ‘다음글’)">
       <div class="inner_class">
         <span class="inner_head">다음글</span>
         {{page.next.title}}    
