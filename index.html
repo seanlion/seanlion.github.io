@@ -7,9 +7,6 @@ title : 블로그
 <div class="home">
   {% if posts_count > 0 %}
     <div class="posts">
-  
-  
-
     {% for post in paginator.posts %}
         <div class="post py2">
           
@@ -62,7 +59,6 @@ title : 블로그
         </p>
 
          <p class="post-meta">{{ post.date | date: site.date_format }}</p>
-        
         </div>  
     </div> 
        {% endfor %}
