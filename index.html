@@ -7,9 +7,11 @@ title : 블로그
 <div class="home">
   {% if posts_count > 0 %}
     <div class="posts">
+    {% if site.category == "뉴스 살펴보기" %}
       {% for post in paginator.posts %}
         <div class="post py2">
           
+
           <p class= "post-category h6">
             {{ post.category }} 
           </p>
@@ -30,7 +32,33 @@ title : 블로그
       {% endfor %}
     </div>
     {% include pagination.html %}
+
   {% else %}
-    <h1 class='center'>{{ site.text.index.coming_soon }}</h1>
+   <!-- <h1 class='center'>{{ site.text.index.coming_soon }}</h1> -->
+    {% for post in paginator.posts %}
+        <div class="post py2">
+          
+
+          <p class= "post-category h6">
+            {{ post.category }} 
+          </p>
+
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="post-title">{{ post.title }}</h3></a>
+          
+          <p class="post-summary h5">
+            {% if post.summary %}
+              {{ post.summary }}
+            {% else %}
+              {{ post.excerpt }}
+            {% endif %}
+        </p>
+
+         <p class="post-meta">{{ post.date | date: site.date_format }}</p>
+        
+        </div>
+      {% endfor %}
+    </div>
+    {% include pagination.html %}
   {% endif %}
+{% endif %}
 </div>
