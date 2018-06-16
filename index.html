@@ -7,13 +7,13 @@ title : 블로그
 <div class="home">
   {% if posts_count > 0 %}
     <div class="posts">
-    {% for category in site.categories %}
+   <!-- {% for category in site.categories %}
      {% capture category_name %}{{ category | first }}{% endcapture %}
     
       {% if site.categories[category_name] == "뉴스 살펴보기" %}
       {% for post in site.categories[category_name] %}
     
-     <!-- {% for post in paginator.posts %} -->
+     {% for post in paginator.posts %}
         
         <div class="post py2">
           
@@ -40,8 +40,9 @@ title : 블로그
   
 
   {% else %}
-    <h1 class='center'>{{ site.text.index.coming_soon }}</h1>
-<!--    {% for post in paginator.posts %}
+
+   -->
+    {% for post in paginator.posts %}
         <div class="post py2">
           
 
@@ -64,12 +65,12 @@ title : 블로그
         </div>
       {% endfor %}
     </div>
-     -->
+     
 
 
-    {% endfor %}
+   <!-- {% endfor %}
    {% endif %}
-{% endfor %}
+{% endfor %} -->
     {% include pagination.html %}
 {% endif %}
 </div>
