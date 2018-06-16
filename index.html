@@ -10,11 +10,11 @@ title : 블로그
     {% for category in site.categories %}
      {% capture category_name %}{{ category | first }}{% endcapture %}
     
-  
+      {% if site.categories[category_name] == "뉴스 살펴보기" %}
       {% for post in site.categories[category_name] %}
     
      <!-- {% for post in paginator.posts %} -->
-        {% if site.category == "뉴스 살펴보기" %}
+        
         <div class="post py2">
           
 
@@ -66,8 +66,9 @@ title : 블로그
     </div>
      -->
 
-    {% endif %}
-  {% endfor %}
+
+    {% endfor %}
+   {% endif %}
 {% endfor %}
     {% include pagination.html %}
 {% endif %}
