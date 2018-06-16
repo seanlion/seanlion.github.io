@@ -7,7 +7,7 @@ layout: default
   </header>
   <article class="post-content">
   	{% if site.category == "뉴스 모아보기" %}
-  {% for post in site.categories.jobs %}
+  {% for post in site.category.뉴스 모아보기 %}
     
       <h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
       <p>{{ post.summary }}</p>
