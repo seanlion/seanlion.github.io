@@ -8,16 +8,12 @@ title : 블로그
   {% if posts_count > 0 %}
     <div class="posts">
    <!-- {% for category in site.categories %}
-     {% capture category_name %}{{ category | first }}{% endcapture %}
-    
+     {% capture category_name %}{{ category | first }}{% endcapture %}  
       {% if site.categories[category_name] == "뉴스 살펴보기" %}
-      {% for post in site.categories[category_name] %}
-    
+      {% for post in site.categories[category_name] %}   
      {% for post in paginator.posts %}
         
         <div class="post py2">
-          
-
           <p class= "post-category h6">
             {{ post.category }} 
           </p>
@@ -34,14 +30,10 @@ title : 블로그
 
          <p class="post-meta">{{ post.date | date: site.date_format }}</p>
         
-        </div>
-   
-    </div>
+        </div>  
+    </div> -->
   
 
-  {% else %}
-
-   -->
     {% for post in paginator.posts %}
         <div class="post py2">
           
@@ -71,6 +63,8 @@ title : 블로그
    <!-- {% endfor %}
    {% endif %}
 {% endfor %} -->
+
     {% include pagination.html %}
+    {% else %} 
 {% endif %}
 </div>
