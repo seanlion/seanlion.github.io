@@ -7,7 +7,7 @@ title : 블로그
 <div class="home">
   {% if posts_count > 0 %}
     <div class="posts">
-    
+    {% for category in site.categories %}
      {% capture category_name %}{{ category | first }}{% endcapture %}
     
   
@@ -68,7 +68,7 @@ title : 블로그
 
     {% endif %}
   {% endfor %}
-
+{% endfor %}
     {% include pagination.html %}
 {% endif %}
 </div>
