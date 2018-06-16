@@ -7,7 +7,7 @@ title : 블로그
 <div class="home">
   {% if posts_count > 0 %}
     <div class="posts">
-    {% if site.category == "뉴스 살펴보기" %}
+    {% if post.category == "뉴스 살펴보기" %}
       {% for post in paginator.posts %}
         <div class="post py2">
           
@@ -35,7 +35,7 @@ title : 블로그
 
   {% else %}
    <!-- <h1 class='center'>{{ site.text.index.coming_soon }}</h1> -->
-    {% for post in paginator.posts %}
+  <!--  {% for post in paginator.posts %}
         <div class="post py2">
           
 
@@ -58,7 +58,8 @@ title : 블로그
         </div>
       {% endfor %}
     </div>
-    {% include pagination.html %}
+    {% include pagination.html %} -->
+
   {% endif %}
 {% endif %}
 </div>
