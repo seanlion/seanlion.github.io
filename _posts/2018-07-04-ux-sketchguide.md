@@ -205,8 +205,14 @@ background blur tip: 올바른 효과를 얻기 위해, 반드시 레이어에 (
 기본적으로는 closed 되어있는데, 이것을 open 시키면 첫번째 점과 마지막 점 사이의 path가 사라지게 된다.
 
 예시 이미지)
+<br>
 
-https://www.sketchapp.com/images/documentation/shapes/open@2x.jpg
+<p align ="middle">	
+ <img src="https://www.sketchapp.com/images/documentation/shapes/open@2x.jpg" alt="alt text" width = "70%">
+</p>
+
+
+<br>
 
 <br>
 
