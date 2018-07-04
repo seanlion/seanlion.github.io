@@ -91,7 +91,9 @@ Shift를 눌러 수직 수평에 맞춰 복사하면 깔끔하게 아트보드�
 
 백문이 불여일견이니 영상으로 대체하겠다.  
 
-[관련 영상](https://www.youtube.com/watch?v=VOJ_2TTOZAo)
+
+{% include youtubeplayer.html id="VOJ_2TTOZAo" %} 
+
 
 화면만 봐도 대부분 이해할 수 있을 것이다.  
 더 구체적인건 직접 해보면 바로 이해할 수 있다.
@@ -143,7 +145,10 @@ Ends는 선이 끝나는 지점 처리, Joins는 다각형일 때 모서리가 �
 아래의 영상은 어도비 포토샵에서 blending 효과를 주는 것이지만, 스케치의 blending과 가짓수만 다를 뿐,
 원칙은 똑같으니 보고나면 스케치의 blending을 이해하기 쉬울 것이다.
 
-* [Blending Modes Explained - Complete Guide to Photoshop Blend Modes](https://www.youtube.com/watch?v=MsukMXtEYFQ)
+[Blending Modes Explained - Complete Guide to Photoshop Blend Modes]
+
+{% include youtubeplayer.html id="MsukMXtEYFQ" %} 
+
 
 영상을 보고나서는 만들어놓은 예시파일을 통해 한번 실습해보면 될 것 같다.  
 
@@ -159,7 +164,8 @@ Ends는 선이 끝나는 지점 처리, Joins는 다각형일 때 모서리가 �
 x 축과 y축, spread, blur를 이용해서 만드는데
 이것도 직접 보는게 이해하기 쉽다.
 
-[shadow 영상](https://www.youtube.com/watch?v=2qVVpDR2A14)
+{% include youtubeplayer.html id="2qVVpDR2A14" %} 
+
 
 <br>
 
@@ -199,6 +205,8 @@ background blur tip: 올바른 효과를 얻기 위해, 반드시 레이어에 (
 
 * [Sketch 3 Tutorial | Drawing Vector Shapes](https://www.youtube.com/watch?v=GWueR0dgt2A)
 
+{% include youtubeplayer.html id="2qVVpDR2A14" %} 
+
 <br>
 
 
@@ -237,7 +245,14 @@ background blur tip: 올바른 효과를 얻기 위해, 반드시 레이어에 (
 사실 이렇게 글로만 보면 이해하기 어렵다.
 
 [스케치 공식문서에 나오는 영상](https://www.sketchapp.com/docs/shapes/boolean-operations/
-)을 보고, 그래도 이해가 안되면 [invision에서 만든 영상](https://www.youtube.com/watch?v=T_iayKP2-Xg)을 한번 더 보길 추천한다.
+)을 보고, 
+
+그래도 이해가 안되면 
+invision에서 만든 이 영상을
+
+{% include youtubeplayer.html id="T_iayKP2-Xg" %}
+
+보길 추천한다.
 
 <br>
 
@@ -260,7 +275,9 @@ background blur tip: 올바른 효과를 얻기 위해, 반드시 레이어에 (
 쉽게 말해서, 어떤 컴포넌트 위에 특정 레이어를 덮어 씌우는 작업이다.
 
 이것도 영상을 통해 빠르게 이해할 수 있다.
-* [관련 영상](https://www.youtube.com/watch?v=HVvHsmAs6vk)
+
+{% include youtubeplayer.html id="HVvHsmAs6vk" %}
+
 
 tip: 마스크를 하고 다른 컴포넌트를 그리면 그 컴포넌트도 마스킹 되곤 하는데 그럴 때 마스크를 제한할 수 있는 기능이다.  
 메뉴에서 Edit > Ignore Underlying Mask 클릭  
@@ -325,11 +342,27 @@ border 형태로 만들어진 컴포넌트를 fill 형태로 변환하는 기능
 
 * [Understanding Symbols on Sketch 3](https://www.youtube.com/watch?v=f01QjGBqbT4)
 
+{% include youtubeplayer.html id="f01QjGBqbT4" %}
+
+<br>
+
 * [Creating a Button System with Nested Symbols on Sketch App](https://www.youtube.com/watch?v=_bjqVF7Fvg4)
+
+{% include youtubeplayer.html id="bjqVF7Fvg4" %}
+
+<br>
+
 
 * [Overriding Colors in Sketch](https://www.youtube.com/watch?v=z_zWfVES5CA)
 
+{% include youtubeplayer.html id="z_zWfVES5CA" %}
+
+<br>
+
+
 * [Advanced symbol in Sketch(심볼 관리 잘 하는 법)](https://www.youtube.com/watch?v=2PvqgI3Jo8Q&index=91&list=WL&t=1621s)
+
+{% include youtubeplayer.html id="2PvqgI3Jo8Q" %}
 
 <br>
 
@@ -340,8 +373,6 @@ border 형태로 만들어진 컴포넌트를 fill 형태로 변환하는 기능
 
 * [[강의]아이콘 그리는 강의(무료 - icon by sketch and illustrator)](http://introtoicons.com/)
 
-* [[영상]Dynamic Icons in Sketch](https://www.youtube.com/watch?v=1rJ1WyQ6lU)
-
 * [[글]좋은 아이콘을 만드는 6단계](https://brunch.co.kr/@ultra0034/6)
 
 * [[글]스케치 아이콘 라이브러리](https://brunch.co.kr/@blckschrl/37)
@@ -351,6 +382,14 @@ border 형태로 만들어진 컴포넌트를 fill 형태로 변환하는 기능
 * [[글]SVG 아이콘 사용하기(프론트엔드)](https://junojunho.com/front-end/svg-icon)
 
 * [[영상]Designing 16px Icons in Sketch](https://www.youtube.com/watch?v=5TF8JXvlInA)
+
+{% include youtubeplayer.html id="5TF8JXvlInA" %}
+
+<br>
+
+* [[영상]Dynamic Icons in Sketch](https://www.youtube.com/watch?v=1rJ1WyQ6lU)
+
+{% include youtubeplayer.html id="1rJ1WyQ6lU" %}
 
 <br>
 
@@ -380,6 +419,8 @@ border 형태로 만들어진 컴포넌트를 fill 형태로 변환하는 기능
 디자인 요소를 원자같이 가장 최소 단위로 만들고 상위 요소를 디자인해서, 작업물 자체가 하나의 유기물 처럼 작은 단위의 요소들로 이루어지게 하는 디자인 시스템 방법론(?)이라고 볼 수 있다.
 
 * [[참고 영상]Atomic Design: Create Design Systems, Not Pages](https://www.youtube.com/watch?v=wcAl0VXYBGE)
+
+{% include youtubeplayer.html id="wcAl0VXYBGE" %}
 
 <br>
 
