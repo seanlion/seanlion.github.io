@@ -57,7 +57,7 @@ Shift를 눌러 수직 수평에 맞춰 복사하면 깔끔하게 아트보드�
 스케치는 벡터 기반으로 이루어진 툴이다.
 비트맵 방식의 툴(ex. photoshop)이 있고 벡터 기반의 툴(ex. sketch)이 있는데 아래의 글에서 벡터와 비트맵의 차이를 볼 수 있다.
 
-[벡터와 비트맵의 차이](http://blank2.tistory.com/7)
+* [벡터와 비트맵의 차이](http://blank2.tistory.com/7)
 
 <br>
 
@@ -76,7 +76,7 @@ Shift를 눌러 수직 수평에 맞춰 복사하면 깔끔하게 아트보드�
 
 더 많은 단축키를 보고 싶으면 이 글을 참고하기 바란다.
 
-[스케치 단축키](https://brunch.co.kr/@kimee/13)
+* [스케치 단축키](https://brunch.co.kr/@kimee/13)
 
 <br>
 
@@ -90,6 +90,7 @@ Shift를 눌러 수직 수평에 맞춰 복사하면 깔끔하게 아트보드�
 아트보드의 사이즈를 조정해도 컴포넌트가 영향을 받지 않게 하는 것이다.
 
 백문이 불여일견이니 영상으로 대체하겠다.  
+
 [관련 영상](https://www.youtube.com/watch?v=VOJ_2TTOZAo)
 
 화면만 봐도 대부분 이해할 수 있을 것이다.  
@@ -99,7 +100,7 @@ Shift를 눌러 수직 수평에 맞춰 복사하면 깔끔하게 아트보드�
 
 
 
-#### fill
+#### Fill
 
 fill은 컴포넌트의 색깔을 채우는 작업이다.
 6가지의 fill 형태가 있다.
@@ -120,7 +121,7 @@ Color Stop (원하는 위치에 더블 클릭하면 추가됩니다.)
 <br>
 
 
-#### border
+#### Border
 
 border는 컴포넌트의 윤곽선을 그리는 작업이다.
 
@@ -133,7 +134,7 @@ Ends는 선이 끝나는 지점 처리, Joins는 다각형일 때 모서리가 �
 
 <br>
 
-#### blending
+#### Blending
 
 쉽게 말하면 레이어와 색을 섞으면서 여러가지 효과를 주는 작업이다.  
 기저에 깔리는 base layer와 효과의 대상인 blend layer, 두개의 결과물인 result color로 이루어진다.  
@@ -142,14 +143,16 @@ Ends는 선이 끝나는 지점 처리, Joins는 다각형일 때 모서리가 �
 아래의 영상은 어도비 포토샵에서 blending 효과를 주는 것이지만, 스케치의 blending과 가짓수만 다를 뿐,
 원칙은 똑같으니 보고나면 스케치의 blending을 이해하기 쉬울 것이다.
 
-[Blending Modes Explained - Complete Guide to Photoshop Blend Modes](https://www.youtube.com/watch?v=MsukMXtEYFQ)
+* [Blending Modes Explained - Complete Guide to Photoshop Blend Modes](https://www.youtube.com/watch?v=MsukMXtEYFQ)
 
 영상을 보고나서는 만들어놓은 예시파일을 통해 한번 실습해보면 될 것 같다.  
+
+[예시파일](https://www.dropbox.com/s/0ec6lod3cem4hbq/blending_example.sketch?dl=0)
 
 <br>
 
 
-#### shadow
+#### Shadow
 
 그림자를 넣을 수 있는 기능이다.  
 
@@ -161,7 +164,7 @@ x 축과 y축, spread, blur를 이용해서 만드는데
 <br>
 
 
-#### blur
+#### Blur
 
 컴포넌트를 흐리게 만드는 기능이다.
 4가지의  blur가 있다.
@@ -178,7 +181,7 @@ background blur tip: 올바른 효과를 얻기 위해, 반드시 레이어에 (
 <br>
 
 
-#### vector 편집
+#### Vector 편집
 
 스케치는 기본적으로 벡터 기반의 툴이기 때문에 벡터 편집을 할 수 있다.
 
@@ -193,12 +196,13 @@ background blur tip: 올바른 효과를 얻기 위해, 반드시 레이어에 (
 사실 나도 설명이 어려워서 공식문서의 번역본 내용을 발췌해봤는데, 읽어봐도 어렵다..
 
 아래의 영상을 보고 이해도를 높이기 바란다.  
-[Sketch 3 Tutorial | Drawing Vector Shapes](https://www.youtube.com/watch?v=GWueR0dgt2A)
+
+* [Sketch 3 Tutorial | Drawing Vector Shapes](https://www.youtube.com/watch?v=GWueR0dgt2A)
 
 <br>
 
 
-#### closed/open path
+#### Closed/Open path
 
 스케치의 도형들은 점과 점으로 이루어져있다.
 그 점과 점 사이를 연결하는 길(?)을 path라고 하는데, 그것들을 close 할 수 있고 open 할 수 있는 기능이다.
@@ -214,10 +218,9 @@ background blur tip: 올바른 효과를 얻기 위해, 반드시 레이어에 (
 
 <br>
 
-<br>
 
 
-#### boolean(union/subtract/intersect/difference)
+#### Boolean(union/subtract/intersect/difference)
 
 스케치에서 2번째로 많이 쓰는 기능이라고 생각한다.
 주로 아이콘을 그릴 때 많이 쓰는데, 컴포넌트를 합치고, 빼고, 교차시키는 작업이라고 생각하면 된다.
@@ -240,7 +243,7 @@ background blur tip: 올바른 효과를 얻기 위해, 반드시 레이어에 (
 
 
 
-#### flatten
+#### Flatten
 
 컴포넌트 안에 있는 패스를 평탄하게 만드는 기능이다.  
 쉽게 말하면 컴포넌트 안에 있는 여러개의 패스를 하나로 합치는 작업이다.  
@@ -252,12 +255,12 @@ background blur tip: 올바른 효과를 얻기 위해, 반드시 레이어에 (
 <br>
 
 
-#### mask
+#### Mask
 
 쉽게 말해서, 어떤 컴포넌트 위에 특정 레이어를 덮어 씌우는 작업이다.
 
 이것도 영상을 통해 빠르게 이해할 수 있다.
-[관련 영상](https://www.youtube.com/watch?v=HVvHsmAs6vk)
+* [관련 영상](https://www.youtube.com/watch?v=HVvHsmAs6vk)
 
 tip: 마스크를 하고 다른 컴포넌트를 그리면 그 컴포넌트도 마스킹 되곤 하는데 그럴 때 마스크를 제한할 수 있는 기능이다.  
 메뉴에서 Edit > Ignore Underlying Mask 클릭  
@@ -266,14 +269,14 @@ tip: 마스크를 하고 다른 컴포넌트를 그리면 그 컴포넌트도 �
 <br>
 
 
-#### scissors
+#### Scissors
 
 가위로 path를 자를 수 있는 기능. 벡터 편집에서 지정한 점과 점 사이만 자를 수 있다.
 
 <br>
 
 
-#### outline
+#### Outline
 
 border 형태로 만들어진 컴포넌트를 fill 형태로 변환하는 기능이다.
 
@@ -286,58 +289,68 @@ border 형태로 만들어진 컴포넌트를 fill 형태로 변환하는 기능
 
 대표적으로는 png,jpg, gif, svg 등이 있다.
 
-[이미지 파일명 뒤에 붙는 JPG, GIF, PNG 포멧의 장단점과 차이점](http://seo-apl.tistory.com/18)  
-[“JPG와 PNG의 차이점은?” 기본적인 이미지 파일 형식 이해](http://www.itworld.co.kr/news/98431)  
-[Web에서 PNG , GIF, JPEG , SVG 중 어떤 것을 사용하면 좋을까요?](https://medium.com/@soeunlee/web%EC%97%90%EC%84%9C-png-gif-jpeg-svg-%EC%A4%91-%EC%96%B4%EB%96%A4-%EA%B2%83%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%A9%B4-%EC%A2%8B%EC%9D%84%EA%B9%8C%EC%9A%94-6937300e776e)
+* [이미지 파일명 뒤에 붙는 JPG, GIF, PNG 포멧의 장단점과 차이점](http://seo-apl.tistory.com/18)    
+* [“JPG와 PNG의 차이점은?” 기본적인 이미지 파일 형식 이해](http://www.itworld.co.kr/news/98431)   
+* [Web에서 PNG , GIF, JPEG , SVG 중 어떤 것을 사용하면 좋을까요?](https://medium.com/@soeunlee/web%EC%97%90%EC%84%9C-png-gif-jpeg-svg-%EC%A4%91-%EC%96%B4%EB%96%A4-%EA%B2%83%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%A9%B4-%EC%A2%8B%EC%9D%84%EA%B9%8C%EC%9A%94-6937300e776e)
 
 <br>
 
 
-#### round to pixel
+#### Round to pixel
 
 위치와 크기가 소숫점인 경우 정수로 바꿔주는 기능이다. 
 다만 의도한 소숫점도 정수로 교정하면서 도형이 깨지는 사례가 있다.
 
+예시)  3x3 인 상태에서 x 좌표가 정수가 아닌 경우 round to pixel 부작용
+
+<br>
+
+<p align ="middle">	
+ <img src="https://scontent.ficn3-1.fna.fbcdn.net/v/t1.0-9/36280412_10156465642647937_5286935944866299904_n.jpg?_nc_cat=0&oh=ccdff9693766b46f7ef87713cffbf026&oe=5BE1B6D7" alt="alt text" width = "70%">
+</p>
+
+
 <br>
 
 
-#### symbol
+#### Symbol
 
 스케치의 핵심 기능이다.
-일 많이 쓰는 기능이기도 한데, 설명은 아래의 글들을 보면 좋을 것 같다.
+제일 많이 쓰는 기능이기도 한데, 설명은 아래의 글들을 보면 좋을 것 같다.
 
-[스케치 공식 문서](https://www.sketchapp.com/docs/symbols/)  
-[공식문서 번역본](https://p-j-m.github.io/design-compass/symbol.html)
+* [스케치 공식 문서](https://www.sketchapp.com/docs/symbols/)  
+* [공식문서 번역본](https://p-j-m.github.io/design-compass/symbol.html)
 
 다음은 이해를 돕기 위한 영상들이다.
 
-[Understanding Symbols on Sketch 3](https://www.youtube.com/watch?v=f01QjGBqbT4)
+* [Understanding Symbols on Sketch 3](https://www.youtube.com/watch?v=f01QjGBqbT4)
 
-[Creating a Button System with Nested Symbols on Sketch App](https://www.youtube.com/watch?v=_bjqVF7Fvg4)
+* [Creating a Button System with Nested Symbols on Sketch App](https://www.youtube.com/watch?v=_bjqVF7Fvg4)
 
-[Overriding Colors in Sketch](https://www.youtube.com/watch?v=z_zWfVES5CA)
-[Advanced symbol in Sketch(심볼 관리 잘 하는 법)](https://www.youtube.com/watch?v=2PvqgI3Jo8Q&index=91&list=WL&t=1621s)
+* [Overriding Colors in Sketch](https://www.youtube.com/watch?v=z_zWfVES5CA)
+
+* [Advanced symbol in Sketch(심볼 관리 잘 하는 법)](https://www.youtube.com/watch?v=2PvqgI3Jo8Q&index=91&list=WL&t=1621s)
 
 <br>
 
 
-#### icon
+#### Icon
 
 스케치를 쓰다보면 이걸로 아이콘도 많이 그리게 되는데, 그럴 때 도움이 되는 영상과 글들이다.
 
-[강의]아이콘 그리는 강의(무료 - icon by sketch and illustrator)(http://introtoicons.com/)
+* [[강의]아이콘 그리는 강의(무료 - icon by sketch and illustrator)](http://introtoicons.com/)
 
-[[영상]Dynamic Icons in Sketch](https://www.youtube.com/watch?v=1rJ1WyQ6lU)
+* [[영상]Dynamic Icons in Sketch](https://www.youtube.com/watch?v=1rJ1WyQ6lU)
 
-[[글]좋은 아이콘을 만드는 6단계](https://brunch.co.kr/@ultra0034/6)
+* [[글]좋은 아이콘을 만드는 6단계](https://brunch.co.kr/@ultra0034/6)
 
-[[글]스케치 아이콘 라이브러리](https://brunch.co.kr/@blckschrl/37)
+* [[글]스케치 아이콘 라이브러리](https://brunch.co.kr/@blckschrl/37)
 
-[[글]안드로이드 앱 SVG 아이콘 적용기 — 왜 SVG로 갈아탔는가?](https://dailyhotel.io/%EB%94%94%EC%9E%90%EC%9D%B8-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%95%B1-svg-%EC%95%84%EC%9D%B4%EC%BD%98-%EC%A0%81%EC%9A%A9%EA%B8%B0-%EC%99%9C-svg%EB%A1%9C-%EA%B0%88%EC%95%84%ED%83%94%EB%8A%94%EA%B0%80-99c57cd84240)
+* [[글]안드로이드 앱 SVG 아이콘 적용기 — 왜 SVG로 갈아탔는가?](https://dailyhotel.io/%EB%94%94%EC%9E%90%EC%9D%B8-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%95%B1-svg-%EC%95%84%EC%9D%B4%EC%BD%98-%EC%A0%81%EC%9A%A9%EA%B8%B0-%EC%99%9C-svg%EB%A1%9C-%EA%B0%88%EC%95%84%ED%83%94%EB%8A%94%EA%B0%80-99c57cd84240)
 
-[[글]SVG 아이콘 사용하기(프론트엔드)](https://junojunho.com/front-end/svg-icon)
+* [[글]SVG 아이콘 사용하기(프론트엔드)](https://junojunho.com/front-end/svg-icon)
 
-[[영상]Designing 16px Icons in Sketch](https://www.youtube.com/watch?v=5TF8JXvlInA)
+* [[영상]Designing 16px Icons in Sketch](https://www.youtube.com/watch?v=5TF8JXvlInA)
 
 <br>
 
@@ -345,7 +358,8 @@ border 형태로 만들어진 컴포넌트를 fill 형태로 변환하는 기능
 #### Pixel Perfect
 
 스케치이든, 일러스트이든 디지털 환경에서 디자인을 할 때 픽셀을 퍼펙트하게 맞추는 것은 중요하다.  
-[[참고 글]pixel perfect(픽셀 퍼펙트를 위하여)](https://medium.com/sketch-app-sources/getting-the-pixels-right-in-sketch-2386c730af90)
+
+* [[참고 글]pixel perfect(픽셀 퍼펙트를 위하여)](https://medium.com/sketch-app-sources/getting-the-pixels-right-in-sketch-2386c730af90)
 
 <br>
 
@@ -354,8 +368,8 @@ border 형태로 만들어진 컴포넌트를 fill 형태로 변환하는 기능
 구글에서 만든 design language. 
 
 내가 아는 디자이너분 께선 이걸 1000번 정도 보면 디자인 마스터가 될 수 있을 것이라 하시기도 했다.
-[Material 2.0에 관한 영상](https://www.youtube.com/watch?v=1Dh8ZBQp9jo&t=76s)
-[머테리얼 2.0 공식 홈페이지](https://material.io/)
+* [Material 2.0에 관한 영상](https://www.youtube.com/watch?v=1Dh8ZBQp9jo&t=76s)
+* [머테리얼 2.0 공식 홈페이지](https://material.io/)
 
 <br>
 
@@ -364,18 +378,19 @@ border 형태로 만들어진 컴포넌트를 fill 형태로 변환하는 기능
 디자인 이론 중의 하나이다.
 
 디자인 요소를 원자같이 가장 최소 단위로 만들고 상위 요소를 디자인해서, 작업물 자체가 하나의 유기물 처럼 작은 단위의 요소들로 이루어지게 하는 디자인 시스템 방법론(?)이라고 볼 수 있다.
-[[참고 영상]Atomic Design: Create Design Systems, Not Pages](https://www.youtube.com/watch?v=wcAl0VXYBGE)
+
+* [[참고 영상]Atomic Design: Create Design Systems, Not Pages](https://www.youtube.com/watch?v=wcAl0VXYBGE)
 
 <br>
 
 
-#### 슥 훑어보기 좋은 튜토리얼
+#### 슥 훑어보기 좋은 스케치 튜토리얼
 
-[스케치 앱 튜토리얼 1편](https://www.vobour.com/%EC%8A%A4%EC%BC%80%EC%B9%98-%EC%95%B1-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-1%ED%8E%B8-%EC%B4%9D-5%ED%8E%B8-r1fqygnhim)  
-[튜토리얼 2편](https://www.vobour.com/%EC%8A%A4%EC%BC%80%EC%B9%98-%EC%95%B1-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-2%ED%8E%B8-%EC%B4%9D-5%ED%8E%B8-)  
-[튜토리얼 3편](https://www.vobour.com/%EC%8A%A4%EC%BC%80%EC%B9%98-%EC%95%B1-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-3%ED%8E%B8-%EC%B4%9D-5%ED%8E%B8-skqckg2s8z)  
-[튜토리얼 4편](https://www.vobour.com/%EC%8A%A4%EC%BC%80%EC%B9%98-%EC%95%B1-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-4%ED%8E%B8-%EC%B4%9D-5%ED%8E%B8-syq-e3him)  
-[튜토리얼 5편](https://www.vobour.com/%EC%8A%A4%EC%BC%80%EC%B9%98-%EC%95%B1-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-5%ED%8E%B8-%EB%A7%88%EB%AC%B4%EB%A6%AC-%EC%B4%9D-5%ED%8E%B8-)  
+* [스케치 앱 튜토리얼 1편](https://www.vobour.com/%EC%8A%A4%EC%BC%80%EC%B9%98-%EC%95%B1-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-1%ED%8E%B8-%EC%B4%9D-5%ED%8E%B8-r1fqygnhim)  
+* [튜토리얼 2편](https://www.vobour.com/%EC%8A%A4%EC%BC%80%EC%B9%98-%EC%95%B1-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-2%ED%8E%B8-%EC%B4%9D-5%ED%8E%B8-)  
+* [튜토리얼 3편](https://www.vobour.com/%EC%8A%A4%EC%BC%80%EC%B9%98-%EC%95%B1-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-3%ED%8E%B8-%EC%B4%9D-5%ED%8E%B8-skqckg2s8z)  
+* [튜토리얼 4편](https://www.vobour.com/%EC%8A%A4%EC%BC%80%EC%B9%98-%EC%95%B1-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-4%ED%8E%B8-%EC%B4%9D-5%ED%8E%B8-syq-e3him)  
+* [튜토리얼 5편](https://www.vobour.com/%EC%8A%A4%EC%BC%80%EC%B9%98-%EC%95%B1-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-5%ED%8E%B8-%EB%A7%88%EB%AC%B4%EB%A6%AC-%EC%B4%9D-5%ED%8E%B8-)  
 
 <br>
 
