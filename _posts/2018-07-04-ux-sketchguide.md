@@ -149,6 +149,7 @@ Ends는 선이 끝나는 지점 처리, Joins는 다각형일 때 모서리가 �
 
 {% include youtubeplayer.html id="MsukMXtEYFQ" %} 
 
+<br>
 
 영상을 보고나서는 만들어놓은 예시파일을 통해 한번 실습해보면 될 것 같다.  
 
@@ -203,7 +204,7 @@ background blur tip: 올바른 효과를 얻기 위해, 반드시 레이어에 (
 
 아래의 영상을 보고 이해도를 높이기 바란다.  
 
-* [Sketch 3 Tutorial | Drawing Vector Shapes](https://www.youtube.com/watch?v=GWueR0dgt2A)
+* [Sketch 3 Tutorial - Drawing Vector Shapes](https://www.youtube.com/watch?v=GWueR0dgt2A)
 
 {% include youtubeplayer.html id="2qVVpDR2A14" %} 
 
@@ -248,11 +249,11 @@ background blur tip: 올바른 효과를 얻기 위해, 반드시 레이어에 (
 )을 보고, 
 
 그래도 이해가 안되면 
-invision에서 만든 이 영상을
+invision에서 만든 이 영상을 보길 추천한다.
 
 {% include youtubeplayer.html id="T_iayKP2-Xg" %}
 
-보길 추천한다.
+
 
 <br>
 
@@ -278,10 +279,11 @@ invision에서 만든 이 영상을
 
 {% include youtubeplayer.html id="HVvHsmAs6vk" %}
 
+<br>
 
-tip: 마스크를 하고 다른 컴포넌트를 그리면 그 컴포넌트도 마스킹 되곤 하는데 그럴 때 마스크를 제한할 수 있는 기능이다.  
-메뉴에서 Edit > Ignore Underlying Mask 클릭  
-해당 레이어와 그것 위에 있는 어떤 레이어든 더 이상 마스크되어지지 않는다.
+tip: 마스크를 하고 다른 컴포넌트를 그리면 그 컴포넌트도 마스킹 되곤 하는데 그럴 때 마스크를 제한할 수 있는 기능이 있다.  
+* 메뉴에서 Edit > Ignore Underlying Mask 클릭하면 된다.  
+그러면 해당 레이어와 그것 위에 있는 어떤 레이어든 더 이상 마스크되어지지 않는다.
 
 <br>
 
@@ -348,7 +350,7 @@ border 형태로 만들어진 컴포넌트를 fill 형태로 변환하는 기능
 
 * [Creating a Button System with Nested Symbols on Sketch App](https://www.youtube.com/watch?v=_bjqVF7Fvg4)
 
-{% include youtubeplayer.html id="bjqVF7Fvg4" %}
+{% include youtubeplayer.html id="_bjqVF7Fvg4" %}
 
 <br>
 
@@ -387,9 +389,9 @@ border 형태로 만들어진 컴포넌트를 fill 형태로 변환하는 기능
 
 <br>
 
-* [[영상]Dynamic Icons in Sketch](https://www.youtube.com/watch?v=1rJ1WyQ6lU)
+* [[영상]Dynamic Icons in Sketch](https://www.youtube.com/watch?v=1rJ1WyQ6lU0)
 
-{% include youtubeplayer.html id="1rJ1WyQ6lU" %}
+{% include youtubeplayer.html id="1rJ1WyQ6lU0" %}
 
 <br>
 
