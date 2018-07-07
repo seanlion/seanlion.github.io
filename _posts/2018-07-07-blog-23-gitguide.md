@@ -31,18 +31,19 @@ CLI는 쉽게 말해 예전에 봤던 MS-DOS같이 그냥 코드만 치는걸 �
 <br>
 
 - - -
+
 ## Git Crash Course
 
 #### 깃(Git) 이해하기
 
-[[영상]Git : 버전관리란 무엇일까요?]
+[[영상]Git : 버전관리란 무엇일까요?](https://www.youtube.com/watch?v=XUEuYq64HKI)
 
 {% include youtubeplayer.html id="XUEuYq64HKI" %} 
 
 
 <br>
 
-[[글]Git 이란 무엇인가](https://medium.com/@psychet_learn/git-%EC%82%AC%EC%9A%A9%EB%B2%95-1%EA%B0%95-git%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-340438d9a69f)
+* [[글]Git 이란 무엇인가](https://medium.com/@psychet_learn/git-%EC%82%AC%EC%9A%A9%EB%B2%95-1%EA%B0%95-git%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-340438d9a69f)
 
 <br>
 
@@ -71,12 +72,12 @@ CLI는 쉽게 말해 예전에 봤던 MS-DOS같이 그냥 코드만 치는걸 �
 
 - - -
 
-※ 앞으로 나올 <>은 다 생략해야 됩니다.
+※ 앞으로 나올 {}은 다 생략해야 됩니다.
 
 
 #### 로컬 저장소에 git을 위한 폴더 생성하기
 
-mkdir <디렉토리>  # example code : mkdir ~/Documents/banana
+mkdir {디렉토리}  # example code : mkdir ~/Documents/banana
 
 (mkdir은 make directory의 준말이다.)
 
@@ -84,15 +85,17 @@ mkdir <디렉토리>  # example code : mkdir ~/Documents/banana
 
 #### git 생성한 폴더로 이동하기
 
-cd <생성한 디렉토리> # example code :  cd ~/Documents/banana
+cd {생성한 디렉토리} # example code :  cd ~/Documents/banana
 
 (cd는 change directory를 뜻한다.)
+
+<br>
 
 #### 해당 폴더(디렉토리)에서 git 시작(초기화) 하기
 
 git init 
 
-[[영상]지옥에서 온 Git : git init]
+[[영상]지옥에서 온 Git : git init](https://www.youtube.com/watch?v=fCY1t3QSEhw)
 
 {% include youtubeplayer.html id="fCY1t3QSEhw" %}
 
@@ -100,9 +103,11 @@ git init
 
 init은 “initialize(초기화)”를 뜻한다. 이 코드를 입력하면 이 디렉토리를 로컬 깃 저장소라고 컴퓨터에게 말해주는 것이다. 
 
+<br>
+
 #### .git 파일 생겼는지 확인하기
 
-ls -a (맥용)
+ls -a (맥용)  
 dir -a(윈도우용)
 
 <br>
@@ -117,13 +122,13 @@ https://github.com/
 
 3.저장소 깃허브에 만들기(public으로 만들기)
 
-[[영상]지옥에서 온 Git - 원격 저장소 만들기 (Github)]
+[[영상]지옥에서 온 Git - 원격 저장소 만들기 (Github)](https://www.youtube.com/watch?v=KvBv_GMnkPU)
 
 {% include youtubeplayer.html id="KvBv_GMnkPU" %}
 
 <br>
 
-##### [단어설명- 출처:[완전 초보를 위한 깃허브]](https://nolboo.kim/blog/2013/10/06/github-for-beginner/)
+##### 단어설명 - 출처:[완전 초보를 위한 깃허브](https://nolboo.kim/blog/2013/10/06/github-for-beginner/)
 
 저장소(Repository): 프로젝트가 거주(live)할 수 있는 디렉토리나 저장 공간. 깃허브 사용자는 종종 “repo”로 줄여서 사용한다.   
 당신의 컴퓨터 안의 로컬 폴더가 될 수도 있고, 깃허브나 다른 온라인 호스트의 저장 공간이 될 수도 있다.   
@@ -138,25 +143,27 @@ https://github.com/
 이렇게 쓰면 개별 레퍼지토리(보관소)로 등록할 수 있다.
 (다른 레퍼지토리로 쓰려면 이름과 이메일 다시 config 하면된다.)
 
-git config user.name <사용자 이름>
-git config user.email <사용자 이메일>
+git config user.name {사용자 이름}
+git config user.email {사용자 이메일}
 
 <br>
 
 #### 내가 등록한 이름과 이메일 보기
 
-git config user.name
-git config user.email
-git config --list
+git config user.name  
+git config user.email  
+git config --list  
 
-이렇게 글로벌(전체)로 쓰는 것은 잘 쓰지않는다. 개별 레퍼지토리로 등록하는걸 추천.
-git config --global user.name banan
+이렇게 글로벌(전체)로 쓰는 것은 잘 쓰지않는다. 개별 레퍼지토리로 등록하는걸 추천.  
+example code : git config --global user.name banan
 
 
 <br>
 
 - - -
+
 ##### 만약 이런 오류 뜨면 해결 방법:
+
 ```
 Your name and email address were configured automatically based
 on your username and hostname. Please check that they are accurate.
@@ -170,8 +177,8 @@ After doing this, you may fix the identity used for this commit with:
 
 이럴땐 개별 레퍼지토리로 이름과 이메일 등록하는 코드를 쓰자.
 
-1.git config user.email <사용자 이메일>  
-git config user.name <사용자 이름>
+1.git config user.email {사용자 이메일}    
+git config user.name {사용자 이름}
 
 2.git commit --amend --reset-author
 
@@ -179,13 +186,14 @@ git config user.name <사용자 이름>
 - - -
 
 #### 기존에 레퍼지토리가 있다면(보관소가 있다면, Git 클론 하기(기존에 있는거 복사해오기)
-git clone <url.git>
+
+git clone {url.git}
 
 <br>
 
 #### 깃에 원격 저장소 추가하기
 
-git remote add <저장소 이름> <url.git>  
+git remote add {저장소 이름} {url.git}    
 저장소 이름은 origin(기본값), heroku 등 다양하게 될 수 있다.
 
 <br>
@@ -198,14 +206,14 @@ git remote -v
 
 #### 원격 저장소 삭제
 
-git remote delete <저장소 이름>
+git remote delete {저장소 이름}
 
 <br>
 
 
 #### 원격 저장소 수정
 
-git remote set-url <저장소 이름> <URL.git>
+git remote set-url {저장소 이름} {URL.git}
 
 <br>
 
@@ -280,13 +288,13 @@ git commit -m "커밋 내용"
 
 #### 커밋한 내용을 원격 저장소로 보내기
 
-git push <저장소 이름> master
+git push {저장소 이름} master
 
 <br>
 
 #### 원격 저장소의 (수정된) 내용 불러오기
 
-git pull <저장소 이름> master
+git pull {저장소 이름} master
 
 <br>
 
@@ -344,7 +352,7 @@ git branch -d feature
 
 #### branch 원격 저장소로 전송하기(다른 사람이 접근할 수 있게)
 
-git push origin <가지 이름>
+git push origin {가지 이름}
 
 
 <br>
@@ -355,11 +363,13 @@ git push origin <가지 이름>
 이 때에는 checkout 명령어를 이용하여 현재 사용중인 브랜치를 'master'로 전환한다.
 
 git checkout master
-git merge <현재 가지 이름>
+git merge {현재 가지 이름}
 
 
 merge 하면 성공하거나 conflict가 일어남.
 이 때 손수 파일을 수정 해줘야 함.
+
+<br>
 
 [[영상]지옥에서 온 Git - 원리 : merge & conflict](https://youtu.be/0RqbZt_TZkY)
 
@@ -368,14 +378,14 @@ merge 하면 성공하거나 conflict가 일어남.
 
 <br>
 
-[[참고글]초심자를 위한 Github 협업 튜토리얼 (with 토끼와 거북이)](https://milooy.wordpress.com/2017/06/21/working-together-with-github-tutorial/)
+* [[참고글]초심자를 위한 Github 협업 튜토리얼 (with 토끼와 거북이)](https://milooy.wordpress.com/2017/06/21/working-together-with-github-tutorial/)
 
 <br>
 
 
 #### conflict 된거 다시 merge하기
 
-git add <파일 이름>
+git add {파일 이름}
 
 
 <br>
@@ -383,7 +393,7 @@ git add <파일 이름>
 
 #### merge하기 전 비교해보기
 
-git diff <원래가지> <비교할 가지>
+git diff {원래가지} {비교할 가지}
 
 <br>
 
@@ -392,21 +402,22 @@ git diff <원래가지> <비교할 가지>
 
 git push origin <brunch이름>
 
-[[글]git 초보를 위한 풀리퀘스트(pull request) 방법](https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/)
+* [[글]git 초보를 위한 풀리퀘스트(pull request) 방법](https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/)
 
 <br>
 
 #### pull request 열어보기
-[깃허브(GitHub) 가이드 - 4단계: 풀 리퀘스트 열기](http://magento2.tistory.com/entry/%EA%B9%83%ED%97%88%EB%B8%8CGitHub-%EA%B0%80%EC%9D%B4%EB%93%9C-4%EB%8B%A8%EA%B3%84-%ED%92%80-%EB%A6%AC%ED%80%98%EC%8A%A4%ED%8A%B8-%EC%97%B4%EA%B8%B0)
+
+* [깃허브(GitHub) 가이드 - 4단계: 풀 리퀘스트 열기](http://magento2.tistory.com/entry/%EA%B9%83%ED%97%88%EB%B8%8CGitHub-%EA%B0%80%EC%9D%B4%EB%93%9C-4%EB%8B%A8%EA%B3%84-%ED%92%80-%EB%A6%AC%ED%80%98%EC%8A%A4%ED%8A%B8-%EC%97%B4%EA%B8%B0)
 
 <br>
 
 
 #### rebase 이해하기
 
-[[글] Git merge, rebase 이해하기](http://cyberx.tistory.com/96)
+* [[글] Git merge, rebase 이해하기](http://cyberx.tistory.com/96)
 
-[[글]브랜치 통합하기-리베이스](https://backlog.com/git-tutorial/kr/stepup/stepup1_4.html)
+* [[글]브랜치 통합하기-리베이스](https://backlog.com/git-tutorial/kr/stepup/stepup1_4.html)
 
 
 <br>
@@ -414,7 +425,7 @@ git push origin <brunch이름>
 
 #### 로컬 저장소의 변경 내용 되돌리기(변경 내용을 변경 전 상태(헤드 상태)로 돌리기)
 
-git checkout --<파일이름>
+git checkout --{파일이름}
 
 이렇게 변경할 시 인덱스(stage)에 추가된 건 남는다. 
 새로 만든 파일도 남음.
