@@ -8,6 +8,14 @@ summary:    (비)개발자들을 위한 Git과 Github 기초 자료 모음집입
 category: 	개발과 삽질
 ---
 
+<p align ="middle">	
+ <img src="http://ipengineer.net/wp-content/uploads/2015/04/git-logo.jpg" alt="alt text" width = "100%">
+</p>
+
+
+<br>
+
+
 스터디를 하다가 깃(git)과 깃허브(github)에 대해 설명할 시간이 있었다.
 깃을 아예 모르는 사람들에게 설명하는게 쉬운 일이 아니었지만, 간단한 풀 리퀘스트에도 만족해하시는 걸 보니 뿌듯해지더라.
 
@@ -24,7 +32,7 @@ CLI는 쉽게 말해 예전에 봤던 MS-DOS같이 그냥 코드만 치는걸 �
 <br>
 
 <p align ="middle">	
- <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/MS-DOS_5.00.490_Beta.png" alt="alt text" width = "70%">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/MS-DOS_5.00.490_Beta.png" alt="alt text" width = "60%">
 </p>
 
 
