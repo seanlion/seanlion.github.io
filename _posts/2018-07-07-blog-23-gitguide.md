@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Git 뽀개기(자료 모음집) 
-permalink: blog/20
+permalink: blog/23
 description:  오늘은 드디어 깃허브 블로그 2.0 개편기를 작성해보려 한다. 이전글/다음글 기능,페이지네이션,카테고라이징, 유사 글,관련 글(포스트)보기 기능,포스트 공유 UI 등을 개편했다. 코드리뷰 및 개편기이다.
 date:       2018-07-07
 summary:    (비)개발자들을 위한 Git과 Github 기초 자료 모음집입니다.
@@ -400,7 +400,7 @@ git diff {원래가지} {비교할 가지}
 
 #### 원격 저장소에 pull request 보내기
 
-git push origin <brunch이름>
+git push origin {brunch이름}
 
 * [[글]git 초보를 위한 풀리퀘스트(pull request) 방법](https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/)
 
