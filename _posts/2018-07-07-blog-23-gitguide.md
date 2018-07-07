@@ -9,7 +9,7 @@ category: 	개발과 삽질
 ---
 
 <p align ="middle">	
- <img src="http://ipengineer.net/wp-content/uploads/2015/04/git-logo.jpg" alt="alt text" width = "100%">
+ <img src="http://ipengineer.net/wp-content/uploads/2015/04/git-logo.jpg" alt="alt text" width = "60%">
 </p>
 
 
