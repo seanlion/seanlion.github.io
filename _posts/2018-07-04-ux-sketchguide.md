@@ -204,7 +204,7 @@ background blur tip: 올바른 효과를 얻기 위해, 반드시 레이어에 (
 
 아래의 영상을 보고 이해도를 높이기 바란다.  
 
-* [Sketch 3 Tutorial - Drawing Vector Shapes](https://www.youtube.com/watch?v=GWueR0dgt2A)
+* [Sketch 3 Tutorial Drawing Vector Shapes](https://www.youtube.com/watch?v=GWueR0dgt2A)
 
 {% include youtubeplayer.html id="2qVVpDR2A14" %} 
 
