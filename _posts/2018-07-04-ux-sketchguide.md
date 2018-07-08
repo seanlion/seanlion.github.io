@@ -134,6 +134,9 @@ fill의 1~4번 형태를 가지고 있다.
 Ends는 선이 끝나는 지점 처리, Joins는 다각형일 때 모서리가 굴러가는 모양을 의미한다. 
 아래 Dash(선의 길이)와 Gap(사이 거리)에 수치를 입력하면 점선으로 표현할 수 있다.
 
+* Fill과 Border 기본값을 바꾸고싶다면?   
+만들고 싶은 도형을 그리고 Layer > Style > Set as Default Style
+
 <br>
 
 #### Blending
