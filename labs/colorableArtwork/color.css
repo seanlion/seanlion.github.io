@@ -1,0 +1,174 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top : 0;
+  margin-bottom : 4px;
+}
+
+h3 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.background{
+  background-color: #76C29F; 
+  width : 100%;
+  height: 452px;
+}
+
+.dots {
+  z-index: 100;
+  display: grid;
+  padding-top : 26px;
+  padding-left: 20px;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: repeat(4,1fr);
+  grid-row-gap : 40px;
+  grid-column-gap : 60px;
+  overflow-x : hidden;
+}
+
+.dot {
+  width: 135px;
+  height: 70px;
+  border-radius : 25px 4px 30px 33px;
+  background-color: #EEBE00;
+}
+
+.colorset{
+  margin-top: 16px;
+  width : 600px;
+}
+
+.slider {
+  margin-top : 12px;
+  margin-bottom : 12px;
+  display: block;
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  border-radius : 3px;
+  width: 100%; /* Full-width */
+  height: 8px; /* Specified height */
+  background: rgba(121,121,121,0.7); /* Grey background */
+  outline: none; /* Remove outline */
+  /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  background: rgba(121,121,121,1);  /* Fully shown on mouse-over */
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 22px; /* Set a specific slider handle width */
+  height: 22px; /* Slider handle height */
+  background: #ffffff; /* Green background */
+  border-radius: 50%;
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-webkit-slider-thumb:hover{
+  transform : scale(1.2,1.2);
+}
+
+.description {
+  background: #2C2C2C;
+  color: white;
+  height : 821px;
+  /* child의 margin을 먹이면 parent인 description까지 같이 움직인다. 이 문제 해결은 float 먹이는 것. */
+  /* 참조 https://css-tricks.com/forums/topic/why-is-margin-top-causing-the-background-of-a-parent-div-to-move-down */
+  /* float: left; */
+  /* quote넣으니까 문제 발생 노노해서 float 뺌. */
+  background-origin : border-box;
+}
+
+.colorBlock {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.backColor {
+  box-sizing: border-box;
+ 
+  margin-left: 80px;
+}
+
+.foreColor {
+
+  margin-left: 74px;
+}
+
+.quote{
+  font-size: 1.125rem;
+  margin-top : 30px;
+  margin-left: 80px;
+}
+
+.koreanQuote{
+  display: inline-block;
+  margin: 0;
+  width: 563px;
+  height: 81px;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+  vertical-align: top;
+}
+
+.englishQuote {
+  margin-top: 0;
+  display: inline-block;
+  margin-left: 114px;
+  width : 480px;
+  height: 100px;
+  letter-spacing: 0.7px;
+  line-height : 27px;
+}
+
+.main {
+  position: relative;
+  margin-top : 80px;
+  margin-left: 80px;
+  width: 81.5%;
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size : 2.625rem;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  line-height: 27px;
+ 
+}
+
+.main::before{
+  content: "\201C";
+  color:#ffffff;
+  font-size: 2.5rem;
+  position: absolute;
+  left: 0;
+  top:-10px;
+}
+
+.main::after{
+  content: "\201D";
+  color:#ffffff;
+  font-size: 2.5rem;
+  position: absolute;
+  right: -10px;
+  top:-10px;
+}
+blockquote span {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-top: 20px;
+  
+}

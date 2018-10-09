@@ -1,0 +1,344 @@
+html {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 12px;
+}
+body {
+  background: rgba(0,0,0,0.8);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.description{
+  color: white;
+  text-align: center;
+  margin : 40px auto;
+}
+
+ul {
+  margin: 30px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-link {
+  display: inline-block;
+  width : 80px;
+  height: 40px;
+  /* display: table 하거나 li대신 div로 하면 이거 써서 텍스트 horizontal 가운데 정렬 가능 */
+  vertical-align: middle;
+  /* 이건 text horizontal 정렬 꼼수 */
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  /* margin-right: 25px; */
+  box-sizing: border-box;
+  margin-right: 5px;
+  padding : auto;
+  background : transparent;
+  color: #adb5bd;
+  font-size: 16px;
+  transition-timing-function: ease-in-out;
+  
+  transition : all 0.2s;
+}
+
+/* .tab-link:hover, .tab-link:focus {
+  transform : scale(1.1,1.1);
+} */
+
+.currentTab {
+  /* background: #495057; */
+  -moz-box-shadow:    inset  0 -2px 0 -2px #ffffff;
+  -webkit-box-shadow: inset  0 -2px 0 -2px #ffffff;
+  box-shadow :  inset 0 -3px 0 -1px #ffffff;
+  color: #fff;
+  width : 80px;
+  height: 40px;
+}
+
+.background {
+  /* background: #018DED url(https://picsum.photos/1500/1000?image=881&blur=50); */
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  min-height: 100vh;
+  width : 100vw;
+  /* display: flex;
+  flex:1;
+  align-items : center; */
+}
+
+.digital {
+  font-size: 4em;
+  margin : 0 auto;
+}
+
+/* desktop  & ipad? */
+@media screen 
+  and (min-device-width: 1024px) 
+  /* and (max-device-width: 1921px)  */
+  /* and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) */ { 
+
+    .back {
+      color: #ffffff;
+      position : absolute;
+      top : 40px;
+      left : 40px;
+      font-size: 16px;
+      width : 40px;
+      height: 40px;
+    }
+
+    .clock-border {
+      width: 30em;
+      height: 30em;
+      border: 18px solid transparent;
+      border-radius: 50%;
+      -webkit-border-radius:50%;
+      -moz-border-radius:50%;
+      background: linear-gradient(to right, #FC466B, #3F5EFB) border-box;
+      /* border-image-slice: 1; */
+      margin: auto;
+      position: relative;
+      padding: 1em;   /*원을 더 넓힐 수 있다.*/
+      box-shadow: 
+        0 0 0 4px rgba(0,0,0,0.1),
+        inset 0 0 0 3px #efefef, 
+        inset 0 0 10px black,
+        0 0 10px rgba(0,0,0,0.2);
+        /*inset은 inner shadow*/
+    }
+    
+    .clock-border:after {
+      
+      position: absolute;
+      top: -5px; 
+      bottom: -5px;
+      left: -5px; 
+      right: -5px;
+      /* width: 360px;
+      height: 360px; */
+      content: "";
+      background:  rgba(51,51,51,1);
+      z-index: 10;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    
+    .clock-fill {
+      width: 30rem;
+      height: 30rem;
+      border: 8px solid transparent;
+      border-radius: 50%;
+       background-origin: border-box;
+      background-clip: padding-box, border-box;
+      margin: auto;
+      position: relative;
+      padding: 2em;   /*원을 더 넓힐 수 있다.*/
+      /* box-shadow: 
+        0 0 0 4px rgba(0,0,0,0.1),
+        inset 0 0 0 3px #efefef, 
+        inset 0 0 10px black,
+        0 0 10px rgba(0,0,0,0.2); */
+        /*inset은 inner shadow*/
+    }
+
+
+    .clock-face {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transform: translateY(-3px);
+      z-index : 10000;
+      /* translateY= y축으로 해당 크기만큼 옮긴다 */
+    }
+    
+    .clock-center{
+      position: absolute;
+      top: 50%;
+      left: 48%;
+      z-index : 10000;
+      margin: 0 auto;
+      background-color: white;
+      border-radius : 50%;
+      transform: translateY(-5px);
+      width: 5%;
+      height:5%;
+    }
+    
+    .hand {
+      position: absolute;
+      top : 50%;
+      right: 50%;
+      transform-origin : 100%;
+      transform : rotate(90deg);
+      transition : all 0.05s;
+      transition-timing-function: cubic-bezier(0.1,2.7,0.98,0.6);
+    }
+    .min-hand {
+      width : 50%;
+      height: 6px;
+      background : #f6f6f6;
+      
+    }
+    
+    .second-hand {
+      width : 50%;
+      height: 3px;
+      background : #a6a6a6;
+      
+    }
+    
+    .hour-hand {
+      width : 35%;
+      height: 6px;
+      background : #f6f6f6;
+      border-radius: 5px;
+    }
+    
+}
+
+/* iphone & android? */
+
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 812px) 
+  /* and (-webkit-min-device-pixel-ratio: 2) */
+  {  
+
+    .back {
+      color: #ffffff;
+      position : absolute;
+      top : 45px;
+      left : 20px;
+      font-size: 12px;
+      width : 40px;
+      height: 40px;
+    }
+    
+
+    h3{
+      font-size: 1em;
+    }
+    .clock-border  {
+      width: 15em;
+      height: 15em;
+      border: 18px solid transparent;
+      border-radius: 50%;
+      -webkit-border-radius:50%;
+      -moz-border-radius:50%;
+      background: linear-gradient(to right, #FC466B, #3F5EFB) border-box;
+      /* border-image-slice: 1; */
+      margin: auto;
+      position: relative;
+      padding: 1em;   /*원을 더 넓힐 수 있다.*/
+      box-shadow: 
+        0 0 0 4px rgba(0,0,0,0.1),
+        inset 0 0 0 3px #efefef, 
+        inset 0 0 10px black,
+        0 0 10px rgba(0,0,0,0.2);
+        /*inset은 inner shadow*/
+    }
+    
+    .clock-border:after {
+      
+      position: absolute;
+      top: -5px; 
+      bottom: -5px;
+      left: -5px; 
+      right: -5px;
+      /* width: 360px;
+      height: 360px; */
+      content: "";
+      background:  rgba(51,51,51,1);
+      z-index: 10;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    
+    .clock-fill {
+      width: 15em;
+      height: 15em;
+      border: 8px solid transparent;
+      border-radius: 50%;
+      background-origin: border-box;
+      background-clip: padding-box, border-box;
+      margin: auto;
+      position: relative;
+      padding: 2em;   /*원을 더 넓힐 수 있다.*/
+      /* box-shadow: 
+        0 0 0 4px rgba(0,0,0,0.1),
+        inset 0 0 0 3px #efefef, 
+        inset 0 0 10px black,
+        0 0 10px rgba(0,0,0,0.2); */
+        /*inset은 inner shadow*/
+    }
+
+
+    .clock-face {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transform: translateY(-3px);
+      z-index : 10000;
+      /* translateY= y축으로 해당 크기만큼 옮긴다 */
+    }
+    
+    .clock-center{
+      position: absolute;
+      top: 51%;
+      left: 48%;
+      z-index : 10000;
+      margin: 0 auto;
+      background-color: white;
+      border-radius : 50%;
+      transform: translateY(-4px);
+      width: 5%;
+      height:5%;
+    }
+    
+    .hand {
+      position: absolute;
+      top : 50%;
+      right: 50%;
+      transform-origin : 100%;
+      transform : rotate(90deg);
+      transition : all 0.05s;
+      transition-timing-function: cubic-bezier(0.1,2.7,0.98,0.6);
+    }
+    .min-hand {
+      width : 50%;
+      height: 4px;
+      background : #f6f6f6;
+      
+    }
+    
+    .second-hand {
+      width : 50%;
+      height: 2px;
+      background : #a6a6a6;
+      
+    }
+    
+    .hour-hand {
+      width : 35%;
+      height: 4px;
+      background : #f6f6f6;
+      border-radius: 5px;
+    }
+    
+}
+
+
+.footer {
+  margin-top :40px;
+  color : #ffffff;
+}
