@@ -1,11 +1,43 @@
 ---
 layout: page
-title: Say Hello
-permalink: /contact/
-tags: contact
+title: 실험실
+permalink: /labs/
+tags: labs
 ---
 
-<div class="py2">
+
+<div id="archives">
+{% for category in site.categories %}
+  <div class="archive-group">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+  <!--   <div id="{{ category_name | slugize }}"></div> -->  
+      <div class="category-nav">
+        <p class="category-head"><strong>실험실</strong></p>
+        <!-- <a name="{{ category_name | slugize }}"></a> -->
+      </div>
+
+    {% for post in site.categories[category_name] %}
+    <article class="archive-item">
+      <h4>
+        <a style= "text-decoration: none !important;" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+      </h4>
+    </article>
+    {% endfor %}
+    <hr/>
+  </div>
+{% endfor %}
+</div>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7138227193948687",
+    enable_page_level_ads: true
+  });
+</script>
+
+
+<!-- <div class="py2">
   {% if site.ajaxify_contact_form %}
     <form class="form-stacked">
       <label>
@@ -44,4 +76,4 @@ tags: contact
 
 {% if site.ajaxify_contact_form %}
   {% include ajaxify_content_form.html %}
-{% endif %}
+{% endif %} -->

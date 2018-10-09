@@ -7,8 +7,8 @@ baseurl:
 date_format: "%b %-d, %Y"
 header_pages:
  - about.html
- - index.html
  - categories.html
+ - labs.html
 size: 1
  
 
