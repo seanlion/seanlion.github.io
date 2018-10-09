@@ -63,19 +63,22 @@
     <div class="description">
         <div class="colorBlock backColor">
         <p>Background</p>
-        <h3>#76C29F</h3>
+        <h3 id="#hex1">#76C29F</h3>
         <div class="colorset">
           <div class="red">
-            <label for="red">Red</label>
-            <input type="range" id="red" name="red"  class="slider" >
+            <label for="red1">Red</label>
+            <output for="red1" id="r_out1">118</output>
+            <input type="range" id="red1" name="red1" class="slider" min="0" max="255" value="118">
            </div>
            <div class="green">
-            <label for="green">Green</label>
-            <input type="range" id="green" name="green" class="slider" >
+            <label for="green1">Green</label>
+            <output for="green1" id="g_out1">194</output>
+            <input type="range" id="green1" name="green1" class="slider" min="0" max="255" value="194">
            </div>
            <div class="blue">
-            <label for="blue">Blue</label>
-            <input type="range" id="blue" name="blue" class="slider" >
+            <label for="blue1">Blue</label>
+            <output for="blue1" id="b_out1">159</output>
+            <input type="range" id="blue1" name="blue1" class="slider"  min="0" max="255"value="159" >
           </div>
         </div>
       </div>
@@ -83,39 +86,47 @@
       <!-- foreColor 시작 -->
       <div class=" colorBlock foreColor">
           <p>Foreground</p>
-          <h3>#26339F</h3>
+          <h3 id="#hex2">#26339F</h3>
           <div class="colorset">
               <div class="red">
-                <label for="red">Red</label>
-                <input type="range" id="red" name="red" class="slider" >
+                <label for="red2">Red</label>
+                <output for="red2" id="r_out2">238</output>
+                <input type="range" id="red2" name="red2" class="slider" min="0" max="255" value="238" >
                </div>
                <div class="green">
-                <label for="green">Green</label>
-                <input type="range" id="green" name="green" class="slider" >
+                <label for="green2">Green</label>
+                <output for="green2" id="g_out2">190</output>
+                <input type="range" id="green2" name="green2" class="slider" min="0" max="255"value="190" >
                </div>
                <div class="blue">
-                <label for="blue">Blue</label>
-                <input type="range" id="blue" name="blue" class="slider" >
+                <label for="blue2">Blue</label>
+                <output for="blue2" id="b_out2">0</output>
+                <input type="range" id="blue2" name="blue2" class="slider" min="0" max="255" value="10" >
               </div>
             </div>
       </div>
       <!-- foreColor 끝 -->
-      <div class="quote">
-      <blockquote class="koreanQuote">색은 우리의 영혼에게 직접적으로 영향을 끼치는 힘을 가지고 있습니다.<br>
+      
+        <div class="quote koreanQuote">색은 우리의 영혼에게 직접적으로 영향을 끼치는 힘을 가지고 있습니다.<br>
         우리는 색을 보며 행복해지기도 하고 우울해지기도 합니다.<br>
-        클로드 비알라를 본 딴 작품을 보며 색이 주는 매력에 빠져보시기 바랍니다.</blockquote>
+        <a href="https://www.wikiart.org/en/claude-viallat/untitled-no-114-2002" target="_blank" alt="비알라작품">클로드 비알라를 본 딴 작품</a>을 보며 색이 주는 매력에 빠져보시기 바랍니다.
+        </div>
 
-        <blockquote class="englishQuote">Colour is a power which directly influences the soul.<br>
+        <div class="quote englishQuote">Colour is a power which directly influences the soul.<br>
           When seeing colours, we feel delighted or feel blue.<br>
           So, Let's fall in love with a attraction of colours 
-          seeing a Cluade Viallat-style artwork. </blockquote>
-      </div>
+          seeing <a href="https://www.wikiart.org/en/claude-viallat/untitled-no-114-2002" target="_blank" alt="비알라작품">a Cluade Viallat-style artwork.</a> 
+        </div>
+      
 
       <!-- quote End -->
       <blockquote class="main">&nbsp;&nbsp;I accept the way in which colour shows itself, that’s all.
         <span>- Claude Viallat</span>
       </blockquote>
-      
-    </div>
+     </div>
+     <div class="footer">
+        <a href= "https://www.facebook.com/seungheo26">created by <span style = "text-decoration : underline;">Seung</span>;</a>
+      </div>
+    <script src="color.js"></script>
 </body>
 </html>
