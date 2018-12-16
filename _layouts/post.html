@@ -36,7 +36,7 @@ layout: default
 <!-- 이전 글, 다음글 -->
 <div class="PageNavigation mt2 mb2">
     {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}" style = "background-image: url(http://research-paper.co.kr/data/media/image/site_4/201709/20170921182341679.png)" onclick="ga(‘send’, ‘event’, ‘포스트’, ‘클릭’, ‘이전글’)" >
+    <a class="prev" href="{{page.previous.url}}" style = "background-image: url(https://cdn1.itpro.co.uk/sites/itpro/files/styles/article_main_wide_image/public/images/dir_189/it_photo_94960.jpg?itok=CbRzns2w)" onclick="ga('send', 'event', 'post', 'click', '이전글이동');" >
       <div class="inner_class">
         <span class="inner_head">이전글</span>
     {{page.previous.title}}
@@ -45,7 +45,7 @@ layout: default
     {% endif %}
     
     {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}" style = "background-image: url(http://thesweetsetup.com/wp-content/uploads/2015/06/Ulysses-Pro-Writing-Hero-2.jpg)" onclick="ga(‘send’, ‘event’, ‘포스트’, ‘클릭’, ‘다음글’)">
+    <a class="next" href="{{page.next.url}}" style = "background-image: url(http://thesweetsetup.com/wp-content/uploads/2015/06/Ulysses-Pro-Writing-Hero-2.jpg)" onclick="ga('send', 'event', 'post', 'click', '다음글이동');">
       <div class="inner_class">
         <span class="inner_head">다음글</span>
         {{page.next.title}}    
