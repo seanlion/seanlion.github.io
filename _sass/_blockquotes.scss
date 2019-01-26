@@ -1,16 +1,21 @@
 blockquote {
-  border: 2px solid #7a7a7a;
+  border: 2px solid #dfdfdf;
   font-style: italic;
   margin: $space-1;
-  padding: $space-1;
+  padding: 1.5rem;
 }
 
 blockquote footer {
   background-color: #fff;
   border-color: transparent;
-  color: #7a7a7a;
+  color: #dfdfdf;
   font-size: .85rem;
   font-style: normal;
   text-align: left;
   padding: 0;
+}
+
+
+blockquote p {
+  margin-bottom : 0;
 }
