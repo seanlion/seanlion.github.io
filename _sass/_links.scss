@@ -35,9 +35,26 @@ button,
   text-decoration : none;
 }
 
+
+.button_post_refer {
+  color: white;
+  text-shadow: none;
+  background-color : #4F95B3;
+  text-decoration : none;
+  padding : 1rem 1rem; 
+  font-size : 16px; 
+  border-radius: 5px; 
+  margin-right : 10px;
+}
+
+
+
 .button_post:hover,
 .button_post:focus,
-.button_post:active {
+.button_post:active,
+.button_post_refer:hover,
+.button_post_refer:focus,
+.button_post_refer:active {
   color: white;
   text-shadow: none;
   background-color: rgba(36,123,160, 0.8);

@@ -176,4 +176,45 @@
 .post-head {
   color: #00006E;
   font-size: 1rem;
+
+}
+
+
+/*  top to scroll 버튼 */
+
+.topScroll {
+  display : flex;
+  justify-content : center;
+  align-items: center;
+}
+
+
+.fas .fa-angle-up {
+  line-height : 50px;
+  font-size : 25px;
+}
+
+
+
+#back2Top {
+    width: 50px;
+    height : 50px;
+    line-height: 52px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 40px;
+    right: 100px;
+    background-color: #D2D2D2;
+    background-image : url(/images/caret-arrow-up.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius : 50%;
+
 }
