@@ -180,12 +180,29 @@ $('table a').click(function(){
 })
 
 
-$('blockquote a').click(function(){
+// $('blockquote a').click(function(){
+//   var link = $(this);
+//   var link_text = link.text();
+
+//   ga('send', 'event', 'link click', 'click', link_text);
+// })
+
+$('h2 a').click(function(){
   var link = $(this);
   var link_text = link.text();
 
   ga('send', 'event', 'link click', 'click', link_text);
 })
+
+$('p a').click(function(){
+  var link = $(this);
+  var link_text = link.text();
+  var href = link.attr("href");
+  link_text = link_text + ": " + href;
+
+  ga('send', 'event', 'link click', 'click', link_text);
+})
+
 
   // $(".checkBtn").click(function(){ 
       
