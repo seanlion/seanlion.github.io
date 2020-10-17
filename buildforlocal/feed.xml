@@ -1,21 +1,2569 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Seung Huh's Page</title>
+    <description>프로그래밍,테크,투자에 대해 이야기 하는 평범한 블로그입니다.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        <title>스낵뉴스 8월 3주(위클리 헤드라인/특집 소식)</title>
+        <description>&lt;h2 id=&quot;들어가며&quot;&gt;들어가며&lt;/h2&gt;
+
+&lt;p&gt;1.위클리 헤드라인&lt;/p&gt;
+
+&lt;p&gt;2.특집 소식 - 서울 공유 킥보드 현황 알아보기&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;위클리-헤드라인&quot;&gt;위클리 헤드라인&lt;/h2&gt;
+
+&lt;p&gt;이번주는 “매 주 나가는 스낵뉴스를 주요한 내용만 훑어보는 것은 어떨까?” 라는 생각으로 ‘위클리 헤드라인’을 준비해보았는데요.&lt;/p&gt;
+
+&lt;p&gt;제목만 보고도 한 주의 소식을 모두 알 수 있게 8월 3주 스낵뉴스 주요 헤드라인들을 모아보았습니다. 
+(주요 헤드라인의 선정 기준은 주관적임을 알려드립니다.)&lt;/p&gt;
+
+&lt;p&gt;관심있으신 기사 혹은 내용이 기억 안나는 기사들은 링크를 타고 들어가셔서 볼 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;주요-소식&quot;&gt;주요 소식&lt;/h3&gt;
+
+&lt;p&gt;😙 &lt;a href=&quot;https://www.facebook.com/groups/snacknews/permalink/2267881553525692/&quot;&gt;안드로이드 이용자들의 지문 로그인이 가능해질 것 같다는데?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;😙 &lt;a href=&quot;https://www.facebook.com/groups/snacknews/permalink/2265185823795265/&quot;&gt;국내에서 죽쓰는 대형마트가 해외에선 날라다닌대&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;🛵 &lt;a href=&quot;https://www.facebook.com/groups/snacknews/permalink/2265784083735439/&quot;&gt;최저시급의 2배를? 쿠팡이츠 라이더의 최저시급이 18,000원!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;📰 &lt;a href=&quot;https://www.facebook.com/groups/snacknews/permalink/2265976643716183/&quot;&gt;1살 된 뉴닉이 6억원 투자를 유치받았대&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;🚗 &lt;a href=&quot;https://www.facebook.com/groups/snacknews/permalink/2266503483663499/&quot;&gt;타다가 ‘타다 비즈니스’를 시범 시작한다고?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;⚔️ &lt;a href=&quot;https://www.facebook.com/groups/snacknews/permalink/2267971126850068/&quot;&gt;타다는 또 고발! 파파는 함께 고발당했다고..&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;🛴 &lt;a href=&quot;https://www.facebook.com/groups/snacknews/permalink/2266511450329369/&quot;&gt;현대자동차가 내놓은 모빌리티 플랫폼 ‘ZET’는 무엇일까?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;추가로-보면-더-좋을-소식&quot;&gt;추가로 보면 더 좋을 소식&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.econovill.com/news/articleView.html?idxno=369587&quot;&gt;테슬라가 드디어 ‘모델3’를 국내 공식 출시했대&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=030&amp;amp;aid=0002835338&quot;&gt;부천에 자율 주차로봇이 등장했다고?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ajunews.com/view/20190812104335491&quot;&gt;아마존이 페덱스랑 우정 끊고 새 친구를 사겼대&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=092&amp;amp;aid=0002168456&quot;&gt;강아지와 꼭 닮은 AI 로봇 개가 있다면 어떨까?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;특집-소식---서울-공유-킥보드-현황-알아보기&quot;&gt;특집 소식 - 서울 공유 킥보드 현황 알아보기&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; 🛴 글로벌적으로 인기를 끌고 있는 마이크로모빌리티 서비스, 서울에서는 어느정도 규모로 서비스 되고 있을까? &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;이번주는 마이크로 모빌리티 중 가장 인기가 있는 공유 킥보드 서비스에 대해서 알아보려고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 업계에 따르면, 올해 연말까지 관련 업체 수십 곳이 창업하고, 전동킥보드는 30000 ~ 40000 대가 새로 공급될 전망이라고 하는데요. &lt;br /&gt;
+📍 한국교통연구원은 2020년까지 전동킥보드 20만 ~ 30만대가 도로 위를 달릴 것이라고 예상한다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 아직까지 서울 통일을 한 기업이 없는 가운데, 공유킥보드 기업들의 서비스 현황을 알아보겠습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;서비스-현황-보기&quot;&gt;서비스 현황 보기&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;(서비스 이름, 킥보드 기기 수, 특징)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;씽씽&lt;/td&gt;
+      &lt;td&gt;3000대&lt;/td&gt;
+      &lt;td&gt;8월에 2000대 추가, 최근 투자 유치&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;킥고잉&lt;/td&gt;
+      &lt;td&gt;2000대&lt;/td&gt;
+      &lt;td&gt;9월에 경기권 진출, 최근 투자 유치&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;일레클&lt;/td&gt;
+      &lt;td&gt;850대&lt;/td&gt;
+      &lt;td&gt;8월에 700대 추가&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;고고씽&lt;/td&gt;
+      &lt;td&gt;300대&lt;/td&gt;
+      &lt;td&gt;9월에 5000대 정도 추가 계획, 최근 ‘알파카’ 인수&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;스윙&lt;/td&gt;
+      &lt;td&gt;300대&lt;/td&gt;
+      &lt;td&gt;8월에 300대 추가&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;지빌리티&lt;/td&gt;
+      &lt;td&gt;200대&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;라이드&lt;/td&gt;
+      &lt;td&gt;150대&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;플라워로드&lt;/td&gt;
+      &lt;td&gt;100대&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;디어&lt;/td&gt;
+      &lt;td&gt;100대 안팎&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;빔&lt;/td&gt;
+      &lt;td&gt;100대 안팎&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;윈드&lt;/td&gt;
+      &lt;td&gt;100대 안팎&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;무빗&lt;/td&gt;
+      &lt;td&gt;100대 안팎&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;라임&lt;/td&gt;
+      &lt;td&gt;2000대&lt;/td&gt;
+      &lt;td&gt;곧 한국 상륙 예정&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;서울-시내-지역별-현황&quot;&gt;서울 시내 지역별 현황&lt;/h3&gt;
+
+&lt;p&gt;📍 이번에는 서울 시내 지역별로 어느 기업들이 주로 서비스를 하는지 알아보겠습니다. &lt;br /&gt;
+주로 다니는 지역에 어떤 서비스들이 있는지 눈여겨봐도 좋을 것 같네요.😉&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;서초구/강남구&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;마이크로모빌리티 업체들의 전쟁터.&lt;/p&gt;
+
+&lt;p&gt;1.씽씽,   &lt;br /&gt;
+2.킥고잉, &lt;br /&gt;
+3.고고씽, &lt;br /&gt;
+4.빔 &lt;br /&gt;
+등이 서비스 하는 중.&lt;/p&gt;
+
+&lt;p&gt;곧 라임도 들어올 예정.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;송파구&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;강남구 다음으로 서비스가 활발한 지역.&lt;/p&gt;
+
+&lt;p&gt;1.킥고잉, &lt;br /&gt;
+2.플라워로드, &lt;br /&gt;
+3.빔, &lt;br /&gt;
+4.지빌리티 &lt;br /&gt;
+등이 서비스 하는 중.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;서대문구/마포구&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;주로 신촌,홍대를 중심으로 서비스가 운영되는 점이 특징.&lt;/p&gt;
+
+&lt;p&gt;1.킥고잉, &lt;br /&gt;
+2.지빌리티, &lt;br /&gt;
+3.일레클 &lt;br /&gt;
+등이 서비스 하는 중.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;성동구/광진구&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;성동구에서는 1.스윙, 2.킥고잉,   &lt;br /&gt;
+광진구에서는 1.킥고잉, 2.디어 &lt;br /&gt;
+등이 서비스 하는 중.&lt;/p&gt;
+
+&lt;p&gt;참고로 스윙은 서울대학교 인근(관악구)에서도 서비스 하는 중.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;가산구/구로구/용산구&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;가산구(가산디지털 단지)와 구로구(구로디지털 단지)에서는 ‘라이드’가 서비스 하는 중.&lt;/p&gt;
+
+&lt;p&gt;참고로 라이드는 용산구(이태원)도 진출해서 다른 기업보다 먼저 서비스 하는 중.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 확실히 서울 시내에서도 다양한 곳에서 다양한 기업들이 경쟁 하고 있는데요. &lt;br /&gt;
+강남,송파, 서대문구 등에서는 치열하게 경쟁이 되고 있는만큼 해당 지역들에서 완전 우세를 점하는 기업들이 결국 서울 통일을 하는 1인자가 될 확률이 높아보입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;소셜-플랫폼에서-스낵뉴스-받아보기&quot;&gt;소셜 플랫폼에서 스낵뉴스 받아보기&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&quot;button_post_a&quot; href=&quot;https://www.facebook.com/groups/2025149054465611/?ref=group_browse_new&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'facebook');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;페이스북 그룹 가기&lt;/button&gt;&lt;/a&gt;
+&lt;a class=&quot;button_post_a&quot; href=&quot;https://goo.gl/forms/wf7tAS667BXFi04k2&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'kakao');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;카카오 오픈챗 가기&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 17 Aug 2019 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/news/220</link>
+        <guid isPermaLink="true">http://localhost:4000/news/220</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>스낵뉴스 8월 2주(금융/투자)</title>
+        <description>&lt;h2 id=&quot;헤드라인으로-한-주의-소식을-파악해보세요누르면-기사로-이동해요&quot;&gt;헤드라인으로 한 주의 소식을 파악해보세요(누르면 기사로 이동해요👇)&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#fintech&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;금융&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#kakaobank1st_finance_08_10&quot;&gt;카카오뱅크 충성고객인 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#tossservice_finance_08_10&quot;&gt;토스가 하는 거 다 궁금한 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#invest&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt; 투자&amp;amp;인수&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#todayRawfish_investment_08_10&quot;&gt;오늘 회 먹고싶은 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#tossinvestment_investment_08_10&quot;&gt;토스 망할까 궁금한 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#tossLGUplus_investment_08_10&quot;&gt;토스카드 애용하는 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#morethings_investment_08_10&quot;&gt;캐리언니 회사 사정 궁금한 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;금융&quot;&gt;&lt;a name=&quot;fintech&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;금융&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;카카오--이제-우리가-킹-카카오뱅크-충성고객-수가-기존은행을-넘었대&quot;&gt;&lt;a name=&quot;kakaobank1st_finance_08_10&quot;&gt;&lt;/a&gt;카카오 | &lt;a href=&quot;https://www.sedaily.com/NewsView/1VMW389KVK&quot;&gt;이제 우리가 킹! 카카오뱅크 충성고객 수가 기존은행을 넘었대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; 🔥 카카오뱅크의 활성 고객 수가 기존은행을 넘었습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 8월 8일 닐슨코리안클릭에 따르면 카카오뱅크 앱 월간 순 이용자는 6월 기준 703만명을 기록했다고 합니다. 
+카카오뱅크는 MAU 기준으로 모든 기존은행을 처음으로 앞섰습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 기존 은행 앱 중에서는, &lt;br /&gt;
+1.KB국민은행 스타뱅킹 - 694만명,&lt;br /&gt;
+2.신한은행 쏠 - 600만명,&lt;br /&gt;
+3.NH농협은행 NH스마트뱅킹 - 573만명, &lt;br /&gt;
+4.우리은행 원터치개인뱅킹 - 408만명,&lt;br /&gt;
+5.KEB하나은행 원큐뱅크 - 330만명 &lt;br /&gt;
+순을 기록했습니다.&lt;/p&gt;
+
+&lt;p&gt;이제 설치 수 자체가 중요하지 않게 되면서 실제 고객들이 앱에 얼마나 접속하고 사용했는지가 중요한데 카카오뱅크는 어느정도 우위에 섰다고 볼 수 있는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 카카오뱅크는 고객 1인당 사용 빈도수 기준으로도 기존은행을 앞섰습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 와이즈앱에 따르면 7월 기준,
+고객 1인당 카카오뱅크 앱 실행 횟수 - 평균 111.5회를 기록했으며,  &lt;br /&gt;
+신한은행 쏠 - 99회,     &lt;br /&gt;
+IBK기업은행 아이원뱅크 - 91.8회  &lt;br /&gt;
+등 기존 은행을 모두 제치고 1위에 올라섰다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 앞으로 카카오뱅크는 더 확대될 것으로 보이는데 시중 은행들이 어떻게 대처할지 기대가 되네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;토스--토스가-금융사-대출-상품-비교-서비스를-내놓았어&quot;&gt;&lt;a name=&quot;tossservice_finance_08_10&quot;&gt;&lt;/a&gt;토스 | &lt;a href=&quot;http://www.zdnet.co.kr/view/?no=20190807112031&quot;&gt;토스가 금융사 대출 상품 비교 서비스를 내놓았어&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;☀️ 토스가 금융사 대출 상품 비교 서비스를 공식 출시했습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 8월 7일 토스의 ‘비바리퍼블리카’는 여러 금융회사의 대출 상품 금리와 한도를 간편하게 조회·신청할 수 있는 ‘내게 맞는 대출 찾기’ 서비스를 공식 출시했다고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 금융사는 유진저축은행/OK저축은행/웰컴저축은행/신한저축은행 4곳이라고 합니다. &lt;br /&gt;
+4개 저축은행의 6개 신용대출 상품이 제공됩니다.&lt;/p&gt;
+
+&lt;p&gt;📍 이번 서비스는 만 23세 이상의 토스 사용자라면 누구나 금융기관 대출 상품 금리와 한도를 비교/조회하고, 유리한 조건의 상품 신청까지 진행할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 토스 앱 내에서 서비스를 접속해 상품을 고른 후, 인증을 마치고, 해당 대출 상품을 제공하는 금융기관의 웹페이지에서 대출 약정 절차를 완료하면 된다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;소셜-플랫폼에서-스낵뉴스-받아보기&quot;&gt;소셜 플랫폼에서 스낵뉴스 받아보기&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&quot;button_post_a&quot; href=&quot;https://www.facebook.com/groups/2025149054465611/?ref=group_browse_new&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'facebook');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;페이스북 그룹 가기&lt;/button&gt;&lt;/a&gt;
+&lt;a class=&quot;button_post_a&quot; href=&quot;https://goo.gl/forms/wf7tAS667BXFi04k2&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'kakao');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;카카오 오픈챗 가기&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;투자인수&quot;&gt;&lt;a name=&quot;invest&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;투자&amp;amp;인수&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;시장동향--오늘-회-어때-오늘회가-투자유치에-성공했어&quot;&gt;&lt;a name=&quot;todayRawfish_investment_08_10&quot;&gt;&lt;/a&gt;시장동향 | &lt;a href=&quot;https://www.bloter.net/archives/348952&quot;&gt;오늘 회 어때? ‘오늘회’가 투자유치에 성공했어&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; 🐟 수산물 커머스 ‘오늘회’, 시리즈A 투자 유치!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 수산물 버티컬 커머스 ‘오늘회’를 운영하는 오늘식탁이 40억 원의 투자를 유치했습니다&lt;/p&gt;
+
+&lt;p&gt;📍 이번 투자는 시리즈 A 규모의 투자이며 기존의 투자자인 대성창업투자, 수림창업투자의 후속 투자와&lt;br /&gt;
+새롭게 KTB네트워크, 한국투자파트너스가 합류하며 총 48억 원의 누적 투자를 기록하게 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 ‘오늘회’는 각지 제출 수산물을 빠르게 공급, 판매를 하는 B2C 서비스로 저녁 배송에 최적화된 물류를 통해 경기도, 수도권을 중심으로 빠르게 서비스 확장하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 투자 관계자에 따르면 이번 투자의 배경이 “냉장 수산물의 잠재적 수요 확대, 간편식 선호 추세 등의 시장 요인을 고려했다”라고 설명했습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 오늘회 김재현 대표는 투자금을 통해 전략상품 기획매입과 배송지역 확장, 마케팅에 사용할 계획이며 올해 말까지 월 매출 10억 달성을 목표로 하고 있다고 합니다&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;토스--토스가-770억원-규모-투자-유치에-성공했어&quot;&gt;&lt;a name=&quot;tossinvestment_investment_08_10&quot;&gt;&lt;/a&gt;토스 | &lt;a href=&quot;http://www.mediasr.co.kr/news/articleView.html?idxno=53984&quot;&gt;토스가 770억원 규모 투자 유치에 성공했어&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; 💸 토스가 추가 투자 유치에 성공했습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 8월 8일 토스를 운영하는 비바리퍼블리카 측에 따르면 홍콩 투자사 Aspex Management 및 클라이너퍼킨스,알토스벤처스 등 기존 투자사들로부터 6400만 달러(한화 약 770억 원) 규모 추가 투자를 유치했다고 전했습니다.&lt;/p&gt;
+
+&lt;p&gt;현재 토스의 누적 투자 유치 금액은 약 3천억 원이며, 기업 가치는 약 22억 달러(한화 약 2조 7천억 원)로 평가 받았습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 토스는 현재 7월 기준 누적 다운로드 3,000만 건, 누적 가입자 1,300만 명을 돌파해 정말 국민 핀테크 서비스로 자리 잡았습니다.&lt;br /&gt;
+현재까지 출시 이래 누적 송금액은 51조 원에 이른다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍 이번 투자를 주도한 Aspex는 2018년에 설립된 투자사로 홍콩을 기반으로 아시아 전역의 유망 기업에 투자하고 있는 기업입니다.,&lt;/p&gt;
+
+&lt;p&gt;📍 Aspex의 Hermes Li 대표는 “금융 서비스 시장의 큰 규모와 성장성은 물론 모바일 금융 분야에 있어 토스의 선도적 지위에 대해 높이 평가하고 있다.&lt;br /&gt;
+뛰어난 역량을 갖춘 토스팀이 토스 서비스를 앞으로 더욱 통합적인 금융 플랫폼으로 발전시켜 나갈 것을 기대한다.”라고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;토스--저도-좀-토스가-lg유플러스-pg사업부-인수전에-뛰어들었어&quot;&gt;&lt;a name=&quot;tossLGUplus_investment_08_10&quot;&gt;&lt;/a&gt;토스 | &lt;a href=&quot;http://www.newsway.co.kr/news/view?tp=1&amp;amp;ud=2019080817210034530&quot;&gt;저도 좀.. 토스가 ‘LG유플러스 PG사업부’ 인수전에 뛰어들었어&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; 🤔 토스가 LG유플러스 PG사업부 인수에 뛰어듭니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 8월 8일 금융 업계에 따르면 토스를 운영하는 ‘비바리퍼블리카’가 6일 딜로이트안진이 실시한 LG유플러스 PG사업부 예비입찰에 인수의향서를 제출했다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 시장에 매물로 나온 LG유플러스 PG사업부는 전자지급 결제와 VAN 업무를 담당하는 곳입니다.&lt;br /&gt;
+구매자와 카드사를 중개해주고 수수료를 받는 구조인데요.&lt;br /&gt;
+현재는 시장1위 KG이니시스에 이어 전자결제 시장 점유율 2위를 차지하고 있습니다.&lt;br /&gt;
+그렇다면 왜 갑분비바리퍼블리카 가 된걸까요?&lt;/p&gt;
+
+&lt;p&gt;📍 아마 비바리퍼블리카가 PG사업 인수에 뛰어든 것은 자체 전자결제사업부를 꾸려서 ‘토스’의 수익구조를 개선하기 위함일 것 같은데요.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 토스는 ‘토스카드’라는 카드를 서비스하고 있는데요.&lt;br /&gt;
+이미 카드 발급자는 100만명에 육박하고, 누적 결제액은 3200억원에 이릅니다.&lt;/p&gt;
+
+&lt;p&gt;📍 그러나 자체 전자결제사업부를 따로 두지 않아 BC카드의 결제망을 활용해 서비스를 제공해왔는데요.&lt;br /&gt;
+현재 부담 수수료가 전체 매출액의 0.6 ~ 0.7% 수준이라고 합니다.&lt;br /&gt;
+재무적으로 부담이 있을 것으로 보이는데요.&lt;/p&gt;
+
+&lt;p&gt;하지만 자체 PG사업부를 확보한다면 비용 절감이 확실히 될 것으로 보입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 이점이 많긴하지만 문제는 비바리퍼블리카가 매각 가격을 감당할 수 있느냐인데요.&lt;br /&gt;
+현재 매각 가격이 3000억 ~ 4000억원으로 전망되는데,&lt;br /&gt;
+비바리퍼블리카는 5년 연속 적자가 나는 상황이고 손해액이 1000억원에 달하는 스타트업입니다.&lt;/p&gt;
+
+&lt;p&gt;📍어제 투자 유치에 성공 소식을 전해드렸지만, 과연 독자적으로 PG사업부를 사들일 수 있을까 싶은데요.&lt;br /&gt;
+아마 앞서 인터넷은행 설립을 추진했던 ‘토스뱅크’ 구성원 등과 다시 연합을 구성해 사는 방법도 모색될 수 있을 것 같네요.&lt;/p&gt;
+
+&lt;p&gt;📍현재 LG유플러스 측은 빠르면 이번주 내에 적격예비인수후보를 선정한 뒤 예비실사를 거쳐 9월에 본입찰을 진행할 계획을 밝혔습니다.&lt;br /&gt;
+비바리퍼블리카 측은 “PG사업부 인수전에 대해서는 어떤 것도 확인되지 않았다”라고 밝혔다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;이런-투자인수-소식도-있어요&quot;&gt;&lt;a name=&quot;morethings_investment_08_10&quot;&gt;&lt;/a&gt;이런 투자&amp;amp;인수 소식도 있어요&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=031&amp;amp;aid=0000504423&quot;&gt;얘넨 인수쟁이야? 세일즈포스가 ‘클릭소프트웨어’를 인수했어&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=293&amp;amp;aid=0000024712&quot;&gt;후.. 일보후퇴다! 캐리소프트가 상장을 철회했어&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.yna.co.kr/view/AKR20190728043800009&quot;&gt;브라질의 떠오르는 인뱅 샛별! NUBANK가 4억 달러 규모 투자를 유치했어&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;스낵뉴스에 건의할 점, 문의할 점이 있다면 언제든지 댓글 혹은 메일으로 주세요!
+그리고 혹시 보신 스낵 뉴스가 괜찮았다면 아래 버튼을 눌러, 의견을 말씀해주실 수 있나요?&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;button_post_a&quot; href=&quot;https://seanlion.typeform.com/to/giDc38&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'survey_news');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;의견 전달하러가기&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;응원해주시는 모든 구독자님께 진심으로 감사드립니다!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Aug 2019 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/news/219</link>
+        <guid isPermaLink="true">http://localhost:4000/news/219</guid>
+      </item>
+    
+      <item>
+        <title>스낵뉴스 8월 2주(모빌리티/커머스/O2O)</title>
+        <description>&lt;h2 id=&quot;헤드라인으로-한-주의-소식을-파악해보세요누르면-기사로-이동해요&quot;&gt;헤드라인으로 한 주의 소식을 파악해보세요(누르면 기사로 이동해요👇)&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#mobility&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;모빌리티&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#uber2ndreport_mobility_08_10&quot;&gt;우버 미래가 궁금한 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#gogoxingMnA_mobility_08_10&quot;&gt;고고씽 쓰는 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#kickspot_mobility_08_10&quot;&gt;킥고잉 쓰는 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#lyftBurn_mobility_08_10&quot;&gt;전기 자전거 자주 타는 사람들을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#kakaoT_mobility_08_10&quot;&gt;카카오T 이용하는 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#morethings_mobility_08_10&quot;&gt;미국산 킥보드 서비스 쓰고싶은 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#commerce&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;커머스&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#dashRIP_commerce_08_10&quot;&gt;세상 귀찮은 사람들을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#naverAliexpress_commerce_08_10&quot;&gt;알리익스프레스로 상품 자주 사는 사람들을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#morethings_commerce_08_10&quot;&gt;이마트 주식 사놓은 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#o2o&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;O2O&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#coupangeats_o2o_08_10&quot;&gt;시급 쎈 알바 찾는 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#morethings_o2o_08_10&quot;&gt;식당가서 자리에서 안 움직이고싶은 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;모빌리티&quot;&gt;&lt;a name=&quot;mobility&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;모빌리티&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;우버--우버가-이번-분기에-최악의-손해를-냈대&quot;&gt;&lt;a name=&quot;uber2ndreport_mobility_08_10&quot;&gt;&lt;/a&gt;우버 | &lt;a href=&quot;http://news.kbiz.or.kr/news/articleView.html?idxno=51964&quot;&gt;우버가 이번 분기에 최악의 손해를 냈대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; 😔 우버가 2분기에 역대 최악의 분기 손실을 기록했습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 8월 8일 우버는 2분기 실적에서 52억 4000만달러(약 6조 3351억원), 주당 4.72달러의 순손실을 기록했다고 발표했습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 이는 지난해 같은 기간에 기록했던 8억 7800만달러, 주당 2.01달러보다 높은 상황입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 매출은 14% 늘어난 31억 7000만달러를 기록했지만, 전문가 전망치(33억달러)를 밑돌았다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍 매체 월스트리트저널은 “역대 최대규모의 분기 순손실”, 
+“라틴아메리카 등에서의 경쟁 격화와 지난 5월 기업공개(IPO)와 관련한 39억달러 규모의 주식 보상 비용에 따른 것”이라고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 또한 “우버의 전반적인 비즈니스는 여전히 성장하고 있지만, 치열한 경쟁과 운전자들에게 지급하는 높은 수준의 보조금과 인센티브 등으로 고투를 지속하고 있다”고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;시장동향--알파카-같이가자-고고씽이-알파카와-합병했어&quot;&gt;&lt;a name=&quot;gogoxingMnA_mobility_08_10&quot;&gt;&lt;/a&gt;시장동향 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=011&amp;amp;aid=0003598037&quot;&gt;알파카 같이가자! 고고씽이 알파카와 합병했어&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; 🛴 8월 5일 ‘고고씽’을 운영하는 매스아시아가 공유 킥보드 서비스 ‘알파카’를 인수했다고 밝혔습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍매스아시아는 국내 최초 공유 자전거 서비스를 시작한 스타트업입니다.&lt;br /&gt;
+2019년 4월부터 전기자전거·전동킥보드 통합 플랫폼 ‘고고씽’을 운영하고 있는데요.&lt;/p&gt;
+
+&lt;p&gt;📍인수 된 알파카는 카이스트 출신 구성원들이 창업한 공유 킥보드 서비스로 대학 캠퍼스를 중심으로 운영 중인 서비스입니다.&lt;/p&gt;
+
+&lt;p&gt;📍매스아시아는 이번 합병으로 20대 대학생을 대상으로 수요층을 확대하고 수도권/대전/제주 등 대학교 캠퍼스 진출을 본격화할 계획이라고 합니다. &lt;br /&gt;
+정수영 매스아시아 대표는 “알파카와의 인수합병을 통해 퍼스널 모빌리티 시장에서의 주도권을 강화하고 전동킥보드 공유 서비스로서의 경쟁력을 극대화하겠다”고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍공유 킥보드 시장도 과열 경쟁 시장인데 현재 모습으로는 큰 업체들 위주로 시장이 재편될 것 같아 보이네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;킥고잉--나름-핫스팟-킥고잉이-주차장을-만든다고&quot;&gt;&lt;a name=&quot;kickspot_mobility_08_10&quot;&gt;&lt;/a&gt;킥고잉 | &lt;a href=&quot;http://www.econovill.com/news/articleView.html?idxno=369076&quot;&gt;나름 핫스팟! 킥고잉이 주차장을 만든다고?&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; 🛴 킥고잉이 전용거치대를 공개했습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍8월 6일 공유킥보드 서비스 ‘킥고잉’을 운영하는 올롤로가 킥고잉 전용 거치대인 킥스팟을 공개했습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p align=&quot;middle&quot;&gt;    
+ &lt;img src=&quot;http://www.econovill.com/news/photo/201908/369076_269033_5256.jpg&quot; alt=&quot;alt text&quot; width=&quot;70%&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;📍킥스팟은 킥고잉의 전용 주차대인데요.&lt;/p&gt;
+
+&lt;p&gt;📍킥스팟은 총 6대의 킥보드를 반납할 수 있게 제작되었습니다.&lt;br /&gt;
+우리가 보통 타는 따릉이 거치대라고 생각하시면 편할 것 같네요.&lt;/p&gt;
+
+&lt;p&gt;📍킥스팟은 이용자들이 쉽게 찾을 수 있도록 킥고잉 고유색인 민트 컬러를 입혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍빠르면 8달 말부터 제휴를 맺은 편의점 위주로 도입될 예정이라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍최영우 올룰로 대표는 “도시에 전동킥보드가 증가하면서 무질서하게 놓인 킥보드로 시민들의 불편도 가중되는 상황”,&lt;br /&gt;
+“킥스팟은 이를 해결하기 위해 오랫동안 고민한 결과물로, 공유 전동킥보드 시장이 환영받기 위해서는 양적인 팽창도 중요하지만 질적인 성장도 꼭 필요할 것”이라고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;리프트--갑자기-연기가-리프트가-전기-자전거-대여를-중단했어&quot;&gt;&lt;a name=&quot;lyftBurn_mobility_08_10&quot;&gt;&lt;/a&gt;리프트 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=030&amp;amp;aid=0002834002&quot;&gt;갑자기 연기가?.. 리프트가 전기 자전거 대여를 중단했어&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; 🚲 미국에서 전기자전거 화재가 나서 대여 서비스가 중단되는 일이 벌어졌습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍8월 1일 매체 테크크런치에 따르면 모빌리티 플랫폼 업체 리프트가 샌프란시스코에 설치한 전기자전거에서 화재가 발생했다고 합니다.&lt;br /&gt;
+현재 리프트는 해당 지역 자전거 대여 서비스를 잠정 중단했습니다.&lt;/p&gt;
+
+&lt;p&gt;📍이번에 문제가 생긴 모델은 리프트가 서비스하고 있는 공유 전기자전거인데요.&lt;br /&gt;
+고정 거치대가 없는 ‘dockless’ 형태라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍화재는 배터리에 기술적 문제가 있었던 것으로 추정됩니다.&lt;br /&gt;
+다행히 화재로 인한 부상자는 없었다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍이번 화재는 리프트에게는 꽤 치명적일 것으로 보입니다.&lt;br /&gt;
+현재 리프트는 샌프란시스코 지역에서 공유자전거 서비스 공급 독점권을 인정받기 위한 소송을 규제 당국과 진행 중이기 때문인데요.&lt;br /&gt;
+화재의 여파로 사업 확장에 차질이 있을 수도 있겠네요.&lt;/p&gt;
+
+&lt;p&gt;📍이런 미국의 사례를 참고해서 한국에도 각 기업들이 전기자전거 등 모빌리티 안전 문제를 운영 우선순위에 두었으면 좋겠습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;카카오--카카오모빌리티가-전담-택시-조직을-마련한대&quot;&gt;&lt;a name=&quot;kakaoT_mobility_08_10&quot;&gt;&lt;/a&gt;카카오 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=421&amp;amp;aid=0004135160&quot;&gt;카카오모빌리티가 전담 택시 조직을 마련한대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🚗 카카오모빌리티가 택시를 담당할 특수목적 법인을 설립했습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 8월 8일 공정거래위원회에 따르면 7월 말 카카오모빌리티가 택시운송업을 영위하는 신설법인 ‘티제이파트너스’를 설립해 계열사에 편입했다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 티제이파트너스는 카카오모빌리티가 인수한 택시회사들을 운영하고 보유한 택시와 기사들을 전문적으로 관리하는 역할을 한다고 하는데요.&lt;br /&gt;
+현재 카카오모빌리티는 법인택시 면허 90여개를 보유한 택시업체 ‘진화택시’와 계약을 맺고 인수 작업을 진행중입니다. &lt;br /&gt;
+진화택시는 인수가 마무리되면 티제이파트너스의 자회사로 편입될 예정이라고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍 아무래도 카카오모빌리티는 직접 택시회사를 인수해 다양한 모델을 시험해보고, 고도화 하는 방안을 모색할 계획으로 보입니다.   &lt;br /&gt;
+본격적으로 플랫폼 택시 가맹형 사업을 확대하기 전에 법인택시 회사들과 공생하기 위함으로 보이네요.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 카카오모빌리티는 가맹택시사업자 타고솔루션즈와 협업해 승차거부 없는 택시 ‘웨이고블루’와 여성 전용 택시 ‘웨이고레이디’ 등을 ‘카카오T’에서 이용할 수 있도록 하고 있는데요. &lt;br /&gt;
+택시 사업자를 자체 플랫폼에 띄우면서, 자체적인 사업자를 가지고 운영하며 점점 지배력을 키워 나갈 것 같네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;이런-모빌리티-소식도-있어요&quot;&gt;&lt;a name=&quot;morethings_mobility_08_10&quot;&gt;&lt;/a&gt;이런 모빌리티 소식도 있어요&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=015&amp;amp;aid=0004186769&quot;&gt;미국의 킥보드 유니콘 ‘라임’이 한국 진출한대&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=277&amp;amp;aid=0004515938&quot;&gt;아이고ㅠㅠ 어디가노.. ‘어디고’가 카풀 서비스를 종료한대&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.zdnet.co.kr/view/?no=20190807162703&quot;&gt;뉴욕에서 자율주행 버스가 첫 상업용 운행을 한다는데?&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=008&amp;amp;aid=0004258742&quot;&gt;타다 프리미엄이 처음으로 법인택시 협력사를 영입했어&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;소셜-플랫폼에서-스낵뉴스-받아보기&quot;&gt;소셜 플랫폼에서 스낵뉴스 받아보기&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&quot;button_post_a&quot; href=&quot;https://www.facebook.com/groups/2025149054465611/?ref=group_browse_new&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'facebook');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;페이스북 그룹 가기&lt;/button&gt;&lt;/a&gt;
+&lt;a class=&quot;button_post_a&quot; href=&quot;https://goo.gl/forms/wf7tAS667BXFi04k2&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'kakao');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;카카오 오픈챗 가기&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;커머스&quot;&gt;&lt;a name=&quot;commerce&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;커머스&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;아마존--rip-대시-아마존이-대시를-종료한대&quot;&gt;&lt;a name=&quot;dashRIP_commerce_08_10&quot;&gt;&lt;/a&gt;아마존 | &lt;a href=&quot;http://www.zdnet.co.kr/view/?no=20190802100102&quot;&gt;RIP 대시! 아마존이 대시를 종료한대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; ⚰️ 아마존이 귀차니즘의 대명사 ‘대시버튼’ 서비스를 종료합니다.(RIP)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 8월 1일 매체 씨넷에 따르면 아마존은 8월 31일부로 대시버튼 서비스를 종료한다고 합니다.&lt;br /&gt;
+대신 아마존은 대시버튼을 바로 종료하지 않고 자사 웹사이트에 가상의 대시버튼을 만들어 계속 사용할 수 있게 한다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍대시버튼이라는 서비스는 어떤 서비스일까요?&lt;br /&gt;
+대시는 아마존이 2015년 처음 시작한 서비스입니다.&lt;/p&gt;
+
+&lt;p&gt;📍반복적으로 구매해야하는 생필품 같은 것을 편리하게 버튼만 누르면 아마존으로 구매해서 배송받을 수 있는 서비스인데요.&lt;br /&gt;
+세제, 휴지, 쓰레기 봉투, 과자 등 생활용품을 손쉽게 구매할 수 있어서 귀차니즘을 해소해줄 수 있는 편리한 서비스였습니다.&lt;/p&gt;
+
+&lt;p&gt;📍그러나 2019년 2월, 아마존은 서비스는 유지하지만 새 대시는 만들지 않는다고 선언하면서 이번 대시의 죽음(?)을 미리 알렸는데요.&lt;br /&gt;
+아마존은 왜 이런 결정을 내렸을까요?&lt;/p&gt;
+
+&lt;p&gt;📍아마 이유는 아마존의 차세대 동력인 알렉사와 인공지능 스피커 때문으로 추정됩니다.&lt;br /&gt;
+아마존은 현재 음성인식 비서 알렉사를 통해 손쉽게 음성으로 쇼핑할 수 있는 시스템을 구축하고 있습니다. &lt;br /&gt;
+디스플레이가 탑재된 에코쇼와 같은 인공지능 스피커에 가상의 대시버튼을 제공하기도 하는데요.&lt;/p&gt;
+
+&lt;p&gt;📍이미 아마존은 대시로 사람들이 반복적으로 무언가를 주문한다는 니즈가 많다는 것을 알게 되었고, &lt;br /&gt;
+향후 물리버튼을 계속 생산해내는 것보다 음성 주문으로 처리하는게 더 낫다고 판단했을 것 같습니다.&lt;/p&gt;
+
+&lt;p&gt;과도기 시대의 충실히 역할을 했던 대시, 이제는 역사 속으로 사라지게 되었네요😭&lt;/p&gt;
+
+&lt;h2 id=&quot;대시-홍보-영상-보기&quot;&gt;대시 홍보 영상 보기&lt;/h2&gt;
+
+&lt;!-- &lt;iframe width= &quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-OgPTC0EB48&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+
+&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/-OgPTC0EB48&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'youtubePlayer');&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;네이버--이제-초록창에서-알리익스프레스-검색이-가능하다고&quot;&gt;&lt;a name=&quot;naverAliexpress_commerce_08_10&quot;&gt;&lt;/a&gt;네이버 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=421&amp;amp;aid=0004131602&quot;&gt;이제 초록창에서 알리익스프레스 검색이 가능하다고?&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; 🔍 네이버가 알리바바와 검색 제휴를 맺습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍8월 5일 네이버가 중국 전자상거래 서비스 알리바바의 ‘알리익스프레스’와 검색 제휴를 맺었습니다.&lt;br /&gt;
+이제 소비자들은 네이버쇼핑에서 알리익스프레스 상품을 검색하는 것이 가능한데요.&lt;br /&gt;
+아직 단점이 있다면, 상품정보만 보여주고, 결제는 알리익스프레스 페이지로 접속하여 결제하는 아쉬움이 있네요.&lt;/p&gt;
+
+&lt;p&gt;📍사실, 네이버가 해외 쇼핑몰과 제휴를 맺은 것은 이번이 처음입니다.&lt;br /&gt;
+이전까지 네이버쇼핑에 입점해있던 해외제품은 해외 상품을 구매 대행하는 업체들로만 구성되어있었습니다.&lt;/p&gt;
+
+&lt;p&gt;📍알리익스프레스는 한국으로 무료 직배송과 한국어 서비스를 지원합니다.&lt;/p&gt;
+
+&lt;p&gt;📍2019년 1분기 기준 누적 구매자가 1억 2000만명을 넘은 거대한 서비스인데요.(누적 최근 1년 기준)&lt;br /&gt;
+네이버 관계자는 “직구족이 많이 늘어 해외 쇼핑몰과 검색 제휴를 맺게 됐다”고 밝혔습니다.&lt;br /&gt;
+그렇다면 얼마나 직구족들이 많아지는걸까요?&lt;/p&gt;
+
+&lt;p&gt;📍통계청에 따르면 2019년 2분기 온라인 해외 직접 판매액은 1조 3361억원으로서 전년 동기대비 무려 49.6% 늘었다고 합니다.&lt;br /&gt;
+그 중에서도 중국의 비중이 85.3%으로 개별 국가 중 가장 크다고 하네요. 사실상 거의 다인 것 같습니다.&lt;/p&gt;
+
+&lt;p&gt;📍네이버는 앞으로도 미국 ‘아이허브’, 싱가포르 ‘큐텐’ 등 해외 쇼핑몰과의 검색 제휴를 늘려갈 계획이라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;이런-커머스-소식도-있어요&quot;&gt;&lt;a name=&quot;morethings_commerce_08_10&quot;&gt;&lt;/a&gt;이런 커머스 소식도 있어요&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.etoday.co.kr/news/section/newsview.php?idxno=1784288&quot;&gt;이마트가 자율주행배송 서비스를 도입할거라는데?&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.yna.co.kr/view/AKR20190808170500072&quot;&gt;이젠 보지말자..! 페덱스가 아마존 화물배송을 중단한대&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;o2o&quot;&gt;&lt;a name=&quot;o2o&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;O2O&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;쿠팡--얼마면-돼-쿠팡이츠가-시급-18000원으로-라이더-모집한대&quot;&gt;&lt;a name=&quot;coupangeats_o2o_08_10&quot;&gt;&lt;/a&gt;쿠팡 | &lt;a href=&quot;https://www.hankyung.com/it/article/2019080671951?fbclid=IwAR1hlc6c_0DraVRPisfzDlLACjlwJrFVdMBvMkBzC8bcw7KYG-u4s8jhdXs&quot;&gt;얼마면.. 돼?! 쿠팡이츠가 시급 18000원으로 라이더 모집한대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🔥쿠팡의 음식 배달 서비스 ‘쿠팡이츠’가 본격적인 사업 확장을 시도합니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 쿠팡이츠는 최고 1만8000원에 이르는 최저시급을 보장하고 ‘배달비 0원’이라는 조건으로 서비스를 나서고 있는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 쿠팡이츠의 서비스 지역은 강남/관악/송파/ 등 서울 10개 지역입니다.
+경기도에서는 기흥/수지 2개의 지역에서 서비스하고 있는데요. &lt;br /&gt;
+올해 안으로 전국 영업이 가능할 것이라는 전망이 나오고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 쿠팡이츠가 화제가 되고 있는 점은 라이더 임금제입니다.
+배달 서비스를 확장하려면 레스토랑 확보와 배달대행 인력 확보가 중요한데요.&lt;/p&gt;
+
+&lt;p&gt;📍 기존 음식 배달대행 업체에 소속된 라이더 수만 약 2500명 정도라 확보하기 쉽지는 않은 상황입니다.
+따라서 쿠팡은 지역별로 1만 3000원 ~ 1만8000원의 최저시급을 보장하고, 건당 7000원의 수당도 지급할 것이라고 합니다. 
+이는 배달의민족, 요기요, 우버이츠 등 기존 사업자들이 평균 4000원 안팎의 건당 수당을 지급하는 것과 비교하면 월등히 많습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 입소문이 퍼지자 현재 ‘쿠팡이츠 배달 파트너’에 등록된 카카오톡 이용자 수는 4800명을 넘어섰다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 쿠팡이츠는 고객이 얼마를 주문하든 배달비를 받지 않습니다. 
+또한 첫 주문 음식 가격의 20%를 할인해 주고 있는데요. &lt;br /&gt;
+쿠팡 관계자는 “일정 시점까지는 이런 프로모션을 지속할 것”이라고 말했습니다.&lt;/p&gt;
+
+&lt;p&gt;현재 배달 시장은 전쟁터입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 또다른 경쟁자인 우버코리아는 우버이츠 담당 인력 비중을 높이고 있으며, 
+이커머스 기업 위메프도 배달,픽업 서비스를 확대하며 시장에 뛰어들고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;기존 플레이어인 배달의민족과 요기요 또한 쿠폰팩 할인 혜택 멤버쉽을 운영하며 참전 중이라고 하네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;이런-o2o-소식도-있어요&quot;&gt;&lt;a name=&quot;morethings_o2o_08_10&quot;&gt;&lt;/a&gt;이런 O2O 소식도 있어요&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.seoulfn.com/news/articleView.html?idxno=352046&quot;&gt;페이코가 주문부터 결제까지 가능한 ‘페이코 오더’를 출시했어&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;스낵뉴스에 건의할 점, 문의할 점이 있다면 언제든지 댓글 혹은 메일으로 주세요!
+그리고 혹시 보신 스낵 뉴스가 괜찮았다면 아래 버튼을 눌러, 의견을 말씀해주실 수 있나요?&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;button_post_a&quot; href=&quot;https://seanlion.typeform.com/to/giDc38&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'survey_news');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;의견 전달하러가기&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;응원해주시는 모든 구독자님께 진심으로 감사드립니다!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Aug 2019 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/news/218</link>
+        <guid isPermaLink="true">http://localhost:4000/news/218</guid>
+      </item>
+    
+      <item>
+        <title>스낵뉴스 8월 2주(기술동향/IT)</title>
+        <description>&lt;p&gt;&lt;a href=&quot;#tech&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;기술동향&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#spidermanViilian_tech_08_10&quot;&gt;스파이더맨1 악당이 생각나는 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#it&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;IT&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#galaxynote10_it_08_10&quot;&gt;갤럭시노트10이 궁금했던 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#disneyPlusBundle_it_08_10&quot;&gt;라이온킹과 어벤져스를 사랑하는 사람들을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#appleFoldablePhone_it_08_10&quot;&gt;애플의 폴더블 폰을 기다리는 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#kakao2ndreport_it_08_10&quot;&gt;카카오 주식 산 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#morethings_it_08_10&quot;&gt;시리 쓰는 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;기술동향&quot;&gt;&lt;a name=&quot;tech&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;기술동향&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;기술동향--스파이더맨의-그린고블린이-나타났다&quot;&gt;&lt;a name=&quot;spidermanViilian_tech_08_10&quot;&gt;&lt;/a&gt;기술동향 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=092&amp;amp;aid=0002167656&quot;&gt;스파이더맨의 그린고블린이 나타났다?!&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; 🛹 하늘을 나는 플라이보드를 타고 영국 해협을 건넌 사람이 등장했습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍8월 4일 매체 더 버지에 따르면 ‘프랭키 자파타’라는 한 남자가 프랑스 북서부 칼레 인근에서 출발해 22분 후 영국 도버 인근 세인트 마거릿 만에 성공적으로 착륙했다고 합니다.&lt;br /&gt;
+그는 플라잉보드로약 35.4km를 비행했고 최고 시속 170km를 기록했다고 하는데요.&lt;/p&gt;
+
+&lt;p&gt;📍해협을 건넌 후 프랭키 자파타는 “우리는 3년 전에 이 기계를 만들었다. 그리고, 지금 우리는 해협을 건넜다. 이는 놀라운 일이다.”이라고 소감을 밝혔습니다.&lt;br /&gt;
+다만 이번 비행에서는 연료 공급을 위해 중간에 한 차례 정지해 연료를 다시 보충해서 비행했다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍사실 이번 성공적인 비행 이전에 실패와 많은 도전이 있었습니다.&lt;br /&gt;
+플라이보드는 프랭키 자파타가 2011년 발명한 보드입니다.&lt;br /&gt;
+플라이보드 에어는 4개의 터보 제트엔진으로 구동되는 보드로, 최고 속력은 시속 150km, 최대 10분 동안 하늘을 날 수 있다고 하는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 2016년 4월에 플라이보드 에어를 이용해 2252m를 비행하는 세계 기록을 세운 바 있고,&lt;br /&gt;
+2019년 5월 14일에는 바스티유 감옥 습격 230주년 기념식에 플라이보드 에어를 타고 축하 비행을 했다고 합니다.&lt;br /&gt;
+그리고 5월 25일에 이번에 성공한 영국해협 횡단에 도전했으나, 당시에는 연료를 보충하던 중 추락해 실패했었다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍자파타가 개발한 플라이보드 에어는 향후 프랑스 군의 수색구조정찰 임무에 사용될 계획이라고 합니다.&lt;br /&gt;
+프랑스 국방부는 그가 개발한 플라이보드 에어를 병참, 공격 도구로 활용하고 싶다고 밝혔고, 2018년에 플라잉보드 개발을 위해 130만 유로(약 17억 원)를 투자했다고 하네요.&lt;br /&gt;
+어마무시한 것이 개발된 것 같습니다..!&lt;/p&gt;
+
+&lt;h2 id=&quot;비행영상-보기&quot;&gt;비행영상 보기&lt;/h2&gt;
+
+&lt;!-- &lt;iframe width= &quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XI-DL3hJFZE&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+
+&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/XI-DL3hJFZE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'youtubePlayer');&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;it&quot;&gt;&lt;a name=&quot;it&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;IT&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;삼성전자--갤럭시노트10이-드디어-공개됐다&quot;&gt;&lt;a name=&quot;galaxynote10_it_08_10&quot;&gt;&lt;/a&gt;삼성전자 | &lt;a href=&quot;http://www.bloter.net/archives/349070&quot;&gt;갤럭시노트10이 드디어 공개됐다!&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; 📱 갤럭시노트10이 공개됐습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍  8월 7일 삼성전자는 미국 뉴욕에서 ‘삼성 갤럭시 언팩 2019’를 열었는데요. 
+이번 행사에서 하반기 전략 스마트폰 ‘갤럭시노트10’을 비롯해 탭,워치,북 등 새로운 갤럭시 생태계에 대해 소개했습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 삼성전자 IM부문장 고동진 사장은 “갤럭시 노트 시리즈는 스마트폰 기술 혁신을 선도해 왔으며, 갤럭시노트10은 오늘날 사용자의 변화에 맞춰 한층 더 진화했다”,&lt;br /&gt;
+“더욱 강력해진 갤럭시노트10은 일의 효율성을 높여줄 뿐만 아니라 삶을 즐기고 공유하는 방법에도 변화를 줄 것”이라고 밝혔습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;크기모델&quot;&gt;크기/모델&lt;/h4&gt;
+
+&lt;p&gt;📍 갤럭시노트10은 2가지 크기로 나옵니다. 
+1.6.3형 화면 크기의 일반 모델,
+2.6.8형 플러스 모델
+로 출시되며, 
+일반 모델은 전작과 화면 크기를 비슷하게 유지하면서 베젤을 줄여 두께를 줄였다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p align=&quot;middle&quot;&gt;    
+ &lt;img src=&quot;http://www.bloter.net/wp-content/uploads/2019/08/galaxy-note-10-glow-1.jpg&quot; alt=&quot;alt text&quot; width=&quot;70%&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;스펙&quot;&gt;스펙&lt;/h4&gt;
+
+&lt;p&gt;📍 갤럭시노트10은 카메라 구멍을 제외하고 전면을 화면으로 가득 채운 ‘인피니티 O 디스플레이’가 적용됐습니다. &lt;br /&gt;
+다만 갤럭시S10 시리즈와 달리 화면 상단 중앙에 카메라가 탑재됐는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 또한 다이내믹 AMOLED 디스플레이를 적용했으며, 동영상 장면별로 색상을 최적해주는 다이내믹 톤 매핑을 지원합니다. &lt;br /&gt;
+해상도는 &lt;br /&gt;
+1.갤럭시노트10 - 2280×1080, &lt;br /&gt;
+2.갤럭시노트10 플러스 - 3040×1440 
+수준이라고 합니다. &lt;br /&gt;
+화면 내장형 지문 인식도 지원하네요.&lt;/p&gt;
+
+&lt;p&gt;📍 갤럭시노트는 LTE와 5G 모델로 나뉘는데요.&lt;/p&gt;
+
+&lt;p&gt;일반 LTE 모델은 8GB 램 / 256GB 저장공간,   &lt;br /&gt;
+5G 모델은 12GB 램, 256GB 저장공간을 제공합니다.&lt;/p&gt;
+
+&lt;p&gt;플러스는 LTE, 5G 모델 공통으로, 
+12GB 램/ 256GB or 512GB 저장공간을 제공합니다.&lt;/p&gt;
+
+&lt;p&gt;프로세서는 출시 지역에 따라 퀄컴 스냅드래곤 855 또는 삼성전자 엑시노스 9825 칩이 탑재됩니다. &lt;br /&gt;
+국내에는 5G 모델만 출시된다고 하네요.&lt;/p&gt;
+
+&lt;h4 id=&quot;기능&quot;&gt;기능&lt;/h4&gt;
+
+&lt;p&gt;📍 이번 갤럭시노트10의 가장 큰 특징은 S펜 기능입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p align=&quot;middle&quot;&gt;    
+ &lt;img src=&quot;http://www.bloter.net/wp-content/uploads/2019/08/0806-DaVinci-S-Pen-KR.jpg&quot; alt=&quot;alt text&quot; width=&quot;70%&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 1.저전력 블루투스(BLE)를 지원,
+2.새로운 6축 자이로/가속도 센서 탑재, 
+3.제스쳐 기능을 추가했습니다.&lt;/p&gt;
+
+&lt;p&gt;갤럭시노트10에서는 ‘에어 액션’ 기능이 추가돼 S펜의 움직임을 인식하고 개선된 원격 제어 기능을 지원한다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 S펜을 한 번 누르기, 두 번 누르기, 수평 동작, 수직 동작, 회전 등 총 다섯가지 동작을 인식한다고 합니다. &lt;br /&gt;
+또한 8월 7일 S펜의 모션 컨트롤 기능을 &lt;a href=&quot;http://itnovice1.blogspot.com/2019/01/api-sdk.html&quot;&gt;SDK&lt;/a&gt;로 공개해 개발자들이 활용할 수 있도록 시중에 풀었다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍 S펜으로 작성한 손글씨는 워드/PDF/ 이미지 등 파일 형식으로 변환이 가능하다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 녹화 중인 영상 위에 S펜으로 그림을 그릴 수 있는 ‘AR 두들’ 기능도 추가됐습니다. &lt;br /&gt;
+AR 스케치 기능으로 영상 배경에 그림을 그릴 수 있다고 합니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;카메라&quot;&gt;카메라&lt;/h4&gt;
+
+&lt;p&gt;📍 후면에는 트리플 카메라를 탑재했습니다. 
+1200만화소 메인 렌즈/ 1600만화소 초광각 렌즈/ 1200만화소 망원 렌즈로 3개의 카메라로 구성됐습니다. 
+카메라는 가로가 아닌 세로로 배열됐으며, 전면에는 1천만 화소 카메라 1개가 탑재됩니다.&lt;/p&gt;
+
+&lt;p&gt;📍 갤럭시노트10 플러스는 ToF(Time of Flight) 카메라를 탑재했는데,   &lt;br /&gt;
+ToF 센서는 3D 카메라를 구현하는 방식 중 하나로 AR·VR 등 다양한 기능을 구현할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 실제 행사에서는 &lt;a href=&quot;https://youtu.be/SXLDmF4uaLk?t=620&quot;&gt;인형을 3D 이미지로 변환해 해당 이미지가 사람의 움직임을 따라하는 모습&lt;/a&gt;이 시연됐다고 하네요.&lt;/p&gt;
+
+&lt;h4 id=&quot;배터리&quot;&gt;배터리&lt;/h4&gt;
+
+&lt;p&gt;📍 갤럭시노트10에는 3500mAh, &lt;br /&gt;
+갤럭시노트10 플러스에는 4300mAh 배터리가 탑재됩니다.&lt;/p&gt;
+
+&lt;p&gt;📍 배터리는 지능형 최적화 기능이 적용돼 한번 충전으로 하루 종일 쓸 수 있는 수준이라고 하네요. &lt;br /&gt;
+갤럭시S10 시리즈와 마찬가지로 무선 배터리 공유 기능이 들어갑니다.&lt;/p&gt;
+
+&lt;p&gt;📍 대신 이어폰 단자는 제거됐는데, 삼성전자는 여유 공간을 활용해 더 많은 양의 배터리를 탑재했다고 밝혔습니다. &lt;br /&gt;
+현재 USB 타입C 이어폰을 기본 제공하며, USB 타입C 포트를 3.5파이 이어폰 단자로 변환해주는 액세서리는 별도로 판매한다고 합니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;가격--출시&quot;&gt;가격 &amp;amp; 출시&lt;/h4&gt;
+
+&lt;p&gt;📍 갤럭시노트10은 8월 23일부터 전세계 시장에 순차적으로 출시될 예정입니다. &lt;br /&gt;
+(미국 시장 기준) 
+갤럭시노트10 
+1.LTE 모델 - 949달러(약 115만원), 
+2.5G 모델은 1049달러(약 127만원),&lt;/p&gt;
+
+&lt;p&gt;갤럭시노트10 플러스 
+1.LTE 모델 -  1099달러(약 133만원), 
+2.5G 모델은 1299달러(약 157만원)
+입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;갤럭시노트10-언팩-하이라이트-영상-보기&quot;&gt;갤럭시노트10 언팩 하이라이트 영상 보기&lt;/h2&gt;
+
+&lt;!-- &lt;iframe width= &quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SXLDmF4uaLk&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+
+&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/SXLDmF4uaLk&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'youtubePlayer');&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;소셜-플랫폼에서-스낵뉴스-받아보기&quot;&gt;소셜 플랫폼에서 스낵뉴스 받아보기&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&quot;button_post_a&quot; href=&quot;https://www.facebook.com/groups/2025149054465611/?ref=group_browse_new&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'facebook');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;페이스북 그룹 가기&lt;/button&gt;&lt;/a&gt;
+&lt;a class=&quot;button_post_a&quot; href=&quot;https://goo.gl/forms/wf7tAS667BXFi04k2&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'kakao');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;카카오 오픈챗 가기&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;디즈니--널-향한-종합선물-디즈니가-종합-스트리밍-서비스를-내놓는대&quot;&gt;&lt;a name=&quot;disneyPlusBundle_it_08_10&quot;&gt;&lt;/a&gt;디즈니 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=293&amp;amp;aid=0000024706&quot;&gt;널 향한 종합선물? 디즈니가 종합 스트리밍 서비스를 내놓는대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; 🎁 디즈니가 스트리밍 종합 선물세트를 내놓습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍8월 6일 디즈니 측은 실적 발표를 통해 디즈니가 훌루, ESPN+, 디즈니+ 등 스트리밍 서비스를 월 12.99달러에 묶음 제공한다는 내용을 공식 발표했습니다.&lt;/p&gt;
+
+&lt;p&gt;📍디즈니는 11월 12일 자체 스트리밍 서비스 디즈니 플러스를 출시할 예정인데요.&lt;br /&gt;
+현재 책정된 요금은 한달에 6.99달러입니다.&lt;br /&gt;
+현재 서비스되고 있는 훌루는 5.99달러, ESPN+는 4.99달러인데요.&lt;/p&gt;
+
+&lt;p&gt;📍만약 디즈니플러스가 12.99달러짜리 묶음 상품을 내놓는다면 이는 넷플릭스, 아마존 프라임 비디오 같은 경쟁 스트리밍 서비스보다 저렴한 요금 구조를 갖게 됩니다.&lt;/p&gt;
+
+&lt;p&gt;📍현재 이 종합세트는 미국에서 제공될 예정인데요.&lt;br /&gt;
+매체 더 버지는 “디즈니플러스가 글로벌에서 출시될 텐데,&lt;br /&gt;
+지역별로 콘텐츠 라이선스 문제 등이 있어 동일하게 묶음 상품을 내놓을지는 확실하지 않다”라고 밝혔습니다.&lt;br /&gt;
+디즈니 플러스는 나오면 꼭 써보고싶긴하네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;애플--애플이-2021년에-폴더블-폰-내놓는다고&quot;&gt;&lt;a name=&quot;appleFoldablePhone_it_08_10&quot;&gt;&lt;/a&gt;애플 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=092&amp;amp;aid=0002167955&quot;&gt;애플이 2021년에 폴더블 폰 내놓는다고?&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; 🍎 애플이 2021년 첫 폴더블 기기를 출시할 가능성이 높다고 합니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 8월 7일 매체 CNBC에 따르면 글로벌 투자은행 UBS는 최근 투자자 메모를 통해 “2020년에 애플의 첫 폴더블 제품이 출시 될 수도 있지만, 2021년이 더 가능성이 높다.”, “아이폰보다는 폴더블 아이패드가 더 먼저 나오게 될 것”이라고 전망했다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 UBS의 Evidence Lab이 진행한 설문 조사에 따르면, 대부분의 소비자들은 폴더블 기기에 대해 400 ~ 500달러의 비용을 추가로 지불할 의사가 있는 것으로 조사됐습니다. &lt;br /&gt;
+다만 애플 기기 구매자는 이보다는 조금 더 높은 수준인 600달러를 지불 할 의사가 있다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍 다만 현재 삼성전자가 폴더블 디스플레이, 폴더블 기기 기술을 지배하고 있으며, 앞으로도 삼성이 스마트폰 공급업체로서 폴더블 기술 채택에 대한 방법을 주도하게 될 것이라고 전망했습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;카카오--가즈아-카카오가-2분기-호실적에-대한-발표를-했어&quot;&gt;&lt;a name=&quot;kakao2ndreport_it_08_10&quot;&gt;&lt;/a&gt;카카오 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=092&amp;amp;aid=0002167966&quot;&gt;가즈아! 카카오가 2분기 호실적에 대한 발표를 했어&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt; 📈 카카오의 2분기 실적이 공개됐습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 8월 8일 카카오는 2분기 실적발표 공시를 통해, &lt;br /&gt;
+연결 매출 7천 330억원, &lt;br /&gt;
+영업이익 405억원, &lt;br /&gt;
+당기순이익 310억원을 기록했다고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 매출은 전년 동기 대비 24% 증가했으며, 영업이익은 전년 동기 대비 47% 올랐고, 당기순이익은 전년 동기 대비 38% 상승한 실적입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 따라서 올해 전체 매출은 3조원대로 올라설 것으로 예상됩니다. 
+카카오는 2019년 초에 전년과 유사한 매출 23% 성장 목표를 언급했는데, 상반기 누적매출이 전년대비 26% 성장하며 목표 이상을 달성했다고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p align=&quot;middle&quot;&gt;    
+ &lt;img src=&quot;https://imgnews.pstatic.net/image/092/2019/08/08/0002167966_002_20190808151414478.jpg?type=w647
+&quot; alt=&quot;alt text&quot; width=&quot;90%&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;플랫폼-부문&quot;&gt;플랫폼 부문&lt;/h4&gt;
+
+&lt;p&gt;📍 카카오는 2019년 5월 제한적으로 시작한 톡보드 광고의 성장성에 강한 기대감을 가지고 있습니다.
+톡보드는 카카오톡 채팅목록 탭 상단에 도입된 광고 서비스인데요.&lt;/p&gt;
+
+&lt;p&gt;📍 여민수 대표는 2분기 실적발표 컨퍼런스 콜에서 “톡보드는 제한적인 광고 노출에도 하루 평균 2억 ~ 3억원의 매출을 기록하고 있다”, &lt;br /&gt;
+“톡보드와 플러스친구, 알림톡 등 톡비즈를 더욱 성장시킬 것”이라고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 3분기 중에는 톡보드를 공개 서비스로 전환한다는 계획이라고 합니다.&lt;br /&gt;
+이렇게 되면 모든 광고주들이 톡보드를 자유롭게 이용 가능해서 카카오는 더 큰 광고 수익을 기대할 수 있게 됩니다.&lt;/p&gt;
+
+&lt;p&gt;📍 또한 카카오는 카카오톡 플랫폼을 이용한 커머스 사업도 긍정적으로 전망했습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 여민수 대표는 “구매자 수와 거래액이 함께 성장하는 모습을 보이고 있다”, &lt;br /&gt;
+“카톡만의 관계적 특성을 살린 ‘톡딜’이라는 새로운 공동 구매 서비스는 지난 6월 한 달 간의 베타 테스트 기간 동안 총 4만5천건의 거래가 개설됐고, 1만7천여개의 상품이 참여했으며, 6월 마지막 주 거래 성사율은 94%가 넘는 성과를 보여줬다”고 밝혔습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;콘텐츠-부문&quot;&gt;콘텐츠 부문&lt;/h4&gt;
+
+&lt;p&gt;📍 음악 서비스 ‘멜론’은 유료 가입자와 매출 성장세를 견조하게 유지 중입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 카카오에 따르면 멜론은 2분기 유료 가입자(508만 명)를 유지했습니다. &lt;br /&gt;
+매출의 경우 전분기 대비 5% 성장해 역대 최대 매출을 경신했다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 웹툰, 영화 서비스인 카카오페이지는 지적재산권(IP)을 중심으로 밸류체인 투자를 지속 확장한다고 밝혔습니다..&lt;/p&gt;
+
+&lt;p&gt;📍 “카카오페이지의 인도네시아 사업 부문은 4월 말 서비스 개편 이후 월 거래액이 꾸준히 확대되고 있다”, &lt;br /&gt;
+“앞으로도 음악, 드라마처럼 한국의 스토리 경쟁력이, 이야기 산업에서도 한류를 일으킬 수 있도록 사업을 전개해 나갈 것”이라고 밝혔습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;금융-부문&quot;&gt;금융 부문&lt;/h4&gt;
+
+&lt;p&gt;📍 카카오는 카카오페이와 카카오뱅크를 통해 결제 및 금융 사업에서도 더 많은 성과를 예상했는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 여민수 대표는 카카오뱅크 대주주가 된 만큼 “카카오뱅크가 금융, 은행이라는 새 영역에서 세상을 혁신하고 더 큰 은행으로 성장할 수 있도록 공동체 차원의 기술과 투자 협력을 확대하겠다”고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 카카오페이 2분기 거래액은 11.4조원, 상반기 기준으로는 22조원 규모입니다. &lt;br /&gt;
+배재현 투자전략실장은 “카카오페이는 하반기 트래픽과 수익 모두 상승할 것”, &lt;br /&gt;
+“보험 등 금융상품 라인업 확대 등으로 수익구조도 빠르게 개선되고 있어 손익분기점 달성은 예단하기 어렵지만 적자폭 감소가 예상된다”고 밝혔습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;종합&quot;&gt;종합&lt;/h4&gt;
+
+&lt;p&gt;📍 배재현 투자전략실장은 컨퍼런스 콜 마지막에 “2019년 카카오 전체 매출 3조원대 올라서며 연초 목표치 초과 달성할 것으로 예상된다”, &lt;br /&gt;
+“영업이익의 경우도 상반기 누적 영업이익이 이미 2018년 연간 영업이익의 93% 수준을 달성했다”고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;또한 “향후 2 ~ 3년간은 디지털 광고시장에서 영향력을 확대하고, 금융, 모빌리티, IP사업 등 신규 사업 부문을 통해 외형적 성장뿐 아니라, 그동안 투자해 키워온 신규 사업들의 수익성 개선으로 앞으로도 카카오 영업이익의 성장 여력은 풍부하다고 생각한다”고 마무리 했습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;이런-it-소식도-있어요&quot;&gt;&lt;a name=&quot;morethings_it_08_10&quot;&gt;&lt;/a&gt;이런 IT 소식도 있어요&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=029&amp;amp;aid=0002544127&quot;&gt;애플이 ‘시리’ 녹음을 잠정 중단한대&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.zdnet.co.kr/view/?no=20190808090427&quot;&gt;아마존이 광고사업에 블록체인 적용을 추진한다고?&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;스낵뉴스에 건의할 점, 문의할 점이 있다면 언제든지 댓글 혹은 메일으로 주세요!
+그리고 혹시 보신 스낵 뉴스가 괜찮았다면 아래 버튼을 눌러, 의견을 말씀해주실 수 있나요?&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;button_post_a&quot; href=&quot;https://seanlion.typeform.com/to/giDc38&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'survey_news');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;의견 전달하러가기&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;응원해주시는 모든 구독자님께 진심으로 감사드립니다!&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 10 Aug 2019 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/news/217</link>
+        <guid isPermaLink="true">http://localhost:4000/news/217</guid>
+      </item>
+    
+      <item>
+        <title>스낵뉴스 8월 1주(금융/투자)</title>
+        <description>&lt;h2 id=&quot;헤드라인으로-한-주의-소식을-파악해보세요누르면-기사로-이동해요&quot;&gt;헤드라인으로 한 주의 소식을 파악해보세요(누르면 기사로 이동해요👇)&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#fintech&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;금융&lt;/span&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;시장동향&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#usCoinTax_finance_08_03&quot;&gt;미국 국세청 : 암호화폐도 세금 물린다. 신고 똑띠 해라.&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;라인&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#linebankTaiwan_finance_08_03&quot;&gt;라인이 대만에서 인터넷 은행 설립 준비를 마쳤대&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;애플&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#applecard_finance_08_03&quot;&gt;드디어 출시? 애플 카드가 8월 중에 나온대&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#invest&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt; 투자&amp;amp;인수&lt;/span&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;애플&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#appleIntelmodem_investment_08_03&quot;&gt;일루와~ 애플이 인텔 모뎀 사업부를 인수한대&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;그랩&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#grab_investment_08_03&quot;&gt;니가 다해라.. 그랩이 2조 4000억원 규모 투자를 유치했어&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;카카오&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#kakaoEatTaxicompany_investment_08_03&quot;&gt;카카오모빌리티가 택시회사를 인수했다고?&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;투자&amp;amp;인수&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#morethings_investment_08_03&quot;&gt;‘더 눈여겨보기’ 소식모음&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;금융&quot;&gt;&lt;a name=&quot;fintech&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;금융&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;시장동향--미국-국세청--암호화폐도-세금-물린다-신고-똑띠-해라&quot;&gt;&lt;a name=&quot;usCoinTax_finance_08_03&quot;&gt;&lt;/a&gt;시장동향 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=092&amp;amp;aid=0002167273&quot;&gt;미국 국세청 : 암호화폐도 세금 물린다. 신고 똑띠 해라.&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;😐 미국이 암호화폐 거래에 대한 과세를 시작했습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 28일 매체 더블록은 미국 국세청(IRS)이 암호화폐 투자자에게 발송한 안내장을 입수해 내용을 공개했는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 7월 26일 IRS는 홈페이지를 통해 “암호화폐 투자자 1만명을 대상으로 세금 및 신고 의무에 대한 이해를 돕고, 과거 오류를 수정할 수 있는 방법을 알려주기 위해” 안내문을 발송했다고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 안내문을 보면 IRS는 “일반적으로 미국 납세자는 암호화폐를 판매하거나 교환, 처분한 것을 보고해야 한다”, &lt;br /&gt;
+“암호화폐 교환에는 상품, 서비스, 기타 자산, 다른 암호화폐 등을 구입하기 위해 암호화폐를 사용하는 모든 경우가 포함된다”고 설명했다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 또한 암호화폐 거래 내용이 세금 정보에 반영되지 않았다고 알리면서 공식웹 사이트에서 세금 신고 및 보고 절차가 올바른지 확인할 것을 요청했습니다. &lt;br /&gt;
+암호화폐 판매, 교환, 기타 처분에 대한 모든 세부 사항이 포함된 정정문서 또는 손익 계산서를 제출해야 한다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 또한 해외 계정에 대해서도 암호화폐 과세가 적용된다고 하는데요. &lt;br /&gt;
+IRS는 “이런 의무는 미국 내 계정인지 해외 계정인지에 관계 없이 적용된다”고 설명했다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 해당 안내서를 받은 사람은 30일 이내 소득신소서를 제출하거나, 이전에 제출한 과세 정보를 정확하게 수정해야 한다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 암호화폐 거래에 대한 과세를 정책적으로 수립하고 있는 것을 제도권화에 대한 신호라고 볼 수 있을까요?&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;라인--라인이-대만에서-인터넷-은행-설립-준비를-마쳤대&quot;&gt;&lt;a name=&quot;linebankTaiwan_finance_08_03&quot;&gt;&lt;/a&gt;라인 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=029&amp;amp;aid=0002543623&quot;&gt;라인이 대만에서 인터넷 은행 설립 준비를 마쳤대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🏦 라인이 대만에서 인터넷은행 설립 준비를 마쳤습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 31일 라인 측은 대만 금융감독위원회로부터 인터넷 전문은행 설립을 허가받았다고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 라인은 대만 라인뱅크 설립준비사무소를 통해 인터넷 전문은행 설립을 준비 중인데요.&lt;br /&gt;
+라인은 대만에서 인공지능과 빅데이터, 핀테크를 활용한 은행 서비스를 제공하겠다는 목표를 가지고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 물론 대만 라인뱅크는 라인 혼자 준비하진 않는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 대만 라인뱅크 설립준비사무소 컨소시엄이라는 조직이 있고,&lt;br /&gt;
+라인파이낸셜 타이완이 49.9% 지분을, 타이베이 푸본은행이 25.1%를 보유하고 있는 상황입니다.&lt;br /&gt;
+그 외에 CTBC, 스탠다드차타드, 타이완 유니온 은행 등이 5%의 지분을 가지고 있다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;라인이라는 IT회사와 대만의 시중 은행들이 결합하는 구조로 보입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 라인은 태국에서도 은행과 합작 법인을 설립했으며, 인도네시아에서도 인터넷 은행 사업을 준비하고 있습니다.&lt;br /&gt;
+메인 거점인 일본에서도 2020년 ‘모바일 은행’을 선보이기 위해 라인뱅크 설립준비 주식회사를 세운 상태입니다.&lt;br /&gt;
+동시다발적으로 전 세계 곳곳에 은행을 준비하고 있는데, 해당 국가들이 시기적으로 인터넷은행 태동기인만큼 라인이 선점할 수 있을지 기대가 되네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;애플--드디어-출시-애플-카드가-8월-중에-나온대-by-김동영-에디터&quot;&gt;&lt;a name=&quot;applecard_finance_08_03&quot;&gt;&lt;/a&gt;애플 | &lt;a href=&quot;http://www.zdnet.co.kr/view/?no=20190731105951&quot;&gt;드디어 출시? 애플 카드가 8월 중에 나온대&lt;/a&gt; By 김동영 에디터&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;💳 애플 카드가 8월 중 출시 예정입니다!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 지난 2분기 실적 발표 자리에서 8월 중 애플 카드를 공식적으로 출시할 예정이라고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍팀 쿡은 “수천 명의 애플 직원이 매일 베타 테스터로 카드를 사용하고 있다.” 고 말했으며&lt;br /&gt;
+출시 준비를 위해 골드만삭스와 마스터카드와 협력을 한다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍이번 카드는 디지털의 물리적 형태인 티타늄 재질로 제작이 되며 애플 월렛 앱을 통해 삼성 페이와 같이 단말기로 사용이 가능하다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 일반 신용카드와 차별점은 카드번호, 만료일, CVV코드가 부여되지 않으며 안전한 구매를 위해 거래할 때마다 임의로 번호를 생성하여 보안성을 높였다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 또한 애플 카드로 구매 시 2%, 애플 스토어에서 구매 시 3%의 캐시백을 당일에 제공하는데요.&lt;br /&gt;
+연 회비와 해외거래 수수료가 없다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 아직 정확한 출시일은 밝히지 않았으며, 추가 소식을 확인하면 전하도록 하겠습니다!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;투자인수&quot;&gt;&lt;a name=&quot;invest&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;투자&amp;amp;인수&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;애플--일루와-애플이-인텔-모뎀-사업부를-인수한대-by-김동영-에디터&quot;&gt;&lt;a name=&quot;appleIntelmodem_investment_08_03&quot;&gt;&lt;/a&gt;애플 | &lt;a href=&quot;http://news.zum.com/articles/54001763&quot;&gt;일루와~ 애플이 인텔 모뎀 사업부를 인수한대&lt;/a&gt; By 김동영 에디터&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;📱 애플의 인텔 모뎀 사업부 인수, 독자 모뎀을 위해!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 이제는 애플이 자체 모뎀을 제작할 수 있게 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 단순한 인수가 아닌 인텔의 지적 재산을 넘어 임대 자산부터 장비와 2,200명의 산업 인력까지 인텔 모뎀 사업의 모든 것을 애플이 10억 달러(1조 1천800억 원)에 인수했습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 인텔은 퀄컴과 분쟁을 하던 애플에 유일한 모뎀 칩 공급회사였는데요.&lt;br /&gt;
+그러나 그 독점은 오래가지 못했습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 5G의 상용화 시기에 맞춰 공급하기로 한 모뎀 생산에 차질이 생겼고, 엎친 데 덮친 격으로 퀄컴과 분쟁이 합의로 8년 동안 모뎀 칩을 공급받게 되면서 인텔은 결국 5G 모뎀 사업을 종료한다고 발표하기도 했습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 아마 예상으로 이번 인수는 분쟁을 통해 애플이 자체 모뎀 제작의 필요성을 느꼈고, 그로 인해 인텔의 모뎀 사업을 인수하게 된 것 같습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;소셜-플랫폼에서-스낵뉴스-받아보기&quot;&gt;소셜 플랫폼에서 스낵뉴스 받아보기&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&quot;button_post_a&quot; href=&quot;https://www.facebook.com/groups/2025149054465611/?ref=group_browse_new&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'facebook');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;페이스북 그룹 가기&lt;/button&gt;&lt;/a&gt;
+&lt;a class=&quot;button_post_a&quot; href=&quot;https://goo.gl/forms/wf7tAS667BXFi04k2&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'kakao');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;카카오 오픈챗 가기&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;그랩--니가-다해라-그랩이-2조-4000억원-규모-투자를-유치했어&quot;&gt;&lt;a name=&quot;grab_investment_08_03&quot;&gt;&lt;/a&gt;그랩 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=011&amp;amp;aid=0003594725&quot;&gt;니가 다해라.. 그랩이 2조 4000억원 규모 투자를 유치했어&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;✌️ 우버가 소프트뱅크로부터 추가 투자를 유치했습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍7월 29일 그랩은 소프트뱅크로부터 20억 달러(약 2조 4000억원) 규모의 투자를 유치했다고 밝혔습니다.&lt;br /&gt;
+소프트뱅크는 2019년 초 이미 그랩에 14억 6000만 달러(약 1조 7200억원)를 투자한 바 있는데요.&lt;br /&gt;
+이번 투자까지 합치면 총 4조원이 넘는 금액을 그랩에 투입했습니다.&lt;/p&gt;
+
+&lt;p&gt;📍그랩은 동남아시아의 우버 같은 차량공유 서비스인데요.&lt;br /&gt;
+앞으로 투자금을 바탕으로 5년간 인도네시아에 차세대 교통 네트워크를 구축하고 헬스케어 서비스를 제공하는 디지털 인프라 구축에 나설 계획이라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍교통 네트워크의 경우 전기차 생태계를 기반으로 구축이 될 것으로 보이며, 도로 정보를 모으기 위해 지오맵핑 솔루션 개발에도 나선다고 합니다.&lt;br /&gt;
+헬스케어의 경우 3개월 이내에 인도네시아에 저렴한 버전으로 출시한다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍 그랩은 이번 발표에 인도네이사에 두 번째 본사를 설립한다는 계획도 추가했습니다.&lt;br /&gt;
+제2본사는 동남아 최대 음식배달 서비스인 ‘그랩푸드’ 사업의 중심지로 활용할 예정이라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍손정의 소프트뱅크 회장은 “인도네시아의 기술 분야는 엄청난 잠재력을 가지고 있다”,&lt;br /&gt;
+“그랩을 통해 인도네시아의 미래에 투자할 수 있게 된 것을 매우 기쁘게 생각한다”고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 이제는 헬스케어까지 건드리는 그랩. 동남아에서 정말 절대적인 위치를 행사하고 있네요.&lt;br /&gt;
+앞으로 더 무서워질 것 같습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;카카오--카카오모빌리티가-택시회사를-인수했다고-by-김동영-에디터&quot;&gt;&lt;a name=&quot;kakaoEatTaxicompany_investment_08_03&quot;&gt;&lt;/a&gt;카카오 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=092&amp;amp;aid=0002167508&quot;&gt;카카오모빌리티가 택시회사를 인수했다고?&lt;/a&gt; By 김동영 에디터&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🚕 택시 회사를 인수하려는 카카오모빌리티!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 최근 카카오 모빌리티가 택시회사를 인수하고 있는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 지난달 발표한 택시 제도 개편안에 따른 조치인 것 같습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 강남구에 위치한 진화 택시를 인수했으며 법인 택시 면허 90여 개와 직원 200여 명과 차량 등 인적/물적 자산을 확보하게 되었습니다.&lt;br /&gt;
+앞으로 몇가지 확인 절차를 거쳐 최종 계약을 체결하게 될 것이라고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍 카카오 측은 “택시에 IT/플랫폼 기술을 직접적으로 접목했을 때 어떤 운영 효과가 있을지 소규모로, 시범 진행을 해보자는 차원에서 인수 계약을 진행” 했으며&lt;br /&gt;
+이후 “쌓인 데이터를 통해 좋은 사업 롤 모델을 제시할 방안을 찾아 나갈 수 있을 것”으로 말했습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 업계 관계자는 카카오 모빌리티는 실적이 없는 상황이기에 당연한 수순이라는 반응입니다.&lt;br /&gt;
+과연 이번 인수로 어떤 서비스를 선보일지 기대가 되는 소식이었습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;이런-투자-소식도-있어요&quot;&gt;&lt;a name=&quot;morethings_investment_08_03&quot;&gt;&lt;/a&gt;이런 투자 소식도 있어요&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=018&amp;amp;aid=0004434330&quot;&gt;오잉? 아프리카TV가 ‘팟티’를 인수했어&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.thebell.co.kr/free/content/ArticleView.asp?key=201907240100047110002952&amp;amp;svccode=00&amp;amp;page=1&amp;amp;sort=thebell_check_time&quot;&gt;이 집 샐러드가 좋아~ 뱅크샐러드가 500억 투자를 유치했어&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=421&amp;amp;aid=0004125233&quot;&gt;업비트가 ‘루나’에 300억 투자를 유치했어&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://platum.kr/archives/125959&quot;&gt;패스트캠퍼스가 100억원 추가 투자를 유치했어&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=417&amp;amp;aid=0000433555&quot;&gt;잠들기전 한번? 카카오벤처스가 ‘웨이브’에 투자를 유치했어&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://platum.kr/archives/125879&quot;&gt;미디어 커머스 스타트업 ‘그립’이 35억 투자를 유치했어&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;스낵뉴스에 건의할 점, 문의할 점이 있다면 언제든지 댓글 혹은 메일으로 주세요!
+그리고 혹시 보신 스낵 뉴스가 괜찮았다면 아래 버튼을 눌러, 의견을 말씀해주실 수 있나요?&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;button_post_a&quot; href=&quot;https://seanlion.typeform.com/to/giDc38&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'survey_news');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;의견 전달하러가기&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;응원해주시는 모든 구독자님께 진심으로 감사드립니다!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 03 Aug 2019 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/news/216</link>
+        <guid isPermaLink="true">http://localhost:4000/news/216</guid>
+      </item>
+    
+      <item>
+        <title>스낵뉴스 8월 1주(모빌리티/커머스/O2O)</title>
+        <description>&lt;h2 id=&quot;헤드라인으로-한-주의-소식을-파악해보세요누르면-기사로-이동해요&quot;&gt;헤드라인으로 한 주의 소식을 파악해보세요(누르면 기사로 이동해요👇)&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#mobility&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;모빌리티&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#uberFire400people_mobility_08_03&quot;&gt;우버 마케팅 포지션에 관심있던 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#teslaNetflix_mobility_08_03&quot;&gt;테슬라 차 사고싶은 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#morethings_mobility_08_03&quot;&gt;심야에 택시 잡기 어려운 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#commerce&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;커머스&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#xiaomiDeliveryWechat_commerce_08_03&quot;&gt;샤오미 제품 잘 쓰는 사람을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#o2o&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;O2O&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#yogiyoSuperclub_o2o_08_03&quot;&gt;요기요 쓰는 사람들을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#morethings_o2o_08_03&quot;&gt;배달 잘 시켜먹는 사람들을 위한 소식&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;모빌리티&quot;&gt;&lt;a name=&quot;mobility&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;모빌리티&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;우버--짐싸-우버가-직원-400명을-해고한대&quot;&gt;&lt;a name=&quot;uberFire400people_mobility_08_03&quot;&gt;&lt;/a&gt;우버 | &lt;a href=&quot;http://www.zdnet.co.kr/view/?no=20190730082148&quot;&gt;짐싸! 우버가 직원 400명을 해고한대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;😢 우버가 400명 규모 대량 구조조정을 실시합니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍7월 29일 매체 뉴욕타임스에 따르면 다라 코스로샤히 우버 CEO는 직원들에게 이메일을 통해 “우리 회사 팀 가운데 대다수 조직이 너무 커져서 업무가 겹치고 의사 결정에 문제가 생길 수 있다”, “이는 실적에 영향을 줄 수 있다”라고 밝히며 해고 소식을 알렸는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 우버에는 약 2만 5천명의 직원이 근무 중인데,(증권거래위원회 제출 보고서 기준) 이번 해고는 자사 마케팅 인력 중 3분의 1에 해당하는 400명 대상이라고 합니다.  우버 마케팅팀은 1200명 규모로 우버에서 홍보와 광고, 소셜미디어 관리 등을 담당하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 다라 코스로샤히는 “이번 변화는 우버에 마케팅이 덜 중요해졌기 때문이 아니다. 사실은 정반대다. 세상에 강력하고 통일된, 그리고 역동적인 비전을 제시하는 일이 지금보다 더 중요한 적이 없었기 때문”이라고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍또한 우버는 새로 바뀔 마케팅 조직을 두 명의 리더가 이끌게 된다는 계획도 밝혔습니다.&lt;br /&gt;
+한 명은 여행 사이트 트립어드바이저에서 합류한 마이크 스틱만 VP이며, 다른 한 명의 리더는 새로 영입할 계획이라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;우버는 어쩌다 이런 정리해고를 하게 되었을까요?&lt;/p&gt;
+
+&lt;p&gt;📍우버는 올해 5월 역대급 규모로 미국 뉴욕증권거래소(NYSE)에 상장했으나 이후 재무를 조정하라는 압박을 받아왔습니다.&lt;br /&gt;
+우버의 최근 3년간 누적 영업손실액을 보면 100억달러(약 11조 8천억원)가 넘는 상황입니다.&lt;/p&gt;
+
+&lt;p&gt;📍2018년 우버의 매출은 112억 7천만달러, 순이익 9억 9천 700만달러를 기록했지만,&lt;br /&gt;
+적자가 18억 5천만 달러 났으며, 영업손실도 30억 4천만달러정도 났습니다.&lt;/p&gt;
+
+&lt;p&gt;📍그러나 지난달 최고마케팅책임자 레베카 메시나가 우버를 떠나면서 마케팅, 커뮤니케이션, 정책팀을 통합하는 작업이 진행됐는데,&lt;br /&gt;
+이번 구조조정도 그 작업의 여파로 보입니다.&lt;br /&gt;
+점점 우버가 수익을 내는 구조로 조직을 바꾸어 가려고 하는 것 같네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;테슬라--이제-테슬라-타면서-넷플릭스-볼-수-있을거라는데&quot;&gt;&lt;a name=&quot;teslaNetflix_mobility_08_03&quot;&gt;&lt;/a&gt;테슬라 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=030&amp;amp;aid=0002833265&quot;&gt;이제 테슬라 타면서 넷플릭스 볼 수 있을거라는데?&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🚗🎥 테슬라 차에서 넷플릭스 혹은 유튜브를 볼 수 있는 서비스가 탑재될 것으로 보입니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 28일 일론 머스크 테슬라 CEO는 테슬라 모델에 넷플릭스와 유튜브 등 OTT를 탑재할 것이라고 예고했습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 머스크는 트위터를 통해 “자동차가 정차했을 때 넷플릭스와 유튜브를 감상할 수 있는 기능이 조만간 추가될 것”,  &lt;br /&gt;
+“편안한 좌석과 서라운드 사운드 오디오를 통해 놀랍게도 영화관과 같은 느낌을 받을 수 있을 것”이라고 밝혔는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 이번 발언은 미래에 완전 자율 주행 시대가 구현되면 이동 중 즐길 수 있는 엔터테인먼트 콘텐츠를 위한 포석이라고 볼 수 있습니다.
+현재 테슬라는 자사 모델에 레이싱 게임 ‘비치 버기 레이싱2’를 서비스한다고 밝혔는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 차량이 주차 모드에 있을 때 자동차 핸들과 브레이크 페달을 직접 사용해 게임을 조작할 수 있다고 합니다.   &lt;br /&gt;
+도로에서 실제로 하는 것만큼은 아니지만 꽤나 몰입감을 준다고 하네요.
+이렇듯 테슬라는 차량을 가지고 즐길 수 있는 콘텐츠를 계속 만들고 있는 상황입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 다만 현재 준비중인 OTT는 주행 중에도 감상할 수 있도록 하는 방안을 고려하고 있다고 합니다. &lt;br /&gt;
+테슬라 측은 규제당국이 자율주행에 대해 완전히 승인하면 차량이 움직일 때에도 승객이 동영상을 즐길 수 있을 것이라고 밝혔습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;비치-버기-레이싱2-플레이-영상-보기&quot;&gt;비치 버기 레이싱2 플레이 영상 보기&lt;/h2&gt;
+
+&lt;!-- &lt;iframe width= &quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zqG6AAZ5JvA&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+
+&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/zqG6AAZ5JvA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'youtubePlayer');&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;이런-모빌리티-소식도-있어요&quot;&gt;&lt;a name=&quot;morethings_mobility_08_03&quot;&gt;&lt;/a&gt;이런 모빌리티 소식도 있어요&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.zdnet.co.kr/view/?no=20190801170843&quot;&gt;택시도 반반? 반반택시가 서비스를 시작했대&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.zdnet.co.kr/view/?no=20190730094752&quot;&gt;현대차가 순천에서 전동킥보드 서비스 시행한대&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;커머스&quot;&gt;&lt;a name=&quot;commerce&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;커머스&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;샤오미--샤오미택배-샤오미가-위챗으로-택배한대&quot;&gt;&lt;a name=&quot;xiaomiDeliveryWechat_commerce_08_03&quot;&gt;&lt;/a&gt;샤오미 | &lt;a href=&quot;http://www.zdnet.co.kr/view/?no=20190731084136&quot;&gt;샤오미택배? 샤오미가 ‘위챗’으로 택배한대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🚚 샤오미가 ‘샤오미택배’ 서비스를 개시합니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 29일 중국 언론은 샤오미가 메신저 ‘WeChat’에서 택배 서비스를 시작했다고 보도했습니다.&lt;br /&gt;
+샤오미는 공식 페이지에서 ‘샤오미 팬들을 위해 더 나은 택배 서비스를 제공할 것’이라며 서비스 개시를 알렸습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 위챗을 통해 샤오미택배 계정에 접속하면 ‘집 방문 픽업’, ‘반품 지원’ 등 물류 서비스를 받을 수 있다고 합니다. &lt;br /&gt;
+추가적으로 샤오미 스마트폰에서 다양한 샤오미의 택배 정보 서비스를 받을 수 있다고 하는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 희망 방문 시간, 물건의 상세 내용 등을 적을 수 있는데, 다만 택배 운송은 윈다, SF익스프레스 등 물류 기업이 맡는다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 그럼 샤오미는 어떤 서비스를 하고 싶은 것일까요?
+이는 샤오미가 상표등록한 서비스의 범위를 보면 유추 할 수 있는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 샤오미는 2018년 8월 총 6건의 샤오미택배 상표 등록을 신청했는데, 올해 6월 21일 기준 1 건을 제외한 5건의 상표가 등록 심사를 통과했습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 상표 등록 내용을 보면 서비스 범위는 소포 배달, 택배 서비스, 선박 운항 화물, 귀중품 보호 운송, 기사 서비스, 상품 포장 등이라고 합니다.
+따라서 아직 서비스가 초기 단계인만큼 향후에 저런 방향으로 확대가 시도될 것으로 보입니다.
+또한 물류 전문 기업과 협력하고 있는데, 이는 샤오미가 상품에 대한 물류 정보를 제공하거나 보증하는 형태의 서비스에 주력할 것을 알 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;소셜-플랫폼에서-스낵뉴스-받아보기&quot;&gt;소셜 플랫폼에서 스낵뉴스 받아보기&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&quot;button_post_a&quot; href=&quot;https://www.facebook.com/groups/2025149054465611/?ref=group_browse_new&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'facebook');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;페이스북 그룹 가기&lt;/button&gt;&lt;/a&gt;
+&lt;a class=&quot;button_post_a&quot; href=&quot;https://goo.gl/forms/wf7tAS667BXFi04k2&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'kakao');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;카카오 오픈챗 가기&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;o2o&quot;&gt;&lt;a name=&quot;o2o&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;O2O&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;요기요--요기요가-정기-할인-서비스-슈퍼클럽을-런칭했어&quot;&gt;&lt;a name=&quot;yogiyoSuperclub_o2o_08_03&quot;&gt;&lt;/a&gt;요기요 | &lt;a href=&quot;https://platum.kr/archives/125873&quot;&gt;요기요가 정기 할인 서비스 ‘슈퍼클럽’을’ 런칭했어&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🆕 요기요가 정기 할인 구독서비스 ‘슈퍼클럽’을 선보입니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 29일 딜리버리히어로 코리아는 정기 할인 구독 서비스 ‘슈퍼클럽’을 새롭게 런칭한다고 밝혔는데요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p align=&quot;middle&quot;&gt;    
+ &lt;img src=&quot;https://platum.kr/wp-content/uploads/2019/07/yo.jpg&quot; alt=&quot;alt text&quot; width=&quot;70%&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 슈퍼클럽은 월 정액 결제를 하면 요기요 앱 내 모든 레스토랑의 메뉴를 할인해주는 서비스입니다. &lt;br /&gt;
+매 월 총 3만원 규모의 할인을 받을 수 있으므로 4번 정도 이용하면 이득이 되는 구조라고 볼 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 또한 다른 쿠폰이나 포인트 등의 할인혜택과도 제약없이 중복할인 받을 수 있다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍 딜리버리히어로 코리아 강신봉 대표는 “이제는 배달음식을 빼고 음식 소비 문화를 말할 수 없을 만큼 배달앱을 사용하는 소비자들이 크게 늘어났다”,&lt;br /&gt;
+“슈퍼클럽을 통해 요기요가 전하는 맛있는 일상의 즐거움을 더 많은 사람들이 누릴 수 있게 되기를 바란다”고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;이런-o2o-소식도-있어요&quot;&gt;&lt;a name=&quot;morethings_o2o_08_03&quot;&gt;&lt;/a&gt;이런 O2O 소식도 있어요&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://platum.kr/archives/125830&quot;&gt;전국에서 택배 보내주는 온라인 세탁 서비스가 있다고?&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.zdnet.co.kr/view/?no=20190731102205&quot;&gt;이제 공유주방 음식도 배달된대&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;스낵뉴스에 건의할 점, 문의할 점이 있다면 언제든지 댓글 혹은 메일으로 주세요!
+그리고 혹시 보신 스낵 뉴스가 괜찮았다면 아래 버튼을 눌러, 의견을 말씀해주실 수 있나요?&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;button_post_a&quot; href=&quot;https://seanlion.typeform.com/to/giDc38&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'survey_news');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;의견 전달하러가기&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;응원해주시는 모든 구독자님께 진심으로 감사드립니다!&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 03 Aug 2019 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/news/215</link>
+        <guid isPermaLink="true">http://localhost:4000/news/215</guid>
+      </item>
+    
+      <item>
+        <title>스낵뉴스 8월 1주(시장동향/IT)</title>
+        <description>&lt;h2 id=&quot;헤드라인으로-한-주의-소식을-파악해보세요누르면-기사로-이동해요&quot;&gt;헤드라인으로 한 주의 소식을 파악해보세요(누르면 기사로 이동해요👇)&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#tech&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;기술동향&lt;/span&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;sf-좋아하는-사람을-위한-소식&quot;&gt;SF 좋아하는 사람을 위한 소식&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;#facebookThinkingComputuer_tech_08_03&quot;&gt;페이스북이 생각만으로 컴퓨터에 글자 입력하는 기술을 만들고 있다고?!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;화성에-진짜-가고싶은-사람을-위한-소식&quot;&gt;화성에 진짜 가고싶은 사람을 위한 소식&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;#marsSpaceship_tech_08_03&quot;&gt;화성으로 갈 우주선 발사 테스트에 성공했대&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#market&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;시장동향&lt;/span&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;샤오미-폰-사용자들을-위한-소식&quot;&gt;샤오미 폰 사용자들을 위한 소식&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;#xiaomiBomb_market_08_03&quot;&gt;샤오미 휴대폰이 중국에서 폭발했대&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;중국-시장에-관심-많은-사람들을-위한-소식&quot;&gt;중국 시장에 관심 많은 사람들을 위한 소식&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;#chinaAIspeaker_market_08_03&quot;&gt;중국 AI 스피커 판매량이 200% 올랐다고?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#morethings_market_08_03&quot;&gt;‘더 눈여겨보기’ 소식모음&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#it&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;IT&lt;/span&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;새-아이폰이-궁금한-사람들을-위한-소식&quot;&gt;새 아이폰이 궁금한 사람들을 위한 소식&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;#iphone11spec_it_08_03&quot;&gt;아이폰11 스펙은 어떨까?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#apple2ndQuarterPerformance_it_08_03&quot;&gt;애플 걱정은 무엇? 애플이 2분기 역대 최고 매출을 찍었어&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;틱톡-쓰는-사람들을-위한-소식&quot;&gt;틱톡 쓰는 사람들을 위한 소식&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;#bytedanceSmartphone_it_08_03&quot;&gt;바이트댄스가 스마트폰을 만든다고?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;기술동향&quot;&gt;&lt;a name=&quot;tech&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;기술동향&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;기술동향--페이스북이-생각만으로-컴퓨터에-글자-입력하는-기술을-만들고-있다고&quot;&gt;&lt;a name=&quot;facebookThinkingComputuer_tech_08_03&quot;&gt;&lt;/a&gt;기술동향 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=011&amp;amp;aid=0003595571&quot;&gt;페이스북이 생각만으로 컴퓨터에 글자 입력하는 기술을 만들고 있다고?!&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;💭💬 페이스북이 생각만으로 컴퓨터에 글자를 입력하는 기술을 개발중입니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 30일 매체 CNBC에 따르면 페이스북은 생각만으로 컴퓨터에 글자를 입력할 수 있는 비 삽입형 웨어러블 기기 개발에 진전이 있었다고 밝혔다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 페이스북은 2017년 자체 개발자 콘퍼런스 ‘F8’에서 &lt;a href=&quot;https://newsroom.fb.com/news/2017/04/f8-2017-day-2/&quot;&gt;이 기술에 대한 구상&lt;/a&gt;을 처음 공개했었는데요. &lt;br /&gt;
+이후 ‘리얼리티 랩스’라는 연구부서가 캘리포니아대학교와 합동 연구를 벌여왔다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 연구 성과를 실은 &lt;a href=&quot;https://www.nature.com/articles/s41467-019-10994-4&quot;&gt;네이처 커뮤니케이션 저널&lt;/a&gt;에 따르면 연구진은 자발적으로 참여한 세 명의 간질 환자의 뇌에 전극을 심은 뒤 이들의 두뇌 활동만으로 컴퓨터에 글자를 입력할 수 있는지를 실험했다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 실험 결과, 환자가 생각한 내용이 단어나 문구로 컴퓨터 화면에 문자로 전환돼 나타나는 것이 확인됐다고 합니다. 
+이로써 실시간으로 뇌에서 사람의 생각이나 감정을 해독해낼 수 있다는 것이 증명되었습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 물론 실험결과에도 제약이 있는데요.
+문자는 몇 가지 질문들에 대한 응답으로 제한됐으며 떠올린 언어를 해독하는 알고리즘의 정확도는 61% 정도였다고 합니다. 
+그러나 논문의 공동저자 에드워드 챙은 이번 연구 결과가 “생각의 증거를 보여주는 것”이라고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 페이스북은 이번 연구 결과가 뇌졸중 같은 심각한 뇌 손상 후 말을 할 수 없게 된 환자들의 의사소통을 돕는 데 도움을 줄 수 있다고 말했는데요. 
+특히 페이스북의 AR/VR 부문 부사장 앤드루 보즈워스는 트위터에 “우리가 거둔 진전은 미래 AR 안경의 신호 입력이나 상호작용이 어떤 모습일지에 대한 잠재력을 보여준다”고 말했습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 그러나 이 기술이 이른 시일 내에 소비자들에게 제공되기는 어려울 것 같습니다. &lt;br /&gt;
+페이스북은 “이 기기는 현재 너무 크고 느리고 신뢰성이 낮다”, &lt;br /&gt;
+“ 잠재력이 엄청나기에 이 첨단 기술을 오랜 시간에 걸쳐 발전시킬 가치가 있다고 생각한다”고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;기술동향--화성으로-갈-우주선-발사-테스트에-성공했대&quot;&gt;&lt;a name=&quot;marsSpaceship_tech_08_03&quot;&gt;&lt;/a&gt;기술동향 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=215&amp;amp;aid=0000798045&quot;&gt;화성으로 갈 우주선 발사 테스트에 성공했대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🚀 스페이스X의 유인우주선 ‘Starship’의 프로토타입이 발사 테스트에 성공했습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 26일 우주탐사기업 스페이스X의 일론머스크 창립자는 달과 화성으로 실어 보낼 유인우주선 Starship의 프로토타입 ‘Starhopper’의 발사 테스트에 성공했다고 트위터에 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 이번 Starhopper의 발사 테스트는 스페이스X가 수개월 간 지상실험 끝에 성공한 것이라고 합니다.
+다만 테스트와 관련된 구체적 수치는 공개되지 않았는데요. 
+이번에 진행한 테스트는 Starhopper가 지상 20ｍ 정도 떴다가 내리는 테스트였다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 일론 머스크는 2주 안에 지상 200ｍ까지 올리는 실험을 진행할 것이라고 밝혔습니다.
+일론 머스크는 Starship을 통해 민간인 100명을 달과 화성에 보내겠다는 비전을 가지고 있습니다.&lt;br /&gt;
+이렇게 차근차근 진행하다보면 진짜 언젠가 달에 갈 날이 올 지 모르겠네요.&lt;/p&gt;
+
+&lt;h2 id=&quot;starhopper-영상-보기&quot;&gt;Starhopper 영상 보기&lt;/h2&gt;
+
+&lt;!-- &lt;iframe width= &quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/N9HTQgwT3PA&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+
+&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/N9HTQgwT3PA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'youtubePlayer');&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;시장동향&quot;&gt;&lt;a name=&quot;market&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;시장동향&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;시장동향--샤오미-휴대폰이-중국에서-폭발했대&quot;&gt;&lt;a name=&quot;xiaomiBomb_market_08_03&quot;&gt;&lt;/a&gt;시장동향 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=421&amp;amp;aid=0004125018&quot;&gt;샤오미 휴대폰이 중국에서 폭발했대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;😔 샤오미 미 맥스 스마트폰이 중국에서 폭발해서 이용자가 화상을 입었습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 8월 1일 매체 Quuah에 따르면 Liu Run이라는 이용자는 들고있던 샤오미 미 맥스가 폭발해 오른쪽 다리에 심각한 화상을 입었다고 합니다. 
+Liu는 SNS인 웨이보에 글을 올렸고, 세상에 알려지게 되었습니다.&lt;br /&gt;
+(혐오 주의)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p align=&quot;middle&quot;&gt;    
+ &lt;img src=&quot;http://image.kmib.co.kr/online_image/2019/0803/611318110013565298_2.jpg&quot; alt=&quot;alt text&quot; width=&quot;70%&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h6 style=&quot;text-align: center;&quot; id=&quot;출처--웨이보&quot;&gt;&lt;em&gt;출처 : 웨이보&lt;/em&gt;&lt;/h6&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 Liu Run은 “7월 17일 아침에 사무실에 도착한지 5분만에 주머니에 넣어놨던 샤오미 맥스가 폭발했다”,&lt;br /&gt;
+“휴대전화가 계속 타오르고 강한 연기를 내뿜어 사무실 화재경보기가 울리고 경찰과 소방관까지 출동했다”,&lt;br /&gt;
+“병원에서 2도 화상진단을 받았고, 상처 크기가 20㎝ 이상이었다”고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 ‘샤오미 맥스’ 시리즈는 샤오미가 2016년 발매한 대형 스마트폰입니다.   &lt;br /&gt;
+가성비가 좋아 한국에서도 이용자들이 있다고 하는데요.(해외 직구로 이용)
+Liu Run은 “샤오미가 포춘의 글로벌 500대 기업에 들었지만 위기 관리에 대한 인식 부족, 고객 응대는 열악한 수준”,&lt;br /&gt;
+“문제를 덮는 것만으로 문제를 해결할 수는 없다”라고 사요미를 비판했습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 논란이 커지자 샤오미는 정확한 폭발 원인을 분석하기 위해 직접 피해자에게 연락을 취했다고 합니다. 
+폭발 원인은 배터리에 가해진 외부 압력으로 인한 것이라고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍 그 후 샤오미측은 “사용자의 과실로 인한 폭발 사고라는 것이 샤오미 측의 공식입장”이라고 주장했었는데요. 
+결국 7월 25일 사안의 해결 방안에 대해 합의했다고 발표했다고 합니다..!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;소셜-플랫폼에서-스낵뉴스-받아보기&quot;&gt;소셜 플랫폼에서 스낵뉴스 받아보기&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&quot;button_post_a&quot; href=&quot;https://www.facebook.com/groups/2025149054465611/?ref=group_browse_new&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'facebook');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;페이스북 그룹 가기&lt;/button&gt;&lt;/a&gt;
+&lt;a class=&quot;button_post_a&quot; href=&quot;https://goo.gl/forms/wf7tAS667BXFi04k2&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'kakao');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;카카오 오픈챗 가기&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;시장동향--중국-ai-스피커-판매량이-200-올랐다고&quot;&gt;&lt;a name=&quot;chinaAIspeaker_market_08_03&quot;&gt;&lt;/a&gt;시장동향 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=092&amp;amp;aid=0002167286&quot;&gt;중국 AI 스피커 판매량이 200% 올랐다고?&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;📈 중국 인공지능 스피커 판매량이 200% 가량 올랐습니다. &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 최근 중국 시장조사업체 AVC에 따르면 2019년 상반기 중국 AI 스피커 판매량은 1556만 대를 기록했는데요.
+이는 2018년 상반기 대비 233% 증가한 실적이라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍판매액은 30억 1천만 위안(약 5천 170억원 규모)으로 전년 동기 대비 149% 증가한 실적이라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 시기별로 봤을 때는 1월의 판매량 증가폭이 가장 컸으며 가장 많이 팔린 달은 6월이라고 하네요. 
+그렇다면 왜 이렇게 많이 팔린걸까요?&lt;/p&gt;
+
+&lt;p&gt;📍 그 이유는 가성비 좋은 AI 스피커들이 등장했기 때문이라고 볼 수 있습니다.&lt;br /&gt;
+현재 중국의 AI 스피커는 평균 판매 가격이 100위안(약 1만 7천 원) 가량입니다.  &lt;br /&gt;
+가격이 저렴하고 남녀노소 음성 명령을 할 수 있어서 진입 문턱이 낮은 기기라고 볼 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 또한 스피커들의 가격은 더 내려갈 수도 있을 것으로 보입니다. &lt;br /&gt;
+현재 티몰과 징둥 등 주요 AI 스피커 판매 기업들은 프로모션을 강화하면서 주요 모델의 가격을 15 ~ 25% 내리고 있는 상황입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 신규 기업들의 진입이 이뤄지면서 중국의 AI 스피커 판매 모델 수는 86개에 이른다고 하네요. &lt;br /&gt;
+이는 2018년 상반기 대비 26개나 더 늘어난 상황입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 AVC는 올해 중국 AI 스피커 판매량이 3430만 대를 기록해 지난해 보다 111% 증가할 것이라고 예측하고 있습니다. &lt;br /&gt;
+몇년 간은 계속 커지지 않을까 하네요!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;이런-시장동향도-있어요&quot;&gt;&lt;a name=&quot;morethings_market_08_03&quot;&gt;&lt;/a&gt;이런 시장동향도 있어요&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.zdnet.co.kr/view/?no=20190731080415&quot;&gt;얘네 뭐야 무서워.. 중국 인터넷 기업들 상반기 매출이 90조원 규모래&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;it&quot;&gt;&lt;a name=&quot;it&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;IT&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;애플--아이폰11-스펙은-어떨까&quot;&gt;&lt;a name=&quot;iphone11spec_it_08_03&quot;&gt;&lt;/a&gt;애플 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=030&amp;amp;aid=0002832604&quot;&gt;아이폰11 스펙은 어떨까?&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🍎 아이폰11 스펙이 조금씩 공개되고 있습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍7월 23일 매체 9to5mac은 애플이 9월 공개할 아이폰 11에 새로운 탭틱 엔진을 탑재할 것이라고 전했습니다.&lt;/p&gt;
+
+&lt;p&gt;▪️ 탭틱엔진 : 진동으로 촉감 피드백을 제공하는 기술&lt;/p&gt;
+
+&lt;p&gt;📍 애플이 준비 중인 새로운 탭틱 엔진은 코드네임 ‘립 햅틱스’라고 하는데요.&lt;br /&gt;
+기존의 3D 터치를 대신해 인식하고 지금보다 훨씬 다양한 진동을 활용해 휴대폰 조작에 활용될 것으로 예상된다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 참고로 3D 터치는 2015년 출시한 아이폰 6S부터 적용된 기술로, 터치 압력을 단계별로 인식하여 조작하는 기술입니다.&lt;br /&gt;
+인기가 그닥 좋지는 않았어서 2018년 출시된 아이폰 XR에는 이 기능이 빠졌었는데요.&lt;br /&gt;
+이번에 나올 탭틱 엔진은 어떻게 나올지 기대가 됩니다.&lt;/p&gt;
+
+&lt;p&gt;📍 이번 아이폰 11에는 카메라 기능이 강화된다고 합니다.&lt;br /&gt;
+이미 많은 루머를 통해 아이폰11은 후면 카메라에 트리플렌즈가 탑재된다는 것으로 알려졌는데요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p align=&quot;middle&quot;&gt;    
+ &lt;img src=&quot;https://imgnews.pstatic.net/image/030/2019/07/29/0002832604_002_20190729092312766.jpg?type=w647&quot; alt=&quot;alt text&quot; width=&quot;70%&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h6 style=&quot;text-align: center;&quot; id=&quot;가상-렌더링-이미지&quot;&gt;&lt;em&gt;가상 렌더링 이미지&lt;/em&gt;&lt;/h6&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 기존의 듀얼 후면 카메라보다 더 추가되는 것은 광각 렌즈입니다.&lt;br /&gt;
+이로써 기존 렌즈와 망원 렌즈로 나타내던 심도를 더 정밀하게 보완할 것이라고 합니다.&lt;br /&gt;
+예를 들어 사진 촬영 후 흔들린 사진을 보정하는 것도 가능하다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍 전면 카메라에도 기능이 추가됩니다.&lt;br /&gt;
+초당 프레임을 120fps으로 촬영 가능해 슬로모션을 구현하는 동영상을 찍을 수 있다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 이번 아이폰11의 화두는 USB-C 타입 포트 탑재였는데요.&lt;br /&gt;
+이는 다음 세대까지 기다려야 할 것으로 보입니다.&lt;br /&gt;
+최근에 나온 아이패드 프로에 C타입이 쓰이긴했지만, 아직 아이폰에 그런 이야기는 안 나오고 있다고 하네요.&lt;br /&gt;
+그러나 내년에 나오는 새 아이폰에는 적용이 유력하다고 하니 기대해봐도 좋을 것 같습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;애플--애플-걱정은-무엇-애플이-2분기-역대-최고-매출을-찍었어&quot;&gt;&lt;a name=&quot;apple2ndQuarterPerformance_it_08_03&quot;&gt;&lt;/a&gt;애플 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=277&amp;amp;aid=0004510528&quot;&gt;애플 걱정은 무엇? 애플이 2분기 역대 최고 매출을 찍었어&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🍎☀️ 애플이 2분기 역대 최고 매출을 기록했습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 30일 애플은 2019년 2분기(회계연도 2019년 3분기) 실적을 발표했는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 매출은 538억 달러(약 63조 5378억원), 영업이익은 115억 4400달러(약 13조 5815억원)를 기록했다고 발표했습니다. &lt;br /&gt;
+매출의 경우 2분기 역대 최고를 찍었으며 전년 동기 보다 증가했습니다.
+다만 영업이익은 전년보다 감소했습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 팀 쿡 애플 CEO는 “서비스 부문이 사상 최고 매출을 기록하고 웨어러블의 성장이 가속화된 결과”, &lt;br /&gt;
+“2019년은 플랫폼, 서비스, 신제품의 등장으로 흥미진진한 시기가 될 것”이라고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 이번 매출을 통해 살펴볼 점은 아이폰 매출의 비중이 절반 이하로 떨어졌다는 것인데요.&lt;/p&gt;
+
+&lt;p&gt;📍이번 분기 애플은 아이폰을 팔아 259억 9000달러(약 30조 5879억원)를 벌어들였습니다. 
+(지난해 2분기 아이폰 매출은 294억7000달러(약 34조 7214억원))
+이는 전체 매출의 48% 규모입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 애플의 아이폰 시리즈(아이폰XS 맥스·XS·XR 등)는 판매 부진을 겪고 있는 상황입니다.
+그럼에도 불구하고 2분기 역대 최고 매출이라는 것은 애플의 새로운 성장 동력 서비스와 웨어러블 모델의 힘인데요.&lt;/p&gt;
+
+&lt;p&gt;📍 앱스토어, 애플뮤직 등 서비스 부문 매출은 역대 최고치인 114억 6000달러(약 13조 4634억원)를 기록했습니다. 
+또한 웨어러블 매출 역시 55억 2500달러(약 6조 4955억원)로 전년 동기(37억 3300달러) 보다 증가했습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 역시 애플 걱정은 할 필요가 없는건가요..&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;바이트댄스--바이트댄스가-스마트폰을-만든다고&quot;&gt;&lt;a name=&quot;bytedanceSmartphone_it_08_03&quot;&gt;&lt;/a&gt;바이트댄스 | &lt;a href=&quot;http://news.zum.com/articles/54078554&quot;&gt;바이트댄스가 스마트폰을 만든다고?&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;📱 바이트댄스가 스마트폰을 개발합니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍7월 29일 매체 엔가젯은 바이트댄스가 중국 스마트폰 제조업체 스마티산과 제휴해 스마트폰을 개발하고 있다고 보도했습니다.&lt;br /&gt;
+바이트댄스는 스마티산과 거래를 하기 전부터 개발 계획에 스마트폰이 포함돼 있었다, 스마트폰은 스마티산 옛 고객들의 필요를 충족시켜주기 위한 것이라고 밝혔는데요.&lt;/p&gt;
+
+&lt;p&gt;📍바이트댄스는 올해 초 스마티산으로부터 일부 특허권을 매입한 바 있습니다.&lt;br /&gt;
+매체 더버지는 이번 소식에 “바이트댄스가 다른 제품 영역으로 확대를 고려하는 것은 놀라운 일이 아니다”,&lt;br /&gt;
+“이미 메신저 서비스를 제공하고 있으며, 음악 스트리밍 서비스 출시도 고려하고 있다”고 의견을 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍바이트댄스는 우리에게 틱톡으로 유명한 기업입니다. 뉴스로 유명한 터우탸오도 서비스하고 있는 회사로 전세계 비상장스타트업 중 가장 기업가치가 높은 스타트업인데요.&lt;br /&gt;
+현재 9+개 서비스를 가지고 있는 만큼 자체적인 스마트폰을 개발할 경우 시너지 효과를 기대할 수는 있어보입니다.&lt;/p&gt;
+
+&lt;p&gt;📍보통 스마트폰 제조사들이 자사의 서비스를 사전 탑재하는 경우가 많고 그런 서비스들 같은 경우 기본적인 유저 풀을 깔고 가기 때문에 성장을 기대할 수 있기 때문입니다.&lt;br /&gt;
+그러나 미래가 밝지만은 않아보이는데요.&lt;/p&gt;
+
+&lt;p&gt;📍사실 이제까지 서비스 기반 회사가 하드웨어 부분 확장을 시도해 성공한 사례가 많지 않습니다.&lt;br /&gt;
+구글, 페이스북 같은 세계 최고 기업들도 하드웨어 부문에서 아직 잘하고 있다는 평을 받고 있지않고, 스마트폰 자체 제작 시도는 더더욱 그렇기 때문입니다.&lt;br /&gt;
+과연 바이트댄스의 스마트폰은 어떨지 기대가 되네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;스낵뉴스에 건의할 점, 문의할 점이 있다면 언제든지 댓글 혹은 메일으로 주세요!
+그리고 혹시 보신 스낵 뉴스가 괜찮았다면 아래 버튼을 눌러, 의견을 말씀해주실 수 있나요?&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;button_post_a&quot; href=&quot;https://seanlion.typeform.com/to/giDc38&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'survey_news');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;의견 전달하러가기&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;응원해주시는 모든 구독자님께 진심으로 감사드립니다!&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 03 Aug 2019 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/news/214</link>
+        <guid isPermaLink="true">http://localhost:4000/news/214</guid>
+      </item>
+    
+      <item>
+        <title>스낵뉴스 7월 4주(금융/투자)</title>
+        <description>&lt;h2 id=&quot;헤드라인으로-한-주의-소식을-파악해보세요&quot;&gt;헤드라인으로 한 주의 소식을 파악해보세요&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#fintech&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;금융&lt;/span&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;시장동향&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#indiaGovBanCrypto_finance_07_27&quot;&gt;인도 정부가 암호화폐 거래 전면 금지할 수도 있대&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;네이버&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#naverPayDivide_finance_07_27&quot;&gt;페이야 이제 독립하자.. 네이버페이가 분사한대!&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;금융&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#morethings_finance_07_27&quot;&gt;‘더 눈여겨보기’ 소식모음&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#invest&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt; 투자&amp;amp;인수&lt;/span&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;시장동향&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#visionFund2Open_investment_07_27&quot;&gt;규모가 1080억 달러?.. 소프트뱅크 비전펀드2 내용이 공개됐대&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;시장동향&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#softbankGrowthFund_investment_07_27&quot;&gt;(위에랑 중복 아님)소프트뱅크가 3200억원 규모 펀드를 결성했어&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;마이크로소프트&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#microsoftOpenAi_investment_07_27&quot;&gt;마이크로소프트가 Open AI에 무려 1조를 투자한대&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;디디추싱&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#toyotaDidi_investment_07_27&quot;&gt;도요타가 차이나 우버 ‘디디추싱’에 7천억을 투자한대&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;투자&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#morethings_investment_07_27&quot;&gt;‘더 눈여겨보기’ 소식모음&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;금융&quot;&gt;&lt;a name=&quot;fintech&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;금융&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;시장동향--인도-정부가-암호화폐-거래-전면-금지할-수도-있대&quot;&gt;&lt;a name=&quot;indiaGovBanCrypto_finance_07_27&quot;&gt;&lt;/a&gt;시장동향 | &lt;a href=&quot;http://www.startuptoday.kr/news/articleView.html?idxno=26999&quot;&gt;인도 정부가 암호화폐 거래 전면 금지할 수도 있대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🤔 인도 정부 관련 전문가(panel)가 정부에 암호화폐 금지를 제안했다고 합니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 23일 로이터에 따르면, 인도 정부 관련 전문가(panel)은 정부에게 암호화폐를 금지하고 암호화폐 자산 관련 모든 거래에 제재를 할 것을 제안했다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 이런 발언이 중요하게 여겨질 수 있는 이유는 인도 규제 당국 및 정부는 최종 결정을 내리기 전에 정부 관련 전문가가 발행한 법안 초안과 보고서를 검토하기 때문인데요.&lt;/p&gt;
+
+&lt;p&gt;📍 2019년 7월 인도 Anurag Thakur 재무장관은 인도 내에서 암호화폐 사용을 금지하는 법안은 없다고 언급하긴 했습니다만,  &lt;br /&gt;
+1주 전 인도 블록체인 법률 전문가들은 SNS 상에서 인도 내에서 암호화폐 사용을 금지할 수 있는 법안 초안을 게재했다고 합니다.
+현재 장관과 전문가들 측 의견이 엇 갈리고 있는 상황입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 참고로 법안 초안의 대략적인 내용은,&lt;br /&gt;
+1.암호화폐는 암호학 수단을 통해 생성된 공식 디지털 화폐의 일부가 아닌 정보, 코드, 숫자 혹은 토큰으로 정의, &lt;br /&gt;
+2.이 정의에 맞는 모든 자산은 인도 내에서 거래가 금지될 전망,&lt;br /&gt;
+3.단, 인도 중앙정부가 발행하는 디지털 루피는 법정 화폐로 인정될 것&lt;br /&gt;
+이라고 하네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;네이버--페이야-이제-독립하자-네이버페이가-분사한대&quot;&gt;&lt;a name=&quot;naverPayDivide_finance_07_27&quot;&gt;&lt;/a&gt;네이버 | &lt;a href=&quot;https://www.zdnet.co.kr/view/?no=20190725114142&quot;&gt;페이야 이제 독립하자.. 네이버페이가 분사한대!&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;😙 올해 11월 네이버가 네이버페이를 분리합니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 24일 네이버측은 네이버페이 서비스를 네이버로부터 독립시켜, 신설되는 네이버파이낸셜을 통해 운영하겠다고 공시했습니다. &lt;br /&gt;
+분할 기일은 올해 11월 1일이며 최인혁 네이버 COO가 신설법인 대표를 겸직할 예정이라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 그 뒤 7월 25일 한성숙 네이버 대표는 2분기 실적발표 컨퍼런스 콜에서 네이버페이 분사에 대해 언급했는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 한성숙 대표는 “네이버페이는 분사를 통해 금융 관련 라이선스 취득이 용이해지고, 빠른 의사결정이 가능한 사업구조를 마련 할 수 있을 것으로 기대하고 있다”,&lt;br /&gt;
+“다양한 금융 사업자들과 의 긴밀한 협력과 투자 유치도 추진 할 수 있어 새롭게 열리고 있는 디지털 금융 시장에서 경쟁력을 강화할 수 있을 것으로 기대한다”고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 다만 네이버페이의 은행업 진출은 아직 고려하지 않고 있다고 했는데요.&lt;br /&gt;
+최인혁 COO는 “케이뱅크나 카카오뱅크가 은행업에 진출해서 잘하고 있는데, 네이버페이는 은행업은 하지 않지만 결제 대출 보험 신사업으로 확장할 수 있다”, &lt;br /&gt;
+“미래에셋과 파트너 체결한 이유도 그렇다”고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 또한 네이버페이는 향후 상장을 목표로 달려갈 것이라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 이 밖에도 컨퍼런스콜에서는 
+1.국내에서도 네이버페이 오프라인 결제 사용,   &lt;br /&gt;
+2.식당 업종을 대상으로 예약 - 현장결제 - 주문을 시도하는 계획을 밝혔습니다.   &lt;br /&gt;
+이미 현장결제 서비스인 ‘테이블 주문’을 네이버 본사 인근에서 테스트하고 있으며, 3분기 중 포장 기능과 함께 정식 출시할 계획이라고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍 향후 본격적으로 네이버페이가 분리되면 앞으로의 페이 경쟁은 더욱 치열해질 것으로 보여지네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;이런-금융-소식도-있어요&quot;&gt;&lt;a name=&quot;morethings_finance_07_27&quot;&gt;&lt;/a&gt;이런 금융 소식도 있어요&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.zdnet.co.kr/view/?no=20190722093011&quot;&gt;인도 기반 핀테크 스타트업 ‘밸런스히어로’가 휴대폰 판매 서비스를 내놓았어&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://news.einfomax.co.kr/news/articleView.html?idxno=4040400&quot;&gt;만원 남은거로 애플 주식 가즈아! 신한 카드에서 자투리 주식 투자서비스를 출시한대&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=092&amp;amp;aid=0002167096&quot;&gt;미국인들 : “리브라 뭐임? 비트코인 짱”&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;투자인수&quot;&gt;&lt;a name=&quot;invest&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;투자&amp;amp;인수&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;시장동향--규모가-1080억-달러-소프트뱅크-비전펀드2-내용이-공개됐대&quot;&gt;&lt;a name=&quot;visionFund2Open_investment_07_27&quot;&gt;&lt;/a&gt;시장동향 | &lt;a href=&quot;http://www.itbiznews.com/news/articleView.html?idxno=14872&quot;&gt;규모가 1080억 달러?.. 소프트뱅크 비전펀드2 내용이 공개됐대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🆕2️⃣ 소프트뱅크의 비전펀드2호 내용이 공개됐습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 테크크런치에 따르면, 7월 25일 소프트뱅크는 이사회에서 비전펀드2호의 설립을 결정했다고 합니다. 
+소프트뱅크의 출자금은 비전펀드 1호에서 자금을 대며, 펀드규모는 총 1080억 달러(127조원 규모)에 달한다고 하는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 이번 비전펀드에는 애플, 미즈호그룹 등 10여개 기업들이 소프트뱅크와 700억달러를 투자하는 계약을 체결했다고 합니다.
+추가적으로 보면 카자흐스탄의 국부펀드가 조인했고, 추후 마이크로소프트, 골드만삭스, 사우디아라비아 국부펀드 등 기업들과의 협상을 통해 규모는 더 늘어날 수 있는 상황입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 펀드의 구조는 &lt;a href=&quot;https://www.hankyung.com/finance/article/201706132033r&quot;&gt;1호 펀드와 유사하게 운영&lt;/a&gt;될 것으로 예상된다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 비전펀드 2호 설립 이야기는 작년부터 솔솔 피어올랐고 2019년 3월에는 손정의 회장이 직접 언급하기도 했습니다. &lt;br /&gt;
+아마 1호와 비슷한 규모로 유망 기술기업에 대한 투자를 지속할텐데요.  &lt;br /&gt;
+비전펀드1호의 포트폴리오를 보면 위워크, 디디추싱, 우버, 그랩, 쿠팡 등으로 다양한 산업군에 포진된 테크 스타트업이라는 것을 알 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 손정의 회장이 꽂혀있는게 인공지능이니 아마 비전펀드 2호는 그쪽으로, 특히 중국 회사에도 많이 투자 할수도 있을 것으로 보입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;소셜-플랫폼에서-스낵뉴스-받아보기&quot;&gt;소셜 플랫폼에서 스낵뉴스 받아보기&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&quot;button_post_a&quot; href=&quot;https://www.facebook.com/groups/2025149054465611/?ref=group_browse_new&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'facebook');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;페이스북 그룹 가기&lt;/button&gt;&lt;/a&gt;
+&lt;a class=&quot;button_post_a&quot; href=&quot;https://goo.gl/forms/wf7tAS667BXFi04k2&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'kakao');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;카카오 오픈챗 가기&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;시장동향--위에랑-중복-아님소프트뱅크가-3200억원-규모-펀드를-결성했어&quot;&gt;&lt;a name=&quot;softbankGrowthFund_investment_07_27&quot;&gt;&lt;/a&gt;시장동향 | &lt;a href=&quot;https://www.venturesquare.net/786470&quot;&gt;(위에랑 중복 아님)소프트뱅크가 3200억원 규모 펀드를 결성했어&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🆕 소프트뱅크가 한국을 중심으로 새로운 펀드를 출현합니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍7월 22일 소프트뱅크벤처스가 약 3200억원 규모로 ‘그로스엑셀러레이션펀드’ 1차 클로징을 완료했다고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍해당 펀드는 소프트뱅크그룹, 국민연금공단, 국내외 기업 등이 참여했으며, 한국을 중심으로 한 아시아 지역의 인공지능 스타트업 및 시장 혁신에 집중하는 초기 기업에 주로 투자될 예정이라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍소프트뱅크벤처스의 이준표 대표는 “인공지능 분야를 중심으로 미래를 바꿔가고자 하는 초기 기업들에 기대가 크다”,&lt;br /&gt;
+“이러한 기술 기업들을 적극 발굴하고, 소프트뱅크그룹의 네트워크를 활용해 글로벌 기업으로 성장할 수 있도록 도울 것”이라고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍그로스엑셀러레이션 펀드는 연내 2차 클로징을 통해 최대 4,000억원 규모로 자금 모집이 완료될 예정이라고 하네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;마이크로소프트--마이크로소프트가-open-ai에-무려-1조를-투자한대&quot;&gt;&lt;a name=&quot;microsoftOpenAi_investment_07_27&quot;&gt;&lt;/a&gt;마이크로소프트 | &lt;a href=&quot;http://news1.kr/articles/?3677016&quot;&gt;마이크로소프트가 Open AI에 무려 1조를 투자한대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🤖 마이크로소프트가 Open AI에 10억 달러를 투자합니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 22일 매체 AFP통신 등에 따르면 MS와 Open AI는 공동기자회견을 통해 “MS의 클라우드 컴퓨팅 플랫폼 ‘Azure’를 기반으로 고급 AI 모델을 개발할 것”이라고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 Open AI는 2015년 테슬라 창업자 일론 머스크, 링크드인 설립자 리드 호프먼, 페이팔 설립자인 피터 틸, Y콤비네이터의 샘 알트만 등 창업자들과 연구원들이 합작해  설립한 AI 연구 비영리 기업입니다.&lt;br /&gt;
+현재는 엘론 머스크는 탈퇴했으며, 샘 알트만이 대표로 운영 중에 있습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 이들이 말하는 인공지능 모델은 ‘인공일반지능’(AGI)이라 불리게 되며,
+해당 인공지능은 인간을 도와 기후변화나 맞춤형 의료, 교육과 같은 새로운 전 세계적 과제들을 해결하는 데 도움이 되는 인공지능이 될 것이라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 사티아 나델라 MS CEO는 “AI는 우리 시대 가장 혁신적인 기술 중 하나이며 우리 세계가 직면한 많은 압박적인 문제들을 해결하는 데 도움이 될 잠재력을 가지고 있다”고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 좋은 비전을 가지고 있는 만큼 인류를 위해 힘써줬으면 좋겠네요!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;디디추싱--도요타가-차이나-우버-디디추싱에-7천억을-투자한대&quot;&gt;&lt;a name=&quot;toyotaDidi_investment_07_27&quot;&gt;&lt;/a&gt;디디추싱 | &lt;a href=&quot;https://www.edaily.co.kr/news/read?newsId=03706406622558456&amp;amp;mediaCodeNo=257&quot;&gt;도요타가 차이나 우버 ‘디디추싱’에 7천억을 투자한대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🔥 도요타가 디디추싱에 투자합니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 25일 매체 신경보新京報)에 따르면 도요타자동차가 중국 차량 공유 서비스 디디추싱에 6억 달러(약 7100억원)를 투자하고 새로운 합작사를 세운다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 도요타는 디디추싱의 네트워크를 활용해 중국 내 모빌리티 서비스를 확대할 계획을 가지고 있는데요. &lt;br /&gt;
+아마 중국에서 합작법인을 설립하고 디디추싱 운전자들을 위한 차량 관리, 정비, 금융서비스 등을 제공한다는 구상으로 보입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 도요타는 현재 제조 기업을 넘어 모빌리티 회사로 변신하기 위해 노력중입니다.&lt;br /&gt;
+작년에는 우버에 5억 달러를 출자했고, 동남아시아 차량공유 서비스인 그랩에도 10억달러를 투자한 바 있습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 디디추싱은 시장 구조 상 독보적인 사업자이지만 아직 수익성 확보에 어려움을 겪고 있어 최근 자금 조달을 진행하고 있는데,&lt;br /&gt;
+이런 양사의 이해관계가 맞아떨어진 것으로 보이네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;이런-투자인수-소식도-있어요&quot;&gt;&lt;a name=&quot;morethings_investment_07_27&quot;&gt;&lt;/a&gt;이런 투자&amp;amp;인수 소식도 있어요&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.zdnet.co.kr/view/?no=20190719085014&quot;&gt;쏘카가 차량관리 기업 ‘차케어’를 인수했어&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://news.zum.com/articles/53911201&quot;&gt;금융상품 플랫폼 핀다가 45억원 규모 투자를 유치했어&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;스낵뉴스에 건의할 점, 문의할 점이 있다면 언제든지 댓글 혹은 메일으로 주세요!
+그리고 혹시 보신 스낵 뉴스가 괜찮았다면 아래 버튼을 눌러, 의견을 말씀해주실 수 있나요?&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;button_post_a&quot; href=&quot;https://seanlion.typeform.com/to/giDc38&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'survey_news');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;의견 전달하러가기&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;응원해주시는 모든 구독자님께 진심으로 감사드립니다!&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 27 Jul 2019 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/news/213</link>
+        <guid isPermaLink="true">http://localhost:4000/news/213</guid>
+      </item>
+    
+      <item>
+        <title>스낵뉴스 7월 4주(모빌리티/커머스/O2O)</title>
+        <description>&lt;h2 id=&quot;헤드라인으로-한-주의-소식을-파악해보세요&quot;&gt;헤드라인으로 한 주의 소식을 파악해보세요&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#mobility&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;모빌리티&lt;/span&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;시장동향&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#kickboardCVSparking_mobility_07_27&quot;&gt;이제 공유 킥보드 편의점에 주차하자!&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;우버&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#uberSubscription_mobility_07_27&quot;&gt;할인도 받고 무료 배달도 시키자! 우버가 구독 상품을 내놓았어&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#commerce&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;커머스&lt;/span&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;시장동향&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#ecommerceGross2019HalfReport_commerce_07_27&quot;&gt;누가누가 잘하고 있을까? - 2019년 상반기 이커머스&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;신세계&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#ssgDawnDeliveryExpand_commerce_07_27&quot;&gt;SSG닷컴 새벽배송이 넘 잘 되서 계획보다 빨리 확장한대&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;아마존&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#amazonEarningDecrease_commerce_07_27&quot;&gt;갑분이익감소? 이번 분기 때문에 아마존 이익 릴레이가 끊겼대&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;커머스&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#morethings_commerce_07_27&quot;&gt;‘더 눈여겨보기’ 소식모음&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#o2o&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;O2O&lt;/span&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;우아한형제들&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#woowaBrosOpenFutureResturants_o2o_07_27&quot;&gt;배달의민족이 미래 식당을 열었대&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;O2O&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#morethings_o2o_07_27&quot;&gt;‘더 눈여겨보기’ 소식모음&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;모빌리티&quot;&gt;&lt;a name=&quot;mobility&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;모빌리티&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;시장동향--이제-공유-킥보드-편의점에-주차하자&quot;&gt;&lt;a name=&quot;kickboardCVSparking_mobility_07_27&quot;&gt;&lt;/a&gt;시장동향 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=092&amp;amp;aid=0002166998&quot;&gt;이제 공유 킥보드 편의점에 주차하자!&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🛴🅿️ 이제 전동 킥보드를 편의점에 주차할 수 있게 될 것 같습니다. &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 오는 8월부터 전동 킥보드 공유 서비스 ‘킥고잉’의 올룰로와 ‘고고씽’의 매스아시아가 CU, GS25에 주차 공간을 마련한다고 합니다.
+올룰로는 3월에, 매스아시아는 4월에 주요 편의점과 업무협약을 맺었다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍 이번 편의점 &amp;amp; 킥보드 콜라보는 긍정적인 방향으로 보입니다.
+킥보드 같은 마이크로 모빌리티의 수가 늘어나면서 도심에서는 주차 문제가 조금씩 불거지고 있었는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 자유롭게 반납·주차할 수 있는 것이 장점이지만, 통행에 방해가 될 정도로 세워진 경우도 적지 않았기 때문입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 이제 킥고잉은 8월 초부터 마포구 CU 2곳에 주차 공간을 마련하는 것으로 저 문제를 해소하려고 하는 것 같습니다.&lt;br /&gt;
+올룰로 관계자는 “주차장 영역을 표시하는 매트를 깔아놓는 형식이 될 것 같다”, “초기 두 곳을 평가한 후 가을 경 새로운 버전으로 업그레이드 하려 한다”고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 이에 맞서 고고씽은 8월 강남 테헤란로에 위치한 GS25 10곳 정도에 배터리 교환 및 충전소, 주차 공간을 마련한다고 합니다.&lt;br /&gt;
+매스아시아 관계자는 “편의점 앞 보도가 아닌, 가맹점주나 이용객들이 사용할 수 있는 주차공간을 활용한 주차장을 계획 중”,&lt;br /&gt;
+“편의점 충전소에선 충전 포트를 꼽을 수 있게 될 것이다”고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 편의점 측에서도 마이크로모빌리티 업체들과의 협력을 반기는 분위기라고 하는데요.&lt;br /&gt;
+편의점 입장에서는 조금이라도 손님을 더 받을 수 있게 되고, 업체 입장에서는 정돈되지않은 도로 리스크를 조금 해소할 수 있을 것 같네요 :)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;우버--할인도-받고-무료-배달도-시키자-우버가-구독-상품을-내놓았어&quot;&gt;&lt;a name=&quot;uberSubscription_mobility_07_27&quot;&gt;&lt;/a&gt;우버 | &lt;a href=&quot;https://www.hankyung.com/it/article/201907234298j&quot;&gt;할인도 받고 무료 배달도 시키자! 우버가 구독 상품을 내놓았어&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🚗 우버가 월정액 구독 서비스를 출시했습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 22일 매체 테크크런치에 따르면 우버는 최근 월 정액 구독 서비스를 내놓았는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 가격은 월 24.99달러(약 2만 9000원)이며,
+혜택은 승차 할인, 무료 음식 배달, 공유자전거,킥보드 무료 이용 등이 담겨있다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 미국 한정으로 내놓은 서비스로 보이며 점프는 미국 샌프란시스코와 시카고에서만 시범 운영 중인 상황입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 사실 이번 우버의 구독 서비스는 기존 구독 서비스를 확장한 버전으로 볼 수 있습니다. 
+2018년 우버는 월정액 구독 서비스 ‘라이드 패스’를 출시했었는데요. 
+당시 월 14.99달러를 내면 자전거와 전동 킥보드를 기본 요금으로 이용할 수 있는 서비스였습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 이번 우버의 실험은 승차공유와 음식 배달 시장에서 구독 모델을 통해 리텐션 혹은 고객 로열티를 높이기 위한 전략으로 생각됩니다. 
+이미 경쟁사 리프트 또한 구독 서비스를 운영하고 있고, 배달 스타트업 포스트메이츠 또한 구독 서비스를 운영하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 구독모델의 끝판왕은 아마존 프라임이라고 하는데, 과연 우버가 나중에 모빌리티 업계의 아마존이 될 수 있을까요?&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p align=&quot;middle&quot;&gt;    
+ &lt;img src=&quot;https://img.hankyung.com/photo/201907/01.20157917.1.png&quot; alt=&quot;alt text&quot; width=&quot;50%&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;커머스&quot;&gt;&lt;a name=&quot;commerce&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;커머스&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;시장동향--누가누가-잘하고-있을까---2019년-상반기-이커머스&quot;&gt;&lt;a name=&quot;ecommerceGross2019HalfReport_commerce_07_27&quot;&gt;&lt;/a&gt;시장동향 | &lt;a href=&quot;http://www.dt.co.kr/contents.html?article_no=2019072302109932060005&amp;amp;ref=naver&quot;&gt;누가누가 잘하고 있을까? - 2019년 상반기 이커머스&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🚀 쿠팡이 단일업체로는 규모 1위를 차지했습니다. &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 23일 분석 업체 와이즈앱이 2019년 상반기 주요 이커머스 거래액을 표본 조사한 결과를 공개했습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 주요 이커머스 기업인 ‘옥션’, ‘지마켓’, ‘쿠팡’, ‘11번가’, ‘티몬’ , ‘위메프’ 등의 거래액이 나왔는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 먼저 1위부터 살펴보자면, 옥션과 G마켓을 서비스하는 이베이 코리아가 1위를 차지했습니다.&lt;br /&gt;
+결제금액이 8조 8100억원으로 추정되는데, 전년대비(8조 8700억원)보다 약간 감소했다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 2위는 쿠팡인데요. &lt;br /&gt;
+쿠팡은 전년 대비 64% 정도 증가한 7조 8400억원을 기록했습니다.&lt;br /&gt;
+이베이는 G마켓과 옥션은 2개의 매출을 합산한 것이기 때문에 단일 업체 기준에서는 쿠팡이 1위를 차지했다고 볼 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 3위를 차지한 11번가는 전년 동기 대비 9% 정도 줄어든 5조 2400억원 규모입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 4위는 위메프로 전년대비 18% 정도 성장한 3조 2300억원 규모이고,&lt;br /&gt;
+5위는 티몬으로 전년대비 12% 정도 성장한 2조200억원으로 추정됩니다.&lt;/p&gt;
+
+&lt;p&gt;📍 참고로 강력한 이커머스 도전자인 네이버는 거래액이 9조 7900억원 규모라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 다만 네이버 거래액에는 콘텐츠 구매와 광고 등의 항목이 있어 단순 쇼핑 거래액으로 보기는 어렵습니다.&lt;br /&gt;
+그럼에도 불구하고 쇼핑 거래액으로 상위 순위에 들 것으로 추정 됩니다.&lt;/p&gt;
+
+&lt;p&gt;📍 정확한 수치는 아니니, 경향 정도만 참고하시면 되실 것 같습니다.&lt;br /&gt;
+쿠팡이 이제는 1위를 차지한다는 것, 이베이와 11번가의 성장이 둔화되었다는 점 정도가 총평일 것 같네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p align=&quot;middle&quot;&gt;    
+ &lt;img src=&quot;https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/67098603_2972952232778631_4577129768125726720_n.jpg?_nc_cat=107&amp;amp;_nc_oc=AQn-lnM5wBx1TmKu1bi1TEM7FWHMhqHLXWCfQMjKIEopRp3MZN2zP5LLiehzxQrDaVI&amp;amp;_nc_ht=scontent-icn1-1.xx&amp;amp;oh=61df597727fe631f073801f49eb7969e&amp;amp;oe=5DE46F57&quot; alt=&quot;alt text&quot; width=&quot;70%&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;신세계--ssg닷컴-새벽배송이-넘-잘-되서-계획보다-빨리-확장한대&quot;&gt;&lt;a name=&quot;ssgDawnDeliveryExpand_commerce_07_27&quot;&gt;&lt;/a&gt;신세계 | &lt;a href=&quot;http://www.econovill.com/news/articleView.html?idxno=368067&quot;&gt;SSG닷컴 새벽배송이 넘 잘 되서 계획보다 빨리 확장한대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🚚🎉 신세계의 새벽배송 구역이 확장됩니다. &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 23일 SSG닷컴 측은 내부의 예상보다 소비자 반응이 좋아 올해 연말까지 구역을 점진적으로 확대하려던 계획을 무려 ‘4개월’ 앞당기게 됐다고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 따라서 SSG닷컴이 6월 27일부터 본격적으로 시작한 새벽배송의 서비스 확장이 7월 29일부터 시행됩니다.&lt;/p&gt;
+
+&lt;p&gt;📍 배송 권역은 기존 서울 10개 구에서 경기 일부 지역을 포함한 17개 구로 넓어지고, 일 배송물량 역시 3000건에서 5000건으로 확대됩니다.&lt;/p&gt;
+
+&lt;p&gt;📍 기존 서울 구역(강서구, 양천구, 강남구)은 서울 송파구, 광진구, 성동구, 은평구, 관악구 일부 지역까지 서비스가 확장됩니다.&lt;br /&gt;
+경기도 지역은 판교 신도시, 성남시 분당구, 용인시 수지구가 처음으로 포함되었습니다.&lt;br /&gt;
+(단, 수지구 고기동 일대는 제외됐다고 합니다.)&lt;/p&gt;
+
+&lt;p&gt;📍 이번 구역 확대의 배경을 보자면 소비자들의 의견이 주효했는데요.&lt;br /&gt;
+SSG닷컴의 자체 조사에 따르면 실제 새벽배송을 이용하기 위해 SSG닷컴에서 처음 장을 본 고객도, 새벽배송 전체 이용자의 14%를 넘어선 것으로 나타났다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 따라서 SSG닷컴은 올 연말 정도에는 배송 물량에 맞춰 배송 권역도 서울과 수도권 30여개 구로 추가 확장할 계획이라고 하네요.&lt;br /&gt;
+SSG는 탄탄한 콜드체인, 물류 시스템을 갖추고 있어 새벽배송 확장에 더 탄력을 받을 것으로 예상됩니다.&lt;/p&gt;
+
+&lt;p&gt;📍 쿠팡과 마켓컬리와 함께 경쟁해야 하지만 규모 상 더 유리한 고지를 점할 수 있지않을까 하네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;소셜-플랫폼에서-스낵뉴스-받아보기&quot;&gt;소셜 플랫폼에서 스낵뉴스 받아보기&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&quot;button_post_a&quot; href=&quot;https://www.facebook.com/groups/2025149054465611/?ref=group_browse_new&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'facebook');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;페이스북 그룹 가기&lt;/button&gt;&lt;/a&gt;
+&lt;a class=&quot;button_post_a&quot; href=&quot;https://goo.gl/forms/wf7tAS667BXFi04k2&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'kakao');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;카카오 오픈챗 가기&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;아마존--갑분이익감소-이번-분기-때문에-아마존-이익-릴레이가-끊겼대&quot;&gt;&lt;a name=&quot;amazonEarningDecrease_commerce_07_27&quot;&gt;&lt;/a&gt;아마존 | &lt;a href=&quot;http://www.fntoday.co.kr/news/articleView.html?idxno=195967&quot;&gt;갑분이익감소? 이번 분기 때문에 아마존 이익 릴레이가 끊겼대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;😔 아마존의 2분기 순이익이 최근 실적 중 처음으로 감소세에 들어섰습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 25일 아마존은 2019년 2분기(4 ~ 6월) 예상치를 뛰어넘는 매출을 올렸지만 순이익은 줄어들었다고 발표했습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 아마존의 이번 2분기 매출은 634억달러 규모로 시장 전망치인 625억달러를 넘었는데요. &lt;br /&gt;
+이는 1년 전보다 20% 증가한 실적이며, 1분기보다는 16.8% 늘어난 실적입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 그러나 순이익은 26억 3000만달러를 기록했는데요. &lt;br /&gt;
+1분기 순이익(36억달러)보다 10억 달러 가량 줄었습니다. 
+이번 실적은 2018년 2분기 이후 가장 낮은 수준으로, 4개 분기 연속 상승세 행진을 끝냈습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 그렇다면 왜 이런 렐리가 끝난 것일까요?
+최근 아마존은 프라임멤버쉽 회원들에게 무료 하루배송 서비스를 제공하기 위해 물류 시스템 구축에 8억달러를 투자했었는데요. 
+실제로 실적발표 뒤 브라이언 올사브스키 CFO는 “2분기에 8억달러가 조금 넘는 비용을 지출했다”고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 그 결과 해당 비용 지출이 이익을 감소시켰습니다. &lt;br /&gt;
+그러나 매출이 늘어남으로써 배송에 투자한 것이 효과를 보고 있다는 걸 증명했다는 것은 긍정적입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 아마존의 제프 베조스 CEO는 성명을 통해 “고객들은 하루배송이라는 프라임 서비스의 변화에 반응하고 있다. 우리는 많은 긍정적인 피드백을 받았고 매출 성장도 가속되고 있다”,&lt;br /&gt;
+“프라임 고객에게 하루 만에 배송할 수 있는 제품들은 1000만개 이상이다. 그리고 우리는 이제 시작한 것이다”라고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 사실상 미래를 위한 포석인 셈이므로, 앞으로 더욱 무서워질 것 같네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;이런-커머스-소식도-있어요&quot;&gt;&lt;a name=&quot;morethings_commerce_07_27&quot;&gt;&lt;/a&gt;이런 커머스 소식도 있어요&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=030&amp;amp;aid=0002830687&quot;&gt;내 얼굴 인식해주라.. SSG페이가 얼굴 인식 결제를 개발한대&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;o2o&quot;&gt;&lt;a name=&quot;o2o&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;O2O&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;우아한형제들--배달의민족이-미래-식당을-열었대&quot;&gt;&lt;a name=&quot;woowaBrosOpenFutureResturants_o2o_07_27&quot;&gt;&lt;/a&gt;우아한형제들 | &lt;a href=&quot;http://www.zdnet.co.kr/view/?no=20190723084135&quot;&gt;배달의민족이 미래 식당을 열었대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🤖 우아한형제들이 로봇 식당을 선보입니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍7월 23일 우아한형제들이 스마트오더, 자율주행 로봇 기술을 활용한 식당 ‘메리고키친’을 선보인다고 밝혔습니다.&lt;br /&gt;
+메리고키친은 서울 송파구에 위치한 이탈리안 퓨전 레스토랑인데요.&lt;br /&gt;
+이 레스토랑은 우아한형제들이 가진 기술을 녹여 첨단 레스토랑으로 변모하고 있다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 주문은 ‘배민스마트오더’로 합니다.&lt;br /&gt;
+배달의민족 앱을 열어 각 테이블에 부여된 QR코드를 찍으면 메뉴 확인과 주문, 결제까지 비대면으로 가능한데요.&lt;br /&gt;
+메뉴 전체를 여러 장의 사진과 동영상으로 미리 볼 수 있다고 합니다.&lt;br /&gt;
+앉은 자리에서 편하게 음식을 주문할 수 있고, 전체 음식을 한 눈에 훑어볼 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;📍서빙은 로봇이 합니다.&lt;br /&gt;
+매장 내 테이블 구성, 고객과 직원의 동선, 주방과 테이블 간의 거리를 감안해 레스토랑에 가장 잘 맞는 자율주행 로봇 2종을 배치했다고 합니다.&lt;br /&gt;
+자율주행 서빙 로봇은 한 번에 최대 4개 테이블에 음식을 나를 수 있습니다.&lt;br /&gt;
+직원이 음식을 로봇에 담아 테이블 번호를 입력하면 로봇이 최적의 경로로 주문자의 테이블까지 가져다주는데,&lt;br /&gt;
+장애물이 나타나면 알아서 피한다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 매장 관리는 전용프로그램이 합니다.&lt;br /&gt;
+관리 프로그램을 통해 주문 접수, 서빙, 결제 ,매출, 비용 관리까지 간편하게 관리할 수 있다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍 메리고키친 운영은 배달의민족과는 직접 관련이 없는 점주가 맡는다고 합니다.&lt;br /&gt;
+점주가 메뉴 구성, 요리, 직원 관리, 매출 관리 등 전반적인 운영을 책임지고, 우아한형제들은 이곳에 미래 기술을 구현하고 관리하는 것으로 R&amp;amp;R을 나우었다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍메리고키친은 7월 15일 ~ 7월 21일동안 우아한형제들 임직원을 대상으로 시범 운영을 마쳤고&lt;br /&gt;
+오는 7월 23일부터 일반인 고객을 대상으로 서비스를 오픈한다고 합니다.&lt;br /&gt;
+운영 시간은 오전 10시부터 밤 11시까지이며, 월요일은 휴무라고 하네요.&lt;/p&gt;
+
+&lt;h2 id=&quot;메리고키친-좌표가-궁금하다면&quot;&gt;메리고키친 좌표가 궁금하다면?&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;https://store.naver.com/restaurants/detail?id=1782782776&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;이런-o2o-소식도-있어요&quot;&gt;&lt;a name=&quot;morethings_o2o_07_27&quot;&gt;&lt;/a&gt;이런 O2O 소식도 있어요&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.zdnet.co.kr/view/?no=20190724093054&quot;&gt;스타벅스가 미국에서 우버이츠와 손 잡고 배달을 확대한대&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.zdnet.co.kr/view/?no=20190725144009&quot;&gt;세탁대행 서비스 런드리고 인기 폭발! 서울 전역으로 확장한대&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;스낵뉴스에 건의할 점, 문의할 점이 있다면 언제든지 댓글 혹은 메일으로 주세요!
+그리고 혹시 보신 스낵 뉴스가 괜찮았다면 아래 버튼을 눌러, 의견을 말씀해주실 수 있나요?&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;button_post_a&quot; href=&quot;https://seanlion.typeform.com/to/giDc38&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'survey_news');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;의견 전달하러가기&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;응원해주시는 모든 구독자님께 진심으로 감사드립니다!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 27 Jul 2019 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/news/212</link>
+        <guid isPermaLink="true">http://localhost:4000/news/212</guid>
+      </item>
+    
+      <item>
+        <title>스낵뉴스 7월 4주(IT)</title>
+        <description>&lt;h2 id=&quot;헤드라인으로-한-주의-소식을-파악해보세요&quot;&gt;헤드라인으로 한 주의 소식을 파악해보세요.&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#tech&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;기술동향&lt;/span&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;기술동향&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#chiaAIannoucne_tech_07_27&quot;&gt;중국에서 이제 인공지능 아나운서가 방송한대&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#market&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;시장동향&lt;/span&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;시장동향&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#vrContentsSurvey_market_07_27&quot;&gt;가상스러운 가상현실 vs 현실같은 가상현실, 승자는?&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;시장동향&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#itCompanyAntiTrust_market_07_27&quot;&gt;구글, 페북아 너네 따라와라.. 반독점 조사 좀 받자!&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;시장동향&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#franceWineTax_market_07_27&quot;&gt;프랑스 너네 디지털세 매긴다고? 어디보자.. 와인세를 매겨볼까?&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#it&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;IT&lt;/span&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;삼성전자&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#galaxyFoldReleaseSeptember_it_07_27&quot;&gt;갤럭시 폴드가 9월에 출격한다고?&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;틴더&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#tinderEscapeGooglePlay_it_07_27&quot;&gt;탈구글이다! 틴더가 구글플레이 대신에 직접 결제 시스템을 추가했대&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;애플&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#iphoneXRSell1stButiOSDecrease_it_07_27&quot;&gt;아이폰XR이 판매 1등인데 iOS 점유율이 떨어진 건 뭐쥬?&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;IT&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;#morethings_it_07_27&quot;&gt;‘더 눈여겨보기’ 소식모음&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;기술동향&quot;&gt;&lt;a name=&quot;tech&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;기술동향&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;기술동향--중국에서-이제-인공지능-아나운서가-방송한대&quot;&gt;&lt;a name=&quot;chiaAIannoucne_tech_07_27&quot;&gt;&lt;/a&gt;기술동향 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=092&amp;amp;aid=0002166789&quot;&gt;중국에서 이제 인공지능 아나운서가 방송한대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🙄 중국에서 사람을 닮은 인공지능 아나운서가 모바일 앱을 통해 실시간 방송을 합니다. &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 22일 중국 포털 바이두가 뉴스 서비스 ‘펑파이 신문’와 함께 가상 아나운서 뉴스 방송 ‘자오완바오’를 개설했다고 하는데요. &lt;br /&gt;
+이 방송은 매일 펑파이신문 앱, 바이두 앱을 통해 영상으로 서비스된다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 방송을 맡는 가상 아나운서는 음성합성/ 입술 동작 합성/ 영상합성 등 바이두의 인공지능 기술을 적용해 가상의 이미지로 만들어진 존재라고 합니다.(!)&lt;/p&gt;
+
+&lt;p&gt;📍 헌데 바이두가 이번에 만난 가상 아나운서 서비스가 처음은 아닙니다.
+이전에 중국 CCTV와 콜라보해 ‘샤오링’이라는 서비스를 선보였다고 하는데요. 
+이번에 선보여진 자오완바오는 실제 사람에 더욱 가깝게 만든 아나운서, 더 빠른 반응 속도, 더 풍부한 콘텐츠 등을 제공하며 전작보다 더 업그레이드 시켰다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 또한 이 서비스는 타이틀, 자막, 엔딩크레딧, 이미지 텍스트 등이 자동으로 생성되고,&lt;br /&gt;
+사람의 작업을 사실상 필요치 않아 24/7 내내 서비스가 가능한 시스템이라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 서비스를 아직 체험해보진 못 했으나, 실제 사람과 점점 유사해지는 걸 보니 
+나중에는 정말 구분을 못 할 수도 있겠구나라고 생각이 드네요..!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p align=&quot;middle&quot;&gt;    
+ &lt;img src=&quot;https://imgnews.pstatic.net/image/092/2019/07/23/0002166789_001_20190723082013029.jpg?type=w647&quot; alt=&quot;alt text&quot; width=&quot;90%&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;시장동향&quot;&gt;&lt;a name=&quot;market&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;시장동향&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;시장동향--가상스러운-가상현실-vs-현실같은-가상현실-승자는&quot;&gt;&lt;a name=&quot;vrContentsSurvey_market_07_27&quot;&gt;&lt;/a&gt;시장동향 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=469&amp;amp;aid=0000408471&quot;&gt;가상스러운 가상현실 vs 현실같은 가상현실, 승자는?&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🧙 사람들은 현실스러운 가상보다는 가상스러운 가상을 선호하는 걸까요? &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍7월 25일 삼성SDS와 한국가상증강현실사업협회가 ‘가상현실(VR) 콘텐츠 소비자 행태분석’ 보고서를 발간했는데요.&lt;br /&gt;
+(보고서는 2018년 10월 ~ 2019년 3월까지 전 세계를 대상으로 오큘러스와 스팀 콘텐츠를 전수 조사해 만들어졌다고 합니다.)&lt;/p&gt;
+
+&lt;p&gt;📍보고서에 따르면 가상공간에 대한 영상의 만족도가 현실세계를 촬영한 영상보다 컴퓨터 그래픽으로 만든 인위적인 공간일 때 더 높았다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍이는 아무래도 VR 이용자들이 겪을 수 있는 uncanny valley 현상 때문일텐데요.&lt;br /&gt;
+‘불쾌한 골짜기’라고도 불리는 이 현상은 로봇이 사람과 유사하게 행동하거나 혹은 가상에 갖춰진 환경이 실제 공간과 흡사할 수록 불쾌감이 증가하는 현상을 말합니다.&lt;br /&gt;
+불쾌한 골짜기 현상의 해결이 VR 활성화에 과제가 될 수 있다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍또한 분석 결과, VR 이용자들은 시나리오가 없고 자유도가 높은 콘텐츠에 더 만족한다고 합니다.&lt;br /&gt;
+탄탄한 스토리텔링을 갖춘 콘텐츠도 좋지만 그보다 더 자유롭게 시도할 수 있는 쪽을 더 선호한다고 합니다.&lt;br /&gt;
+플레이도 싱글 플레이보다는 2인 이상 할 수 있는 VR 콘텐츠를 더 선호한다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍흥미로운건, 가격인데요.&lt;br /&gt;
+콘텐츠의 가격은 이용자가 콘텐츠를 선택하는데 많은 영향을 주지 못했다고 합니다.&lt;br /&gt;
+사용자들은 콘텐츠를 고를 때 가격보다는 어떤 콘텐츠인지, 내용은 어떤지가 더 중요했다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;시장동향--구글-페북아-너네-따라와라-반독점-조사-좀-받자&quot;&gt;&lt;a name=&quot;itCompanyAntiTrust_market_07_27&quot;&gt;&lt;/a&gt;시장동향 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=008&amp;amp;aid=0004252918&quot;&gt;구글, 페북아 너네 따라와라.. 반독점 조사 좀 받자!&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;😔 미국 법무부가 구글, 페이스북, 아마존 등을 IT 기업들을 저격해 반 독점 조사에 들어갔습니다. &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 23일 로이터통신에 따르면 법무부는 성명을 통해 인터넷 검색, 소셜 미디어, 소매 서비스 등을 지배하는 온라인 플랫폼들의 행태를 조사하겠다고 밝는데요. 
+(누가봐도 구글,페이스북,아마존 이네요..)&lt;/p&gt;
+
+&lt;p&gt;📍 법무부는 이 기업들이 경쟁제한 행위를 했는지, 그로 인해 소비자들이 피해를 보았는지 집중 조사하겠다고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 법무부가 이런 움직임이 나온 이유는 무엇일까요?&lt;/p&gt;
+
+&lt;p&gt;📍 거대 IT기업들의 독점 의혹은 예전부터 있어왔습니다.
+그동안 유럽연합(EU)이 구글 등의 독점 행위를 주로 문제 삼아왔었는데요. &lt;br /&gt;
+미국 정부는 기업들을 두둔하는 쪽이었지만, 국내에서 이들 기업이 혁신에 힘쓰기보다는 몸집 불리기와 독과점적 지위를 이용해 경쟁자들을 배제한다는 목소리가 커지자 태도를 조금씩 바꾸고 있는 입장입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 그러자 정치권에서도 본격적으로 목소리를 키우고 있습니다.
+하원,상원 여러 의원들은 “거대 기술기업들이 시장 점유를 확장함에 따라 시장 경쟁이 유지되는지에 대한 의문이 커지고 있다”고 주장하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 또한 최근 트럼프 미국 대통령은 구글과 페이스북 등 기업들이 온라인에서 보수의 목소리를 억압하고 있다고 이들을 비판한 바 있는데요.   &lt;br /&gt;
+따라서 2020년 대선에서 재선을 노리는 트럼프 대통령이 선거에 유리한 구도를 만들기 위해 진보적 성향으로 알려진 기업들에 대한 길들이기에 나선 것 아니냐라는 목소리도 나오고 있는 상황입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 2020년 선거를 앞두고 앞으로도 이런 IT 기업들을 상대로 하는 공격은 계속 될 것 같네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;소셜-플랫폼에서-스낵뉴스-받아보기&quot;&gt;소셜 플랫폼에서 스낵뉴스 받아보기&lt;/h2&gt;
+
+&lt;p&gt;&lt;a class=&quot;button_post_a&quot; href=&quot;https://www.facebook.com/groups/2025149054465611/?ref=group_browse_new&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'facebook');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;페이스북 그룹 가기&lt;/button&gt;&lt;/a&gt;
+&lt;a class=&quot;button_post_a&quot; href=&quot;https://goo.gl/forms/wf7tAS667BXFi04k2&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'kakao');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;카카오 오픈챗 가기&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;시장동향--프랑스-너네-디지털세-매긴다고-어디보자-와인세를-매겨볼까&quot;&gt;&lt;a name=&quot;franceWineTax_market_07_27&quot;&gt;&lt;/a&gt;시장동향 | &lt;a href=&quot;http://www.dt.co.kr/contents.html?article_no=2019072702109919807010&amp;amp;ref=naver&quot;&gt;프랑스 너네 디지털세 매긴다고? 어디보자.. 와인세를 매겨볼까?&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🍷💵 미국이 프랑스에 와인세를 매길지도 모르겠습니다. &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 26일 트럼프 미국 대통령이 트위터 계정에 글을 하나 올렸는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 트럼프는 “프랑스는 우리의 위대한 미국 기술 기업들에 디지털 세금을 부과한다”, &lt;br /&gt;
+“만약 누구든지 그들에게 세금을 부과한다면, 그것은 그들의 고국인 미국이 돼야 한다”,&lt;br /&gt;
+“우리는 마크롱의 어리석음에 대해 상당한 상호적 조치를 곧 발표할 것”,  &lt;br /&gt;
+“나는 항상 미국 와인이 프랑스 와인보다 좋다고 말해왔다”라고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 지난주 프랑스가 미국의 IT 기업들을 대상으로 &lt;a href=&quot;https://seanlion.github.io/news/208#franceITtax_market_07_20&quot;&gt;디지털 세금을 부과할 것이라는 뉴스&lt;/a&gt;를 전해드렸는데요.
+아무래도 와인에 보복관세를 매김으로써 이에 관련한 맞대응을 할 것으로 보입니다.&lt;/p&gt;
+
+&lt;p&gt;📍 7월 27일 프랑스 대통령실은 양국 정상이 전화 통화로 디지털세 등을 논의했다는 사실을 확인했다고 전했습니다. &lt;br /&gt;
+마크롱 대통령은 트럼프 대통령과 전화 통화에서 디지털 서비스 기업 과세에 대한 국제적인 합의가 필요하다는 점을 논의했다고 밝혔지만,&lt;br /&gt;
+앞으로 두 나라의 관계가 어떻게 될지 모르겠네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;it&quot;&gt;&lt;a name=&quot;it&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #00c3bd&quot;&gt;IT&lt;/span&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;삼성전자--갤럭시-폴드가-9월에-출격한다고&quot;&gt;&lt;a name=&quot;galaxyFoldReleaseSeptember_it_07_27&quot;&gt;&lt;/a&gt;삼성전자 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=032&amp;amp;aid=0002953572&quot;&gt;갤럭시 폴드가 9월에 출격한다고?&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;📱 갤럭시 폴드가 드디어 9월에 출시됩니다. &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 25일 삼성전자 측은 갤럭시 폴드의 설계를 보강하고 테스트를 거쳐 올해 9월에 출시한다고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;📍이번 설계 보강의 핵심은 인피니티 플렉스 디스플레이(테두리가 거의 없는)의 화면 보호막을 화면 전체와 베젤 밑부분까지 덮을 수 있도록 연장 시켰다는 것입니다.&lt;br /&gt;
+따라서 화면 보호막이 디스플레이의 한 부품으로 보이게 하고 임의로 제거할 수 없도록 했다고 하네요.&lt;/p&gt;
+
+&lt;p&gt;📍또한 갤럭시 폴드의 접고 펴는 내구성은 유지하면서 이물질로부터 제품을 잘 보호할 수 있도록 구조를 보강했다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 현재 갤럭시 폴드는 최종 제품 테스트 중이며 9월부터 순차적으로 출시할 예정이라고 하는데요.&lt;/p&gt;
+
+&lt;p&gt;📍 갑작스런 변수가 생기지 않는한 무난히 9월에는 출시되지않을까 합니다. 기대가 되네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;틴더--탈구글이다-틴더가-구글플레이-대신에-직접-결제-시스템을-추가했대&quot;&gt;&lt;a name=&quot;tinderEscapeGooglePlay_it_07_27&quot;&gt;&lt;/a&gt;틴더 | &lt;a href=&quot;http://www.zdnet.co.kr/view/?no=20190722073533&quot;&gt;탈구글이다! 틴더가 구글플레이 대신에 직접 결제 시스템을 추가했대&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;🙅‍♂️ 틴더가 탈 구글을 시도합니다. &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍7월 19일 매체 더버지에 따르면 데이트 앱 틴더를 개발한 매치그룹이 안드로이드OS에 직접 결제 시스템을 추가했다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍구글 플레이스토어의 결제 시스템을 완전히 무시하고 틴더 앱 내에서 직접 외부 결제를 지원하는 시스템을 업데이트했다고 하는데요.&lt;/p&gt;
+
+&lt;p&gt;📍자체 결제 시스템을 구축할 시 구글 마켓에 매출 30% 규모의 수수료를 지급하지 않아도 되는 장점이 있습니다.&lt;br /&gt;
+다만 향후 구글의 대응에 따라 틴더의 구글플레이 스토어 서비스가 중단될 수 있는 리스크가 있는 단점도 있습니다.&lt;/p&gt;
+
+&lt;p&gt;📍틴더는 2019년 상반기에 구글 플레이스토어와 애플 앱 스토어에서 총 4억 9천700만 달러(약 5천 842억 원) 규모의 매출을 기록했는데요.&lt;br /&gt;
+정확히 양 스토어에서 얼만큼 벌었는지의 비율은 알 수 없지만 적지않는 규모의 매출이 일어날 것이기 때문에 이번 결정은 꽤 과감하다고 볼 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;📍매치그룹 대변인 저스틴 사코는 이번 결정에 대해 “이용자 경험에 이익을 주는 새로운 기능을 시험하기 위함이다”라고 밝혔습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;애플--아이폰xr이-판매-1등인데-ios-점유율이-떨어진-건-뭐쥬&quot;&gt;&lt;a name=&quot;iphoneXRSell1stButiOSDecrease_it_07_27&quot;&gt;&lt;/a&gt;애플 | &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=shm&amp;amp;sid1=105&amp;amp;oid=031&amp;amp;aid=0000501994&quot;&gt;아이폰XR이 판매 1등인데 iOS 점유율이 떨어진 건 뭐쥬?&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;😔 시중에서 아이폰XR 등 애플 모델이 가장 많이 팔렸지만 애플의 판매량은 오히려 감소하는 아이러니가 발생했습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;📍 7월 17일 시장조사업체 칸타월드패널이 조사한 보고서에 따르면 2019년 2분기 미국 스마트폰 모델별 점유율은 애플의 아이폰이 1 ~ 3위를 쓸어담았다고 합니다. &lt;br /&gt;
+애플 아이폰XR이 7.8%로 1위에 올랐고,&lt;br /&gt;
+2위는 아이폰8, 3위는 아이폰XS MAX,&lt;br /&gt;
+4위와 5위는 삼성전자 갤럭시S10+, 갤럭시S10라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;📍 그렇지만 iOS의 시장 점유율은 36.3%을 기록했었는데요.   &lt;br /&gt;
+이는 작년 대비 (38.7%) 2.4% 포인트 감소한 수치입니다.&lt;br /&gt;
+반면 안드로이드의 시장 점유율은 63.5%를 기록하며, 전년대비(61%) 2.5% 포인트 늘어났습니다.&lt;/p&gt;
+
+&lt;p&gt;📍 이런 아이폰 점유율 감소는 미국 뿐만 아니라 유럽에서도 마찬가지였는데요. &lt;br /&gt;
+주요 5개 유럽국가 지역의 iOS 점유율(19.1%)로 전년대비 0.8% 줄었습니다. &lt;br /&gt;
+반면 안드로이드 점유율(80.1%)은 전년대비 0.6% 늘었다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;이런-it-소식도-있어요&quot;&gt;&lt;a name=&quot;morethings_it_07_27&quot;&gt;&lt;/a&gt;이런 IT 소식도 있어요&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.zdnet.co.kr/view/?no=20190722070750&quot;&gt;유튜브 나와라! 트위치가 게임 스트리밍 시청 시간이 유튜브보다 4배 높대&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://biz.chosun.com/site/data/html_dir/2019/07/22/2019072202571.html&quot;&gt;샤오미가 창업 9년만에 포춘 500대 기업에 진입했대&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.zdnet.co.kr/view/?no=20190726171900&quot;&gt;페이스북이 지도 분석 AI서비스 ‘Map With AI’를 공개했대&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;스낵뉴스에 건의할 점, 문의할 점이 있다면 언제든지 댓글 혹은 메일으로 주세요!
+그리고 혹시 보신 스낵 뉴스가 괜찮았다면 아래 버튼을 눌러, 의견을 말씀해주실 수 있나요?&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;button_post_a&quot; href=&quot;https://seanlion.typeform.com/to/giDc38&quot; onclick=&quot;ga('send', 'event', 'post', 'click', 'survey_news');&quot;&gt;&lt;button class=&quot;button_post_refer&quot;&gt;의견 전달하러가기&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;응원해주시는 모든 구독자님께 진심으로 감사드립니다!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 27 Jul 2019 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/news/211</link>
+        <guid isPermaLink="true">http://localhost:4000/news/211</guid>
+      </item>
+    
   </channel>
 </rss>

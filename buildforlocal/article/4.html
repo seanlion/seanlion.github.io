@@ -1,0 +1,2867 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>챗봇, 확산의 바탕은(1) &#8211; Seung Huh's Page</title>
+    <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="챗봇이 왜 퍼지고있으며 설계시 고려해야 할 점을 이야기합니다.">
+    <meta name="robots" content="all">
+    <meta name="author" content="">
+    
+    <meta name="keywords" content="테크 요모조모">
+    <link rel="canonical" href="http://localhost:4000/article/4">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Seung Huh's Page" href="/feed.xml" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/pixyll.css?202010180249" type="text/css">
+
+    <!--Fonts-->
+
+    
+    <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
+    
+
+    <!-- Social Icons-->
+    
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    
+
+   
+    <!-- MathJax -->
+    
+
+    <!-- Verifications -->
+    
+   
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="챗봇, 확산의 바탕은(1)">
+    <meta property="og:description" content="챗봇에 대한 이야기 1편입니다.">
+    <meta property="og:url" content="http://localhost:4000/article/4">
+    <meta property="og:site_name" content="Seung Huh's Page">
+    
+    <meta property="og:image" content="http://localhost:4000/images/me.jpeg">
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    
+    <meta name="twitter:title" content="챗봇, 확산의 바탕은(1)" />
+    <meta name="twitter:description" content="챗봇이 왜 퍼지고있으며 설계시 고려해야 할 점을 이야기합니다." />
+    <meta name="twitter:url" content="http://localhost:4000/article/4" />
+    
+    <meta name="twitter:image" content="http://localhost:4000/images/me.jpeg" />
+    
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/icon/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/icon/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/icon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/icon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" sizes="32x32">
+
+    <!-- GA -->
+    
+    <script type="text/javascript">
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+       ga('create', 'UA-105982808-1', 'auto');
+       ga('send', 'pageview');
+    </script>
+    
+
+<!-- Linkedin Profile-->
+
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+<!-- adsense -->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-7138227193948687",
+          enable_page_level_ads: true
+     });
+
+</script>
+
+</head>
+
+
+<body class="site">
+  
+	
+
+  <div class="site-wrap">
+    <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <nav class="site-nav">
+        
+        
+          
+          
+            <a href="/">Home</a>
+          
+        
+          
+          
+            <a href="/about/">About</a>
+          
+        
+          
+          
+            <a href="/magazine/">Category</a>
+          
+        
+          
+          
+            <a href="/blogs/index.html">Blog</a>
+          
+        
+          
+          
+            <a href="/labs/">Labs</a>
+          
+        
+      </nav>
+      <div class="clearfix"></div>
+      <hr class = "hr2">
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        
+
+
+<div class="post-header mb5">
+  <h2>챗봇, 확산의 바탕은(1)</h2>
+  <p>챗봇이 왜 퍼지고있으며 설계시 고려해야 할 점을 이야기합니다.</p>
+  <span class="post-meta">Sep 7, 2017</span><br>
+  
+
+</div>
+
+<article class="post-content mt3">
+
+  <h2 id="챗봇-대세가-되다">챗봇, 대세가 되다.</h2>
+
+<p><br /></p>
+
+<p>최근 챗봇이라는 것이 대세다.</p>
+
+<p>웹사이트에 들어가면 심심치 않게 자사 챗봇을 볼 수 있으며 챗봇에 대한 기사 또한 연일 실리고 있다.</p>
+
+<p>오늘은 왜 챗봇이 빠르게 퍼지고 있는지, 그것의 단점, 사례, 설계 시 고려해야 할 점에 대해 2편에 걸쳐 얘기해보겠다.</p>
+
+<p>챗봇의 확산에 대해 이야기하기 전에 간략하게 챗봇이 무엇인가에 대해 설명하고 넘어가보자.</p>
+
+<p>챗봇은 봇의 일종으로 채팅을 통해 사용자에게 정보를 전달하는 로봇,프로그램이다. UI는 CUI(Conversational User Interface), 즉 대화형 인터페이스를 띄고 있다.</p>
+
+<p>챗봇에 대한 더 자세한 정보는 이 곳을 참고하기 바란다. 
+<a href="https://ko.wikipedia.org/wiki/%EC%B1%84%ED%84%B0%EB%B4%87">챗봇이란</a> / 
+<a href="https://en.wikipedia.org/wiki/Chatbot">챗봇이란(영문판)</a></p>
+
+<p>예전의 챗봇이 키워드에 따라 정해진 답변만 응답해주는 식이었다면, 요즘에는 빅데이터와 인공지능을 바탕으로 사용자가 입력된 답변을 바탕으로 맞춤 응대를 하는 형식으로 제공되고 있다.</p>
+
+<hr />
+
+<h2 id="챗봇의-장점">챗봇의 장점</h2>
+
+<p>그럼 왜 이 챗봇이라는게 최근 빠르게 퍼지고 있는지에 대해 살펴보자.</p>
+
+<p>1.반응이 즉각적이다.</p>
+
+<p>소비자가 쇼핑몰,은행 등에 무언가를 문의하려면 오전 9시부터 오후 6시 사이에 전화를 하거나, 게시판 등에 글을 남겨야 한다. 사실 이런 응답에 바로 대답을 받는 경우는 거의 없다고 보면 된다. 하지만 챗봇은 자동화된 기계이기 때문에 즉각적으로 대답해주며 기다릴 필요가 없다.</p>
+
+<p>2.내가 원하는 시간에 소통이 가능하다.</p>
+
+<p>사용자는 자신이 편한 시간에 질문을 보내고, 자신이 편한 시간에 답을 확인할 수 잇다. 질문을 던져놓고 몇 시간 뒤에 확인해도 괜찮다. 이 점이 챗봇이 시간의 제어가 불가능한 보이스봇들에 비해서도 우위를 가지는 부분이기도하다.</p>
+
+<p>3.개인화 된 대화가 가능하다.</p>
+
+<p>챗봇은 대화를 기억하도록 설계가 가능하다. 기억된 내용을 토대로 대화를 하기 때문에 좀 더 맞춤화된 커뮤니케이션이 가능하다. 내가 사고싶은 치약을 한번만 구매하게 되면 다음부터는 그 치약이 무슨 치약인지 이야기해 줄 필요가 없다.</p>
+
+<p>4.No 다운로드</p>
+
+<p>챗봇은 온라인 메신저, 앱 등에서 빠르게 실행 된다. 사용자는 소셜 플랫폼 (페이스북 메신저, 카카오톡 등) 자신이 이미 사용하는 메신저에서 원하는 챗봇을 찾아 대화를 시작할 수 있다. 전용 앱을 통해 커뮤니케이션 하는 것에 비해 훨씬 덜 번거롭다.</p>
+
+<p><br /></p>
+
+<p align="middle">
+	<img src="http://cfile25.uf.tistory.com/image/277EA43359812FDE1B2FE1" alt="alt text2" />
+</p>
+
+<h6 style="text-align: center;" id="kaisto의-챗봇-내-은행-계좌의-정보를-챗봇에게-물어보면-관련된-정보를-찾아-응답해준다"><em>Kaisto의 챗봇: 내 은행 계좌의 정보를 챗봇에게 물어보면 관련된 정보를 찾아 응답해준다.</em></h6>
+
+<p><br /></p>
+
+<p>5.쉽다.</p>
+
+<p>모바일 앱이나 웹사이트는 각자의 인터페이스를 갖고 있다. 버튼, 이미지, 인터랙션 등 갖가지 요소가 많다. 이 모든 것들은 각각의 브랜드마다 다른 형식으로 설계 되어 있어 소비자들이 개별적으로 브랜드에 적응해야된다. 반면 챗봇은 대화로 기반되어 있기 때문에 사람들이 가장 잘 이해할 수 있다. ‘메뉴 보여줘’, ‘잘 팔리는 옷들 보여줘’라는 식으로 자연스레 상품을 탐색할 수 있다.</p>
+
+<p><br /></p>
+
+<p align="middle">
+	<img src="http://cfile8.uf.tistory.com/image/2592D5335981300323A30D" alt="alt text3" />
+</p>
+
+<h6 style="text-align: center;" id="ebay의-챗봇-챗봇과-대화하다보면-어느새-상품-범위가-좁혀져있다"><em>Ebay의 챗봇: 챗봇과 대화하다보면 어느새 상품 범위가 좁혀져있다.</em></h6>
+
+<p><br /></p>
+
+<hr />
+
+<h2 id="챗봇의-단점">챗봇의 단점</h2>
+
+<p>이런 챗봇에게 장밋빛 미래만 가득한 것처럼 보이지만 아직 한계점들이 많다. 그 한계점들은 다음과 같다.</p>
+
+<p>1.데이터가 없다.</p>
+
+<p>만약 챗봇에 인공지능을 도입한다면 그것의 성패는 전적으로 빅데이터에 달려있다. 인공지능을 활용해 대화가 가능한 챗봇을 만드는 방법은 크게 
+1.생성모델  2.검색모델 
+이렇게 2가지가 있다.</p>
+
+<p><br /></p>
+
+<p align="middle">	
+	<img src="http://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/1f1R/image/1qTozPVdKl8XXKd6LSYJIJb7FTg.png" alt="alt text3" />
+</p>
+
+<h6 style="text-align: center;" id="검색모델과-생성모델에-대해-잘-정리해높은-표-출처-gentlepie-브런치"><em>검색모델과 생성모델에 대해 잘 정리해높은 표. 출처: gentlepie 브런치</em></h6>
+
+<p><br /></p>
+
+<p>인공지능을 도입해 챗봇을 만드려는 기업은 기본적으로 생성모델을 활용해 챗봇을 만든다. 
+그런데 챗봇을 만드려는 기업들은 아이러니하게 데이터가 없는 경우가 많다. 지금까지 임기응변식으로 CS 상담원이나 매장의 매니저들에 의존해 고객 데이터를 쌓아온 경우가 많기 때문이다. 이런 근본적인 문제점 때문에 챗봇의 능력은 대부분 기업의 기대치에 못 미친다.</p>
+
+<p>2.챗봇이 사람을 제대로 이해하지 못한다.</p>
+
+<p>인공지능 기술은 아직 초기 단계이다. 특히 알면 알수록 더욱 더 큰 좌절감을 느끼는 분야가 NLP 자연어 처리 분야이다.</p>
+
+<p>(참고 : <a href="http://techm.kr/bbs/board.php?bo_table=article&amp;wr_id=4081">인공지능에게 아직 대화는 어렵다</a>)</p>
+
+<p>3.대화형 인터페이스가 항상 정답은 아니다.</p>
+
+<p>영화 티켓을 예약한다고 생각해보자. 사용자는 어느 지점의 어느 극장, 어느 영화, 어느 시간대, 어떤 자리에 앉고싶은지를 정해야 한다. 이런 정보들을 만족시키는 티켓 예약 시스템을 챗봇으로 하려면 정말로 긴 실타래의 대화가 필요하다. 반면 웹사이트에서는 클릭 몇 번으로 이 절차가 끝난다. 이미지로 영화관, 영화, 좌석을 선택할 수 있기 때문이다. 즉 CUI가 항상 정답은 아니다.</p>
+
+<p>이런 한계점 때문에 챗봇은 아직 사람들의 기대에 부흥하지 못한다. 그럼에도 불구하고 많은 기업들이 챗봇을 제작하거나 준비하고 있다. 대화형 인터페이스가 앞으로의 IT 트렌드를 주도할 것이기 때문이다.</p>
+
+<p>다음 시간에는 도입 사례, 설계 시 고려해야 할 점에 대해 살펴보겠다.</p>
+
+  
+</article>
+
+<div>
+
+  
+    <!-- <div class="share-page right mb3">
+  포스트 공유
+
+  <div class="share-links mt2 mlauto">
+    
+      <a class="fa fa-facebook" href="https://facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Farticle%2F4" rel="nofollow" target="_blank" title="Share on Facebook"></a>
+    
+
+    
+      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=%EC%B1%97%EB%B4%87%2C+%ED%99%95%EC%82%B0%EC%9D%98+%EB%B0%94%ED%83%95%EC%9D%80%281%29&amp;url=http%3A%2F%2Flocalhost%3A4000%2Farticle%2F4" rel="nofollow" target="_blank" title="Share on Twitter"></a>
+    
+
+    
+
+    
+      <a class="fa fa-linkedin" href="http://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A4000%2Farticle%2F4&amp;title=%EC%B1%97%EB%B4%87%2C+%ED%99%95%EC%82%B0%EC%9D%98+%EB%B0%94%ED%83%95%EC%9D%80%281%29" rel="nofollow" target="_blank" title="Share on LinkedIn"></a>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div> -->
+
+
+
+
+
+    <meta charset= "utf-8">
+<div class="py2-1 post-footer">
+  <p class="share-page">
+    포스트 공유하기
+    <p class="share-links mt2">
+      
+        <a class="fa fa-facebook" href="https://facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Farticle%2F4" rel="nofollow" target="_blank" title="Share on Facebook"></a>
+      
+
+      
+        <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=%EC%B1%97%EB%B4%87%2C+%ED%99%95%EC%82%B0%EC%9D%98+%EB%B0%94%ED%83%95%EC%9D%80%281%29&amp;url=http%3A%2F%2Flocalhost%3A4000%2Farticle%2F4" rel="nofollow" target="_blank" title="Share on Twitter"></a>
+      
+      
+      
+      <a class="fa fa-linkedin" href="http://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A4000%2Farticle%2F4&amp;title=%EC%B1%97%EB%B4%87%2C+%ED%99%95%EC%82%B0%EC%9D%98+%EB%B0%94%ED%83%95%EC%9D%80%281%29" rel="nofollow" target="_blank" title="Share on LinkedIn"></a>
+    
+    </p>
+  </p>
+
+</div>
+
+  
+
+</div>
+
+<!-- 이전 글, 다음글 -->
+<div class="PageNavigation mt2 mb2">
+    
+    <a class="prev" href="/speech/4" style = "background-color: black;" onclick="ga('send', 'event', 'post', 'click', '이전글이동');" >
+      <div class="inner_class">
+        <span class="inner_head">이전글</span>
+    인상깊은 스피치(4)- 마윈
+      </div>
+  </a>
+    
+    
+    
+    <a class="next" href="/article/5" style = "background-color: black;" onclick="ga('send', 'event', 'post', 'click', '다음글이동');">
+      <div class="inner_class">
+        <span class="inner_head">다음글</span>
+        챗봇, 확산의 바탕은(2)    
+      </div>
+    
+    </a>
+    
+</div>
+
+<!-- 관련 글 -->
+         
+<div class="relatedPosts mt4 mb4">
+
+ <h4 style= "text-align: center;">이런 글들은 어때요?</h4>  
+ <hr id="rel">
+
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+      <ul class= "article_list">
+      <li>
+        <a href="/news/20">알파고 Zero a.k.a 바둑의 신 </a>
+      </li>
+      </ul>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+      <ul class= "article_list">
+      <li>
+        <a href="/article/8">글로벌 모바일 트랜드를 알아보자 </a>
+      </li>
+      </ul>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+      <ul class= "article_list">
+      <li>
+        <a href="/article/7">애플 홈팟과 아마존 에코의 향방은? </a>
+      </li>
+      </ul>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+      <ul class= "article_list">
+      <li>
+        <a href="/article/6">넷플릭스의 기업 문화 </a>
+      </li>
+      </ul>
+      
+      
+        
+  <hr id="rel">
+</div>
+
+<!-- 스크롤 위로 버튼 -->
+<div class="topScroll">
+  <a id="back2Top" title="Back to top" href="#" onclick="ga('send', 'event', 'interaction', 'click', 'backtoTop');">
+  </a>
+</div>
+
+<!-- 디스커스 -->
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname  = 'seanlion-github-io';
+    var disqus_identifier = '/article/chatbot-1';
+    var disqus_title      = '"챗봇, 확산의 바탕은(1)"';
+
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+<!--  -->
+
+
+
+
+<!-- jquery -->
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+
+<!-- 기사 바로가기 이벤트 스크립트 -->
+<script type="text/javascript">
+
+// a href 중에 #으로 시작하는 애들 잡기. -> nodelist에서 array로 변환.
+
+// var article_link = [...document.querySelectorAll('table a[href*="#"]')];
+var article_table_link = document.querySelectorAll('table a[href*="#"]');
+
+var article_block_link = document.querySelectorAll('table a[href*="#"]');
+// hash로만 묶인 어레이
+  // var hash = article_link.map(a => a.hash);
+  // console.log(hash);
+
+// 하고 싶은것 : 바로가기 링크를 array로 추출한다. array 중 클릭을 한 요소에서 hash라는 property만 가지고온다. 그 가지고 온 property를 ga 이벤트에 벨류나 라벨로 가져온다. 그러면 클릭할때마다 어떤 링크를 클릭해는지 알 수 있다.
+
+// for (i = 0; i < article_link.length; i++) {
+//   var hashLink = article_link[i].getAttribute( 'href' )
+//   article_link[i].addEventListener('click' , function(){
+    
+//     console.log(hashLink);
+//     ga('send', 'event', 'link click', 'click', hashLink);
+      
+// });
+// };
+
+$('table a').click(function(){
+  var link = $(this);
+  var href = link.attr("href");
+
+  ga('send', 'event', 'link click', 'click', href);
+})
+
+
+// $('blockquote a').click(function(){
+//   var link = $(this);
+//   var link_text = link.text();
+
+//   ga('send', 'event', 'link click', 'click', link_text);
+// })
+
+$('h2 a').click(function(){
+  var link = $(this);
+  var link_text = link.text();
+
+  ga('send', 'event', 'link click', 'click', link_text);
+})
+
+$('p a').click(function(){
+  var link = $(this);
+  var link_text = link.text();
+  var href = link.attr("href");
+  link_text = link_text + ": " + href;
+
+  ga('send', 'event', 'link click', 'click', link_text);
+})
+
+
+  // $(".checkBtn").click(function(){ 
+      
+  //     var str = ""
+  //     var tdArr = new Array();  // 배열 선언
+  //     var checkBtn = $(this);
+      
+  //     // checkBtn.parent() : checkBtn의 부모는 <td>이다.
+  //     // checkBtn.parent().parent() : <td>의 부모이므로 <tr>이다.
+  //     var tr = checkBtn.parent().parent();
+  //     var td = tr.children();
+      
+  //     console.log("클릭한 Row의 모든 데이터 : "+tr.text());
+      
+  //     var no = td.eq(0).text();
+  //     var userid = td.eq(1).text();
+  //     var name = td.eq(2).text();
+  //     var email = td.eq(3).text();
+      
+      
+  //     // 반복문을 이용해서 배열에 값을 담아 사용할 수 도 있다.
+  //     td.each(function(i){  
+  //       tdArr.push(td.eq(i).text());
+  //     });
+      
+  //     console.log("배열에 담긴 값 : "+tdArr);
+      
+  //     str +=  " * 클릭된 Row의 td값 = No. : <font color='red'>" + no + "</font>" +
+  //         ", 아이디 : <font color='red'>" + userid + "</font>" +
+  //         ", 이름 : <font color='red'>" + name + "</font>" +
+  //         ", 이메일 : <font color='red'>" + email + "</font>";   
+      
+  //     $("#ex2_Result1").html(" * 클릭한 Row의 모든 데이터 = " + tr.text());    
+  //     $("#ex2_Result2").html(str);  
+  //   });
+  
+
+
+  /*Scroll to top when arrow up clicked BEGIN*/
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $("#back2Top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+});
+ /*Scroll to top when arrow up clicked END*/
+
+
+
+
+</script>
+     
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="center">
+
+
+  <div class="measure">
+    
+        <div class="social-icons">
+  <div class="social-icons-left">
+    
+      <a class="fa fa-github" href="https://github.com/seanlion"></a>
+    
+    <!-- XML 아이콘 -->
+    <a class="fa fa-rss" href="/feed.xml"></a>
+    
+    
+      <a class="fa fa-envelope" href="mailto:skyhs3507@gmail.com"></a>
+    
+    
+      <a class="fa fa-linkedin" href="https://www.linkedin.com/in/seunghuh"></a>
+    
+   
+    
+  
+  </div>
+  <div class="right">
+    
+
+  </div>
+</div>
+<div class="clearfix"></div>
+
+      
+    <p class="myself">
+      Seung Huh <br>
+      <small>skyhs3507@gmail.com</small>
+    </p>
+    <p class="copyright">
+    	Seung &copy; 2020
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>

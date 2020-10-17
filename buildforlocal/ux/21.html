@@ -1,0 +1,2908 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IA, 이렇게 그리면 되나요? &#8211; Seung Huh's Page</title>
+    <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Information Architecture, IA에 대한 글입니다.">
+    <meta name="robots" content="all">
+    <meta name="author" content="">
+    
+    <meta name="keywords" content="서비스와 UX 습작">
+    <link rel="canonical" href="http://localhost:4000/ux/21">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Seung Huh's Page" href="/feed.xml" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/pixyll.css?202010180249" type="text/css">
+
+    <!--Fonts-->
+
+    
+    <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
+    
+
+    <!-- Social Icons-->
+    
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    
+
+   
+    <!-- MathJax -->
+    
+
+    <!-- Verifications -->
+    
+   
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="IA, 이렇게 그리면 되나요?">
+    <meta property="og:description" content="IA, 정보 설계에 대해 곱씹어보고 깨우쳐 보는 글입니다.">
+    <meta property="og:url" content="http://localhost:4000/ux/21">
+    <meta property="og:site_name" content="Seung Huh's Page">
+    
+    <meta property="og:image" content="http://localhost:4000/images/me.jpeg">
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    
+    <meta name="twitter:title" content="IA, 이렇게 그리면 되나요?" />
+    <meta name="twitter:description" content="Information Architecture, IA에 대한 글입니다." />
+    <meta name="twitter:url" content="http://localhost:4000/ux/21" />
+    
+    <meta name="twitter:image" content="http://localhost:4000/images/me.jpeg" />
+    
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/icon/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/icon/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/icon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/icon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" sizes="32x32">
+
+    <!-- GA -->
+    
+    <script type="text/javascript">
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+       ga('create', 'UA-105982808-1', 'auto');
+       ga('send', 'pageview');
+    </script>
+    
+
+<!-- Linkedin Profile-->
+
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+<!-- adsense -->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-7138227193948687",
+          enable_page_level_ads: true
+     });
+
+</script>
+
+</head>
+
+
+<body class="site">
+  
+	
+
+  <div class="site-wrap">
+    <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <nav class="site-nav">
+        
+        
+          
+          
+            <a href="/">Home</a>
+          
+        
+          
+          
+            <a href="/about/">About</a>
+          
+        
+          
+          
+            <a href="/magazine/">Category</a>
+          
+        
+          
+          
+            <a href="/blogs/index.html">Blog</a>
+          
+        
+          
+          
+            <a href="/labs/">Labs</a>
+          
+        
+      </nav>
+      <div class="clearfix"></div>
+      <hr class = "hr2">
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        
+
+
+<div class="post-header mb5">
+  <h2>IA, 이렇게 그리면 되나요?</h2>
+  <p>Information Architecture, IA에 대한 글입니다.</p>
+  <span class="post-meta">Nov 8, 2017</span><br>
+  
+
+</div>
+
+<article class="post-content mt3">
+
+  <p>지금까지 블로그를 통해 IA에 대해 사례 혹은 이론을 간간히 이야기 해왔다. 하지만 글을 적어오면서 내가 제대로 이것을 알고 있는가에 대한 의구심을 떨쳐버릴 수 없었다.</p>
+
+<p>그래서 오늘은 그 의구심을 좀 덜어내고자 더 깊게 IA에 대해 파고 들어보고자 한다. 우선 이 글로 IA에 대해 처음 접하는 사람들이 있을 수 있기 때문에 IA에 대해 간략히 설명하고 넘어가겠다.</p>
+
+<hr />
+
+<h2 id="ia란">IA란</h2>
+
+<p>웹기획자 이정기 님의 표현을 빌리자면 IA는</p>
+
+<p>1.인포메이션 체계 내의 네비게이션 체계, 레이블링, 조직화</p>
+
+<p>2.컨텐츠에 직관적으로 접근하고, 업무 처리가 용이하게 정보 공간을 설계하는 것</p>
+
+<p>을 의미한다. 즉, 웹사이트, 제품에 뼈대를 만드는 작업을 의미한다.</p>
+
+<hr />
+
+<h2 id="ia에-대해-헷갈리는-점">IA에 대해 헷갈리는 점</h2>
+
+<p>지금까지 IA, 정보 설계에 대해 이론적 지식을 학습하고 깨작깨작 그려봤지만 캥기는 점들이 몇 군데 있었다.</p>
+
+<p>1.IA 짤 때의 기준은 무엇인가?</p>
+
+<p>2.웹 IA와 앱 IA가 많이 다른가?</p>
+
+<p>3.계층 구조도만 그리면 되는 것인가?</p>
+
+<p>이 3가지 의문점은 끊임없이 나를 괴롭혀왔다. 이제는 그 괴롭힘에서 해방되고자 한다. 그걸 위해 몇 가지 아티클들을 찾아보며 공부해봤다.</p>
+
+<p><a href="https://careerfoundry.com/en/blog/ux-design/a-beginners-guide-to-information-architecture/">A Beginner’s Guide to Information Architecture</a></p>
+
+<p><a href="https://www.interaction-design.org/literature/article/the-heart-of-the-matter-information-architecture-in-the-mobile-age">The Heart of the Matter, Information Architecture in the Mobile Age</a></p>
+
+<p><a href="https://www.webdesignerdepot.com/2015/02/the-ultimate-guide-to-information-architecture/">The Ultimate Guide to Information Architecture</a></p>
+
+<p><a href="http://www.uxbooth.com/articles/complete-beginners-guide-to-information-architecture/">Complete Beginner’s Guide to Information Architecture</a></p>
+
+<hr />
+
+<h2 id="ia의-본질">IA의 본질</h2>
+
+<p>결론부터 말하자면 IA를 짤 때의 기준은 단 하나이다.</p>
+
+<p>“유저에게 우리가 주고싶은 정보를 잘 연결(전달)하는 것, 그것을 충족하는가.”</p>
+
+<p>너무 교과서 같은 답인가? 그럼 조금 더 자세히 얘기해보자.
+우리는 보통 UX 디자인을 비즈니스 Goal과 사용자 Goal의 교차점이라고 이야기 한다. 우리가 주고 싶은 것과 사용자가 갖고 싶은 것의 중간점을 잘 캐치해서 설계하는 것이 UX 디자인이다.</p>
+
+<p>IA는 UX 디자인의 일부분이라고 볼 수 있다. 그렇다면 당연히 IA도 저 원리 안에 속해있다. IA도 사용자가 찾는 것, 우리가 유저에게 이해시키고 싶은 것을 고려해야 한다. 이 관점에서 보면 IA를 짤 때 스스로에게 물어볼 질문 목록들이 생긴다.</p>
+
+<p>1.우리 사이트에 담긴 유저 플로우는 무엇인가?</p>
+
+<p>2.어떻게 우리 제품이 유저가 그들의 정보를 분류하는 걸 도와줄 것인가?</p>
+
+<p>3.어떻게 정보가 사용자에게 다시 나타날 것인가?</p>
+
+<p>4.정보가 사용자와 의사결정에 도움을 주고 있는가?</p>
+
+<hr />
+
+<h2 id="의문점으로-돌아가기">의문점으로 돌아가기</h2>
+
+<p>자, 그럼 다시 내가 궁금했던 질문들로 돌아가보자.</p>
+
+<p>Q. ‘IA 짤 때의 기준은 무엇인가?’</p>
+
+<p>A. ‘유저가 잘 이해하는가를 살펴보는 것’, ‘내가 전하고 싶은 것을 잘 전달했는가’가 잘 짜여진 IA의 기준이다. 내가 이 기준들이 녹아든 예시를 찾아보기 위해 IA를 구글링 해본 결과, 잘 짜여진 IA라고 할만한 샘플을 찾기가 어려웠다. IA 샘플 자체가 별로 없었기 때문이다. 처음엔 왜 이렇게 찾기가 어렵지?라고 생각했지만 곧바로 답이 없기 때문은 아닐까라고 생각이 들었다. 유저와 설계자 사이에 잘 이해만 되게 정보 구조를 꾸린다면 그게 답인 것 같다.</p>
+
+<p>다만 그 답을 검증하기 위해 먼저 나의 목표를 확실히 정해야 한다. ‘왜 이렇게 만들고싶은지’를 말이다. 그건 비용 감소가 목적이 될 수도 있고 의사결정을 돕기 위한 것일 수도 있다. 그리고 유저가 어떤 성향을 가지고 있는지 어떤 사람들인지 리서치를 해야하고 유저의 행태를 파악하기 위해 데이터 분석도 해야한다. 그걸 토대로 레이블링을 하고 메뉴를 그룹핑하고 계층을 만든다.</p>
+
+<p>자, 그럼 다음 질문으로 가보겠다.</p>
+
+<p>Q. ‘계층 구조도만 그리면 되나?’</p>
+
+<p>A. 답부터 말하자면 아니다. IA는 사람들이 원하는 것을 찾게 도와주는 것이다. IA의 결과물이 계층 구조도로 나올 순 있겠지만 그 과정에는 여러가지 요소들이 담겨있다.
+그 요소에는 계층구조도, 카테고리화, 네비게이션, 메타데이터, 메뉴 노출방법 등 다양한 것이 포함된다. 예컨대, 어떤 사람이 콘텐츠들을 분리하고 카테고리화 시킨다면 그 사람은 IA를 그리고 있는 것이다. 어떤 디자이너가 유저들의 이해를 돕기 위해 Top level 메뉴를 고안하고 있다면 그 또한 IA를 그리고 있는 것이다. 따라서 IA는 “우리가 가진 정보의 성격이나 내용을 사용자가 이렇게 이해하면 좋겠어.”를 하기 위해 만드는 결과물이다. 대부분의 IA 샘플들이 계층 구조도로 이루어져있지만 반드시 그것만 있는 것은 아니다.</p>
+
+<p>이제 마지막 질문이다.</p>
+
+<p>Q. ‘모바일과 PC의 IA가 다른가?’</p>
+
+<p>A. 다르다. 우리는 현재 모바일 시대에 살고 있다. 모바일 기기는 PC보다 더 가볍고 휴대성도 좋다. 그리고 대부분 사용하기가 편리하고 PC보다 더 자주 사용한다. 그렇기에 모바일은 그것만의 IA 환경을 지니고 있다. 예컨대 PC처럼 스탠다드 계층구도도 차용하지만, 네이티브 앱, 하이브리드 앱 등 다양한 환경이 존재하기 때문에 pc보다 Tab-based 네비게이션 구조를 많이 차용하는 경향이 있다. 앞서 말했듯이 IA를 잘 만드는 기준은 하나지만 그 IA를 시각적으로 보여주는 구조들은 여러 개 있다. 그것들을 한번 살펴보자.</p>
+
+<p><br /></p>
+
+<p align="middle">	
+ <img src="https://derivadow.files.wordpress.com/2010/02/hierarchy.png" width="70%" />
+</p>
+
+<h6 style="text-align: center;" id="계층-패턴"><em>계층 패턴.</em></h6>
+
+<p><br /></p>
+
+<p>1.계층 패턴(Hierarchy pattern)</p>
+
+<p>계층 패턴은 스탠다드한 정보 구조이다. 인덱스 페이지와 일련의 서브페이지들을 가지고 있다. 반응형 웹이던 기존 PC 웹을 보완하는 용도라면 이 구조가 적합할 것이다.
+계층 패턴을 통해 유저들은 각각의 정보 요소들의 위계(level)에 대한 중요성을 알 수 있다.</p>
+
+<p><br /></p>
+
+<p align="middle">	
+ <img src="http://assets.uxbooth.com/uploads/2090/12/DesignForMobile_hubandspoke_sm.png" width="50%" />
+</p>
+
+<h6 style="text-align: center;" id="허브-앤-스포크"><em>허브 앤 스포크.</em></h6>
+
+<p><br /></p>
+
+<p>2.허브 앤 스포크 패턴(Hub and spoke pattern)</p>
+
+<p>허브 앤 스포크 패턴은 중앙 인덱스 페이지를 토대로 유저가 정보를 찾아가는 방식이다. 아이폰의 기본 정보 구조 방식이기도 하다. 유저가 스포크와 스포크 사이로 바로 이동할 수 없는 것이 단점이라면 단점이다. 반드시 허브를 거쳐 가야 한다. 데스크톱에서는 이러한 단점이 크게 작용했었지만 하나의 태스크에 집중하려 하는 모바일 환경에서는 일반적인 패턴이다. 주로 하나의 태스크에 집중할 수 있는 앱에 많이 쓰인다.</p>
+
+<p><br /></p>
+
+<p align="middle">	
+ <img src="http://assets.uxbooth.com/uploads/2090/12/DesignForMobile_nesteddoll_sm.png" width="50%" />
+</p>
+
+<h6 style="text-align: center;" id="선형-패턴"><em>선형 패턴.</em></h6>
+
+<p><br /></p>
+
+<p>3.선형 패턴(Sequential or Nested doll pattern)</p>
+
+<p>선형 패턴은 순서대로 정보가 전개되는 패턴이다. 유저들에게 어떤 가이드, 길을 제공하며 스탭 바이 스탭으로 task를 수행할 수 있게 해준다. 스탠다드 계층 구조 패턴이나 허브앤 스포크 패턴의 하위패턴으로 사용되기도 하며 주로 구매 과정 같은 화면에 쓰인다.</p>
+
+<p><br /></p>
+
+<p align="middle">	
+ <img src="http://assets.uxbooth.com/uploads/2090/12/DesignForMobile_tabbedview_sm.png" width="50%" />
+</p>
+
+<h6 style="text-align: center;" id="탭-패턴"><em>탭 패턴.</em></h6>
+
+<p><br /></p>
+
+<p>4.탭 패턴(Tabbed view pattern)</p>
+
+<p>탭 패턴은 사용자에게 아주 친숙한 패턴일 것이다. 일반적인 앱에서 많이 쓰인다. 툴바 메뉴에 각각 섹션 별로 탭이 있으며 각 탭들은 유저가 앱의 기능 혹은 요소들을 빠르게 스캔하고 이해할 수 있게 도와준다. 다만 정보가 복잡해질 수록 설계가 어려워서 간단한 구조를 가진 앱에 적합하다.</p>
+
+<p>다음은 모바일 IA를 짤 때 필요한 팁들이다.</p>
+
+<ul>
+  <li>
+    <p>모바일 플랫폼 환경에서 중요한 것을 전달하려고 노력하기 - 모바일은 보다 더 제한적인 환경이다. 유저들에게 가치 있는 정보에만 집중해야 하며 모바일에 나타내는 데이터의 양을 최대한 줄여야 한다.</p>
+  </li>
+  <li>
+    <p>모바일에 콘텐츠 형태를 최적화 시키기 - 모바일에서의 정보는 데스크톱 보다 다루기 쉬워야하고 간편해야 한다.</p>
+  </li>
+  <li>
+    <p>단순한 네비게이션 만들기 - 중요한 것만 유저들에게 전달하기 위해 메뉴의 양은 제한 되어야 한다.</p>
+  </li>
+  <li>
+    <p>레이블링은 명확하고 간결하게 하기 - 유저들은 빠르게 정보를 탐색하길 원하며 자신들이 보고 있는 것이 무엇인지 명확히 알고 싶어 한다.</p>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="ia의-법칙들">IA의 법칙들</h2>
+
+<p>앞에 셀프 질의응답을 통해 IA에 대한 궁금증을 해결해보았다. 핵심은 IA는 구조도에 매몰되는 것이 아니라 정보를 전달하기 위한 것 이란 것.
+이렇게 좀 더 공부를 하다보니 정답인 IA를 그리는 방법은 아니지만 답에 가까운 IA를 그리는 8가지 법칙을 발견하였다. 그것들도 간략하게 소개해보고자 한다.(왜곡을 막기위해 제목은 영어 원문을 쓰겠다.)</p>
+
+<p><a href="https://www.asis.org/Bulletin/Aug-10/AugSep10_Brown.pdf">Eight Principles of Information Architecture</a></p>
+
+<h4 id="1principle-of-objects">1.Principle of objects</h4>
+
+<p>정보는 그것 자신만의 라이프 사이클을 가진다. 각각의 정보는 서로 다른 특성과 행태를 가진다. 우리는 그 정보들을 어떻게 하면 최선으로 활용할 수 있을까를 고민해야 한다.</p>
+
+<h4 id="2principle-of-choices">2.Principle of choices</h4>
+
+<p>설계자는 사용자에게 의미있는 선택을 제공해야만 한다. 각각의 선택들이 특정한 무언가에 집중되어있게 만들어야 한다. 다만 너무 많은 선택은 사용자에게 부담이 될 수 있으며 제품을 경험하는데 악영향을 끼칠 수 있다.</p>
+
+<h4 id="3principle-of-disclosure">3.Principle of Disclosure</h4>
+
+<p>사용자들이 필요한 정보를 주는 것이 중요하다. 다만 실제로 필요한 정보가 무엇인지 파악하는 것을 확실하게 해라. 설계자 본인이 필요할 것 같다고 생각하는 정보를 주는 것이 아니다. 또한 그들에게 한번에 볼 수 있는 정보의 수를 제한해라. 그럼 사용자들은 그들이 보는 것을 더 잘 흡수 할 수 있을 것이다.</p>
+
+<h4 id="4principle-of-exemplars">4.Principle of Exemplars</h4>
+
+<p>예시를 통해 정보의 카테고리와 정보들을 소개하는 것은 사용자들이 그들이 하고있는 것을 더 이해하기 쉽게 만들어준다. 이것은 사용자 경험의 향상으로 이뤄진다.
+아마존에서는 카테고리를 탐색할 때 카테고리 안에 있는 정보들을 같이 보여준다. 이것은 사용자가 카테고리를 명확하게 탐색하고 있는지 인지하게 해준다.</p>
+
+<h4 id="5principle-of-front-doors">5.Principle of Front doors</h4>
+
+<p>당신이 제품을 운영하다보면 사용자 중 절반이 제품의 홈 페이지 보다는 특정 페이지를 타고 제품을 접한다는 걸 알 수 있을 것이다. 이것은 사용자가 접하는 모든 페이지에 그들이 어떤 사이트에 있는지에 대한 기본적인 정보를 심어놓아야 한다는 것을 뜻한다. 또한 모든 페이지는 top-level 네비게이션과 관련 된 페이지들을 갖추고 있는 것이 좋다.</p>
+
+<h4 id="6principle-of-multiple-classification">6.Principle of multiple classification</h4>
+
+<p>다중 분류란 사용자들이 제품의 콘텐츠들을 탐색하기 위한 방법들이 여러가지 있어야 한다는 것을 뜻한다. 사람들은 당신의 제품에 정보를 탐색하기 위해 저마다 다른 방법들을 이용할 것이다. 더 많은 사용자들을 만족시키려면 사용자들에게 여러가지 옵션을 제공해야 한다.</p>
+
+<h4 id="7principle-of-focused-navigation">7.Principle of focused navigation</h4>
+
+<p>네비게이션 메뉴는 그들이 어디에 나타나는 것인지가 아니라 그들이 무엇을 담고있는지를 살펴보아야 한다. 당신의 제품의 메뉴는 대부분의 사용자가 정보를 찾을 수 있는 방법으로 형성되어야 한다. 보통 정보를 접근하는 방법을 여러 개 제공하기 위해 제품에 한 가지 이상의 네비게이션 메뉴가 들어간다.</p>
+
+<h4 id="8principle-of-growth">8.Principle of growth</h4>
+
+<p>대다수의 제품에서 정보는 유동적이고 변화한다. 오늘 당신의 제품에 담긴 정보의 양은 당신이 내일, 다음 주, 내년에 얻을 정보의 양의 아주 일부분이 될지도 모른다.
+그렇기에 정보 구조는 시간이 지나며 성장할 수 있는 방법으로 조직해야 한다.  네비게이션 메뉴와 일반적인 정보 설계 구조도는 복잡하고 느리지 않은 방식으로 많은 양의 정보를 수용할 수 있는 크기가 되어야 한다. 미래에 어떤 정보가 담길지 고민해야 하며 현재 담겨 있는 정보들의 확장편이 아닌 다른 타입의 종류가 담길 가능성도 고려해야 한다.</p>
+
+<hr />
+
+<h2 id="글을-마치며">글을 마치며</h2>
+
+<p>IA의 본질을 살펴보며 내가 여태까지 IA를 구성한 방식에 대해 다시 돌이켜 볼 수 있었다. IA는 좋은 사용자 경험을 만드는 데 있어 중요한 부분이다. 잘 조직된 정보는 제품을 보다 더 쉽고 단순하게 사용자에게 전달할 수 있기 때문이다. 오늘 배운 것을 토대로 차후 글을 적을 네이버 뮤직의 IA를 분석하고자 한다.</p>
+
+<p>마지막으로 다른 건 몰라도 반드시 이것만은 기억하자. IA의 목적은 구조도를 그리는 것, 계층을 나누는 것이 아니라 사용자에게 정보를 원할하게 전달하는 방법을 고민하는 것이다.</p>
+
+  
+</article>
+
+<div>
+
+  
+    <!-- <div class="share-page right mb3">
+  포스트 공유
+
+  <div class="share-links mt2 mlauto">
+    
+      <a class="fa fa-facebook" href="https://facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fux%2F21" rel="nofollow" target="_blank" title="Share on Facebook"></a>
+    
+
+    
+      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=IA%2C+%EC%9D%B4%EB%A0%87%EA%B2%8C+%EA%B7%B8%EB%A6%AC%EB%A9%B4+%EB%90%98%EB%82%98%EC%9A%94%3F&amp;url=http%3A%2F%2Flocalhost%3A4000%2Fux%2F21" rel="nofollow" target="_blank" title="Share on Twitter"></a>
+    
+
+    
+
+    
+      <a class="fa fa-linkedin" href="http://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A4000%2Fux%2F21&amp;title=IA%2C+%EC%9D%B4%EB%A0%87%EA%B2%8C+%EA%B7%B8%EB%A6%AC%EB%A9%B4+%EB%90%98%EB%82%98%EC%9A%94%3F" rel="nofollow" target="_blank" title="Share on LinkedIn"></a>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div> -->
+
+
+
+
+
+    <meta charset= "utf-8">
+<div class="py2-1 post-footer">
+  <p class="share-page">
+    포스트 공유하기
+    <p class="share-links mt2">
+      
+        <a class="fa fa-facebook" href="https://facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fux%2F21" rel="nofollow" target="_blank" title="Share on Facebook"></a>
+      
+
+      
+        <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=IA%2C+%EC%9D%B4%EB%A0%87%EA%B2%8C+%EA%B7%B8%EB%A6%AC%EB%A9%B4+%EB%90%98%EB%82%98%EC%9A%94%3F&amp;url=http%3A%2F%2Flocalhost%3A4000%2Fux%2F21" rel="nofollow" target="_blank" title="Share on Twitter"></a>
+      
+      
+      
+      <a class="fa fa-linkedin" href="http://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A4000%2Fux%2F21&amp;title=IA%2C+%EC%9D%B4%EB%A0%87%EA%B2%8C+%EA%B7%B8%EB%A6%AC%EB%A9%B4+%EB%90%98%EB%82%98%EC%9A%94%3F" rel="nofollow" target="_blank" title="Share on LinkedIn"></a>
+    
+    </p>
+  </p>
+
+</div>
+
+  
+
+</div>
+
+<!-- 이전 글, 다음글 -->
+<div class="PageNavigation mt2 mb2">
+    
+    <a class="prev" href="/ux/20" style = "background-color: black;" onclick="ga('send', 'event', 'post', 'click', '이전글이동');" >
+      <div class="inner_class">
+        <span class="inner_head">이전글</span>
+    글먹 | UX의 미래
+      </div>
+  </a>
+    
+    
+    
+    <a class="next" href="/news/26" style = "background-color: black;" onclick="ga('send', 'event', 'post', 'click', '다음글이동');">
+      <div class="inner_class">
+        <span class="inner_head">다음글</span>
+        위클리 스낵뉴스(11월 3주)- 간편결제/미디어/IT/E-커머스    
+      </div>
+    
+    </a>
+    
+</div>
+
+<!-- 관련 글 -->
+         
+<div class="relatedPosts mt4 mb4">
+
+ <h4 style= "text-align: center;">이런 글들은 어때요?</h4>  
+ <hr id="rel">
+
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+      <ul class= "article_list">
+      <li>
+        <a href="/ux/23">네이버 뮤직의 IA는 어떻게 생겼을까? </a>
+      </li>
+      </ul>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+      <ul class= "article_list">
+      <li>
+        <a href="/ux/19">버스맵 제작기 </a>
+      </li>
+      </ul>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+      <ul class= "article_list">
+      <li>
+        <a href="/ux/17">대학 축제 사이트를 만들어보자(3) </a>
+      </li>
+      </ul>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+      <ul class= "article_list">
+      <li>
+        <a href="/ux/11">대학 축제 사이트를 만들어보자(2) </a>
+      </li>
+      </ul>
+      
+      
+        
+  <hr id="rel">
+</div>
+
+<!-- 스크롤 위로 버튼 -->
+<div class="topScroll">
+  <a id="back2Top" title="Back to top" href="#" onclick="ga('send', 'event', 'interaction', 'click', 'backtoTop');">
+  </a>
+</div>
+
+<!-- 디스커스 -->
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname  = 'seanlion-github-io';
+    var disqus_identifier = '/ux/ux-IAmethod';
+    var disqus_title      = '"IA, 이렇게 그리면 되나요?"';
+
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+<!--  -->
+
+
+
+
+<!-- jquery -->
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+
+<!-- 기사 바로가기 이벤트 스크립트 -->
+<script type="text/javascript">
+
+// a href 중에 #으로 시작하는 애들 잡기. -> nodelist에서 array로 변환.
+
+// var article_link = [...document.querySelectorAll('table a[href*="#"]')];
+var article_table_link = document.querySelectorAll('table a[href*="#"]');
+
+var article_block_link = document.querySelectorAll('table a[href*="#"]');
+// hash로만 묶인 어레이
+  // var hash = article_link.map(a => a.hash);
+  // console.log(hash);
+
+// 하고 싶은것 : 바로가기 링크를 array로 추출한다. array 중 클릭을 한 요소에서 hash라는 property만 가지고온다. 그 가지고 온 property를 ga 이벤트에 벨류나 라벨로 가져온다. 그러면 클릭할때마다 어떤 링크를 클릭해는지 알 수 있다.
+
+// for (i = 0; i < article_link.length; i++) {
+//   var hashLink = article_link[i].getAttribute( 'href' )
+//   article_link[i].addEventListener('click' , function(){
+    
+//     console.log(hashLink);
+//     ga('send', 'event', 'link click', 'click', hashLink);
+      
+// });
+// };
+
+$('table a').click(function(){
+  var link = $(this);
+  var href = link.attr("href");
+
+  ga('send', 'event', 'link click', 'click', href);
+})
+
+
+// $('blockquote a').click(function(){
+//   var link = $(this);
+//   var link_text = link.text();
+
+//   ga('send', 'event', 'link click', 'click', link_text);
+// })
+
+$('h2 a').click(function(){
+  var link = $(this);
+  var link_text = link.text();
+
+  ga('send', 'event', 'link click', 'click', link_text);
+})
+
+$('p a').click(function(){
+  var link = $(this);
+  var link_text = link.text();
+  var href = link.attr("href");
+  link_text = link_text + ": " + href;
+
+  ga('send', 'event', 'link click', 'click', link_text);
+})
+
+
+  // $(".checkBtn").click(function(){ 
+      
+  //     var str = ""
+  //     var tdArr = new Array();  // 배열 선언
+  //     var checkBtn = $(this);
+      
+  //     // checkBtn.parent() : checkBtn의 부모는 <td>이다.
+  //     // checkBtn.parent().parent() : <td>의 부모이므로 <tr>이다.
+  //     var tr = checkBtn.parent().parent();
+  //     var td = tr.children();
+      
+  //     console.log("클릭한 Row의 모든 데이터 : "+tr.text());
+      
+  //     var no = td.eq(0).text();
+  //     var userid = td.eq(1).text();
+  //     var name = td.eq(2).text();
+  //     var email = td.eq(3).text();
+      
+      
+  //     // 반복문을 이용해서 배열에 값을 담아 사용할 수 도 있다.
+  //     td.each(function(i){  
+  //       tdArr.push(td.eq(i).text());
+  //     });
+      
+  //     console.log("배열에 담긴 값 : "+tdArr);
+      
+  //     str +=  " * 클릭된 Row의 td값 = No. : <font color='red'>" + no + "</font>" +
+  //         ", 아이디 : <font color='red'>" + userid + "</font>" +
+  //         ", 이름 : <font color='red'>" + name + "</font>" +
+  //         ", 이메일 : <font color='red'>" + email + "</font>";   
+      
+  //     $("#ex2_Result1").html(" * 클릭한 Row의 모든 데이터 = " + tr.text());    
+  //     $("#ex2_Result2").html(str);  
+  //   });
+  
+
+
+  /*Scroll to top when arrow up clicked BEGIN*/
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $("#back2Top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+});
+ /*Scroll to top when arrow up clicked END*/
+
+
+
+
+</script>
+     
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="center">
+
+
+  <div class="measure">
+    
+        <div class="social-icons">
+  <div class="social-icons-left">
+    
+      <a class="fa fa-github" href="https://github.com/seanlion"></a>
+    
+    <!-- XML 아이콘 -->
+    <a class="fa fa-rss" href="/feed.xml"></a>
+    
+    
+      <a class="fa fa-envelope" href="mailto:skyhs3507@gmail.com"></a>
+    
+    
+      <a class="fa fa-linkedin" href="https://www.linkedin.com/in/seunghuh"></a>
+    
+   
+    
+  
+  </div>
+  <div class="right">
+    
+
+  </div>
+</div>
+<div class="clearfix"></div>
+
+      
+    <p class="myself">
+      Seung Huh <br>
+      <small>skyhs3507@gmail.com</small>
+    </p>
+    <p class="copyright">
+    	Seung &copy; 2020
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
