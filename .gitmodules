@@ -1,0 +1,3 @@
+[submodule "buildforlocal"]
+	path = buildforlocal
+	url = https://github.com/seanlion/seanlion.github.io
