@@ -1,0 +1,87 @@
+.second-label {
+    margin: 80px 0 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: $blue;
+    vertical-align: middle;
+    
+    .label-emoji {
+        font-size: 26px;
+    }
+    
+}
+
+div.resume-info {
+    position: relative;
+
+    svg {
+        width: 24px;
+        fill: $blue;
+        position: absolute;
+    }
+}
+
+.resume {
+    
+    .workplace {
+        width: 100%;
+        padding: 30px 0;
+        border-top: 1px solid rgba(0,0,0,.07);
+        
+        .workplace-name {
+            font-size: 20px;
+            font-weight: 700;
+            width: 60%;
+            float: left;
+            
+            // @media (max-width: $break-small) {
+            //     float: none;
+            //     width: 100%;
+            // }
+            
+        }
+
+        .work-info {
+            display: inline-block;
+            
+            p.work-sub-info {
+                color: #8898aa;
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+        
+        svg {
+            width: 24px;
+            float: right;
+        }
+    }
+    
+    .workplace:last-child {
+        border-bottom: 1px solid rgba(0,0,0,.07);
+    }
+    
+    a {
+        .view-all-projects {
+            display: inline-block;
+            color: #8898aa;
+            font-size: 18px;
+            font-weight: 600;
+            margin: 20px 0;
+            
+            svg {
+                width: 20px;
+                fill: #8898aa;
+                vertical-align: middle;
+                margin-left: 6px;
+            }
+        }
+    }
+    a:hover {
+        opacity: .6;
+    }
+}
+
+.intro_my{
+    font-size: $h4;
+}

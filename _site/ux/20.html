@@ -1,0 +1,2584 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>글먹 | UX의 미래 &#8211; Sean의 블로그</title>
+    <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="좋은 글을 읽고 소화시키는 과정입니다.">
+    <meta name="robots" content="all">
+    <meta name="author" content="">
+    
+    <meta name="keywords" content="UX와 디자인">
+    <link rel="canonical" href="http://localhost:4000/ux/20">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Sean의 블로그" href="/feed.xml" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/pixyll.css?202010172338" type="text/css">
+
+    <!--Fonts-->
+
+    
+    <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
+    
+
+    <!-- Social Icons-->
+    
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    
+
+   
+    <!-- MathJax -->
+    
+
+    <!-- Verifications -->
+    
+   
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="글먹 | UX의 미래">
+    <meta property="og:description" content="다음 10억 인구를 위한 UX의 미래에 대한 글입니다.">
+    <meta property="og:url" content="http://localhost:4000/ux/20">
+    <meta property="og:site_name" content="Sean의 블로그">
+    
+    <meta property="og:image" content="http://localhost:4000/images/me.jpeg">
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    
+    <meta name="twitter:title" content="글먹 | UX의 미래" />
+    <meta name="twitter:description" content="좋은 글을 읽고 소화시키는 과정입니다." />
+    <meta name="twitter:url" content="http://localhost:4000/ux/20" />
+    
+    <meta name="twitter:image" content="http://localhost:4000/images/me.jpeg" />
+    
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/icon/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/icon/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/icon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/icon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" sizes="32x32">
+
+    <!-- GA -->
+    
+    <script type="text/javascript">
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+       ga('create', 'UA-105982808-1', 'auto');
+       ga('send', 'pageview');
+    </script>
+    
+
+<!-- Linkedin Profile-->
+
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+<!-- adsense -->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-7138227193948687",
+          enable_page_level_ads: true
+     });
+
+</script>
+
+</head>
+
+
+<body class="site">
+  
+	
+
+  <div class="site-wrap">
+    <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <nav class="site-nav">
+        
+        
+          
+          
+            <a href="/">Home</a>
+          
+        
+          
+          
+            <a href="/about/">About</a>
+          
+        
+          
+          
+            <a href="/magazine/">Category</a>
+          
+        
+          
+          
+            <a href="/blogs/index.html">Blog</a>
+          
+        
+          
+          
+            <a href="/labs/">Labs</a>
+          
+        
+      </nav>
+      <div class="clearfix"></div>
+      <hr class = "hr2">
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        
+
+
+<div class="post-header mb5">
+  <h2>글먹 | UX의 미래</h2>
+  <p>좋은 글을 읽고 소화시키는 과정입니다.</p>
+  <span class="post-meta">Nov 8, 2017</span><br>
+  
+
+</div>
+
+<article class="post-content mt3">
+
+  <p>이제 2018년이 2달도 채 남지 않았다. 연말이 되면 UX 업계에서는 2018년 UX 트랜드를 외쳐댈 것이고 2017년에는 어떤 UX가 흘러갔는지 정리를 할 것이다.</p>
+
+<p>모든 일이 미래가 중요하지만 트랜드 변화가 심한 IT 업계에서 미래 예측은 아주 중요하고 솔깃한 사항 중 하나이다. 오늘은 20XX년 UX 트랜드를 넘어서 UX의 미래에 대해서 얘기해보고자 한다.</p>
+
+<p>오늘 먹어볼 글은 pxd 이재용 님의 <a href="http://story.pxd.co.kr/1261">UX의 미래는 여기에 있다 - UX for Next Billion Users</a>라는 글이다.</p>
+
+<hr />
+<h2 id="ux의-미래란">UX의 미래란?</h2>
+
+<p>요즈음 사람들이 UX의 미래를 생각하면 각종 SF영화들을 떠올린다. 아이언맨의 자비스, 마이너리티 리포트의 최첨단 화면 등이 대표적 예이다.
+하지만 오늘 나는 UX의 미래라고 해서 자비스, 마이너리티 리포트를 얘기하려고 하는 것이 아니다.</p>
+
+<p><br /></p>
+
+<p align="middle">	
+ <img src="http://image.zdnet.co.kr/2013/07/02/Ggit2wYIG3yAf7DHFKOA.jpg" width="70%" />
+</p>
+
+<p align="middle">	
+ <img src="http://img.hani.co.kr/imgdb/resize/2016/0205/00550373301_20160205.JPG" width="70%" />
+</p>
+
+<h6 style="text-align: center;" id="이런-ux를-말하는-것은-아니다"><em>이런 UX를 말하는 것은 아니다.</em></h6>
+
+<p><br /></p>
+
+<p>그렇다면 도대체 어떤 UX를 말하는 건가? 인공지능 같은 신기술 관련 UX?</p>
+
+<p>물론 저런 기술에도 UX의 미래는 담겨있다. 최근 글로벌 컨설팅 기업 액센츄어가 낸 기술트렌드 보고서에 따르면 ‘5년내 절반 이상 사용자들이 기업들의 전통적인 서비스 대신 인공지능 기반 서비스를 선택하게 될 것이며 인공지능은 새로운 UX를 제공하게 될 것이다.’라는 이야기가 나온다.</p>
+
+<p>인공지능이 새로운 UX 패러다임을 이끌고 온다는 것이다.</p>
+
+<p>또한 이 보고서는 7년내에 대부분 인터페이스가 화면을 갖지 않게 될 것이라고 결론지었다. 다만 재용님은 글을 통해 이런 반박을 남기셨다.</p>
+
+<blockquote>
+  <p>화면 인터페이스는 화면 인터페이스대로 자기가 가장 잘 하는 분야로서 자리를 찾을 것이다. 다만 형태도 많이 바뀔 것이고 비중도 지금보다 심각하게 줄어들 것임은 틀림없다.</p>
+</blockquote>
+
+<p>나도 여기에 동의한다. Voice UI, 대화형 UI가 대세로 떠오르지만 우리가 접하는 UI의 종류가 많아지고 다변화되는 것일 뿐 화면 UI가 사라질 것이라 생각하진 않는다.</p>
+
+<p>하지만 확실히 화면 UI의 종식에 대한 이야기는 계속 나오고 있다. 2016년 1월 uxdesign.cc의 창업자 Fabricio Teixeira는 <a href="https://uxdesign.cc/the-state-of-ux-in-2016-4a87799647d8">The State of UX in 2016</a>에서 이런 이야기를 남겼다.</p>
+
+<h4 id="픽셀의-종말">픽셀의 종말</h4>
+
+<blockquote>
+  <p>지금 우리는 Flat 디자인이라는 메가 트랜드, 모바일이라는 메가 플랫폼 속에서 획일화된 ux 디자인을 진행하고 있다.ios 가이드 라인, 머티리얼 디자인 등 모두 비슷한 시각 언어를 사용하는 탓에 모든 디자인은 일정 이상의 품질을 갖출진 모르지만 서로 비슷해 보이며 화면에는 더이상 디자인 할 것이 많지 않다. 이제 우리는 대화형 인터페이스 등을 통해서 더 이상 픽셀을 디자인 하지않는 시대에 살지도 모른다.</p>
+</blockquote>
+
+<p>그는 ‘픽셀의 종말’’ 이야기에 덧붙여 다음과 같은 이야기를 했는데 이 또한 흥미롭다.</p>
+
+<h4 id="시간-상에-디자인">시간 상에 디자인</h4>
+
+<blockquote>
+  <p>우리는 더 이상 공간 상에 디자인을 하는 시대가 아닌 시간 상에 디자인을 하는 시대에 살고 있다. 우버가 그 대표적인 예이다. 길에 서면 택시를 부르는 UI를 띄우고, 드라이버를 기다릴 때 드라이버 정보를 보여주고, 운행이 끝나면 기사에 대해 평가를 한다. 이는 시간의 흐름에 맞는 인터페이스이며 자연스러운 UX의 흐름이다. 이처럼 사람들은 선형적인 경험에 익숙해지고 편리해지고 있다.</p>
+</blockquote>
+
+<p>이제 우리는 단순히 한 화면에 집중하는 것이 아니라 여정에 집중을 하며 앱을 사용했을 때의 첫 일주일을 어떻게 만드냐를 고민하고 있다. 처음 사용자들이 제품에 들어와서 어떤 경험을 갖는지, 제품을 다루면서 어떤 감정을 느끼는지, 접하고 나가면서 어떤 상태에 있는지, 다시 왜 방문하는지 등 첫 일주일을 제품의 가치를 느끼면서 쓸 수 있도록 한다.</p>
+
+<p>그래야 우리의 고객이 되기 때문이다. 그리고 이런 설계에 
+이제 빅데이터 분석이 들어가고 인공지능이 투입되고 있다.</p>
+
+<p>이는 미래의 UX가 저런 데이터 분석, 대화형 UI의 집약체라고 생각하게 된다. 하지만 재용님은 다른 기사를 통해 이 이야기를 반박한다.</p>
+
+<hr />
+
+<h2 id="다음-10억-인구의-ux">다음 10억 인구의 UX</h2>
+
+<p>2017년 8월 Wall street Journal은 다음 10억 모바일 세대들이 비디오와 음성이 담긴 제품만 이용하게 될 것이라는 내용의 기사를 내놓았다. 가난과 낮은 교육 수준으로 문맹률이 높던 사람들이 인터넷을 접할 수 있게 되면서 직관적인 특성을 가진 제품들이 두각을 나타낸다는 것이다.</p>
+
+<p>현재 인도, 방글라데시 등 동남아시아 국가들에서 가장 인기있는 앱들을 보면 월스트리트 저널의 분석이 전혀 틀리지않다는 것을 알 수 있다.</p>
+
+<p>현재 인도에서는 UC Browser, MX Player, Youtube 등의 앱이 인기몰이를 하고 있는데 모두 다 직관적인 UX라는 공통점을 가지고 있다.</p>
+
+<p><br /></p>
+
+<p align="middle">	
+ <img src="https://d22blwhp6neszm.cloudfront.net/41/409048/UCB04.png" width="50%" />
+</p>
+
+<p align="middle">	
+ <img src="https://lh3.googleusercontent.com/5Ey3WBtgPVXexCXdgv4amp-lxAL9GimV2KsVAlFRtYvc3zJRMX-qTCC4GE2s_Ha2Kd4=h900-rw" width="70%" />
+</p>
+
+<p align="middle">	
+ <img src="http://www.androidpolice.com/wp-content/uploads/2017/05/nexus2cee_youtube-new-ui-hero.png" width="70%" />
+</p>
+
+<h6 style="text-align: center;" id="차례대로-uc-browser-mx-player-youtube의-화면이다"><em>차례대로 UC Browser, MX Player, Youtube의 화면이다.</em></h6>
+
+<p><br /></p>
+
+<p>이 앱들은 타이핑 보다는 주로 이미지, 아이콘, 영상, 음성으로 소통하는 앱들이다. 앞으로 10억명의 인터넷 이용 행태는 검색, 통화, sns 뿐만 아니라 상거래 서비스까지도 모두 이러한 방식이 주류를 이루게 될 것이다. 왜냐? 글을 모르니까.</p>
+
+<p>(인도의 40%가 글을 모른다.)</p>
+
+<p><a href="https://www.wsj.com/articles/the-end-of-typing-the-internets-next-billion-users-will-use-video-and-voice-1502116070">The End of Typing: The Next Billion Mobile Users Will Rely on Video and Voice</a></p>
+
+<p>기사를 보면 한 인도 노동자에 대한 영상이 나온다.
+하루 8달러의 수입을 버는 그는 작년 처음 IT 기기라는걸 사용해보았고 이제는 매일 유튜브로 동영상을 보고 UC Browser로 웹 서핑을 하고 일거리를 위해 어플로 기차 시간을 확인한다. 그는 돈이 없을 때 먹을 것 대신 통신 요금을 지불할 정도이다.</p>
+
+<p>이것이 의미하는 바가 무엇이겠는가?</p>
+
+<p>이제는</p>
+
+<p>1.지금보다 훨씬 단순한 이미지 중심의 UX</p>
+
+<p>2.시간상에 펼쳐지는 UX</p>
+
+<p>3.음성/비디오 중심으로 이루어진 UX</p>
+
+<p>이 것들이 핵심 UX가 될 것이라는 이야기다.</p>
+
+<p><br /></p>
+
+<p>앞서 말한 AI UX, 대화형 UX들도 UX의 미래가 될 것이다. 다만 이들은 선진국 사용자에게 현재의 화면에서 크게 불편함을 느끼지 않지만 실험적으로 해보는 UX 정도에 머무를 수 있다.</p>
+
+<p>하지만 방금 말한 이미지, 비디오 중심의 UX는 다르다. 그들은 이런 ‘미래형 UX’가 아니면 제품을 접할 수 없을 것이다. 이것이 바로 UX의 미래이고 다음 10억 이용자들의 미래이다.</p>
+
+
+  
+</article>
+
+<div>
+
+  
+    <!-- <div class="share-page right mb3">
+  포스트 공유
+
+  <div class="share-links mt2 mlauto">
+    
+      <a class="fa fa-facebook" href="https://facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fux%2F20" rel="nofollow" target="_blank" title="Share on Facebook"></a>
+    
+
+    
+      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=%EA%B8%80%EB%A8%B9+%7C+UX%EC%9D%98+%EB%AF%B8%EB%9E%98&amp;url=http%3A%2F%2Flocalhost%3A4000%2Fux%2F20" rel="nofollow" target="_blank" title="Share on Twitter"></a>
+    
+
+    
+
+    
+      <a class="fa fa-linkedin" href="http://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A4000%2Fux%2F20&amp;title=%EA%B8%80%EB%A8%B9+%7C+UX%EC%9D%98+%EB%AF%B8%EB%9E%98" rel="nofollow" target="_blank" title="Share on LinkedIn"></a>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </div>
+</div> -->
+
+
+
+
+
+    <meta charset= "utf-8">
+<div class="py2-1 post-footer">
+  <p class="share-page">
+    포스트 공유하기
+    <p class="share-links mt2">
+      
+        <a class="fa fa-facebook" href="https://facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fux%2F20" rel="nofollow" target="_blank" title="Share on Facebook"></a>
+      
+
+      
+        <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=%EA%B8%80%EB%A8%B9+%7C+UX%EC%9D%98+%EB%AF%B8%EB%9E%98&amp;url=http%3A%2F%2Flocalhost%3A4000%2Fux%2F20" rel="nofollow" target="_blank" title="Share on Twitter"></a>
+      
+      
+      
+      <a class="fa fa-linkedin" href="http://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A4000%2Fux%2F20&amp;title=%EA%B8%80%EB%A8%B9+%7C+UX%EC%9D%98+%EB%AF%B8%EB%9E%98" rel="nofollow" target="_blank" title="Share on LinkedIn"></a>
+    
+    </p>
+  </p>
+
+</div>
+
+  
+
+</div>
+
+<!-- 이전 글, 다음글 -->
+<div class="PageNavigation mt2 mb2">
+    
+    <a class="prev" href="/ux/19" style = "background-color: black;" onclick="ga('send', 'event', 'post', 'click', '이전글이동');" >
+      <div class="inner_class">
+        <span class="inner_head">이전글</span>
+    버스맵 제작기
+      </div>
+  </a>
+    
+    
+    
+    <a class="next" href="/ux/21" style = "background-color: black;" onclick="ga('send', 'event', 'post', 'click', '다음글이동');">
+      <div class="inner_class">
+        <span class="inner_head">다음글</span>
+        IA, 이렇게 그리면 되나요?    
+      </div>
+    
+    </a>
+    
+</div>
+
+<!-- 관련 글 -->
+         
+<div class="relatedPosts mt4 mb4">
+
+ <h4 style= "text-align: center;">이런 글들은 어때요?</h4>  
+ <hr id="rel">
+
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+      <ul class= "article_list">
+      <li>
+        <a href="/ux/26">2018년 UI 디자인 학습 회고 </a>
+      </li>
+      </ul>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+      <ul class= "article_list">
+      <li>
+        <a href="/ux/25">스케치 뽀개기(자료 모음집) - 9.2 업데이트 </a>
+      </li>
+      </ul>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+      <ul class= "article_list">
+      <li>
+        <a href="/ux/24">(번역)UX는 예술이 아니라 과학이다 </a>
+      </li>
+      </ul>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+      <ul class= "article_list">
+      <li>
+        <a href="/ux/22">주니어 디자이너에게 보내는 편지 </a>
+      </li>
+      </ul>
+      
+      
+        
+  <hr id="rel">
+</div>
+
+<!-- 스크롤 위로 버튼 -->
+<div class="topScroll">
+  <a id="back2Top" title="Back to top" href="#" onclick="ga('send', 'event', 'interaction', 'click', 'backtoTop');">
+  </a>
+</div>
+
+<!-- 디스커스 -->
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname  = 'seanlion-github-io';
+    var disqus_identifier = '/ux/ux-future';
+    var disqus_title      = '"글먹 | UX의 미래"';
+
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+<!--  -->
+
+
+
+
+<!-- jquery -->
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+
+<!-- 기사 바로가기 이벤트 스크립트 -->
+<script type="text/javascript">
+
+// a href 중에 #으로 시작하는 애들 잡기. -> nodelist에서 array로 변환.
+
+// var article_link = [...document.querySelectorAll('table a[href*="#"]')];
+var article_table_link = document.querySelectorAll('table a[href*="#"]');
+
+var article_block_link = document.querySelectorAll('table a[href*="#"]');
+// hash로만 묶인 어레이
+  // var hash = article_link.map(a => a.hash);
+  // console.log(hash);
+
+// 하고 싶은것 : 바로가기 링크를 array로 추출한다. array 중 클릭을 한 요소에서 hash라는 property만 가지고온다. 그 가지고 온 property를 ga 이벤트에 벨류나 라벨로 가져온다. 그러면 클릭할때마다 어떤 링크를 클릭해는지 알 수 있다.
+
+// for (i = 0; i < article_link.length; i++) {
+//   var hashLink = article_link[i].getAttribute( 'href' )
+//   article_link[i].addEventListener('click' , function(){
+    
+//     console.log(hashLink);
+//     ga('send', 'event', 'link click', 'click', hashLink);
+      
+// });
+// };
+
+$('table a').click(function(){
+  var link = $(this);
+  var href = link.attr("href");
+
+  ga('send', 'event', 'link click', 'click', href);
+})
+
+
+// $('blockquote a').click(function(){
+//   var link = $(this);
+//   var link_text = link.text();
+
+//   ga('send', 'event', 'link click', 'click', link_text);
+// })
+
+$('h2 a').click(function(){
+  var link = $(this);
+  var link_text = link.text();
+
+  ga('send', 'event', 'link click', 'click', link_text);
+})
+
+$('p a').click(function(){
+  var link = $(this);
+  var link_text = link.text();
+  var href = link.attr("href");
+  link_text = link_text + ": " + href;
+
+  ga('send', 'event', 'link click', 'click', link_text);
+})
+
+
+  // $(".checkBtn").click(function(){ 
+      
+  //     var str = ""
+  //     var tdArr = new Array();  // 배열 선언
+  //     var checkBtn = $(this);
+      
+  //     // checkBtn.parent() : checkBtn의 부모는 <td>이다.
+  //     // checkBtn.parent().parent() : <td>의 부모이므로 <tr>이다.
+  //     var tr = checkBtn.parent().parent();
+  //     var td = tr.children();
+      
+  //     console.log("클릭한 Row의 모든 데이터 : "+tr.text());
+      
+  //     var no = td.eq(0).text();
+  //     var userid = td.eq(1).text();
+  //     var name = td.eq(2).text();
+  //     var email = td.eq(3).text();
+      
+      
+  //     // 반복문을 이용해서 배열에 값을 담아 사용할 수 도 있다.
+  //     td.each(function(i){  
+  //       tdArr.push(td.eq(i).text());
+  //     });
+      
+  //     console.log("배열에 담긴 값 : "+tdArr);
+      
+  //     str +=  " * 클릭된 Row의 td값 = No. : <font color='red'>" + no + "</font>" +
+  //         ", 아이디 : <font color='red'>" + userid + "</font>" +
+  //         ", 이름 : <font color='red'>" + name + "</font>" +
+  //         ", 이메일 : <font color='red'>" + email + "</font>";   
+      
+  //     $("#ex2_Result1").html(" * 클릭한 Row의 모든 데이터 = " + tr.text());    
+  //     $("#ex2_Result2").html(str);  
+  //   });
+  
+
+
+  /*Scroll to top when arrow up clicked BEGIN*/
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $("#back2Top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+});
+ /*Scroll to top when arrow up clicked END*/
+
+
+
+
+</script>
+     
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="center">
+
+
+  <div class="measure">
+    
+        <div class="social-icons">
+  <div class="social-icons-left">
+    
+      <a class="fa fa-github" href="https://github.com/seanlion"></a>
+    
+    <!-- XML 아이콘 -->
+    <a class="fa fa-rss" href="/feed.xml"></a>
+    
+    
+      <a class="fa fa-envelope" href="mailto:skyhs3507@gmail.com"></a>
+    
+    
+      <a class="fa fa-linkedin" href="https://www.linkedin.com/in/seunghuh"></a>
+    
+   
+    
+  
+  </div>
+  <div class="right">
+    
+
+  </div>
+</div>
+<div class="clearfix"></div>
+
+      
+    <p class="myself">
+      Seung Huh <br>
+      <small>skyhs3507@gmail.com</small>
+    </p>
+    <p class="copyright">
+    	Seung &copy; 2020
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>

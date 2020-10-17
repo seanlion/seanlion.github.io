@@ -1,0 +1,17 @@
+<header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <nav class="site-nav">
+        {% assign page_paths = site.header_pages | default: default_paths %}
+        {% for page in page_paths %}
+          {% assign path = site.pages | where: "path", page | first %}
+          {% if path.title %}
+            <a href="{{ path.url }}">{{ path.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </nav>
+      <div class="clearfix"></div>
+      <hr class = "hr2">
+    </div>
+  </div>
+</header>

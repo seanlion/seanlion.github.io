@@ -1,0 +1,39 @@
+---
+layout: page
+title : Blog
+pagination: 
+  enabled: true
+---
+{% assign posts_count = paginator.posts | size %}
+
+<div class="home">
+  {% if posts_count > 0 %}
+    <div class="posts">
+    {% for post in paginator.posts %}
+    <div class="post py2">
+      <p class= "post-category h6">
+        {{ post.category }} 
+      </p>
+      <!-- 포스트 제목 -->
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+        <h3 class="post-title">{{ post.title }}</h3>
+      </a>
+      <!-- 포스트 요약 -->
+      <p class="post-summary h5">
+        {% if post.summary %}
+          {{ post.summary }}
+        {% else %}
+          {{ post.excerpt }}
+        {% endif %}
+      </p>
+      <!-- 포스트 날짜 -->
+      <p class="post-meta">{{ post.date | date: site.date_format }}</p>
+    </div>
+    {% endfor %}
+    </div>
+      {% include pagination.html %}
+    {% else %} 
+    <h1>글을 업로드하는 중입니다. 조금만 기다려주세요!</h1>
+{% endif %}
+</div>
+

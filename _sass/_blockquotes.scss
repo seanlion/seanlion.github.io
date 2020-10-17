@@ -1,0 +1,20 @@
+blockquote {
+  border: 2px solid #dfdfdf;
+  margin: $space-1;
+  padding: 1.5rem;
+}
+
+blockquote footer {
+  background-color: #fff;
+  border-color: transparent;
+  color: #dfdfdf;
+  font-size: .85rem;
+  font-style: normal;
+  text-align: left;
+  padding: 0;
+}
+
+
+blockquote p {
+  margin-bottom : 0;
+}

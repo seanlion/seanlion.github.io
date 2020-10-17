@@ -1,0 +1,32 @@
+---
+# The scss file which include files from _sass/
+---
+@charset "UTF-8";
+
+
+@import 'variables';
+@import 'basscss';
+@import 'base';
+@import 'category';
+@import 'links';
+@import 'positions';
+@import 'clearfix';
+@import 'code';
+@import 'forms';
+@import 'typography';
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap);
+@import 'header';
+@import 'tables';
+@import 'animations';
+@import 'footer';
+@import 'social-icons';
+@import 'blockquotes';
+@import 'posts';
+@import 'media-queries';
+@import 'gists';
+@import 'measure';
+@import 'pagination';
+@import 'share-links';
+@import 'career';
+@import 'index_home';
