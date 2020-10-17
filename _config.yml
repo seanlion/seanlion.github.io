@@ -1,0 +1,12 @@
+# for Travis CI. ##################
+destination: ./buildforlocal
+
+production_url: https://seanlion.github.io/
+source_url: https://github.com/seanlion/seanlionblog-repo
+
+safe: False
+lsi: False
+
+username: seanlion
+repo: seanlionblog-repo
+branch: master

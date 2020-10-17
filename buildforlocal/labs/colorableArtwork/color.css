@@ -1,0 +1,460 @@
+:root {
+  --r1: 118;
+  --g1: 194;
+  --b1: 159;
+  --r2: 238;
+  --g2: 190;
+  --b2: 0;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+a{
+  color: #ffffff;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top : 0;
+  margin-bottom : 4px;
+}
+
+#hex1, #hex2 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.background{
+  background-color: rgb(var(--r1),var(--g1),var(--b1)); 
+  width : 100%;
+  height: 452px;
+}
+
+.dots {
+  z-index: 100;
+  display: grid;
+  padding-top : 26px;
+  padding-left: 20px;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: repeat(4,1fr);
+  grid-row-gap : 40px;
+  grid-column-gap : 60px;
+  overflow-x : hidden;
+}
+
+.dot {
+  width: 135px;
+  height: 70px;
+  border-radius : 25px 4px 30px 33px;
+  background-color: rgb(var(--r2),var(--g2),var(--b2));
+}
+
+.colorset{
+  margin-top: 16px;
+  width : 100%;
+}
+
+.slider {
+  margin-top : 12px;
+  margin-bottom : 12px;
+  display: block;
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  border-radius : 3px;
+  width: 100%; /* Full-width */
+  height: 8px; /* Specified height */
+  background: rgba(121,121,121,0.7); /* Grey background */
+  outline: none; /* Remove outline */
+  /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  background: rgba(121,121,121,1);  /* Fully shown on mouse-over */
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 22px; /* Set a specific slider handle width */
+  height: 22px; /* Slider handle height */
+  background: #ffffff; /* Green background */
+  border-radius: 50%;
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-webkit-slider-thumb:hover{
+  transform : scale(1.2,1.2);
+}
+
+/* 디스크립션  */
+
+@media screen 
+  and (min-device-width: 1024px) {
+
+    .description {
+      background: #2C2C2C;
+      color: white;
+      height : 100%;
+      width: 100%;
+      /* child의 margin을 먹이면 parent인 description까지 같이 움직인다. 이 문제 해결은 float 먹이는 것. */
+      /* 참조 https://css-tricks.com/forums/topic/why-is-margin-top-causing-the-background-of-a-parent-div-to-move-down */
+      /* float: left; */
+      /* quote넣으니까 문제 발생 노노해서 float 뺌. */
+      background-origin : border-box;
+    }
+
+    .colorBlock {
+      display: inline-block;
+      margin-top: 2.5rem;
+    }
+
+    .backColor {
+      box-sizing: border-box;
+      width : 41.66%;
+      margin-left: 5rem;
+    }
+
+    .foreColor {
+      width : 41.66%;
+      margin-left: 4.625rem;
+    }
+
+    .quote{
+      display: inline-block;
+      font-size: 1rem;
+      margin-top : 1.875rem;
+    }
+
+    .koreanQuote{
+      width : 41.66%;
+      letter-spacing: 0.5px;
+      line-height: 27px;
+      vertical-align: top;
+      margin-left: 5rem;
+    }
+
+    .englishQuote {
+      margin-left: 4.625rem;
+      /* margin-left: 54px;
+      margin-right: 0; */
+      width : 41.66%;
+      letter-spacing: 0.7px;
+      line-height : 27px;
+    }
+
+    .main {
+      position: relative;
+      margin-top : 80px;
+      margin-left: 80px;
+      width: 81.5%;
+      font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size : 2.625rem;
+      font-weight: 500;
+      letter-spacing: 1.5px;
+      line-height: 27px;
+    
+    }
+
+    .main::before{
+      content: "\201C";
+      color:#ffffff;
+      font-size: 2.5rem;
+      position: absolute;
+      left: 0;
+      top:-10px;
+    }
+
+    .main::after{
+      content: "\201D";
+      color:#ffffff;
+      font-size: 2.5rem;
+      position: absolute;
+      right: -10px;
+      top:-10px;
+    }
+    blockquote span {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 500;
+      margin-top: 20px;
+      
+    }
+
+    .footer {
+      background: #2C2C2C;
+      
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      font-size: 0.75rem;
+      text-align:center;
+      margin-top :20px;
+      margin-bottom: 20px;
+      color : #ffffff;
+    }
+
+}
+
+@media screen 
+  and (min-device-width: 813px)
+  and (max-device-width: 1439px) {
+
+    .description {
+      background: #2C2C2C;
+      color: white;
+      height : 100%;
+      width: 100%;
+      /* child의 margin을 먹이면 parent인 description까지 같이 움직인다. 이 문제 해결은 float 먹이는 것. */
+      /* 참조 https://css-tricks.com/forums/topic/why-is-margin-top-causing-the-background-of-a-parent-div-to-move-down */
+      /* float: left; */
+      /* quote넣으니까 문제 발생 노노해서 float 뺌. */
+      background-origin : border-box;
+    }
+
+    .colorBlock {
+      display: inline-block;
+      margin-top: 2.5rem;
+    }
+
+    .backColor {
+      box-sizing: border-box;
+      width : 41.66%;
+      margin-left: 2rem;
+    }
+
+    .foreColor {
+      width : 41.66%;
+      margin-left: 3rem;
+    }
+
+    .quote{
+      display: inline-block;
+      font-size: 0.875rem;
+      margin-top : 1.875rem;
+    }
+
+    .koreanQuote{
+      margin-left: 2rem;
+      width : 41.66%;
+      letter-spacing: 0.5px;
+      line-height: 27px;
+      vertical-align: top;
+     
+    }
+
+    .englishQuote {
+      margin-left: 3rem;
+      /* margin-left: 54px;
+      margin-right: 0; */
+      width : 41.66%;
+      letter-spacing: 0.7px;
+      line-height : 27px;
+    }
+
+    .main {
+      position: relative;
+      margin-top : 80px;
+      margin-left: 80px;
+      margin-bottom: 50px;
+      width: 81.5%;
+      font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size : 2.625rem;
+      font-weight: 500;
+      letter-spacing: 1.5px;
+      line-height: 3rem;
+    
+    }
+
+    .main::before{
+      content: "\201C";
+      color:#ffffff;
+      font-size: 2.5rem;
+      position: absolute;
+      left: 0;
+      top:-10px;
+    }
+
+    .main::after{
+      content: "\201D";
+      color:#ffffff;
+      font-size: 2.5rem;
+      position: absolute;
+      right: -10px;
+      top:-10px;
+    }
+    blockquote span {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 500;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    
+    }
+
+    .footer {
+      background: #2C2C2C;
+      
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      font-size: 0.75rem;
+      text-align:center;
+      margin-bottom: 10px;
+      color : #ffffff;
+    }
+
+
+  }
+
+  @media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 812px) {
+    .background{
+      background-color: rgb(var(--r1),var(--g1),var(--b1)); 
+      width : 100%;
+      height: 404px;
+    }
+
+    .dots {
+      z-index: 100;
+      display: grid;
+      padding-top : 1.625rem;
+      padding-left: 1.25rem;
+      grid-template-columns: repeat(7,1fr);
+      grid-template-rows: repeat(5,1fr);
+      grid-row-gap : 1.75rem;
+      grid-column-gap : 1.2rem;
+      overflow-x : hidden;
+    }
+    
+    .dot {
+      width: 6rem;
+      height: 3rem;
+      border-radius : 25px 4px 30px 33px;
+      background-color: rgb(var(--r2),var(--g2),var(--b2));
+    }
+
+    
+    .description {
+      background: #2C2C2C;
+      color: white;
+      height : 100%;
+      width: 100%;
+      /* child의 margin을 먹이면 parent인 description까지 같이 움직인다. 이 문제 해결은 float 먹이는 것. */
+      /* 참조 https://css-tricks.com/forums/topic/why-is-margin-top-causing-the-background-of-a-parent-div-to-move-down */
+      /* float: left; */
+      /* quote넣으니까 문제 발생 노노해서 float 뺌. */
+      background-origin : border-box;
+    }
+
+    .colorBlock {
+      display: inline-block;
+      margin: 2.5rem auto 1rem;
+    }
+
+    .backColor {
+      box-sizing: border-box;
+      width : 80%;
+      margin-left: 2rem;
+    }
+
+    .foreColor {
+      width : 80%;
+      margin-left: 2rem;
+    }
+
+    .quote{
+      display: inline-block;
+      font-size: 1rem;
+      margin-top : 1.875rem;
+    }
+
+    .koreanQuote{
+      margin-left: 2rem;
+      width : 80%;
+      letter-spacing: 0.5px;
+      line-height: 27px;
+      vertical-align: top;
+     
+    }
+
+    .englishQuote {
+      margin-left: 2rem;
+      /* margin-left: 54px;
+      margin-right: 0; */
+      width : 80%;
+      letter-spacing: 0.7px;
+      line-height : 27px;
+    }
+
+    .main {
+      position: relative;
+      margin: 80px auto 50px;
+      width: 80%;
+      font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size : 2.625rem;
+      font-weight: 500;
+      letter-spacing: 1.5px;
+      line-height: 3rem;
+    
+    }
+
+    .main::before{
+      content: "\201C";
+      color:#ffffff;
+      font-size: 2.5rem;
+      position: absolute;
+      left: 0;
+      top:-10px;
+    }
+
+    .main::after{
+      content: "\201D";
+      color:#ffffff;
+      font-size: 2.5rem;
+      position: absolute;
+      right: -10px;
+      top:-10px;
+    }
+    blockquote span {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 500;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    
+    }
+
+    .footer {
+      background: #2C2C2C;
+      
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      font-size: 0.75rem;
+      text-align:center;
+      margin-bottom: 10px;
+      color : #ffffff;
+    }
+
+
+  }
