@@ -3,8 +3,8 @@
   <channel>
     <title>Seung Huh's Page</title>
     <description>프로그래밍,테크,투자에 대해 이야기 하는 평범한 블로그입니다.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>스낵뉴스 8월 3주(위클리 헤드라인/특집 소식)</title>
@@ -227,9 +227,9 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 17 Aug 2019 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/news/220</link>
-        <guid isPermaLink="true">http://localhost:4000/news/220</guid>
+        <pubDate>Sat, 17 Aug 2019 00:00:00 +0000</pubDate>
+        <link>/news/220</link>
+        <guid isPermaLink="true">/news/220</guid>
       </item>
     
       <item>
@@ -413,9 +413,9 @@ IBK기업은행 아이원뱅크 - 91.8회  &lt;br /&gt;
 
 &lt;p&gt;응원해주시는 모든 구독자님께 진심으로 감사드립니다!&lt;/p&gt;
 </description>
-        <pubDate>Sat, 10 Aug 2019 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/news/219</link>
-        <guid isPermaLink="true">http://localhost:4000/news/219</guid>
+        <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
+        <link>/news/219</link>
+        <guid isPermaLink="true">/news/219</guid>
       </item>
     
       <item>
@@ -718,9 +718,9 @@ IBK기업은행 아이원뱅크 - 91.8회  &lt;br /&gt;
 
 &lt;p&gt;응원해주시는 모든 구독자님께 진심으로 감사드립니다!&lt;/p&gt;
 </description>
-        <pubDate>Sat, 10 Aug 2019 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/news/218</link>
-        <guid isPermaLink="true">http://localhost:4000/news/218</guid>
+        <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
+        <link>/news/218</link>
+        <guid isPermaLink="true">/news/218</guid>
       </item>
     
       <item>
@@ -1042,9 +1042,9 @@ ToF 센서는 3D 카메라를 구현하는 방식 중 하나로 AR·VR 등 다�
 &lt;p&gt;응원해주시는 모든 구독자님께 진심으로 감사드립니다!&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 10 Aug 2019 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/news/217</link>
-        <guid isPermaLink="true">http://localhost:4000/news/217</guid>
+        <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
+        <link>/news/217</link>
+        <guid isPermaLink="true">/news/217</guid>
       </item>
     
       <item>
@@ -1280,9 +1280,9 @@ IRS는 “이런 의무는 미국 내 계정인지 해외 계정인지에 관계
 
 &lt;p&gt;응원해주시는 모든 구독자님께 진심으로 감사드립니다!&lt;/p&gt;
 </description>
-        <pubDate>Sat, 03 Aug 2019 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/news/216</link>
-        <guid isPermaLink="true">http://localhost:4000/news/216</guid>
+        <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
+        <link>/news/216</link>
+        <guid isPermaLink="true">/news/216</guid>
       </item>
     
       <item>
@@ -1468,9 +1468,9 @@ IRS는 “이런 의무는 미국 내 계정인지 해외 계정인지에 관계
 &lt;p&gt;응원해주시는 모든 구독자님께 진심으로 감사드립니다!&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 03 Aug 2019 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/news/215</link>
-        <guid isPermaLink="true">http://localhost:4000/news/215</guid>
+        <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
+        <link>/news/215</link>
+        <guid isPermaLink="true">/news/215</guid>
       </item>
     
       <item>
@@ -1758,9 +1758,9 @@ Liu Run은 “샤오미가 포춘의 글로벌 500대 기업에 들었지만 위
 &lt;p&gt;응원해주시는 모든 구독자님께 진심으로 감사드립니다!&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 03 Aug 2019 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/news/214</link>
-        <guid isPermaLink="true">http://localhost:4000/news/214</guid>
+        <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
+        <link>/news/214</link>
+        <guid isPermaLink="true">/news/214</guid>
       </item>
     
       <item>
@@ -1993,9 +1993,9 @@ Liu Run은 “샤오미가 포춘의 글로벌 500대 기업에 들었지만 위
 &lt;p&gt;응원해주시는 모든 구독자님께 진심으로 감사드립니다!&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 27 Jul 2019 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/news/213</link>
-        <guid isPermaLink="true">http://localhost:4000/news/213</guid>
+        <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
+        <link>/news/213</link>
+        <guid isPermaLink="true">/news/213</guid>
       </item>
     
       <item>
@@ -2293,9 +2293,9 @@ SSG는 탄탄한 콜드체인, 물류 시스템을 갖추고 있어 새벽배송
 
 &lt;p&gt;응원해주시는 모든 구독자님께 진심으로 감사드립니다!&lt;/p&gt;
 </description>
-        <pubDate>Sat, 27 Jul 2019 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/news/212</link>
-        <guid isPermaLink="true">http://localhost:4000/news/212</guid>
+        <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
+        <link>/news/212</link>
+        <guid isPermaLink="true">/news/212</guid>
       </item>
     
       <item>
@@ -2560,9 +2560,9 @@ SSG는 탄탄한 콜드체인, 물류 시스템을 갖추고 있어 새벽배송
 
 &lt;p&gt;응원해주시는 모든 구독자님께 진심으로 감사드립니다!&lt;/p&gt;
 </description>
-        <pubDate>Sat, 27 Jul 2019 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/news/211</link>
-        <guid isPermaLink="true">http://localhost:4000/news/211</guid>
+        <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
+        <link>/news/211</link>
+        <guid isPermaLink="true">/news/211</guid>
       </item>
     
   </channel>
